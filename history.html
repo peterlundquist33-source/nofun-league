@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>League History — NoFunLeague</title>
+  <meta name="description" content="NoFunLeague champions, final standings and all-time records for every season since 2023.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">League History</p>
+  <h1>The <span class="fun">record</span> book</h1>
+  <p class="hero-sub">No trophy, no plaque, no engraved anything. Just this page, which
+     is permanent and does not forget.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Banners</span>
+      <h2 class="section-title">Champions</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div class="card-grid" id="champs"><div class="loading">Loading champions</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">All-Time</span>
+      <h2 class="section-title">Career records</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Every regular-season game this league has played, by team
+         name. Rename your team and the history follows the name, not you.</p>
+    </div>
+  </div>
+  <div id="alltime"><div class="loading">Loading all-time</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Seasons</span>
+      <h2 class="section-title">Final standings, year by year</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div id="season"><div class="loading">Loading seasons</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "history"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (!d.history) {
+    ["champs", "alltime", "season"].forEach(function (id) { N.oops(id, "History"); });
+    return;
+  }
+  var seasons = d.history.seasons;
+  var done = seasons.filter(function (s) { return s.champion; });
+
+  N.fill("hero-meta",
+    "<span><b>" + seasons.length + "</b> seasons</span>" +
+    "<span><b>" + done.length + "</b> champions crowned</span>" +
+    "<span>" + seasons[seasons.length - 1].season + "–" + seasons[0].season + "</span>");
+
+  N.fill("champs", done.length ? done.map(function (s) {
+    var win = s.standings.filter(function (r) { return r.team === s.champion; })[0];
+    return '<div class="card feature-card">' +
+      '<svg class="icon icon-lg icon-gold" aria-hidden="true"><use href="#i-trophy"></use></svg>' +
+      "<div><h3>" + N.esc(s.champion) + "</h3>" +
+      '<p class="meta gold">' + s.season + " champion</p>" +
+      (win ? '<p class="meta">' + N.record(win) + " regular season · " +
+        N.num(win.pf, 1) + " PF</p>" : "") +
+      '<p class="meta muted">beat ' + N.esc(s.runner_up || "—") + " in the final</p>" +
+      "</div></div>";
+  }).join("") : '<div class="empty">No completed seasons yet.</div>');
+
+  /* ---- all-time, from every season's regular-season standings ---- */
+  var all = {};
+  seasons.forEach(function (s) {
+    s.standings.forEach(function (r) {
+      var t = all[r.team] || (all[r.team] = {
+        team: r.team, w: 0, l: 0, t: 0, pf: 0, pa: 0, seasons: 0, titles: 0, finals: 0, best: null
+      });
+      t.w += r.wins; t.l += r.losses; t.t += r.ties;
+      t.pf += r.pf; t.pa += r.pa; t.seasons += 1;
+      if (t.best == null || r.rank < t.best) t.best = r.rank;
+    });
+    if (s.champion && all[s.champion]) all[s.champion].titles += 1;
+    if (s.runner_up && all[s.runner_up]) all[s.runner_up].finals += 1;
+  });
+  var rows = Object.keys(all).map(function (k) { return all[k]; }).sort(function (x, y) {
+    var px = x.w / Math.max(1, x.w + x.l + x.t), py = y.w / Math.max(1, y.w + y.l + y.t);
+    return (py - px) || (y.pf - x.pf);
+  });
+  N.fill("alltime", N.table(
+    [{ label: "#" }, { label: "Team" }, { label: "Record" }, { label: "Win%", num: true },
+     { label: "PF", num: true }, { label: "PA", num: true },
+     { label: "Titles", num: true }, { label: "Finals", num: true },
+     { label: "Best finish", num: true }, { label: "Seasons", num: true }],
+    rows.map(function (r, i) {
+      var g = r.w + r.l + r.t;
+      return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+              '<span class="team-cell">' + N.esc(r.team) + "</span>",
+              '<span class="mono strong">' + r.w + "-" + r.l + (r.t ? "-" + r.t : "") + "</span>",
+              N.pct(r.w / Math.max(1, g)),
+              N.num(r.pf, 1), N.num(r.pa, 1),
+              r.titles ? '<span class="gold strong">' + r.titles + "</span>" : '<span class="muted">0</span>',
+              r.finals || '<span class="muted">0</span>',
+              N.ordinal(r.best || 0), r.seasons];
+    })));
+
+  /* ---- per season ---- */
+  document.getElementById("tabs").innerHTML = seasons.map(function (s) {
+    return '<button class="tab" data-season="' + s.season + '">' + s.season + "</button>";
+  }).join("");
+  document.getElementById("tabs").addEventListener("click", function (e) {
+    var b = e.target.closest(".tab");
+    if (b) renderSeason(Number(b.dataset.season));
+  });
+
+  function renderSeason(year) {
+    var s = seasons.filter(function (x) { return x.season === year; })[0];
+    document.querySelectorAll(".tab").forEach(function (t) {
+      t.classList.toggle("active", Number(t.dataset.season) === year);
+    });
+    if (!s) return;
+    var head = s.champion
+      ? '<p class="section-sub" style="margin-bottom:var(--s-4)">' +
+        '<span class="gold strong">' + N.esc(s.champion) + "</span> won it. " +
+        N.esc(s.runner_up || "—") + " lost the final" +
+        (s.third ? ", " + N.esc(s.third) + " took third" : "") + ".</p>"
+      : '<p class="section-sub" style="margin-bottom:var(--s-4)">Season in progress.</p>';
+    N.fill("season", head + N.table(
+      [{ label: "#" }, { label: "Team" }, { label: "Manager" }, { label: "Record" },
+       { label: "PF", num: true }, { label: "PA", num: true }, { label: "" }],
+      s.standings.map(function (r) {
+        var tag = r.team === s.champion ? '<span class="badge gold">champion</span>'
+                : r.team === s.runner_up ? '<span class="badge">runner-up</span>'
+                : r.team === s.third ? '<span class="badge">third</span>' : "";
+        return ['<span class="rank-cell' + (r.rank === 1 ? " top" : "") + '">' + r.rank + "</span>",
+                '<span class="team-cell">' + N.esc(r.team) + "</span>",
+                '<span class="muted">' + N.esc(r.manager) + "</span>",
+                '<span class="mono strong">' + N.record(r) + "</span>",
+                N.num(r.pf, 1), N.num(r.pa, 1), tag];
+      })));
+  }
+  renderSeason(seasons[0].season);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,4504 @@
+{
+  "drafts": [
+    {
+      "season": 2026,
+      "draft_id": "1389328340959100929",
+      "type": "snake",
+      "status": "complete",
+      "rounds": 16,
+      "picks": [
+        {
+          "round": 1,
+          "pick": 1,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12507",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 2,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "6794",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 3,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "11632",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 4,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "9226",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 5,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "3198",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 6,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "8144",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 7,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "7525",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 8,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8150",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 9,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "11635",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 10,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "6801",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 11,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "12517",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 12,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7588",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 13,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8155",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 14,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "12514",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 15,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "5850",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 16,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "13287",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 17,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "10229",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 18,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "4034",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 19,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "6813",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 20,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "12527",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 21,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4866",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 22,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "6786",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 23,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8137",
+          "keeper": true
+        },
+        {
+          "round": 3,
+          "pick": 24,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4881",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 25,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9493",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 26,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8138",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 27,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "8130",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 28,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4984",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 29,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7564",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 30,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "7569",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 31,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "5859",
+          "keeper": true
+        },
+        {
+          "round": 4,
+          "pick": 32,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11604",
+          "keeper": true
+        },
+        {
+          "round": 5,
+          "pick": 33,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "7526",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 34,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "12526",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 35,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "12518",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 36,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8146",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 37,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "2133",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 38,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "5892",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 39,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "11584",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 40,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12481",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 41,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "10859",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 42,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "12506",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 43,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "7543",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 44,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "12519",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 45,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5927",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 46,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "4983",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 47,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "6904",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 48,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "6790",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 49,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11564",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 50,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "12512",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 51,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "6770",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 52,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "11566",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 53,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "9484",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 54,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11560",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 55,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "11620",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 56,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8148",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 57,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "2216",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 58,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8228",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 59,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11631",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 60,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "13279",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 61,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8167",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 62,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "12490",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 63,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7553",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 64,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12529",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 65,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "5846",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 66,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9487",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 67,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "13286",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 68,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7611",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 69,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "11628",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 70,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "13294",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 71,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "7594",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 72,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12489",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 73,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "7021",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 74,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2449",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 75,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "5045",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 76,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "11583",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 77,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5967",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 78,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "LAR",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 79,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "4037",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 80,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "10232",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 81,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "1466",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 82,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "12534",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 83,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "9756",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 84,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8110",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 85,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "11533",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 86,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "6806",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 87,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "10222",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 88,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4217",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 89,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "HOU",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 90,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "6797",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 91,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "7002",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 92,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "13298",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 93,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5022",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 94,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "6819",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 95,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "10236",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 96,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11586",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 97,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "SEA",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 98,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "MIN",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 99,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "8131",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 100,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7523",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 101,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8408",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 102,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "3294",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 103,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "PHI",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 104,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4046",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 105,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5872",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 106,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2747",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 107,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11786",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 108,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "DEN",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 109,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "NE",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 110,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "11792",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 111,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7567",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 112,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "8259",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 113,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12508",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 114,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "3451",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 115,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "13281",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 116,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "11539",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 117,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "421",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 118,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "DET",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 119,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8121",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 120,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12015",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 121,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9509",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 122,
+          "slot": 7,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8151",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 123,
+          "slot": 6,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "9221",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 124,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "9488",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 125,
+          "slot": 4,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8112",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 126,
+          "slot": 3,
+          "roster_id": 7,
+          "team": "MagicSkolBuz1",
+          "player_id": "9224",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 127,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9997",
+          "keeper": true
+        },
+        {
+          "round": 16,
+          "pick": 128,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "7547",
+          "keeper": true
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "draft_id": "1257435833837817857",
+      "type": "snake",
+      "status": "complete",
+      "rounds": 16,
+      "picks": [
+        {
+          "round": 1,
+          "pick": 1,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "12527",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 2,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "5859",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 3,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "8130",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 4,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11584",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 5,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9226",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 6,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "9488",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 7,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6813",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 8,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8138",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 9,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "10859",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 10,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11635",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 11,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "6801",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 12,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5927",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 13,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "8150",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 14,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11566",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 15,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "2216",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 16,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8146",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 17,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "4217",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 18,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "6770",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 19,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4035",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 20,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "4046",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 21,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5844",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 22,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "12507",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 23,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8155",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 24,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2133",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 25,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8151",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 26,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "5846",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 27,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4983",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 28,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4137",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 29,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11624",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 30,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "7594",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 31,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9997",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 32,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7525",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 33,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5045",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 34,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "8205",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 35,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "7526",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 36,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12489",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 37,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4981",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 38,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "12529",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 39,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "12526",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 40,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8137",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 41,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "5872",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 42,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "12530",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 43,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8148",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 44,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5967",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 45,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "6790",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 46,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "12514",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 47,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9756",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 48,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "4199",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 49,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "11655",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 50,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "11620",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 51,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "12504",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 52,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "6783",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 53,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8144",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 54,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4066",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 55,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4033",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 56,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "5947",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 57,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4892",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 58,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "5012",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 59,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "2449",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 60,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12501",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 61,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12518",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 62,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "12481",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 63,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "8154",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 64,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "12490",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 65,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8228",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 66,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "11533",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 67,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11638",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 68,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "10229",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 69,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "6806",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 70,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8134",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 71,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11563",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 72,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "7543",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 73,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "6819",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 74,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4988",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 75,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "3294",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 76,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12517",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 77,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "4037",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 78,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4018",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 79,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "10236",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 80,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5022",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 81,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "12512",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 82,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "4039",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 83,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "5849",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 84,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "12533",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 85,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "11539",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 86,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8408",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 87,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "PHI",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 88,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "11637",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 89,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "9753",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 90,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6797",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 91,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "PIT",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 92,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "BAL",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 93,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "8259",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 94,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "9484",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 95,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7588",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 96,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "1945",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 97,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "DEN",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 98,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7553",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 99,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4227",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 100,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "BUF",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 101,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "11565",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 102,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "6650",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 103,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "10222",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 104,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "12484",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 105,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "MIN",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 106,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "7611",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 107,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8110",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 108,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9500",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 109,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "3163",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 110,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "WAS",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 111,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7049",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 112,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "9508",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 113,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8183",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 114,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9758",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 115,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11560",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 116,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "4663",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 117,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "12009",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 118,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "167",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 119,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "9225",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 120,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "12519",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 121,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4195",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 122,
+          "slot": 7,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11786",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 123,
+          "slot": 6,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4144",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 124,
+          "slot": 5,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5785",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 125,
+          "slot": 4,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "6822",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 126,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "DET",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 127,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "SF",
+          "keeper": false
+        },
+        {
+          "round": 16,
+          "pick": 128,
+          "slot": 1,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "12524",
+          "keeper": false
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "draft_id": "1109922254760013825",
+      "type": "snake",
+      "status": "complete",
+      "rounds": 15,
+      "picks": [
+        {
+          "round": 1,
+          "pick": 1,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "6794",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 2,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "7547",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 3,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7564",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 4,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "5859",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 5,
+          "slot": 5,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "9221",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 6,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9493",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 7,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7543",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 8,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "11628",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 9,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "3198",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 10,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "1466",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 11,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8150",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 12,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4984",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 13,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "2133",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 14,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8112",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 15,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "9226",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 16,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "10859",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 17,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4046",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 18,
+          "slot": 2,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "2449",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 19,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8205",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 20,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "7569",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 21,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "5850",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 22,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4881",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 23,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "6803",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 24,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8144",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 25,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2216",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 26,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "5872",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 27,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "7526",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 28,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4039",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 29,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8136",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 30,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "4983",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 31,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "8138",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 32,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4035",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 33,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "6790",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 34,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "9229",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 35,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "6904",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 36,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6819",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 37,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8130",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 38,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5846",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 39,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9758",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 40,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4018",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 41,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "5012",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 42,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7525",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 43,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "10236",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 44,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8151",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 45,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11632",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 46,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7553",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 47,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "10229",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 48,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4988",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 49,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4663",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 50,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "4199",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 51,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "9502",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 52,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6770",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 53,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "6801",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 54,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4137",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 55,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "5892",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 56,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "3294",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 57,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "9997",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 58,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "4950",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 59,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8137",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 60,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7611",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 61,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4217",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 62,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "2309",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 63,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "1479",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 64,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4066",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 65,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11620",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 66,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11604",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 67,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5927",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 68,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11624",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 69,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "10222",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 70,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4037",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 71,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "7528",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 72,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2749",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 73,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8139",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 74,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "4981",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 75,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5967",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 76,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7588",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 77,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4033",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 78,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8110",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 79,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11637",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 80,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "11560",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 81,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "SF",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 82,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "8228",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 83,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "6130",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 84,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6845",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 85,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "11635",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 86,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5022",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 87,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "9756",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 88,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "5848",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 89,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "9488",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 90,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "NYJ",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 91,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "DAL",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 92,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "9508",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 93,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "9224",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 94,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "11583",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 95,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "5937",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 96,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "4227",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 97,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "1426",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 98,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "1264",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 99,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8154",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 100,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11589",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 101,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "5849",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 102,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "7839",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 103,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "11533",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 104,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4666",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 105,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "BAL",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 106,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "8167",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 107,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8183",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 108,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "CLE",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 109,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "11792",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 110,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "BUF",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 111,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "11631",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 112,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "5844",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 113,
+          "slot": 1,
+          "roster_id": 4,
+          "team": "ComebackDaBears",
+          "player_id": "5248",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 114,
+          "slot": 2,
+          "roster_id": 3,
+          "team": "Sparky\u2019s Sleepers",
+          "player_id": "PIT",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 115,
+          "slot": 3,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "11786",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 116,
+          "slot": 4,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "TB",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 117,
+          "slot": 5,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4195",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 118,
+          "slot": 6,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "3164",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 119,
+          "slot": 7,
+          "roster_id": 6,
+          "team": "CM-Smell ya later",
+          "player_id": "6826",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 120,
+          "slot": 8,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "11586",
+          "keeper": false
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "draft_id": "1002370349205458944",
+      "type": "snake",
+      "status": "complete",
+      "rounds": 15,
+      "picks": [
+        {
+          "round": 1,
+          "pick": 1,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "6794",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 2,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "4034",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 3,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "7564",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 4,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "3321",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 5,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "4039",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 6,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "1466",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 7,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4663",
+          "keeper": false
+        },
+        {
+          "round": 1,
+          "pick": 8,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "2449",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 9,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "9509",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 10,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4866",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 11,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4988",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 12,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5859",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 13,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "3198",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 14,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "4046",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 15,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "2133",
+          "keeper": false
+        },
+        {
+          "round": 2,
+          "pick": 16,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "8146",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 17,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "4984",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 18,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "7547",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 19,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "6786",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 20,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "6801",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 21,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7526",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 22,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6904",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 23,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "5967",
+          "keeper": false
+        },
+        {
+          "round": 3,
+          "pick": 24,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8144",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 25,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4881",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 26,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7525",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 27,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "5850",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 28,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "7611",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 29,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "7528",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 30,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "6813",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 31,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "7543",
+          "keeper": false
+        },
+        {
+          "round": 4,
+          "pick": 32,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "4981",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 33,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "4018",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 34,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "5012",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 35,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "5846",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 36,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4217",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 37,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "5872",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 38,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "9221",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 39,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7591",
+          "keeper": false
+        },
+        {
+          "round": 5,
+          "pick": 40,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4199",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 41,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5844",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 42,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "1479",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 43,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8155",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 44,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "6770",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 45,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4983",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 46,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "1426",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 47,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "6151",
+          "keeper": false
+        },
+        {
+          "round": 6,
+          "pick": 48,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "2309",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 49,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "5022",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 50,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "6797",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 51,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "6790",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 52,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "8151",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 53,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "2505",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 54,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8167",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 55,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "5927",
+          "keeper": false
+        },
+        {
+          "round": 7,
+          "pick": 56,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4037",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 57,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "8129",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 58,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "4066",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 59,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8112",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 60,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "6806",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 61,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "7523",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 62,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "4035",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 63,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "6803",
+          "keeper": false
+        },
+        {
+          "round": 8,
+          "pick": 64,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "6938",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 65,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "6783",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 66,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "5987",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 67,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "7553",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 68,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2374",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 69,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8136",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 70,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "9756",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 71,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8205",
+          "keeper": false
+        },
+        {
+          "round": 9,
+          "pick": 72,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "6819",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 73,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4137",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 74,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "5937",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 75,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4950",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 76,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8138",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 77,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4068",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 78,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "2216",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 79,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "SF",
+          "keeper": false
+        },
+        {
+          "round": 10,
+          "pick": 80,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "5892",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 81,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "7588",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 82,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "4029",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 83,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "3199",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 84,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "6828",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 85,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "9488",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 86,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "8137",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 87,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "9997",
+          "keeper": false
+        },
+        {
+          "round": 11,
+          "pick": 88,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5848",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 89,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "DAL",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 90,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7608",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 91,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "7600",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 92,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8154",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 93,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "2197",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 94,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "6945",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 95,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "8119",
+          "keeper": false
+        },
+        {
+          "round": 12,
+          "pick": 96,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "1264",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 97,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "9754",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 98,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "7839",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 99,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "PHI",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 100,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4033",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 101,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "8168",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 102,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "6943",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 103,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "8135",
+          "keeper": false
+        },
+        {
+          "round": 13,
+          "pick": 104,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4227",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 105,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "5095",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 106,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "7042",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 107,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "NO",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 108,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "2747",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 109,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "MIA",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 110,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "503",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 111,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "1166",
+          "keeper": false
+        },
+        {
+          "round": 14,
+          "pick": 112,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "BUF",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 113,
+          "slot": 1,
+          "roster_id": 3,
+          "team": "Zjohansen0",
+          "player_id": "5001",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 114,
+          "slot": 2,
+          "roster_id": 6,
+          "team": "Lick my Chubb",
+          "player_id": "4149",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 115,
+          "slot": 3,
+          "roster_id": 4,
+          "team": "DaBears2424",
+          "player_id": "5906",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 116,
+          "slot": 4,
+          "roster_id": 8,
+          "team": "Pipemaster3000",
+          "player_id": "4195",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 117,
+          "slot": 5,
+          "roster_id": 1,
+          "team": "BigStickin032",
+          "player_id": "BAL",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 118,
+          "slot": 6,
+          "roster_id": 7,
+          "team": "Skoldaddy11",
+          "player_id": "4666",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 119,
+          "slot": 7,
+          "roster_id": 5,
+          "team": "cjwoda",
+          "player_id": "3294",
+          "keeper": false
+        },
+        {
+          "round": 15,
+          "pick": 120,
+          "slot": 8,
+          "roster_id": 2,
+          "team": "BigBrainBrian3",
+          "player_id": "4017",
+          "keeper": false
+        }
+      ]
+    }
+  ]
+}

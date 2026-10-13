@@ -1,0 +1,675 @@
+{
+  "season": 2026,
+  "rows": [
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791457756567,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "5844": "BigStickin032"
+      },
+      "drops": {
+        "8110": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791457501185,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "CIN": "BigStickin032"
+      },
+      "drops": {
+        "BAL": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791383454252,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "7839": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "6650": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791383342004,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "11834": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "12529": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791383312571,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "8154": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "5001": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791372536587,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "11564": "BigBrainBrian3"
+      },
+      "drops": {
+        "11635": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 5,
+      "type": "free_agent",
+      "created": 1791372502304,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "HOU": "BigBrainBrian3"
+      },
+      "drops": {
+        "KC": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "waiver",
+      "created": 1791337666953,
+      "teams": [
+        "Pipemaster3000"
+      ],
+      "adds": {
+        "JAX": "Pipemaster3000"
+      },
+      "drops": {
+        "PHI": "Pipemaster3000"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "waiver",
+      "created": 1791337538549,
+      "teams": [
+        "Pipemaster3000"
+      ],
+      "adds": {
+        "12185": "Pipemaster3000"
+      },
+      "drops": {
+        "2747": "Pipemaster3000"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "free_agent",
+      "created": 1790955304405,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "10232": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "9228": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "waiver",
+      "created": 1790772375085,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "KC": "BigBrainBrian3"
+      },
+      "drops": {
+        "NO": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "free_agent",
+      "created": 1790768691701,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "BAL": "BigStickin032"
+      },
+      "drops": {
+        "KC": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 4,
+      "type": "free_agent",
+      "created": 1790768555794,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "12495": "BigStickin032"
+      },
+      "drops": {
+        "12487": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "waiver",
+      "created": 1790713554579,
+      "teams": [
+        "Pipemaster3000"
+      ],
+      "adds": {
+        "3321": "Pipemaster3000"
+      },
+      "drops": {
+        "10222": "Pipemaster3000"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "waiver",
+      "created": 1790689708163,
+      "teams": [
+        "CM-Smell ya later"
+      ],
+      "adds": {
+        "11576": "CM-Smell ya later"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790525647329,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "5001": "Sparky\u2019s Sleepers"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790525586309,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {},
+      "drops": {
+        "13345": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790214080103,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "13346": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "13414": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790199398592,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "KC": "BigStickin032"
+      },
+      "drops": {
+        "SF": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790195413853,
+      "teams": [
+        "cjwoda"
+      ],
+      "adds": {
+        "13337": "cjwoda"
+      },
+      "drops": {
+        "11583": "cjwoda"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790185019016,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "3163": "Sparky\u2019s Sleepers"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790185003092,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {},
+      "drops": {
+        "12508": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 3,
+      "type": "free_agent",
+      "created": 1790151454458,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "NO": "BigBrainBrian3"
+      },
+      "drops": {
+        "TB": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790136565072,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "9228": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "11564": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790110819086,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "12487": "BigStickin032"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790107604285,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "GB": "ComebackDaBears"
+      },
+      "drops": {
+        "BAL": "ComebackDaBears"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790107513482,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "3294": "ComebackDaBears"
+      },
+      "drops": {
+        "8132": "ComebackDaBears"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790107493523,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "11435": "ComebackDaBears"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1790091063236,
+      "teams": [
+        "cjwoda"
+      ],
+      "adds": {
+        "12501": "cjwoda"
+      },
+      "drops": {
+        "11628": "cjwoda"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1789998293207,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "13345": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "10232": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "waiver",
+      "created": 1789941537679,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "6650": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "8259": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "free_agent",
+      "created": 1789735446927,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "4199": "BigBrainBrian3"
+      },
+      "drops": {
+        "7021": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "free_agent",
+      "created": 1789661105389,
+      "teams": [
+        "cjwoda"
+      ],
+      "adds": {
+        "12533": "cjwoda"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "free_agent",
+      "created": 1789574638079,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "BAL": "ComebackDaBears"
+      },
+      "drops": {
+        "DET": "ComebackDaBears"
+      },
+      "faab": null
+    },
+    {
+      "week": 2,
+      "type": "free_agent",
+      "created": 1789551695750,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "SF": "BigStickin032"
+      },
+      "drops": {
+        "JAX": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "waiver",
+      "created": 1789521302260,
+      "teams": [
+        "Pipemaster3000"
+      ],
+      "adds": {
+        "8183": "Pipemaster3000"
+      },
+      "drops": {
+        "6797": "Pipemaster3000"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "waiver",
+      "created": 1789479175318,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "TB": "BigBrainBrian3"
+      },
+      "drops": {
+        "LAC": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "waiver",
+      "created": 1789477088314,
+      "teams": [
+        "cjwoda"
+      ],
+      "adds": {
+        "8134": "cjwoda"
+      },
+      "drops": {
+        "13298": "cjwoda"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "waiver",
+      "created": 1789429548130,
+      "teams": [
+        "Sparky\u2019s Sleepers"
+      ],
+      "adds": {
+        "13414": "Sparky\u2019s Sleepers"
+      },
+      "drops": {
+        "11586": "Sparky\u2019s Sleepers"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788939461553,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "11581": "ComebackDaBears"
+      },
+      "drops": {
+        "13294": "ComebackDaBears"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788939401368,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {
+        "8132": "ComebackDaBears"
+      },
+      "drops": {
+        "3294": "ComebackDaBears"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788139163798,
+      "teams": [
+        "CM-Smell ya later"
+      ],
+      "adds": {
+        "11646": "CM-Smell ya later"
+      },
+      "drops": {
+        "7567": "CM-Smell ya later"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788136532218,
+      "teams": [
+        "MagicSkolBuz1"
+      ],
+      "adds": {
+        "9500": "MagicSkolBuz1"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788136469108,
+      "teams": [
+        "BigBrainBrian3"
+      ],
+      "adds": {
+        "LAC": "BigBrainBrian3"
+      },
+      "drops": {
+        "HOU": "BigBrainBrian3"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788136438751,
+      "teams": [
+        "BigStickin032"
+      ],
+      "adds": {
+        "JAX": "BigStickin032"
+      },
+      "drops": {
+        "NE": "BigStickin032"
+      },
+      "faab": null
+    },
+    {
+      "week": 1,
+      "type": "free_agent",
+      "created": 1788128045898,
+      "teams": [
+        "ComebackDaBears"
+      ],
+      "adds": {},
+      "drops": {
+        "12476": "ComebackDaBears"
+      },
+      "faab": null
+    }
+  ]
+}

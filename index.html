@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoFunLeague — Fantasy Football</title>
+  <meta name="description" content="Standings, power rankings, burns, stats and draft history for the NoFunLeague — an eight-team Sleeper fantasy football league.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Competitive but friendly. Mostly friendly.</p>
+  <h1><span class="no">No</span><span class="fun">Fun</span><span class="no">League</span></h1>
+  <p class="hero-sub">Eight teams, no trophy, nothing on the line but the group chat.
+     Everything on this site is computed from the league's own Sleeper data.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="card-grid" id="glance">
+    <div class="loading">Loading league</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">This Week</span>
+      <h2 class="section-title" id="week-title">Matchups</h2>
+      <div class="rule"></div>
+    </div>
+    <a class="link-more" href="schedule.html">Full schedule &rarr;</a>
+  </div>
+  <div class="card" style="padding:0" id="matchups"><div class="loading">Loading matchups</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Standings</span>
+      <h2 class="section-title">Where everyone sits</h2>
+      <div class="rule"></div>
+    </div>
+    <a class="link-more" href="standings.html">All-play &amp; luck &rarr;</a>
+  </div>
+  <div id="standings"><div class="loading">Loading standings</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Power Rankings</span>
+      <h2 class="section-title">Top of the board</h2>
+      <div class="rule"></div>
+    </div>
+    <a class="link-more" href="rankings.html">Full board &amp; model &rarr;</a>
+  </div>
+  <div class="card" style="padding:0" id="power"><div class="loading">Loading power board</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Burns</span>
+      <h2 class="section-title">This week's receipts</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Generated from the league's own numbers. Strictly about
+         fantasy football &mdash; records, scoring, lineups and draft picks.</p>
+    </div>
+    <a class="link-more" href="burns.html">Every burn &rarr;</a>
+  </div>
+  <div class="burn-grid" id="burns"><div class="loading">Loading burns</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Banners</span>
+      <h2 class="section-title">Champions</h2>
+      <div class="rule"></div>
+    </div>
+    <a class="link-more" href="history.html">League history &rarr;</a>
+  </div>
+  <div class="card-grid" id="champs"><div class="loading">Loading history</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "league", "standings", "schedule", "power", "burns", "history", "analytics"])
+.then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  /* ---- hero meta ---- */
+  if (d.meta && d.league) {
+    N.fill("hero-meta",
+      "<span><b>" + d.meta.season + "</b> season</span>" +
+      "<span>Week <b>" + d.meta.week + "</b></span>" +
+      "<span><b>" + d.league.teams + "</b> teams</span>" +
+      "<span><b>" + (d.league.keeper_count || 0) + "</b> keepers</span>" +
+      "<span>Playoffs: <b>" + d.league.playoff_teams + "</b> teams, week <b>" +
+        d.league.playoff_week_start + "</b></span>");
+  }
+
+  /* ---- at a glance ---- */
+  if (d.standings && d.analytics && d.power) {
+    var rows = d.standings.rows, a = d.analytics;
+    var top = rows[0];
+    var best = a.scoring[0];
+    var hw = a.records.high_week;
+    var lastChamp = (d.history && d.history.seasons || [])
+      .filter(function (s) { return s.champion; })[0];
+    N.fill("glance",
+      stat("First place", N.esc(top.team), N.record(top) + " · " + N.num(top.pf, 1) + " PF", true) +
+      stat("Best scoring", N.esc(best.team), N.num(best.avg, 1) + " per week") +
+      stat("Highest week", hw ? N.num(hw.pts, 2) : "—",
+           hw ? N.esc(hw.team) + " · week " + hw.week : "") +
+      stat("Reigning champ", lastChamp ? N.esc(lastChamp.champion) : "—",
+           lastChamp ? lastChamp.season + " title" : "", true));
+  } else { N.oops("glance", "League"); }
+
+  function stat(label, value, note, gold) {
+    return '<div class="stat"><div class="stat-label">' + label + "</div>" +
+           '<div class="stat-value' + (gold ? " gold" : "") + '">' + value + "</div>" +
+           '<div class="stat-note">' + (note || "") + "</div></div>";
+  }
+
+  /* ---- this week's matchups (falls back to the last played week) ---- */
+  if (d.schedule) {
+    var weeks = d.schedule.weeks;
+    var wk = weeks.filter(function (w) { return w.week === (d.meta && d.meta.week); })[0];
+    var label = "Week " + (wk ? wk.week : "");
+    if (!wk || (wk.playoff && !wk.played)) {
+      var played = weeks.filter(function (w) { return w.played; });
+      wk = played[played.length - 1];
+      label = wk ? "Week " + wk.week + " results" : "No games yet";
+    }
+    document.getElementById("week-title").textContent = label;
+    N.fill("matchups", wk && !(wk.playoff && !wk.played)
+      ? wk.games.map(N.matchup).join("")
+      : '<div class="empty">Playoff bracket not seeded yet.</div>');
+  } else { N.oops("matchups", "Schedule"); }
+
+  /* ---- standings ---- */
+  if (d.standings) {
+    var cut = d.league ? d.league.playoff_teams : 0;
+    N.fill("standings", N.table(
+      [{ label: "#" }, { label: "Team" }, { label: "Record" },
+       { label: "PF", num: true }, { label: "PA", num: true },
+       { label: "Streak" }, { label: "Last 5" }],
+      d.standings.rows.map(function (r) {
+        return ['<span class="rank-cell' + (r.rank === 1 ? " top" : "") + '">' + r.rank + "</span>",
+                N.teamCell(r.team, r.manager === r.team ? "" : r.manager),
+                '<span class="strong">' + N.record(r) + "</span>",
+                N.num(r.pf, 1), N.num(r.pa, 1),
+                streak(r.streak), form(r.form)];
+      }),
+      { rowClass: function (i) { return (cut && i === cut - 1) ? "cutline" : ""; } }));
+  } else { N.oops("standings", "Standings"); }
+
+  function streak(s) {
+    if (!s) return '<span class="muted">—</span>';
+    var cls = /W$/.test(s) ? "pos" : "neg";
+    return '<span class="badge ' + cls + '">' + N.esc(s) + "</span>";
+  }
+  function form(f) {
+    if (!f) return '<span class="muted">—</span>';
+    return '<span class="mono">' + f.split("").map(function (c) {
+      return '<span class="' + (c === "W" ? "pos" : c === "L" ? "neg" : "muted") + '">' + c + "</span>";
+    }).join("") + "</span>";
+  }
+
+  /* ---- power: top three plus the floor ---- */
+  if (d.power) {
+    var pr = d.power.rows;
+    var show = pr.slice(0, 3).concat(pr.length > 4 ? [pr[pr.length - 1]] : []);
+    N.fill("power", show.map(function (r) {
+      return '<div class="power-row' + (r.rank === 1 ? " first" : "") + '">' +
+        '<div class="power-rank">' + r.rank + "</div>" +
+        '<div><div class="power-team">' + N.esc(r.team) + "</div>" +
+        '<div class="power-note">' + N.esc(r.note) + "</div>" +
+        '<div class="power-line">' + r.record + " · all-play " + r.allplay +
+          " · " + N.num(r.pf_pg, 1) + " pts/wk</div></div>" +
+        '<div class="power-score">' + N.num(r.score, 1) +
+          '<span class="power-move ' + (r.move > 0 ? "pos" : r.move < 0 ? "neg" : "muted") +
+          '">' + (r.prev_rank ? N.signed(r.move) : "new") + "</span></div></div>";
+    }).join(""));
+  } else { N.oops("power", "Power rankings"); }
+
+  /* ---- burns: the first three ---- */
+  if (d.burns && d.burns.items.length) {
+    N.fill("burns", d.burns.items.slice(0, 3).map(function (b, i) {
+      return '<div class="burn' + (i === 0 ? " feature" : "") + '">' +
+        '<div class="burn-title">' + N.esc(b.title) + "</div>" +
+        '<p class="burn-line">' + N.esc(b.line) + "</p></div>";
+    }).join(""));
+  } else { N.oops("burns", "Burns"); }
+
+  /* ---- champions ---- */
+  if (d.history) {
+    var done = d.history.seasons.filter(function (s) { return s.champion; });
+    N.fill("champs", done.length ? done.map(function (s) {
+      return '<div class="card feature-card">' +
+        '<svg class="icon icon-lg icon-gold" aria-hidden="true"><use href="#i-trophy"></use></svg>' +
+        "<div><h3>" + N.esc(s.champion) + "</h3>" +
+        '<p class="meta">' + s.season + " champion</p>" +
+        '<p class="meta muted">beat ' + N.esc(s.runner_up || "—") + "</p></div></div>";
+    }).join("") : '<div class="empty">No completed seasons yet.</div>');
+  } else { N.oops("champs", "History"); }
+});
+</script>
+</body>
+</html>

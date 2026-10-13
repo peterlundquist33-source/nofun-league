@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule — NoFunLeague</title>
+  <meta name="description" content="NoFunLeague week-by-week matchup schedule and results.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Schedule</p>
+  <h1>Every <span class="fun">week</span></h1>
+  <p class="hero-sub">Results where they exist, pairings where they don't. Playoff weeks
+     stay blank until the bracket is seeded.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="tabs" id="tabs"></div>
+  <div class="card" style="padding:0" id="week"><div class="loading">Loading schedule</div></div>
+  <p class="section-sub" id="week-note" style="margin-top:var(--s-4)"></p>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Season</span>
+      <h2 class="section-title">Week by week</h2>
+      <div class="rule"></div>
+      <p class="section-sub">High score, low score and the league average for every
+         completed week.</p>
+    </div>
+  </div>
+  <div id="board"><div class="loading">Loading weekly board</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "schedule", "analytics"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (!d.schedule) { N.oops("week", "Schedule"); N.oops("board", "Schedule"); return; }
+  var weeks = d.schedule.weeks;
+  var playoffStart = d.schedule.playoff_week_start;
+
+  N.fill("hero-meta",
+    "<span><b>" + d.schedule.season + "</b> season</span>" +
+    "<span><b>" + weeks.filter(function (w) { return w.played; }).length + "</b> weeks played</span>" +
+    "<span>Playoffs from week <b>" + playoffStart + "</b></span>");
+
+  var current = (d.meta && d.meta.week) || 1;
+  var shown = weeks.filter(function (w) { return w.week === current; })[0] ? current
+            : (weeks.filter(function (w) { return w.played; }).pop() || weeks[0]).week;
+
+  document.getElementById("tabs").innerHTML = weeks.map(function (w) {
+    return '<button class="tab" data-week="' + w.week + '">' +
+           (w.week >= playoffStart ? "P" : "") + w.week + "</button>";
+  }).join("");
+
+  document.getElementById("tabs").addEventListener("click", function (e) {
+    var b = e.target.closest(".tab");
+    if (b) render(Number(b.dataset.week));
+  });
+
+  function render(wkNum) {
+    var w = weeks.filter(function (x) { return x.week === wkNum; })[0];
+    document.querySelectorAll(".tab").forEach(function (t) {
+      t.classList.toggle("active", Number(t.dataset.week) === wkNum);
+    });
+    if (!w) { N.fill("week", '<div class="empty">No data for week ' + wkNum + ".</div>"); return; }
+    var playoffTbd = w.playoff && !w.played;
+    N.fill("week", playoffTbd
+      ? '<div class="empty">Week ' + w.week +
+        " is a playoff week. The bracket isn't seeded yet, so there are no pairings to show.</div>"
+      : w.games.map(N.matchup).join(""));
+    document.getElementById("week-note").textContent = playoffTbd ? ""
+      : (w.played ? "Final scores, week " + w.week + "."
+                  : "Scheduled pairings for week " + w.week + " — not played yet.");
+  }
+  render(shown);
+
+  if (!d.analytics) { N.oops("board", "Analytics"); return; }
+  N.fill("board", N.table(
+    [{ label: "Week" }, { label: "High score" }, { label: "Pts", num: true },
+     { label: "Low score" }, { label: "Pts", num: true }, { label: "League avg", num: true }],
+    d.analytics.weekly_board.map(function (w) {
+      return ['<span class="rank-cell">' + w.week + "</span>",
+              '<span class="team-cell gold">' + N.esc(w.high.team) + "</span>",
+              N.num(w.high.pts),
+              '<span class="team-cell">' + N.esc(w.low.team) + "</span>",
+              '<span class="neg">' + N.num(w.low.pts) + "</span>",
+              N.num(w.avg)];
+    })));
+});
+</script>
+</body>
+</html>

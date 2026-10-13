@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Rankings — NoFunLeague</title>
+  <meta name="description" content="NoFunLeague power rankings — a deterministic board built from all-play record, scoring, recent form and roster ceiling.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Power Rankings</p>
+  <h1>The <span class="fun">board</span></h1>
+  <p class="hero-sub">One number per team, computed the same way every week. No votes,
+     no opinions, no takes &mdash; the score is the ranking.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="card" style="padding:0" id="board"><div class="loading">Loading power board</div></div>
+  <div style="margin-top:var(--s-6)">
+    <details class="note">
+      <summary>How the score is built</summary>
+      <div id="model"></div>
+    </details>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Inputs</span>
+      <h2 class="section-title">What's driving each team</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div id="inputs"><div class="loading">Loading inputs</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "power"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (!d.power) { N.oops("board", "Power rankings"); N.oops("inputs", "Power rankings"); return; }
+  var p = d.power;
+
+  N.fill("hero-meta",
+    "<span><b>" + p.season + "</b> season</span>" +
+    "<span>Through week <b>" + p.through_week + "</b></span>" +
+    "<span><b>" + p.rows.length + "</b> teams ranked</span>");
+
+  N.fill("board", p.rows.map(function (r) {
+    return '<div class="power-row' + (r.rank === 1 ? " first" : "") + '">' +
+      '<div class="power-rank">' + r.rank + "</div>" +
+      "<div>" +
+        '<div class="power-team">' + N.esc(r.team) + "</div>" +
+        '<div class="power-note">' + N.esc(r.note) + "</div>" +
+        '<div class="power-line">' + r.record + " · all-play " + r.allplay +
+          " (" + N.pct(r.allplay_pct) + ") · " + N.num(r.pf_pg, 1) + " pts/wk · ceiling " +
+          N.num(r.ceiling_pg, 1) + " · " + N.ordinal(r.standings_rank) + " in the table" +
+        "</div>" +
+      "</div>" +
+      '<div class="power-score">' + N.num(r.score, 1) +
+        '<span class="power-move ' + (r.move > 0 ? "pos" : r.move < 0 ? "neg" : "muted") + '">' +
+        (r.prev_rank ? N.signed(r.move) + " vs last" : "new") + "</span></div></div>";
+  }).join(""));
+
+  var m = p.model;
+  document.getElementById("model").innerHTML =
+    "<p>The board is a pure calculation from this league's Sleeper data. It runs on the " +
+    "same schedule as the snapshot, and the displayed score is the ordering key, so a " +
+    "lower score can never appear above a higher one.</p>" +
+    "<p><b>Results</b> &mdash; " + Math.round(m.results_weight * 100) + "% of the score:</p>" +
+    "<ul>" +
+      "<li>All-play win rate &mdash; " + Math.round(m.allplay * 100) + "%</li>" +
+      "<li>Points for, indexed against the league average &mdash; " + Math.round(m.points_for * 100) + "%</li>" +
+      "<li>Recent form: all-play over the last " + m.form_weeks + " weeks &mdash; " + Math.round(m.recent_form * 100) + "%</li>" +
+      "<li>Actual win rate &mdash; " + Math.round(m.win_pct * 100) + "%</li>" +
+    "</ul>" +
+    "<p><b>Ceiling</b> &mdash; " + Math.round(m.ceiling_weight * 100) + "% of the score: the " +
+    "roster's perfect-lineup points per week, indexed against the league average. It keeps a " +
+    "good team from being buried by a bad month, without letting potential outvote results.</p>" +
+    "<p>Indexes are absolute, not z-scored: 50 is the league average and the spread reflects " +
+    "how different the teams actually are. A bunched field stays bunched.</p>";
+
+  N.fill("inputs", N.table(
+    [{ label: "#" }, { label: "Team" }, { label: "Score", num: true },
+     { label: "Record" }, { label: "All-play" }, { label: "All-play %", num: true },
+     { label: "Form (3wk)", num: true }, { label: "Pts/wk", num: true },
+     { label: "Ceiling/wk", num: true }, { label: "Table" }],
+    p.rows.map(function (r) {
+      return ['<span class="rank-cell' + (r.rank === 1 ? " top" : "") + '">' + r.rank + "</span>",
+              N.teamCell(r.team, r.manager === r.team ? "" : r.manager),
+              '<span class="strong">' + N.num(r.score, 1) + "</span>",
+              '<span class="mono">' + r.record + "</span>",
+              '<span class="mono">' + r.allplay + "</span>",
+              N.pct(r.allplay_pct), N.pct(r.form_pct),
+              N.num(r.pf_pg, 1), N.num(r.ceiling_pg, 1),
+              '<span class="muted">' + N.ordinal(r.standings_rank) + "</span>"];
+    })));
+});
+</script>
+</body>
+</html>

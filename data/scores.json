@@ -1,0 +1,70 @@
+{
+  "season": 2026,
+  "weeks": [
+    {
+      "week": 1,
+      "scores": {
+        "BigStickin032": 158.5,
+        "BigBrainBrian3": 136.76,
+        "Sparky\u2019s Sleepers": 129.42,
+        "ComebackDaBears": 200.66,
+        "cjwoda": 157.96,
+        "CM-Smell ya later": 134.82,
+        "MagicSkolBuz1": 129.86,
+        "Pipemaster3000": 107.66
+      }
+    },
+    {
+      "week": 2,
+      "scores": {
+        "BigStickin032": 127.24,
+        "BigBrainBrian3": 90.0,
+        "Sparky\u2019s Sleepers": 129.0,
+        "ComebackDaBears": 131.82,
+        "cjwoda": 186.22,
+        "CM-Smell ya later": 149.06,
+        "MagicSkolBuz1": 109.28,
+        "Pipemaster3000": 161.68
+      }
+    },
+    {
+      "week": 3,
+      "scores": {
+        "BigStickin032": 140.68,
+        "BigBrainBrian3": 147.84,
+        "Sparky\u2019s Sleepers": 105.76,
+        "ComebackDaBears": 136.64,
+        "cjwoda": 149.92,
+        "CM-Smell ya later": 97.62,
+        "MagicSkolBuz1": 121.58,
+        "Pipemaster3000": 155.58
+      }
+    },
+    {
+      "week": 4,
+      "scores": {
+        "BigStickin032": 114.88,
+        "BigBrainBrian3": 177.38,
+        "Sparky\u2019s Sleepers": 104.48,
+        "ComebackDaBears": 158.7,
+        "cjwoda": 127.72,
+        "CM-Smell ya later": 167.92,
+        "MagicSkolBuz1": 168.42,
+        "Pipemaster3000": 163.22
+      }
+    },
+    {
+      "week": 5,
+      "scores": {
+        "BigStickin032": 165.84,
+        "BigBrainBrian3": 202.46,
+        "Sparky\u2019s Sleepers": 122.42,
+        "ComebackDaBears": 132.34,
+        "cjwoda": 173.4,
+        "CM-Smell ya later": 154.4,
+        "MagicSkolBuz1": 127.6,
+        "Pipemaster3000": 168.46
+      }
+    }
+  ]
+}

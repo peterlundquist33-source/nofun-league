@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats &amp; Analytics — NoFunLeague</title>
+  <meta name="description" content="NoFunLeague analytics — scoring spread, lineup efficiency, close games, position splits, top players and waiver hits.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Stats &amp; Analytics</p>
+  <h1>The <span class="fun">numbers</span></h1>
+  <p class="hero-sub">Everything here is computed from completed weeks of this league's
+     Sleeper data. No projections, no models you can't check.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Scoring</span>
+      <h2 class="section-title">Average, ceiling, floor</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Standard deviation is the volatility column &mdash; a high
+         number means nobody knows which team is showing up.</p>
+    </div>
+  </div>
+  <div id="scoring"><div class="loading">Loading scoring</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Efficiency</span>
+      <h2 class="section-title">Lineup decisions</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Points scored as a share of the perfect lineup available
+         that week.</p>
+    </div>
+  </div>
+  <div id="efficiency"><div class="loading">Loading efficiency</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Margins</span>
+      <h2 class="section-title">Close games</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Games decided by ten points or fewer.</p>
+    </div>
+  </div>
+  <div id="close"><div class="loading">Loading close games</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Positions</span>
+      <h2 class="section-title">Where the points come from</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Season points by position, counting every player while they
+         were on the roster.</p>
+    </div>
+  </div>
+  <div id="position"><div class="loading">Loading position splits</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Players</span>
+      <h2 class="section-title">Top scorers in the league</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div id="players"><div class="loading">Loading players</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Waiver Wire</span>
+      <h2 class="section-title">Best pickups of the season</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Undrafted adds, ranked by the points they scored for this
+         league.</p>
+    </div>
+  </div>
+  <div id="pickups"><div class="loading">Loading pickups</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "analytics"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+  if (!d.analytics) {
+    ["scoring", "efficiency", "close", "position", "players", "pickups"]
+      .forEach(function (id) { N.oops(id, "Analytics"); });
+    return;
+  }
+  var a = d.analytics;
+
+  N.fill("hero-meta",
+    "<span><b>" + a.season + "</b> season</span>" +
+    "<span>Through week <b>" + a.through_week + "</b></span>" +
+    "<span><b>" + a.scoring.length + "</b> teams</span>");
+
+  N.fill("scoring", N.table(
+    [{ label: "#" }, { label: "Team" }, { label: "Avg", num: true },
+     { label: "High", num: true }, { label: "Low", num: true },
+     { label: "Spread", num: true }, { label: "Std dev", num: true }],
+    a.scoring.map(function (s, i) {
+      return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+              '<span class="team-cell">' + N.esc(s.team) + "</span>",
+              '<span class="strong">' + N.num(s.avg) + "</span>",
+              '<span class="pos">' + N.num(s.high) + "</span>",
+              '<span class="neg">' + N.num(s.low) + "</span>",
+              N.num(s.high - s.low, 1), N.num(s.stdev)];
+    })));
+
+  N.fill("efficiency", N.bars(a.efficiency.map(function (e) {
+      return { label: e.team, raw: e.eff, value: N.num(e.eff, 1) + "%" };
+    }), { max: 100 }) +
+    '<div style="margin-top:var(--s-6)"></div>' +
+    N.table(
+      [{ label: "Team" }, { label: "Scored", num: true }, { label: "Possible", num: true },
+       { label: "Efficiency", num: true }, { label: "Left/wk", num: true }],
+      a.efficiency.map(function (e) {
+        return ['<span class="team-cell">' + N.esc(e.team) + "</span>",
+                N.num(e.pf, 1), N.num(e.ppts, 1),
+                '<span class="' + (e.eff >= 90 ? "pos" : e.eff < 85 ? "neg" : "") + '">' +
+                  N.num(e.eff, 1) + "%</span>",
+                N.num(e.left_pg, 1)];
+      })));
+
+  N.fill("close", N.table(
+    [{ label: "Team" }, { label: "Close W", num: true }, { label: "Close L", num: true },
+     { label: "Record" }],
+    a.close_games.map(function (c) {
+      return ['<span class="team-cell">' + N.esc(c.team) + "</span>",
+              '<span class="pos">' + c.wins + "</span>",
+              '<span class="neg">' + c.losses + "</span>",
+              '<span class="mono">' + c.wins + "-" + c.losses + "</span>"];
+    })));
+
+  var POS = ["QB", "RB", "WR", "TE", "K", "DEF"];
+  N.fill("position", N.table(
+    [{ label: "Team" }].concat(POS.map(function (p) { return { label: p, num: true }; }))
+      .concat([{ label: "Total", num: true }]),
+    a.position.slice().sort(function (x, y) {
+      return POS.reduce(function (s, p) { return s + y[p]; }, 0) -
+             POS.reduce(function (s, p) { return s + x[p]; }, 0);
+    }).map(function (row) {
+      var best = {};
+      POS.forEach(function (p) {
+        best[p] = Math.max.apply(null, a.position.map(function (r) { return r[p]; }));
+      });
+      var total = POS.reduce(function (s, p) { return s + row[p]; }, 0);
+      return ['<span class="team-cell">' + N.esc(row.team) + "</span>"].concat(
+        POS.map(function (p) {
+          return (row[p] === best[p] && row[p] > 0 ? '<span class="gold strong">' : "<span>") +
+                 N.num(row[p], 1) + "</span>";
+        })).concat(['<span class="strong">' + N.num(total, 1) + "</span>"]);
+    })));
+
+  N.fill("players", N.table(
+    [{ label: "#" }, { label: "Player" }, { label: "Pos" }, { label: "NFL" },
+     { label: "Points", num: true }, { label: "Rostered by" }],
+    a.top_players.slice(0, 25).map(function (p, i) {
+      return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+              '<span class="strong">' + N.esc(p.name) + "</span>",
+              '<span class="badge">' + N.esc(p.pos) + "</span>",
+              '<span class="muted">' + N.esc(p.nfl || "—") + "</span>",
+              '<span class="strong">' + N.num(p.pts) + "</span>",
+              N.esc(p.owner || "—")];
+    })));
+
+  N.fill("pickups", a.pickups.length ? N.table(
+    [{ label: "#" }, { label: "Player" }, { label: "Pos" },
+     { label: "Added wk", num: true }, { label: "Points since", num: true }, { label: "By" }],
+    a.pickups.map(function (p, i) {
+      return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+              '<span class="strong">' + N.esc(p.name) + "</span>",
+              '<span class="badge">' + N.esc(p.pos) + "</span>",
+              p.week, '<span class="strong">' + N.num(p.pts) + "</span>",
+              N.esc(p.team)];
+    })) : '<div class="empty">No undrafted adds have scored yet.</div>');
+});
+</script>
+</body>
+</html>

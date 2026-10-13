@@ -1,0 +1,53 @@
+name: Sleeper snapshot
+
+on:
+  schedule:
+    # Cron is UTC with no timezone support, so each CT time is split by month:
+    # Sep–Oct are CDT (UTC-5), Nov–Dec and Jan are CST (UTC-6).
+    - cron: "0 13 * 9-10 2"       # Tuesdays 8am CDT — the week is final
+    - cron: "0 14 * 11-12,1 2"    # Tuesdays 8am CST
+    - cron: "0 13 * 9-10 5"       # Fridays  8am CDT — waivers, trades, lineups
+    - cron: "0 14 * 11-12,1 5"    # Fridays  8am CST
+    - cron: "0 14 * * 1"          # Mondays, year-round — covers the off-season
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Sleeper's read API is public: no secrets, no tokens, nothing to expire.
+      - name: Snapshot Sleeper
+        run: python3 tools/snapshot.py
+
+      # Power board, analytics and burns — all computed, no model calls.
+      - name: Build analytics, power board and burns
+        run: python3 tools/analyze.py
+
+      # Stops a half-fetched or self-contradicting snapshot from being published.
+      - name: Check the snapshots agree with each other
+        run: python3 tools/check.py
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name  "nofun-league-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data
+            git commit -m "snapshot $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no changes"
+          fi

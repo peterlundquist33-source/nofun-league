@@ -1,0 +1,1284 @@
+{
+  "season": 2026,
+  "playoff_week_start": 16,
+  "weeks": [
+    {
+      "week": 1,
+      "played": true,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 136.76
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 200.66
+          },
+          "played": true,
+          "margin": 63.9,
+          "winner": "ComebackDaBears"
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 157.96
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 129.86
+          },
+          "played": true,
+          "margin": 28.1,
+          "winner": "cjwoda"
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 158.5
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 107.66
+          },
+          "played": true,
+          "margin": 50.84,
+          "winner": "BigStickin032"
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 129.42
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 134.82
+          },
+          "played": true,
+          "margin": 5.4,
+          "winner": "CM-Smell ya later"
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 2,
+      "played": true,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 90.0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 109.28
+          },
+          "played": true,
+          "margin": 19.28,
+          "winner": "MagicSkolBuz1"
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 131.82
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 161.68
+          },
+          "played": true,
+          "margin": 29.86,
+          "winner": "Pipemaster3000"
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 129.0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 186.22
+          },
+          "played": true,
+          "margin": 57.22,
+          "winner": "cjwoda"
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 127.24
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 149.06
+          },
+          "played": true,
+          "margin": 21.82,
+          "winner": "CM-Smell ya later"
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 3,
+      "played": true,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 147.84
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 155.58
+          },
+          "played": true,
+          "margin": 7.74,
+          "winner": "Pipemaster3000"
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 105.76
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 121.58
+          },
+          "played": true,
+          "margin": 15.82,
+          "winner": "MagicSkolBuz1"
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 136.64
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 97.62
+          },
+          "played": true,
+          "margin": 39.02,
+          "winner": "ComebackDaBears"
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 140.68
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 149.92
+          },
+          "played": true,
+          "margin": 9.24,
+          "winner": "cjwoda"
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 4,
+      "played": true,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 177.38
+          },
+          "b": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 104.48
+          },
+          "played": true,
+          "margin": 72.9,
+          "winner": "BigBrainBrian3"
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 167.92
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 163.22
+          },
+          "played": true,
+          "margin": 4.7,
+          "winner": "CM-Smell ya later"
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 114.88
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 168.42
+          },
+          "played": true,
+          "margin": 53.54,
+          "winner": "MagicSkolBuz1"
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 158.7
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 127.72
+          },
+          "played": true,
+          "margin": 30.98,
+          "winner": "ComebackDaBears"
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 5,
+      "played": true,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 202.46
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 154.4
+          },
+          "played": true,
+          "margin": 48.06,
+          "winner": "BigBrainBrian3"
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 165.84
+          },
+          "b": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 122.42
+          },
+          "played": true,
+          "margin": 43.42,
+          "winner": "BigStickin032"
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 173.4
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 168.46
+          },
+          "played": true,
+          "margin": 4.94,
+          "winner": "cjwoda"
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 132.34
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 127.6
+          },
+          "played": true,
+          "margin": 4.74,
+          "winner": "ComebackDaBears"
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 6,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 7,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 8,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 9,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 10,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 11,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 12,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 13,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 14,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 15,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": false
+    },
+    {
+      "week": 16,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": true
+    },
+    {
+      "week": 17,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": true
+    },
+    {
+      "week": 18,
+      "played": false,
+      "games": [
+        {
+          "matchup_id": 1,
+          "a": {
+            "roster_id": 2,
+            "team": "BigBrainBrian3",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 3,
+            "team": "Sparky\u2019s Sleepers",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 2,
+          "a": {
+            "roster_id": 6,
+            "team": "CM-Smell ya later",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 8,
+            "team": "Pipemaster3000",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 3,
+          "a": {
+            "roster_id": 1,
+            "team": "BigStickin032",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 7,
+            "team": "MagicSkolBuz1",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        },
+        {
+          "matchup_id": 4,
+          "a": {
+            "roster_id": 4,
+            "team": "ComebackDaBears",
+            "points": 0
+          },
+          "b": {
+            "roster_id": 5,
+            "team": "cjwoda",
+            "points": 0
+          },
+          "played": false,
+          "margin": null,
+          "winner": null
+        }
+      ],
+      "playoff": true
+    }
+  ]
+}

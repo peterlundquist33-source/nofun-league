@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draft History — NoFunLeague</title>
+  <meta name="description" content="Every NoFunLeague draft since 2023 — full boards, plus how this season's picks have actually scored.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Draft History</p>
+  <h1>Every <span class="fun">pick</span>, forever</h1>
+  <p class="hero-sub">The complete board for every draft this league has ever run, and
+     what this year's picks have actually produced.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Value</span>
+      <h2 class="section-title">This season's picks, by points</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Season points for every drafted player, against where they
+         went. Round is the honest grader.</p>
+    </div>
+  </div>
+  <div class="card-grid two">
+    <div class="card">
+      <span class="eyebrow">Best value</span>
+      <div id="best" style="margin-top:var(--s-3)"></div>
+    </div>
+    <div class="card">
+      <span class="eyebrow">Worst early picks</span>
+      <div id="worst" style="margin-top:var(--s-3)"></div>
+    </div>
+  </div>
+  <div style="margin-top:var(--s-4)" id="by-team"></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Boards</span>
+      <h2 class="section-title">Full draft boards</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div id="board"><div class="loading">Loading drafts</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "drafts", "players", "analytics"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (!d.drafts || !d.players) {
+    ["best", "worst", "by-team", "board"].forEach(function (id) { N.oops(id, "Draft"); });
+    return;
+  }
+  var drafts = d.drafts.drafts;
+
+  N.fill("hero-meta",
+    "<span><b>" + drafts.length + "</b> drafts on record</span>" +
+    "<span><b>" + drafts.reduce(function (s, x) { return s + x.picks.length; }, 0) +
+      "</b> total picks</span>" +
+    "<span>" + drafts[drafts.length - 1].season + "–" + drafts[0].season + "</span>");
+
+  /* ---- value, from analytics (this season only) ---- */
+  if (d.analytics && d.analytics.draft_value.length) {
+    var dv = d.analytics.draft_value;
+    var pickLine = function (p) {
+      return '<div class="bar-row" style="grid-template-columns:1fr auto">' +
+        '<span class="label"><span class="strong">' + N.esc(p.name) + "</span> " +
+        '<span class="muted">' + N.esc(p.pos) + " · R" + p.round +
+        " · " + N.esc(p.team) + "</span></span>" +
+        '<span class="bar-val">' + N.num(p.pts, 1) + "</span></div>";
+    };
+    /* best value = most points from the latest rounds */
+    var best = dv.slice().filter(function (p) { return p.round >= 5; })
+                 .sort(function (x, y) { return y.pts - x.pts; }).slice(0, 8);
+    var worst = dv.slice().filter(function (p) { return p.round <= 4; })
+                  .sort(function (x, y) { return x.pts - y.pts; }).slice(0, 8);
+    N.fill("best", best.length ? best.map(pickLine).join("")
+      : '<div class="empty">No late-round picks on record.</div>');
+    N.fill("worst", worst.length ? worst.map(pickLine).join("")
+      : '<div class="empty">No early picks on record.</div>');
+
+    var byTeam = {};
+    dv.forEach(function (p) {
+      var t = byTeam[p.team] || (byTeam[p.team] = { team: p.team, pts: 0, picks: 0, early: 0 });
+      t.pts += p.pts; t.picks += 1;
+      if (p.round <= 4) t.early += p.pts;
+    });
+    var teams = Object.keys(byTeam).map(function (k) { return byTeam[k]; })
+                      .sort(function (x, y) { return y.pts - x.pts; });
+    N.fill("by-team", N.table(
+      [{ label: "#" }, { label: "Team" }, { label: "Picks", num: true },
+       { label: "Points from draft", num: true }, { label: "From rounds 1–4", num: true },
+       { label: "Per pick", num: true }],
+      teams.map(function (t, i) {
+        return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+                '<span class="team-cell">' + N.esc(t.team) + "</span>",
+                t.picks, '<span class="strong">' + N.num(t.pts, 1) + "</span>",
+                N.num(t.early, 1), N.num(t.pts / t.picks, 1)];
+      })));
+  } else {
+    N.fill("best", '<div class="empty">No scored weeks yet.</div>');
+    N.fill("worst", '<div class="empty">No scored weeks yet.</div>');
+  }
+
+  /* ---- full boards ---- */
+  document.getElementById("tabs").innerHTML = drafts.map(function (x) {
+    return '<button class="tab" data-id="' + x.draft_id + '">' + x.season + "</button>";
+  }).join("");
+  document.getElementById("tabs").addEventListener("click", function (e) {
+    var b = e.target.closest(".tab");
+    if (b) renderBoard(b.dataset.id);
+  });
+
+  function renderBoard(id) {
+    var dr = drafts.filter(function (x) { return x.draft_id === id; })[0];
+    document.querySelectorAll(".tab").forEach(function (t) {
+      t.classList.toggle("active", t.dataset.id === id);
+    });
+    if (!dr) return;
+    var rounds = {};
+    dr.picks.forEach(function (p) { (rounds[p.round] || (rounds[p.round] = [])).push(p); });
+    var html = Object.keys(rounds).sort(function (a, b) { return a - b; }).map(function (r) {
+      var picks = rounds[r].sort(function (x, y) { return x.pick - y.pick; });
+      return '<div style="margin-bottom:var(--s-6)">' +
+        '<span class="eyebrow">Round ' + r + "</span>" +
+        N.table(
+          [{ label: "Pick" }, { label: "Team" }, { label: "Player" },
+           { label: "Pos" }, { label: "NFL" }],
+          picks.map(function (p) {
+            var pl = d.players[p.player_id] || {};
+            return ['<span class="rank-cell">' + p.pick + "</span>",
+                    '<span class="team-cell">' + N.esc(p.team) + "</span>",
+                    '<span class="strong">' + N.esc(pl.name || p.player_id) + "</span>" +
+                      (p.keeper ? ' <span class="badge gold">keeper</span>' : ""),
+                    '<span class="badge">' + N.esc(pl.pos || "—") + "</span>",
+                    '<span class="muted">' + N.esc(pl.team || "—") + "</span>"];
+          })) + "</div>";
+    }).join("");
+    N.fill("board", '<p class="section-sub" style="margin-bottom:var(--s-4)">' +
+      dr.season + " · " + N.esc(dr.type || "draft") + " · " +
+      dr.rounds + " rounds · " + dr.picks.length + " picks</p>" + html);
+  }
+  renderBoard(drafts[0].draft_id);
+});
+</script>
+</body>
+</html>

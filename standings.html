@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standings — NoFunLeague</title>
+  <meta name="description" content="NoFunLeague standings, all-play records and the luck table.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Standings</p>
+  <h1>The <span class="fun">table</span></h1>
+  <p class="hero-sub">The real standings, the standings you'd have against the whole
+     league every week, and the gap between them.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Official</span>
+      <h2 class="section-title">League standings</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Sorted by wins, then points for &mdash; the league's own
+         tiebreak. The gold line is the playoff cut.</p>
+    </div>
+  </div>
+  <div id="standings"><div class="loading">Loading standings</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">All-Play</span>
+      <h2 class="section-title">If you played everyone, every week</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Each week, every team is scored against all seven others.
+         This is the schedule-proof version of the table.</p>
+    </div>
+  </div>
+  <div id="allplay"><div class="loading">Loading all-play</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Luck</span>
+      <h2 class="section-title">Schedule tax</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Actual win rate minus all-play win rate. Positive means the
+         schedule has been generous; negative means it hasn't.</p>
+    </div>
+  </div>
+  <div id="luck"><div class="loading">Loading luck table</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "league", "standings", "analytics"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (d.meta) {
+    N.fill("hero-meta",
+      "<span><b>" + d.meta.season + "</b> season</span>" +
+      "<span>Through week <b>" + d.meta.last_scored_week + "</b></span>" +
+      (d.league ? "<span>Regular season ends week <b>" +
+        (d.league.playoff_week_start - 1) + "</b></span>" : ""));
+  }
+
+  if (!d.standings) { N.oops("standings", "Standings"); }
+  else {
+    var cut = d.league ? d.league.playoff_teams : 0;
+    N.fill("standings", N.table(
+      [{ label: "#" }, { label: "Team" }, { label: "Manager" }, { label: "Record" },
+       { label: "PF", num: true }, { label: "PA", num: true },
+       { label: "Diff", num: true }, { label: "Max", num: true },
+       { label: "Streak" }, { label: "Last 5" }],
+      d.standings.rows.map(function (r) {
+        var diff = r.pf - r.pa;
+        return ['<span class="rank-cell' + (r.rank === 1 ? " top" : "") + '">' + r.rank + "</span>",
+                '<span class="team-cell">' + N.esc(r.team) + "</span>",
+                '<span class="muted">' + N.esc(r.manager) + "</span>",
+                '<span class="strong">' + N.record(r) + "</span>",
+                N.num(r.pf, 1), N.num(r.pa, 1),
+                '<span class="' + (diff >= 0 ? "pos" : "neg") + '">' + N.signed(diff, 1) + "</span>",
+                N.num(r.ppts, 1),
+                badge(r.streak), form(r.form)];
+      }),
+      { rowClass: function (i) { return (cut && i === cut - 1) ? "cutline" : ""; } }));
+  }
+
+  if (!d.analytics) { N.oops("allplay", "Analytics"); N.oops("luck", "Analytics"); return; }
+
+  var a = d.analytics;
+  var realRank = a.standings_rank;
+  N.fill("allplay", N.table(
+    [{ label: "#" }, { label: "Team" }, { label: "All-play" },
+     { label: "Win%", num: true }, { label: "Last 3 wks", num: true },
+     { label: "Table" }],
+    a.allplay.map(function (r, i) {
+      var delta = (realRank[r.team] || 0) - (i + 1);
+      return ['<span class="rank-cell' + (i === 0 ? " top" : "") + '">' + (i + 1) + "</span>",
+              '<span class="team-cell">' + N.esc(r.team) + "</span>",
+              '<span class="mono">' + r.record + "</span>",
+              N.pct(r.pct), N.pct(r.form_pct),
+              '<span class="badge ' + (delta > 0 ? "pos" : delta < 0 ? "neg" : "") + '">' +
+                N.ordinal(realRank[r.team] || 0) +
+                (delta ? " (" + N.signed(delta) + ")" : "") + "</span>"];
+    })));
+
+  N.fill("luck", N.bars(a.luck.map(function (r) {
+    return { label: r.team, raw: r.luck,
+             value: N.signed(r.luck * 100, 0) + " pts" };
+  })) +
+    '<div style="margin-top:var(--s-6)"></div>' +
+    N.table(
+      [{ label: "Team" }, { label: "Record" }, { label: "All-play" },
+       { label: "Expected W", num: true }, { label: "Luck", num: true }],
+      a.luck.map(function (r) {
+        return ['<span class="team-cell">' + N.esc(r.team) + "</span>",
+                '<span class="mono">' + N.pct(r.real_pct) + "</span>",
+                '<span class="mono">' + r.allplay + " (" + N.pct(r.allplay_pct) + ")</span>",
+                N.num(r.expected_wins, 2),
+                '<span class="' + (r.luck > 0 ? "pos" : r.luck < 0 ? "neg" : "muted") + '">' +
+                  N.signed(r.luck * 100, 0) + "</span>"];
+      })));
+
+  function badge(s) {
+    if (!s) return '<span class="muted">—</span>';
+    return '<span class="badge ' + (/W$/.test(s) ? "pos" : "neg") + '">' + N.esc(s) + "</span>";
+  }
+  function form(f) {
+    if (!f) return '<span class="muted">—</span>';
+    return '<span class="mono">' + f.split("").map(function (c) {
+      return '<span class="' + (c === "W" ? "pos" : c === "L" ? "neg" : "muted") + '">' + c + "</span>";
+    }).join("") + "</span>";
+  }
+});
+</script>
+</body>
+</html>

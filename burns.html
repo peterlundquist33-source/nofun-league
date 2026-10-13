@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burns — NoFunLeague</title>
+  <meta name="description" content="The NoFunLeague burn board — trash talk generated from the league's own Sleeper stats.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">No rules. Let it rip.</p>
+  <h1>The <span class="fun">burn</span> board</h1>
+  <p class="hero-sub">Every line below is generated from this league's own numbers &mdash;
+     records, scoring, lineup decisions and draft picks. If it stings, it's because the
+     stat is real. Fantasy football only; nobody's actual life is in here.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="burn-grid" id="burns"><div class="loading">Loading burns</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Receipts</span>
+      <h2 class="section-title">The evidence</h2>
+      <div class="rule"></div>
+      <p class="section-sub">The numbers the burns above are built from, so nobody can
+         claim they were made up.</p>
+    </div>
+  </div>
+  <div class="card-grid two">
+    <div class="card">
+      <span class="eyebrow">Biggest beatings</span>
+      <div id="blowouts" style="margin-top:var(--s-3)"></div>
+    </div>
+    <div class="card">
+      <span class="eyebrow">Closest calls</span>
+      <div id="nailbiters" style="margin-top:var(--s-3)"></div>
+    </div>
+  </div>
+  <div style="margin-top:var(--s-4)" id="records"></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Lineup Malpractice</span>
+      <h2 class="section-title">Points left on the bench</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Perfect-lineup points minus what was actually scored. This is
+         the one stat nobody can blame on the schedule.</p>
+    </div>
+  </div>
+  <div id="bench"><div class="loading">Loading</div></div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="js/site.js"></script>
+<script src="js/data.js"></script>
+<script>
+NFL.all(["meta", "burns", "analytics"]).then(function (d) {
+  var N = NFL;
+  N.stamp(d.meta, d.meta ? "week " + d.meta.week : "");
+
+  if (!d.burns) { N.oops("burns", "Burns"); }
+  else {
+    N.fill("hero-meta",
+      "<span><b>" + d.burns.items.length + "</b> burns</span>" +
+      "<span>Through week <b>" + d.burns.through_week + "</b></span>" +
+      "<span>Rebuilt every snapshot</span>");
+    N.fill("burns", d.burns.items.length
+      ? d.burns.items.map(function (b, i) {
+          return '<div class="burn' + (i === 0 ? " feature" : "") + '">' +
+            '<div class="burn-title">' + N.esc(b.title) + "</div>" +
+            '<p class="burn-line">' + N.esc(b.line) + "</p></div>";
+        }).join("")
+      : '<div class="empty">Not enough games played yet. Check back after week 1.</div>');
+  }
+
+  if (!d.analytics) { N.oops("bench", "Analytics"); return; }
+  var a = d.analytics;
+
+  var game = function (g) {
+    return '<div class="matchup" style="padding-left:0;padding-right:0">' +
+      '<div class="side win"><div class="name">' + N.esc(g.winner) + "</div>" +
+      '<div class="score">' + N.num(g.win_pts) + "</div></div>" +
+      '<span class="vs">wk ' + g.week + " · by " + N.num(g.margin, 1) + "</span>" +
+      '<div class="side right"><div class="name">' + N.esc(g.loser) + "</div>" +
+      '<div class="score">' + N.num(g.lose_pts) + "</div></div></div>";
+  };
+  N.fill("blowouts", a.blowouts.length ? a.blowouts.map(game).join("")
+    : '<div class="empty">No completed games yet.</div>');
+  N.fill("nailbiters", a.nailbiters.length ? a.nailbiters.map(game).join("")
+    : '<div class="empty">No completed games yet.</div>');
+
+  var r = a.records;
+  N.fill("records", N.table(
+    [{ label: "Record" }, { label: "Team" }, { label: "Week" }, { label: "Points", num: true },
+     { label: "Detail", cls: "wide" }],
+    [r.high_week && ["Highest week", N.esc(r.high_week.team), r.high_week.week,
+       '<span class="gold">' + N.num(r.high_week.pts) + "</span>", "Season high by anyone"],
+     r.low_week && ["Lowest week", N.esc(r.low_week.team), r.low_week.week,
+       '<span class="neg">' + N.num(r.low_week.pts) + "</span>", "Season low by anyone"],
+     r.high_loss && ["Best score in a loss", N.esc(r.high_loss.loser), r.high_loss.week,
+       N.num(r.high_loss.lose_pts), "Lost to " + N.esc(r.high_loss.winner) +
+       " (" + N.num(r.high_loss.win_pts) + ")"],
+     r.low_win && ["Worst score in a win", N.esc(r.low_win.winner), r.low_win.week,
+       N.num(r.low_win.win_pts), "Beat " + N.esc(r.low_win.loser) +
+       " (" + N.num(r.low_win.lose_pts) + ")"]
+    ].filter(Boolean)));
+
+  N.fill("bench", N.bars(a.efficiency.slice().sort(function (x, y) { return y.left - x.left; })
+      .map(function (e) {
+        return { label: e.team, raw: e.left, value: N.num(e.left, 1) };
+      })) +
+    '<div style="margin-top:var(--s-6)"></div>' +
+    N.table(
+      [{ label: "Team" }, { label: "Scored", num: true }, { label: "Possible", num: true },
+       { label: "Efficiency", num: true }, { label: "Left on bench", num: true },
+       { label: "Per week", num: true }],
+      a.efficiency.map(function (e) {
+        return ['<span class="team-cell">' + N.esc(e.team) + "</span>",
+                N.num(e.pf, 1), N.num(e.ppts, 1),
+                '<span class="' + (e.eff >= 90 ? "pos" : e.eff < 85 ? "neg" : "") + '">' +
+                  N.num(e.eff, 1) + "%</span>",
+                N.num(e.left, 1), N.num(e.left_pg, 1)];
+      })));
+});
+</script>
+</body>
+</html>

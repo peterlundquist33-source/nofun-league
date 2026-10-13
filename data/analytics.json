@@ -1,0 +1,2130 @@
+{
+  "generated": "2026-10-13T16:09:43+00:00",
+  "season": 2026,
+  "through_week": 5,
+  "allplay": [
+    {
+      "team": "cjwoda",
+      "record": "26-9",
+      "pct": 0.743,
+      "form_pct": 0.667
+    },
+    {
+      "team": "BigBrainBrian3",
+      "record": "23-12",
+      "pct": 0.657,
+      "form_pct": 0.905
+    },
+    {
+      "team": "Pipemaster3000",
+      "record": "22-13",
+      "pct": 0.629,
+      "form_pct": 0.762
+    },
+    {
+      "team": "ComebackDaBears",
+      "record": "19-16",
+      "pct": 0.543,
+      "form_pct": 0.381
+    },
+    {
+      "team": "BigStickin032",
+      "record": "17-18",
+      "pct": 0.486,
+      "form_pct": 0.429
+    },
+    {
+      "team": "CM-Smell ya later",
+      "record": "16-19",
+      "pct": 0.457,
+      "form_pct": 0.381
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "record": "12-23",
+      "pct": 0.343,
+      "form_pct": 0.429
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "record": "5-30",
+      "pct": 0.143,
+      "form_pct": 0.048
+    }
+  ],
+  "luck": [
+    {
+      "team": "ComebackDaBears",
+      "real_pct": 0.8,
+      "allplay_pct": 0.543,
+      "allplay": "19-16",
+      "luck": 0.257,
+      "expected_wins": 2.71
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "real_pct": 0.6,
+      "allplay_pct": 0.343,
+      "allplay": "12-23",
+      "luck": 0.257,
+      "expected_wins": 1.71
+    },
+    {
+      "team": "CM-Smell ya later",
+      "real_pct": 0.6,
+      "allplay_pct": 0.457,
+      "allplay": "16-19",
+      "luck": 0.143,
+      "expected_wins": 2.29
+    },
+    {
+      "team": "cjwoda",
+      "real_pct": 0.8,
+      "allplay_pct": 0.743,
+      "allplay": "26-9",
+      "luck": 0.057,
+      "expected_wins": 3.71
+    },
+    {
+      "team": "BigStickin032",
+      "real_pct": 0.4,
+      "allplay_pct": 0.486,
+      "allplay": "17-18",
+      "luck": -0.086,
+      "expected_wins": 2.43
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "real_pct": 0.0,
+      "allplay_pct": 0.143,
+      "allplay": "5-30",
+      "luck": -0.143,
+      "expected_wins": 0.71
+    },
+    {
+      "team": "Pipemaster3000",
+      "real_pct": 0.4,
+      "allplay_pct": 0.629,
+      "allplay": "22-13",
+      "luck": -0.229,
+      "expected_wins": 3.14
+    },
+    {
+      "team": "BigBrainBrian3",
+      "real_pct": 0.4,
+      "allplay_pct": 0.657,
+      "allplay": "23-12",
+      "luck": -0.257,
+      "expected_wins": 3.29
+    }
+  ],
+  "scoring": [
+    {
+      "team": "cjwoda",
+      "weeks": [
+        157.96,
+        186.22,
+        149.92,
+        127.72,
+        173.4
+      ],
+      "avg": 159.04,
+      "high": 186.22,
+      "low": 127.72,
+      "stdev": 20.05
+    },
+    {
+      "team": "ComebackDaBears",
+      "weeks": [
+        200.66,
+        131.82,
+        136.64,
+        158.7,
+        132.34
+      ],
+      "avg": 152.03,
+      "high": 200.66,
+      "low": 131.82,
+      "stdev": 26.24
+    },
+    {
+      "team": "Pipemaster3000",
+      "weeks": [
+        107.66,
+        161.68,
+        155.58,
+        163.22,
+        168.46
+      ],
+      "avg": 151.32,
+      "high": 168.46,
+      "low": 107.66,
+      "stdev": 22.21
+    },
+    {
+      "team": "BigBrainBrian3",
+      "weeks": [
+        136.76,
+        90.0,
+        147.84,
+        177.38,
+        202.46
+      ],
+      "avg": 150.89,
+      "high": 202.46,
+      "low": 90.0,
+      "stdev": 38.15
+    },
+    {
+      "team": "BigStickin032",
+      "weeks": [
+        158.5,
+        127.24,
+        140.68,
+        114.88,
+        165.84
+      ],
+      "avg": 141.43,
+      "high": 165.84,
+      "low": 114.88,
+      "stdev": 18.94
+    },
+    {
+      "team": "CM-Smell ya later",
+      "weeks": [
+        134.82,
+        149.06,
+        97.62,
+        167.92,
+        154.4
+      ],
+      "avg": 140.76,
+      "high": 167.92,
+      "low": 97.62,
+      "stdev": 24.04
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "weeks": [
+        129.86,
+        109.28,
+        121.58,
+        168.42,
+        127.6
+      ],
+      "avg": 131.35,
+      "high": 168.42,
+      "low": 109.28,
+      "stdev": 19.86
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "weeks": [
+        129.42,
+        129.0,
+        105.76,
+        104.48,
+        122.42
+      ],
+      "avg": 118.22,
+      "high": 129.42,
+      "low": 104.48,
+      "stdev": 10.98
+    }
+  ],
+  "efficiency": [
+    {
+      "team": "cjwoda",
+      "pf": 795.22,
+      "ppts": 869.76,
+      "eff": 91.4,
+      "left": 74.54,
+      "left_pg": 14.91
+    },
+    {
+      "team": "Pipemaster3000",
+      "pf": 756.6,
+      "ppts": 843.3,
+      "eff": 89.7,
+      "left": 86.7,
+      "left_pg": 17.34
+    },
+    {
+      "team": "ComebackDaBears",
+      "pf": 760.16,
+      "ppts": 860.06,
+      "eff": 88.4,
+      "left": 99.9,
+      "left_pg": 19.98
+    },
+    {
+      "team": "BigBrainBrian3",
+      "pf": 754.44,
+      "ppts": 859.62,
+      "eff": 87.8,
+      "left": 105.18,
+      "left_pg": 21.04
+    },
+    {
+      "team": "CM-Smell ya later",
+      "pf": 703.82,
+      "ppts": 823.42,
+      "eff": 85.5,
+      "left": 119.6,
+      "left_pg": 23.92
+    },
+    {
+      "team": "BigStickin032",
+      "pf": 707.14,
+      "ppts": 838.66,
+      "eff": 84.3,
+      "left": 131.52,
+      "left_pg": 26.3
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "pf": 656.74,
+      "ppts": 797.74,
+      "eff": 82.3,
+      "left": 141.0,
+      "left_pg": 28.2
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "pf": 591.08,
+      "ppts": 733.68,
+      "eff": 80.6,
+      "left": 142.6,
+      "left_pg": 28.52
+    }
+  ],
+  "close_games": [
+    {
+      "team": "cjwoda",
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "team": "CM-Smell ya later",
+      "wins": 2,
+      "losses": 0
+    },
+    {
+      "team": "ComebackDaBears",
+      "wins": 1,
+      "losses": 0
+    },
+    {
+      "team": "Pipemaster3000",
+      "wins": 1,
+      "losses": 2
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "team": "BigBrainBrian3",
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "team": "BigStickin032",
+      "wins": 0,
+      "losses": 1
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "wins": 0,
+      "losses": 1
+    }
+  ],
+  "blowouts": [
+    {
+      "week": 4,
+      "winner": "BigBrainBrian3",
+      "loser": "Sparky\u2019s Sleepers",
+      "win_pts": 177.38,
+      "lose_pts": 104.48,
+      "margin": 72.9
+    },
+    {
+      "week": 1,
+      "winner": "ComebackDaBears",
+      "loser": "BigBrainBrian3",
+      "win_pts": 200.66,
+      "lose_pts": 136.76,
+      "margin": 63.9
+    },
+    {
+      "week": 2,
+      "winner": "cjwoda",
+      "loser": "Sparky\u2019s Sleepers",
+      "win_pts": 186.22,
+      "lose_pts": 129.0,
+      "margin": 57.22
+    },
+    {
+      "week": 4,
+      "winner": "MagicSkolBuz1",
+      "loser": "BigStickin032",
+      "win_pts": 168.42,
+      "lose_pts": 114.88,
+      "margin": 53.54
+    },
+    {
+      "week": 1,
+      "winner": "BigStickin032",
+      "loser": "Pipemaster3000",
+      "win_pts": 158.5,
+      "lose_pts": 107.66,
+      "margin": 50.84
+    }
+  ],
+  "nailbiters": [
+    {
+      "week": 4,
+      "winner": "CM-Smell ya later",
+      "loser": "Pipemaster3000",
+      "win_pts": 167.92,
+      "lose_pts": 163.22,
+      "margin": 4.7
+    },
+    {
+      "week": 5,
+      "winner": "ComebackDaBears",
+      "loser": "MagicSkolBuz1",
+      "win_pts": 132.34,
+      "lose_pts": 127.6,
+      "margin": 4.74
+    },
+    {
+      "week": 5,
+      "winner": "cjwoda",
+      "loser": "Pipemaster3000",
+      "win_pts": 173.4,
+      "lose_pts": 168.46,
+      "margin": 4.94
+    },
+    {
+      "week": 1,
+      "winner": "CM-Smell ya later",
+      "loser": "Sparky\u2019s Sleepers",
+      "win_pts": 134.82,
+      "lose_pts": 129.42,
+      "margin": 5.4
+    },
+    {
+      "week": 3,
+      "winner": "Pipemaster3000",
+      "loser": "BigBrainBrian3",
+      "win_pts": 155.58,
+      "lose_pts": 147.84,
+      "margin": 7.74
+    }
+  ],
+  "records": {
+    "high_week": {
+      "team": "BigBrainBrian3",
+      "week": 5,
+      "pts": 202.46
+    },
+    "low_week": {
+      "team": "BigBrainBrian3",
+      "week": 2,
+      "pts": 90.0
+    },
+    "high_loss": {
+      "week": 5,
+      "winner": "cjwoda",
+      "loser": "Pipemaster3000",
+      "win_pts": 173.4,
+      "lose_pts": 168.46,
+      "margin": 4.94
+    },
+    "low_win": {
+      "week": 2,
+      "winner": "MagicSkolBuz1",
+      "loser": "BigBrainBrian3",
+      "win_pts": 109.28,
+      "lose_pts": 90.0,
+      "margin": 19.28
+    }
+  },
+  "weekly_board": [
+    {
+      "week": 1,
+      "high": {
+        "team": "ComebackDaBears",
+        "pts": 200.66
+      },
+      "low": {
+        "team": "Pipemaster3000",
+        "pts": 107.66
+      },
+      "avg": 144.45
+    },
+    {
+      "week": 2,
+      "high": {
+        "team": "cjwoda",
+        "pts": 186.22
+      },
+      "low": {
+        "team": "BigBrainBrian3",
+        "pts": 90.0
+      },
+      "avg": 135.54
+    },
+    {
+      "week": 3,
+      "high": {
+        "team": "Pipemaster3000",
+        "pts": 155.58
+      },
+      "low": {
+        "team": "CM-Smell ya later",
+        "pts": 97.62
+      },
+      "avg": 131.95
+    },
+    {
+      "week": 4,
+      "high": {
+        "team": "BigBrainBrian3",
+        "pts": 177.38
+      },
+      "low": {
+        "team": "Sparky\u2019s Sleepers",
+        "pts": 104.48
+      },
+      "avg": 147.84
+    },
+    {
+      "week": 5,
+      "high": {
+        "team": "BigBrainBrian3",
+        "pts": 202.46
+      },
+      "low": {
+        "team": "Sparky\u2019s Sleepers",
+        "pts": 122.42
+      },
+      "avg": 155.87
+    }
+  ],
+  "top_players": [
+    {
+      "id": "9221",
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "nfl": "DET",
+      "pts": 153.7,
+      "owner": "ComebackDaBears",
+      "weeks": 5
+    },
+    {
+      "id": "4984",
+      "name": "Josh Allen",
+      "pos": "QB",
+      "nfl": "BUF",
+      "pts": 142.96,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "9488",
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "nfl": "SEA",
+      "pts": 139.46,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "9509",
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "nfl": "ATL",
+      "pts": 121.2,
+      "owner": "BigBrainBrian3",
+      "weeks": 5
+    },
+    {
+      "id": "6786",
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "nfl": "DAL",
+      "pts": 115.1,
+      "owner": "ComebackDaBears",
+      "weeks": 5
+    },
+    {
+      "id": "3198",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "nfl": "BAL",
+      "pts": 111.8,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "8151",
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "nfl": "KC",
+      "pts": 110.1,
+      "owner": "Pipemaster3000",
+      "weeks": 4
+    },
+    {
+      "id": "8167",
+      "name": "Christian Watson",
+      "pos": "WR",
+      "nfl": "GB",
+      "pts": 109.4,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "8150",
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "nfl": "LAR",
+      "pts": 109.3,
+      "owner": "BigBrainBrian3",
+      "weeks": 5
+    },
+    {
+      "id": "7547",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nfl": "DET",
+      "pts": 104.2,
+      "owner": "Sparky\u2019s Sleepers",
+      "weeks": 5
+    },
+    {
+      "id": "6770",
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "nfl": "CIN",
+      "pts": 101.24,
+      "owner": "MagicSkolBuz1",
+      "weeks": 5
+    },
+    {
+      "id": "8144",
+      "name": "Chris Olave",
+      "pos": "WR",
+      "nfl": "NO",
+      "pts": 98.7,
+      "owner": "ComebackDaBears",
+      "weeks": 5
+    },
+    {
+      "id": "6813",
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "nfl": "IND",
+      "pts": 97.4,
+      "owner": "MagicSkolBuz1",
+      "weeks": 5
+    },
+    {
+      "id": "7588",
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "nfl": "DAL",
+      "pts": 96.0,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "8183",
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "nfl": "SF",
+      "pts": 95.54,
+      "owner": "Pipemaster3000",
+      "weeks": 4
+    },
+    {
+      "id": "2133",
+      "name": "Davante Adams",
+      "pos": "WR",
+      "nfl": "LAR",
+      "pts": 95.1,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "8228",
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "nfl": "PIT",
+      "pts": 93.0,
+      "owner": "Pipemaster3000",
+      "weeks": 5
+    },
+    {
+      "id": "4034",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "nfl": "SF",
+      "pts": 91.3,
+      "owner": "CM-Smell ya later",
+      "weeks": 5
+    },
+    {
+      "id": "8130",
+      "name": "Trey McBride",
+      "pos": "TE",
+      "nfl": "ARI",
+      "pts": 90.8,
+      "owner": "ComebackDaBears",
+      "weeks": 5
+    },
+    {
+      "id": "8138",
+      "name": "James Cook",
+      "pos": "RB",
+      "nfl": "BUF",
+      "pts": 89.3,
+      "owner": "Pipemaster3000",
+      "weeks": 5
+    },
+    {
+      "id": "421",
+      "name": "Matthew Stafford",
+      "pos": "QB",
+      "nfl": "LAR",
+      "pts": 88.98,
+      "owner": "cjwoda",
+      "weeks": 5
+    },
+    {
+      "id": "7523",
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "nfl": "JAX",
+      "pts": 86.86,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "8146",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "nfl": "NYJ",
+      "pts": 86.4,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "8131",
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "nfl": "NYG",
+      "pts": 85.4,
+      "owner": "MagicSkolBuz1",
+      "weeks": 5
+    },
+    {
+      "id": "12527",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "nfl": "LV",
+      "pts": 84.6,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "4046",
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "nfl": "KC",
+      "pts": 83.58,
+      "owner": "BigBrainBrian3",
+      "weeks": 4
+    },
+    {
+      "id": "9997",
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "nfl": "BAL",
+      "pts": 81.8,
+      "owner": "CM-Smell ya later",
+      "weeks": 4
+    },
+    {
+      "id": "9487",
+      "name": "Parker Washington",
+      "pos": "WR",
+      "nfl": "JAX",
+      "pts": 81.5,
+      "owner": "CM-Smell ya later",
+      "weeks": 5
+    },
+    {
+      "id": "6790",
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "nfl": "CHI",
+      "pts": 80.8,
+      "owner": "Sparky\u2019s Sleepers",
+      "weeks": 5
+    },
+    {
+      "id": "6904",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "nfl": "PHI",
+      "pts": 80.02,
+      "owner": "CM-Smell ya later",
+      "weeks": 5
+    },
+    {
+      "id": "7564",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "nfl": "CIN",
+      "pts": 79.9,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "4881",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "nfl": "BAL",
+      "pts": 79.08,
+      "owner": "BigBrainBrian3",
+      "weeks": 4
+    },
+    {
+      "id": "7594",
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "nfl": "CAR",
+      "pts": 79.0,
+      "owner": "Pipemaster3000",
+      "weeks": 4
+    },
+    {
+      "id": "11584",
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "nfl": "TB",
+      "pts": 78.7,
+      "owner": "Pipemaster3000",
+      "weeks": 5
+    },
+    {
+      "id": "9493",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "nfl": "LAR",
+      "pts": 77.8,
+      "owner": "BigBrainBrian3",
+      "weeks": 3
+    },
+    {
+      "id": "10859",
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "nfl": "DET",
+      "pts": 76.6,
+      "owner": "BigBrainBrian3",
+      "weeks": 5
+    },
+    {
+      "id": "2216",
+      "name": "Mike Evans",
+      "pos": "WR",
+      "nfl": "SF",
+      "pts": 76.6,
+      "owner": "BigBrainBrian3",
+      "weeks": 5
+    },
+    {
+      "id": "8112",
+      "name": "Drake London",
+      "pos": "WR",
+      "nfl": "ATL",
+      "pts": 76.2,
+      "owner": "BigStickin032",
+      "weeks": 5
+    },
+    {
+      "id": "6801",
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "nfl": "CIN",
+      "pts": 75.3,
+      "owner": "Pipemaster3000",
+      "weeks": 5
+    },
+    {
+      "id": "12526",
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "nfl": "CAR",
+      "pts": 74.5,
+      "owner": "CM-Smell ya later",
+      "weeks": 4
+    }
+  ],
+  "position": [
+    {
+      "team": "cjwoda",
+      "QB": 231.94,
+      "RB": 288.0,
+      "WR": 436.46,
+      "TE": 47.7,
+      "K": 42.0,
+      "DEF": 39.0
+    },
+    {
+      "team": "ComebackDaBears",
+      "QB": 94.66,
+      "RB": 363.4,
+      "WR": 266.7,
+      "TE": 180.6,
+      "K": 45.0,
+      "DEF": 35.0
+    },
+    {
+      "team": "CM-Smell ya later",
+      "QB": 80.02,
+      "RB": 234.2,
+      "WR": 398.0,
+      "TE": 76.6,
+      "K": 53.0,
+      "DEF": 67.0
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "QB": 101.24,
+      "RB": 240.1,
+      "WR": 320.1,
+      "TE": 155.3,
+      "K": 68.0,
+      "DEF": 28.0
+    },
+    {
+      "team": "Pipemaster3000",
+      "QB": 108.8,
+      "RB": 450.1,
+      "WR": 340.9,
+      "TE": 51.7,
+      "K": 49.0,
+      "DEF": 18.0
+    },
+    {
+      "team": "BigBrainBrian3",
+      "QB": 202.12,
+      "RB": 384.9,
+      "WR": 308.7,
+      "TE": 148.4,
+      "K": 28.0,
+      "DEF": 23.0
+    },
+    {
+      "team": "BigStickin032",
+      "QB": 151.52,
+      "RB": 289.0,
+      "WR": 394.2,
+      "TE": 74.8,
+      "K": 49.0,
+      "DEF": 53.0
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "QB": 127.66,
+      "RB": 212.7,
+      "WR": 318.88,
+      "TE": 132.7,
+      "K": 24.0,
+      "DEF": 51.0
+    }
+  ],
+  "draft_value": [
+    {
+      "round": 1,
+      "pick": 1,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "pts": 49.6
+    },
+    {
+      "round": 1,
+      "pick": 2,
+      "team": "CM-Smell ya later",
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "pts": 63.7
+    },
+    {
+      "round": 1,
+      "pick": 3,
+      "team": "MagicSkolBuz1",
+      "name": "Malik Nabers",
+      "pos": "WR",
+      "pts": 73.9
+    },
+    {
+      "round": 1,
+      "pick": 4,
+      "team": "BigStickin032",
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "pts": 24.6
+    },
+    {
+      "round": 1,
+      "pick": 5,
+      "team": "cjwoda",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "pts": 111.8
+    },
+    {
+      "round": 1,
+      "pick": 6,
+      "team": "ComebackDaBears",
+      "name": "Chris Olave",
+      "pos": "WR",
+      "pts": 98.7
+    },
+    {
+      "round": 1,
+      "pick": 7,
+      "team": "Pipemaster3000",
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "pts": 48.5
+    },
+    {
+      "round": 1,
+      "pick": 8,
+      "team": "BigBrainBrian3",
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "pts": 109.3
+    },
+    {
+      "round": 2,
+      "pick": 9,
+      "team": "BigBrainBrian3",
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "pts": 36.3
+    },
+    {
+      "round": 2,
+      "pick": 10,
+      "team": "Pipemaster3000",
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "pts": 75.3
+    },
+    {
+      "round": 2,
+      "pick": 11,
+      "team": "ComebackDaBears",
+      "name": "Colston Loveland",
+      "pos": "TE",
+      "pts": 24.0
+    },
+    {
+      "round": 2,
+      "pick": 12,
+      "team": "cjwoda",
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "pts": 96.0
+    },
+    {
+      "round": 2,
+      "pick": 13,
+      "team": "BigStickin032",
+      "name": "Breece Hall",
+      "pos": "RB",
+      "pts": 42.5
+    },
+    {
+      "round": 2,
+      "pick": 14,
+      "team": "MagicSkolBuz1",
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "pts": 53.3
+    },
+    {
+      "round": 2,
+      "pick": 15,
+      "team": "CM-Smell ya later",
+      "name": "Josh Jacobs",
+      "pos": "RB",
+      "pts": 0.0
+    },
+    {
+      "round": 2,
+      "pick": 16,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "pts": 51.1
+    },
+    {
+      "round": 3,
+      "pick": 17,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "pts": 38.0
+    },
+    {
+      "round": 3,
+      "pick": 18,
+      "team": "CM-Smell ya later",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "pts": 91.3
+    },
+    {
+      "round": 3,
+      "pick": 19,
+      "team": "MagicSkolBuz1",
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "pts": 97.4
+    },
+    {
+      "round": 3,
+      "pick": 20,
+      "team": "BigStickin032",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "pts": 84.6
+    },
+    {
+      "round": 3,
+      "pick": 21,
+      "team": "cjwoda",
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "pts": 23.0
+    },
+    {
+      "round": 3,
+      "pick": 22,
+      "team": "ComebackDaBears",
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "pts": 115.1
+    },
+    {
+      "round": 3,
+      "pick": 23,
+      "team": "Pipemaster3000",
+      "name": "George Pickens",
+      "pos": "WR",
+      "pts": 68.5
+    },
+    {
+      "round": 3,
+      "pick": 24,
+      "team": "BigBrainBrian3",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "pts": 79.08
+    },
+    {
+      "round": 4,
+      "pick": 25,
+      "team": "BigBrainBrian3",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "pts": 77.8
+    },
+    {
+      "round": 4,
+      "pick": 26,
+      "team": "Pipemaster3000",
+      "name": "James Cook",
+      "pos": "RB",
+      "pts": 89.3
+    },
+    {
+      "round": 4,
+      "pick": 27,
+      "team": "ComebackDaBears",
+      "name": "Trey McBride",
+      "pos": "TE",
+      "pts": 90.8
+    },
+    {
+      "round": 4,
+      "pick": 28,
+      "team": "cjwoda",
+      "name": "Josh Allen",
+      "pos": "QB",
+      "pts": 142.96
+    },
+    {
+      "round": 4,
+      "pick": 29,
+      "team": "BigStickin032",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "pts": 79.9
+    },
+    {
+      "round": 4,
+      "pick": 30,
+      "team": "MagicSkolBuz1",
+      "name": "Nico Collins",
+      "pos": "WR",
+      "pts": 62.6
+    },
+    {
+      "round": 4,
+      "pick": 31,
+      "team": "CM-Smell ya later",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "pts": 5.6
+    },
+    {
+      "round": 4,
+      "pick": 32,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "pts": 71.2
+    },
+    {
+      "round": 5,
+      "pick": 33,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Jaylen Waddle",
+      "pos": "WR",
+      "pts": 48.7
+    },
+    {
+      "round": 5,
+      "pick": 34,
+      "team": "CM-Smell ya later",
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "pts": 74.5
+    },
+    {
+      "round": 5,
+      "pick": 35,
+      "team": "MagicSkolBuz1",
+      "name": "Tyler Warren",
+      "pos": "TE",
+      "pts": 69.9
+    },
+    {
+      "round": 5,
+      "pick": 36,
+      "team": "BigStickin032",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "pts": 86.4
+    },
+    {
+      "round": 5,
+      "pick": 37,
+      "team": "cjwoda",
+      "name": "Davante Adams",
+      "pos": "WR",
+      "pts": 95.1
+    },
+    {
+      "round": 5,
+      "pick": 38,
+      "team": "ComebackDaBears",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "pts": 45.5
+    },
+    {
+      "round": 5,
+      "pick": 39,
+      "team": "Pipemaster3000",
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "pts": 78.7
+    },
+    {
+      "round": 5,
+      "pick": 40,
+      "team": "BigBrainBrian3",
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "pts": 51.3
+    },
+    {
+      "round": 6,
+      "pick": 41,
+      "team": "BigBrainBrian3",
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "pts": 76.6
+    },
+    {
+      "round": 6,
+      "pick": 42,
+      "team": "Pipemaster3000",
+      "name": "Harold Fannin",
+      "pos": "TE",
+      "pts": 51.7
+    },
+    {
+      "round": 6,
+      "pick": 43,
+      "team": "ComebackDaBears",
+      "name": "Travis Etienne",
+      "pos": "RB",
+      "pts": 30.9
+    },
+    {
+      "round": 6,
+      "pick": 44,
+      "team": "cjwoda",
+      "name": "Luther Burden",
+      "pos": "WR",
+      "pts": 55.8
+    },
+    {
+      "round": 6,
+      "pick": 45,
+      "team": "BigStickin032",
+      "name": "Terry McLaurin",
+      "pos": "WR",
+      "pts": 42.3
+    },
+    {
+      "round": 6,
+      "pick": 46,
+      "team": "MagicSkolBuz1",
+      "name": "DJ Moore",
+      "pos": "WR",
+      "pts": 36.3
+    },
+    {
+      "round": 6,
+      "pick": 47,
+      "team": "CM-Smell ya later",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "pts": 80.02
+    },
+    {
+      "round": 6,
+      "pick": 48,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "pts": 80.8
+    },
+    {
+      "round": 7,
+      "pick": 49,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Drake Maye",
+      "pos": "QB",
+      "pts": 57.3
+    },
+    {
+      "round": 7,
+      "pick": 50,
+      "team": "CM-Smell ya later",
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "pts": 56.3
+    },
+    {
+      "round": 7,
+      "pick": 51,
+      "team": "MagicSkolBuz1",
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "pts": 101.24
+    },
+    {
+      "round": 7,
+      "pick": 52,
+      "team": "BigStickin032",
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "pts": 64.66
+    },
+    {
+      "round": 7,
+      "pick": 53,
+      "team": "cjwoda",
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "pts": 47.7
+    },
+    {
+      "round": 7,
+      "pick": 54,
+      "team": "ComebackDaBears",
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "pts": 44.98
+    },
+    {
+      "round": 7,
+      "pick": 55,
+      "team": "Pipemaster3000",
+      "name": "Rome Odunze",
+      "pos": "WR",
+      "pts": 42.3
+    },
+    {
+      "round": 7,
+      "pick": 56,
+      "team": "BigBrainBrian3",
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "pts": 57.6
+    },
+    {
+      "round": 8,
+      "pick": 57,
+      "team": "BigBrainBrian3",
+      "name": "Mike Evans",
+      "pos": "WR",
+      "pts": 76.6
+    },
+    {
+      "round": 8,
+      "pick": 58,
+      "team": "Pipemaster3000",
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "pts": 93.0
+    },
+    {
+      "round": 8,
+      "pick": 59,
+      "team": "ComebackDaBears",
+      "name": "Brian Thomas",
+      "pos": "WR",
+      "pts": 25.5
+    },
+    {
+      "round": 8,
+      "pick": 60,
+      "team": "cjwoda",
+      "name": "Carnell Tate",
+      "pos": "WR",
+      "pts": 48.4
+    },
+    {
+      "round": 8,
+      "pick": 61,
+      "team": "BigStickin032",
+      "name": "Christian Watson",
+      "pos": "WR",
+      "pts": 109.4
+    },
+    {
+      "round": 8,
+      "pick": 62,
+      "team": "MagicSkolBuz1",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "pts": 63.7
+    },
+    {
+      "round": 8,
+      "pick": 63,
+      "team": "CM-Smell ya later",
+      "name": "Kyle Pitts",
+      "pos": "TE",
+      "pts": 26.9
+    },
+    {
+      "round": 8,
+      "pick": 64,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "pts": 21.7
+    },
+    {
+      "round": 9,
+      "pick": 65,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "pts": 48.6
+    },
+    {
+      "round": 9,
+      "pick": 66,
+      "team": "CM-Smell ya later",
+      "name": "Parker Washington",
+      "pos": "WR",
+      "pts": 81.5
+    },
+    {
+      "round": 9,
+      "pick": 67,
+      "team": "MagicSkolBuz1",
+      "name": "Jadarian Price",
+      "pos": "RB",
+      "pts": 14.0
+    },
+    {
+      "round": 9,
+      "pick": 68,
+      "team": "BigStickin032",
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "pts": 60.8
+    },
+    {
+      "round": 9,
+      "pick": 69,
+      "team": "cjwoda",
+      "name": "Marvin Harrison",
+      "pos": "WR",
+      "pts": 4.3
+    },
+    {
+      "round": 9,
+      "pick": 70,
+      "team": "ComebackDaBears",
+      "name": "Makai Lemon",
+      "pos": "WR",
+      "pts": 0.0
+    },
+    {
+      "round": 9,
+      "pick": 71,
+      "team": "Pipemaster3000",
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "pts": 79.0
+    },
+    {
+      "round": 9,
+      "pick": 72,
+      "team": "BigBrainBrian3",
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "pts": 38.8
+    },
+    {
+      "round": 10,
+      "pick": 73,
+      "team": "BigBrainBrian3",
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "pts": 4.1
+    },
+    {
+      "round": 10,
+      "pick": 74,
+      "team": "Pipemaster3000",
+      "name": "Stefon Diggs",
+      "pos": "WR",
+      "pts": 53.0
+    },
+    {
+      "round": 10,
+      "pick": 75,
+      "team": "ComebackDaBears",
+      "name": "Courtland Sutton",
+      "pos": "WR",
+      "pts": 27.4
+    },
+    {
+      "round": 10,
+      "pick": 76,
+      "team": "cjwoda",
+      "name": "Jonathon Brooks",
+      "pos": "RB",
+      "pts": 9.3
+    },
+    {
+      "round": 10,
+      "pick": 77,
+      "team": "BigStickin032",
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "pts": 43.7
+    },
+    {
+      "round": 10,
+      "pick": 78,
+      "team": "MagicSkolBuz1",
+      "name": "Los Angeles Rams",
+      "pos": "DEF",
+      "pts": 28.0
+    },
+    {
+      "round": 10,
+      "pick": 79,
+      "team": "CM-Smell ya later",
+      "name": "Chris Godwin",
+      "pos": "WR",
+      "pts": 38.7
+    },
+    {
+      "round": 10,
+      "pick": 80,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Michael Wilson",
+      "pos": "WR",
+      "pts": 38.18
+    },
+    {
+      "round": 11,
+      "pick": 81,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "pts": 52.6
+    },
+    {
+      "round": 11,
+      "pick": 82,
+      "team": "CM-Smell ya later",
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "pts": 59.3
+    },
+    {
+      "round": 11,
+      "pick": 83,
+      "team": "MagicSkolBuz1",
+      "name": "Jordan Addison",
+      "pos": "WR",
+      "pts": 33.2
+    },
+    {
+      "round": 11,
+      "pick": 84,
+      "team": "BigStickin032",
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "pts": 36.3
+    },
+    {
+      "round": 11,
+      "pick": 85,
+      "team": "cjwoda",
+      "name": "Brandon Aubrey",
+      "pos": "K",
+      "pts": 42.0
+    },
+    {
+      "round": 11,
+      "pick": 86,
+      "team": "ComebackDaBears",
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "pts": 36.1
+    },
+    {
+      "round": 11,
+      "pick": 87,
+      "team": "Pipemaster3000",
+      "name": "Jayden Reed",
+      "pos": "WR",
+      "pts": 6.4
+    },
+    {
+      "round": 11,
+      "pick": 88,
+      "team": "BigBrainBrian3",
+      "name": "George Kittle",
+      "pos": "TE",
+      "pts": 71.8
+    },
+    {
+      "round": 12,
+      "pick": 89,
+      "team": "BigBrainBrian3",
+      "name": "Houston Texans",
+      "pos": "DEF",
+      "pts": 16.0
+    },
+    {
+      "round": 12,
+      "pick": 90,
+      "team": "Pipemaster3000",
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "pts": 13.26
+    },
+    {
+      "round": 12,
+      "pick": 91,
+      "team": "ComebackDaBears",
+      "name": "Juwan Johnson",
+      "pos": "TE",
+      "pts": 65.8
+    },
+    {
+      "round": 12,
+      "pick": 92,
+      "team": "cjwoda",
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "pts": 7.8
+    },
+    {
+      "round": 12,
+      "pick": 93,
+      "team": "BigStickin032",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "pts": 34.9
+    },
+    {
+      "round": 12,
+      "pick": 94,
+      "team": "MagicSkolBuz1",
+      "name": "Michael Pittman",
+      "pos": "WR",
+      "pts": 15.9
+    },
+    {
+      "round": 12,
+      "pick": 95,
+      "team": "CM-Smell ya later",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "pts": 49.7
+    },
+    {
+      "round": 12,
+      "pick": 96,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Blake Corum",
+      "pos": "RB",
+      "pts": 5.4
+    },
+    {
+      "round": 13,
+      "pick": 97,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Seattle Seahawks",
+      "pos": "DEF",
+      "pts": 51.0
+    },
+    {
+      "round": 13,
+      "pick": 98,
+      "team": "CM-Smell ya later",
+      "name": "Minnesota Vikings",
+      "pos": "DEF",
+      "pts": 67.0
+    },
+    {
+      "round": 13,
+      "pick": 99,
+      "team": "MagicSkolBuz1",
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "pts": 85.4
+    },
+    {
+      "round": 13,
+      "pick": 100,
+      "team": "BigStickin032",
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "pts": 86.86
+    },
+    {
+      "round": 13,
+      "pick": 101,
+      "team": "cjwoda",
+      "name": "Jordan Mason",
+      "pos": "RB",
+      "pts": 11.9
+    },
+    {
+      "round": 13,
+      "pick": 102,
+      "team": "ComebackDaBears",
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "pts": 49.68
+    },
+    {
+      "round": 13,
+      "pick": 103,
+      "team": "Pipemaster3000",
+      "name": "Philadelphia Eagles",
+      "pos": "DEF",
+      "pts": 14.0
+    },
+    {
+      "round": 13,
+      "pick": 104,
+      "team": "BigBrainBrian3",
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "pts": 83.58
+    },
+    {
+      "round": 14,
+      "pick": 105,
+      "team": "BigBrainBrian3",
+      "name": "Deebo Samuel",
+      "pos": "WR",
+      "pts": 60.4
+    },
+    {
+      "round": 14,
+      "pick": 106,
+      "team": "Pipemaster3000",
+      "name": "Jason Myers",
+      "pos": "K",
+      "pts": 28.0
+    },
+    {
+      "round": 14,
+      "pick": 107,
+      "team": "ComebackDaBears",
+      "name": "Cam Little",
+      "pos": "K",
+      "pts": 45.0
+    },
+    {
+      "round": 14,
+      "pick": 108,
+      "team": "cjwoda",
+      "name": "Denver Broncos",
+      "pos": "DEF",
+      "pts": 39.0
+    },
+    {
+      "round": 14,
+      "pick": 109,
+      "team": "BigStickin032",
+      "name": "New England Patriots",
+      "pos": "DEF",
+      "pts": 0.0
+    },
+    {
+      "round": 14,
+      "pick": 110,
+      "team": "MagicSkolBuz1",
+      "name": "Will Reichard",
+      "pos": "K",
+      "pts": 68.0
+    },
+    {
+      "round": 14,
+      "pick": 111,
+      "team": "CM-Smell ya later",
+      "name": "Kenny Gainwell",
+      "pos": "RB",
+      "pts": 0.0
+    },
+    {
+      "round": 14,
+      "pick": 112,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Cameron Dicker",
+      "pos": "K",
+      "pts": 3.0
+    },
+    {
+      "round": 15,
+      "pick": 113,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "pts": 27.4
+    },
+    {
+      "round": 15,
+      "pick": 114,
+      "team": "CM-Smell ya later",
+      "name": "Ka'imi Fairbairn",
+      "pos": "K",
+      "pts": 53.0
+    },
+    {
+      "round": 15,
+      "pick": 115,
+      "team": "MagicSkolBuz1",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "pts": 0.0
+    },
+    {
+      "round": 15,
+      "pick": 116,
+      "team": "BigStickin032",
+      "name": "Jake Bates",
+      "pos": "K",
+      "pts": 49.0
+    },
+    {
+      "round": 15,
+      "pick": 117,
+      "team": "cjwoda",
+      "name": "Matthew Stafford",
+      "pos": "QB",
+      "pts": 88.98
+    },
+    {
+      "round": 15,
+      "pick": 118,
+      "team": "ComebackDaBears",
+      "name": "Detroit Lions",
+      "pos": "DEF",
+      "pts": 6.0
+    },
+    {
+      "round": 15,
+      "pick": 119,
+      "team": "Pipemaster3000",
+      "name": "Romeo Doubs",
+      "pos": "WR",
+      "pts": 46.9
+    },
+    {
+      "round": 15,
+      "pick": 120,
+      "team": "BigBrainBrian3",
+      "name": "Harrison Mevis",
+      "pos": "K",
+      "pts": 28.0
+    },
+    {
+      "round": 16,
+      "pick": 121,
+      "team": "BigBrainBrian3",
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "pts": 121.2
+    },
+    {
+      "round": 16,
+      "pick": 122,
+      "team": "Pipemaster3000",
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "pts": 110.1
+    },
+    {
+      "round": 16,
+      "pick": 123,
+      "team": "ComebackDaBears",
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "pts": 153.7
+    },
+    {
+      "round": 16,
+      "pick": 124,
+      "team": "cjwoda",
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "pts": 139.46
+    },
+    {
+      "round": 16,
+      "pick": 125,
+      "team": "BigStickin032",
+      "name": "Drake London",
+      "pos": "WR",
+      "pts": 76.2
+    },
+    {
+      "round": 16,
+      "pick": 126,
+      "team": "MagicSkolBuz1",
+      "name": "Chase Brown",
+      "pos": "RB",
+      "pts": 65.0
+    },
+    {
+      "round": 16,
+      "pick": 127,
+      "team": "CM-Smell ya later",
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "pts": 81.8
+    },
+    {
+      "round": 16,
+      "pick": 128,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "pts": 104.2
+    }
+  ],
+  "pickups": [
+    {
+      "week": 1,
+      "team": "Pipemaster3000",
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "pts": 95.54
+    },
+    {
+      "week": 3,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Jared Goff",
+      "pos": "QB",
+      "pts": 68.78
+    },
+    {
+      "week": 2,
+      "team": "BigBrainBrian3",
+      "name": "Aaron Jones",
+      "pos": "RB",
+      "pts": 60.2
+    },
+    {
+      "week": 2,
+      "team": "cjwoda",
+      "name": "Matthew Golden",
+      "pos": "WR",
+      "pts": 53.0
+    },
+    {
+      "week": 1,
+      "team": "CM-Smell ya later",
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 52.2
+    },
+    {
+      "week": 1,
+      "team": "MagicSkolBuz1",
+      "name": "Josh Downs",
+      "pos": "WR",
+      "pts": 44.9
+    },
+    {
+      "week": 1,
+      "team": "ComebackDaBears",
+      "name": "MarShawn Lloyd",
+      "pos": "RB",
+      "pts": 42.7
+    },
+    {
+      "week": 2,
+      "team": "ComebackDaBears",
+      "name": "Emanuel Wilson",
+      "pos": "RB",
+      "pts": 41.6
+    },
+    {
+      "week": 3,
+      "team": "Sparky\u2019s Sleepers",
+      "name": "Denzel Boston",
+      "pos": "WR",
+      "pts": 34.6
+    },
+    {
+      "week": 4,
+      "team": "BigStickin032",
+      "name": "Ollie Gordon",
+      "pos": "RB",
+      "pts": 32.8
+    },
+    {
+      "week": 1,
+      "team": "cjwoda",
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "pts": 32.6
+    },
+    {
+      "week": 2,
+      "team": "cjwoda",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "pts": 32.3
+    },
+    {
+      "week": 3,
+      "team": "CM-Smell ya later",
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "pts": 27.3
+    },
+    {
+      "week": 2,
+      "team": "ComebackDaBears",
+      "name": "Green Bay Packers",
+      "pos": "DEF",
+      "pts": 24.0
+    },
+    {
+      "week": 4,
+      "team": "Pipemaster3000",
+      "name": "Spencer Shrader",
+      "pos": "K",
+      "pts": 21.0
+    }
+  ],
+  "standings_rank": {
+    "cjwoda": 1,
+    "ComebackDaBears": 2,
+    "CM-Smell ya later": 3,
+    "MagicSkolBuz1": 4,
+    "Pipemaster3000": 5,
+    "BigBrainBrian3": 6,
+    "BigStickin032": 7,
+    "Sparky\u2019s Sleepers": 8
+  },
+  "moves": [
+    {
+      "team": "cjwoda",
+      "moves": 0
+    },
+    {
+      "team": "ComebackDaBears",
+      "moves": 0
+    },
+    {
+      "team": "CM-Smell ya later",
+      "moves": 0
+    },
+    {
+      "team": "MagicSkolBuz1",
+      "moves": 0
+    },
+    {
+      "team": "Pipemaster3000",
+      "moves": 0
+    },
+    {
+      "team": "BigBrainBrian3",
+      "moves": 0
+    },
+    {
+      "team": "BigStickin032",
+      "moves": 0
+    },
+    {
+      "team": "Sparky\u2019s Sleepers",
+      "moves": 0
+    }
+  ]
+}

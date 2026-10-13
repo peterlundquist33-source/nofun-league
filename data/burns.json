@@ -1,0 +1,83 @@
+{
+  "generated": "2026-10-13T16:09:43+00:00",
+  "season": 2026,
+  "through_week": 5,
+  "disclaimer": "Every line is generated from this league's Sleeper stats. Fantasy football only.",
+  "items": [
+    {
+      "tag": "cellar",
+      "title": "Basement Dweller",
+      "line": "0-5. Sparky\u2019s Sleepers has turned every Sunday into a formality for the opponent."
+    },
+    {
+      "tag": "skid",
+      "title": "Active Skid",
+      "line": "5 losses in a row for Sparky\u2019s Sleepers. Each one somehow a little more avoidable than the last."
+    },
+    {
+      "tag": "bench",
+      "title": "Points Left On The Bench",
+      "line": "Sparky\u2019s Sleepers is only 80.6% efficient. The roster is fine; the person submitting it is the problem."
+    },
+    {
+      "tag": "lucky",
+      "title": "Luckiest Team Alive",
+      "line": "ComebackDaBears should be 2.71 wins by all-play. Instead: 4-1. Enjoy it while the calendar allows."
+    },
+    {
+      "tag": "unlucky",
+      "title": "Robbed Weekly",
+      "line": "BigBrainBrian3 plays to an 23-12 all-play record and has 2-3 to show for it. Brutal schedule."
+    },
+    {
+      "tag": "floor",
+      "title": "Lowest Score Of The Season",
+      "line": "BigBrainBrian3 put up 90.0 in Week 2. A bye week would have been competitive."
+    },
+    {
+      "tag": "blowout",
+      "title": "Worst Beating So Far",
+      "line": "BigBrainBrian3 beat Sparky\u2019s Sleepers by 72.9 in Week 4. 104.48 to 177.38 isn't a loss, it's a receipt."
+    },
+    {
+      "tag": "pa",
+      "title": "Punching Bag",
+      "line": "Everyone scores on Sparky\u2019s Sleepers. 785.84 points against and counting."
+    },
+    {
+      "tag": "coinflip",
+      "title": "Can't Win Close",
+      "line": "2 losses by single digits for Pipemaster3000. The margins are cruel and the lineup isn't helping."
+    },
+    {
+      "tag": "bust",
+      "title": "Draft Day Regret",
+      "line": "CM-Smell ya later spent a round 2 pick on Josh Jacobs and has 0.0 points to show for it."
+    },
+    {
+      "tag": "gem",
+      "title": "Actually A Good Pick",
+      "line": "Jahmyr Gibbs has 153.7 points after going in round 16 to ComebackDaBears. Credit where it's due, and nowhere else."
+    },
+    {
+      "tag": "ceiling",
+      "title": "Best Roster, Worst Manager",
+      "line": "BigBrainBrian3 could be scoring 171.9 a week. It's scoring 150.9. Draw your own conclusion."
+    },
+    {
+      "tag": "volatile",
+      "title": "Pick A Lane",
+      "line": "BigBrainBrian3's standard deviation is 38.15. That's not a team, that's a weather pattern."
+    },
+    {
+      "tag": "lowwin",
+      "title": "Won With Nothing",
+      "line": "MagicSkolBuz1 won Week 2 with 109.28 points. BigBrainBrian3 managed 90.0. Somebody had to."
+    },
+    {
+      "tag": "highloss",
+      "title": "Scored Big, Lost Anyway",
+      "line": "Week 5: 168.46 points from Pipemaster3000, still a loss to cjwoda. The schedule is undefeated."
+    }
+  ]
+}
