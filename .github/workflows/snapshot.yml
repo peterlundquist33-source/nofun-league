@@ -42,12 +42,25 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          if [ -n "$(git status --porcelain data)" ]; then
-            git config user.name  "nofun-league-bot"
-            git config user.email "actions@users.noreply.github.com"
-            git add data
-            git commit -m "snapshot $(date -u +%Y-%m-%d)"
-            git push
-          else
+          if [ -z "$(git status --porcelain data)" ]; then
             echo "no changes"
+            exit 0
           fi
+          git config user.name  "nofun-league-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "snapshot $(date -u +%Y-%m-%d)"
+          # A manual run can overlap a scheduled one, which leaves this checkout
+          # behind the branch and gets the push rejected. Rebase onto whatever
+          # landed and try again; the snapshot is regenerated data, so replaying
+          # our commit on top of theirs is always the right resolution.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected — rebasing onto origin/main and retrying"
+            git pull --rebase=true --strategy-option=theirs origin main
+          done
+          echo "could not push after 3 attempts"
+          exit 1
