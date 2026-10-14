@@ -10,7 +10,7 @@
       "standings": [
         {
           "roster_id": 5,
-          "team": "cjwoda",
+          "team": "CJ Woda",
           "manager": "CJ Woda",
           "wins": 4,
           "losses": 1,
@@ -26,7 +26,7 @@
         },
         {
           "roster_id": 4,
-          "team": "ComebackDaBears",
+          "team": "Seth Halvorsen",
           "manager": "Seth Halvorsen",
           "wins": 4,
           "losses": 1,
@@ -42,7 +42,7 @@
         },
         {
           "roster_id": 6,
-          "team": "CM-Smell ya later",
+          "team": "Dan Hataaja",
           "manager": "Dan Hataaja",
           "wins": 3,
           "losses": 2,
@@ -58,7 +58,7 @@
         },
         {
           "roster_id": 7,
-          "team": "MagicSkolBuz1",
+          "team": "Timmy Thurston",
           "manager": "Timmy Thurston",
           "wins": 3,
           "losses": 2,
@@ -74,7 +74,7 @@
         },
         {
           "roster_id": 8,
-          "team": "Pipemaster3000",
+          "team": "Noah Pieper",
           "manager": "Noah Pieper",
           "wins": 2,
           "losses": 3,
@@ -90,7 +90,7 @@
         },
         {
           "roster_id": 2,
-          "team": "BigBrainBrian3",
+          "team": "Brian Christensen",
           "manager": "Brian Christensen",
           "wins": 2,
           "losses": 3,
@@ -106,7 +106,7 @@
         },
         {
           "roster_id": 1,
-          "team": "BigStickin032",
+          "team": "Dillon Knaggs",
           "manager": "Dillon Knaggs",
           "wins": 2,
           "losses": 3,
@@ -122,7 +122,7 @@
         },
         {
           "roster_id": 3,
-          "team": "Sparky\u2019s Sleepers",
+          "team": "Zach Johansen",
           "manager": "Zach Johansen",
           "wins": 0,
           "losses": 5,
@@ -142,13 +142,13 @@
       "season": 2025,
       "league_id": "1257435833837817856",
       "status": "complete",
-      "champion": "BigBrainBrian3",
-      "runner_up": "BigStickin032",
-      "third": "Pipemaster3000",
+      "champion": "Brian Christensen",
+      "runner_up": "Dillon Knaggs",
+      "third": "Noah Pieper",
       "standings": [
         {
           "roster_id": 5,
-          "team": "cjwoda",
+          "team": "CJ Woda",
           "manager": "CJ Woda",
           "wins": 10,
           "losses": 5,
@@ -164,7 +164,7 @@
         },
         {
           "roster_id": 2,
-          "team": "BigBrainBrian3",
+          "team": "Brian Christensen",
           "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
@@ -180,7 +180,7 @@
         },
         {
           "roster_id": 8,
-          "team": "Pipemaster3000",
+          "team": "Noah Pieper",
           "manager": "Noah Pieper",
           "wins": 8,
           "losses": 7,
@@ -196,7 +196,7 @@
         },
         {
           "roster_id": 1,
-          "team": "BigStickin032",
+          "team": "Dillon Knaggs",
           "manager": "Dillon Knaggs",
           "wins": 7,
           "losses": 8,
@@ -212,7 +212,7 @@
         },
         {
           "roster_id": 3,
-          "team": "Sparky\u2019s Sleepers",
+          "team": "Zach Johansen",
           "manager": "Zach Johansen",
           "wins": 7,
           "losses": 8,
@@ -228,7 +228,7 @@
         },
         {
           "roster_id": 4,
-          "team": "ComebackDaBears",
+          "team": "Seth Halvorsen",
           "manager": "Seth Halvorsen",
           "wins": 7,
           "losses": 8,
@@ -244,7 +244,7 @@
         },
         {
           "roster_id": 6,
-          "team": "CM-Smell ya later",
+          "team": "Dan Hataaja",
           "manager": "Dan Hataaja",
           "wins": 7,
           "losses": 8,
@@ -260,7 +260,7 @@
         },
         {
           "roster_id": 7,
-          "team": "Skoldaddy11",
+          "team": "Timmy Thurston",
           "manager": "Timmy Thurston",
           "wins": 6,
           "losses": 9,
@@ -280,13 +280,13 @@
       "season": 2024,
       "league_id": "1109922254760013824",
       "status": "complete",
-      "champion": "cjwoda",
-      "runner_up": "BigBrainBrian3",
-      "third": "Skoldaddy11",
+      "champion": "CJ Woda",
+      "runner_up": "Brian Christensen",
+      "third": "Timmy Thurston",
       "standings": [
         {
           "roster_id": 7,
-          "team": "Skoldaddy11",
+          "team": "Timmy Thurston",
           "manager": "Timmy Thurston",
           "wins": 12,
           "losses": 3,
@@ -302,7 +302,7 @@
         },
         {
           "roster_id": 5,
-          "team": "cjwoda",
+          "team": "CJ Woda",
           "manager": "CJ Woda",
           "wins": 9,
           "losses": 6,
@@ -318,7 +318,7 @@
         },
         {
           "roster_id": 4,
-          "team": "ComebackDaBears",
+          "team": "Seth Halvorsen",
           "manager": "Seth Halvorsen",
           "wins": 9,
           "losses": 6,
@@ -334,7 +334,7 @@
         },
         {
           "roster_id": 2,
-          "team": "BigBrainBrian3",
+          "team": "Brian Christensen",
           "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
@@ -350,7 +350,7 @@
         },
         {
           "roster_id": 3,
-          "team": "Sparky\u2019s Sleepers",
+          "team": "Zach Johansen",
           "manager": "Zach Johansen",
           "wins": 7,
           "losses": 8,
@@ -366,7 +366,7 @@
         },
         {
           "roster_id": 1,
-          "team": "BigStickin032",
+          "team": "Dillon Knaggs",
           "manager": "Dillon Knaggs",
           "wins": 7,
           "losses": 8,
@@ -382,7 +382,7 @@
         },
         {
           "roster_id": 8,
-          "team": "Pipemaster3000",
+          "team": "Noah Pieper",
           "manager": "Noah Pieper",
           "wins": 4,
           "losses": 11,
@@ -398,7 +398,7 @@
         },
         {
           "roster_id": 6,
-          "team": "CM-Smell ya later",
+          "team": "Dan Hataaja",
           "manager": "Dan Hataaja",
           "wins": 4,
           "losses": 11,
@@ -418,13 +418,13 @@
       "season": 2023,
       "league_id": "1002370348127563776",
       "status": "complete",
-      "champion": "Zjohansen0",
-      "runner_up": "BigBrainBrian3",
-      "third": "Lick my Chubb",
+      "champion": "Zach Johansen",
+      "runner_up": "Brian Christensen",
+      "third": "Dan Hataaja",
       "standings": [
         {
           "roster_id": 6,
-          "team": "Lick my Chubb",
+          "team": "Dan Hataaja",
           "manager": "Dan Hataaja",
           "wins": 9,
           "losses": 6,
@@ -440,7 +440,7 @@
         },
         {
           "roster_id": 5,
-          "team": "cjwoda",
+          "team": "CJ Woda",
           "manager": "CJ Woda",
           "wins": 9,
           "losses": 6,
@@ -456,7 +456,7 @@
         },
         {
           "roster_id": 3,
-          "team": "Zjohansen0",
+          "team": "Zach Johansen",
           "manager": "Zach Johansen",
           "wins": 9,
           "losses": 6,
@@ -472,7 +472,7 @@
         },
         {
           "roster_id": 2,
-          "team": "BigBrainBrian3",
+          "team": "Brian Christensen",
           "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
@@ -488,7 +488,7 @@
         },
         {
           "roster_id": 8,
-          "team": "Pipemaster3000",
+          "team": "Noah Pieper",
           "manager": "Noah Pieper",
           "wins": 8,
           "losses": 7,
@@ -504,7 +504,7 @@
         },
         {
           "roster_id": 1,
-          "team": "BigStickin032",
+          "team": "Dillon Knaggs",
           "manager": "Dillon Knaggs",
           "wins": 8,
           "losses": 7,
@@ -520,7 +520,7 @@
         },
         {
           "roster_id": 7,
-          "team": "Skoldaddy11",
+          "team": "Timmy Thurston",
           "manager": "Timmy Thurston",
           "wins": 6,
           "losses": 9,
@@ -536,7 +536,7 @@
         },
         {
           "roster_id": 4,
-          "team": "DaBears2424",
+          "team": "Seth Halvorsen",
           "manager": "Seth Halvorsen",
           "wins": 3,
           "losses": 12,

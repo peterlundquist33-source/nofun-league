@@ -1,52 +1,52 @@
 {
-  "generated": "2026-10-14T16:45:14+00:00",
+  "generated": "2026-10-14T16:48:10+00:00",
   "season": 2026,
   "through_week": 5,
   "allplay": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "record": "26-9",
       "pct": 0.743,
       "form_pct": 0.667
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "record": "23-12",
       "pct": 0.657,
       "form_pct": 0.905
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "record": "22-13",
       "pct": 0.629,
       "form_pct": 0.762
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "record": "19-16",
       "pct": 0.543,
       "form_pct": 0.381
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "record": "17-18",
       "pct": 0.486,
       "form_pct": 0.429
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "record": "16-19",
       "pct": 0.457,
       "form_pct": 0.381
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "record": "12-23",
       "pct": 0.343,
       "form_pct": 0.429
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "record": "5-30",
       "pct": 0.143,
       "form_pct": 0.048
@@ -54,7 +54,7 @@
   ],
   "luck": [
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "real_pct": 0.8,
       "allplay_pct": 0.543,
       "allplay": "19-16",
@@ -62,7 +62,7 @@
       "expected_wins": 2.71
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "real_pct": 0.6,
       "allplay_pct": 0.343,
       "allplay": "12-23",
@@ -70,7 +70,7 @@
       "expected_wins": 1.71
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "real_pct": 0.6,
       "allplay_pct": 0.457,
       "allplay": "16-19",
@@ -78,7 +78,7 @@
       "expected_wins": 2.29
     },
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "real_pct": 0.8,
       "allplay_pct": 0.743,
       "allplay": "26-9",
@@ -86,7 +86,7 @@
       "expected_wins": 3.71
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "real_pct": 0.4,
       "allplay_pct": 0.486,
       "allplay": "17-18",
@@ -94,7 +94,7 @@
       "expected_wins": 2.43
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "real_pct": 0.0,
       "allplay_pct": 0.143,
       "allplay": "5-30",
@@ -102,7 +102,7 @@
       "expected_wins": 0.71
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "real_pct": 0.4,
       "allplay_pct": 0.629,
       "allplay": "22-13",
@@ -110,7 +110,7 @@
       "expected_wins": 3.14
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "real_pct": 0.4,
       "allplay_pct": 0.657,
       "allplay": "23-12",
@@ -120,7 +120,7 @@
   ],
   "scoring": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "weeks": [
         157.96,
         186.22,
@@ -134,7 +134,7 @@
       "stdev": 20.05
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "weeks": [
         200.66,
         131.82,
@@ -148,7 +148,7 @@
       "stdev": 26.24
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "weeks": [
         107.66,
         161.68,
@@ -162,7 +162,7 @@
       "stdev": 22.21
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "weeks": [
         136.76,
         90.0,
@@ -176,7 +176,7 @@
       "stdev": 38.15
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "weeks": [
         158.5,
         127.24,
@@ -190,7 +190,7 @@
       "stdev": 18.94
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "weeks": [
         134.82,
         149.06,
@@ -204,7 +204,7 @@
       "stdev": 24.04
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "weeks": [
         129.86,
         109.28,
@@ -218,7 +218,7 @@
       "stdev": 19.86
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "weeks": [
         129.42,
         129.0,
@@ -234,7 +234,7 @@
   ],
   "efficiency": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "pf": 795.22,
       "ppts": 869.76,
       "eff": 91.4,
@@ -242,7 +242,7 @@
       "left_pg": 14.91
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "pf": 756.6,
       "ppts": 843.3,
       "eff": 89.7,
@@ -250,7 +250,7 @@
       "left_pg": 17.34
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "pf": 760.16,
       "ppts": 860.06,
       "eff": 88.4,
@@ -258,7 +258,7 @@
       "left_pg": 19.98
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "pf": 754.44,
       "ppts": 859.62,
       "eff": 87.8,
@@ -266,7 +266,7 @@
       "left_pg": 21.04
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "pf": 703.82,
       "ppts": 823.42,
       "eff": 85.5,
@@ -274,7 +274,7 @@
       "left_pg": 23.92
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "pf": 707.14,
       "ppts": 838.66,
       "eff": 84.3,
@@ -282,7 +282,7 @@
       "left_pg": 26.3
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "pf": 656.74,
       "ppts": 797.74,
       "eff": 82.3,
@@ -290,7 +290,7 @@
       "left_pg": 28.2
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "pf": 591.08,
       "ppts": 733.68,
       "eff": 80.6,
@@ -300,42 +300,42 @@
   ],
   "close_games": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "wins": 2,
       "losses": 0
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "wins": 2,
       "losses": 0
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "wins": 1,
       "losses": 0
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "wins": 1,
       "losses": 2
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "wins": 0,
       "losses": 1
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "wins": 0,
       "losses": 1
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "wins": 0,
       "losses": 1
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "wins": 0,
       "losses": 1
     }
@@ -343,40 +343,40 @@
   "blowouts": [
     {
       "week": 4,
-      "winner": "BigBrainBrian3",
-      "loser": "Sparky\u2019s Sleepers",
+      "winner": "Brian Christensen",
+      "loser": "Zach Johansen",
       "win_pts": 177.38,
       "lose_pts": 104.48,
       "margin": 72.9
     },
     {
       "week": 1,
-      "winner": "ComebackDaBears",
-      "loser": "BigBrainBrian3",
+      "winner": "Seth Halvorsen",
+      "loser": "Brian Christensen",
       "win_pts": 200.66,
       "lose_pts": 136.76,
       "margin": 63.9
     },
     {
       "week": 2,
-      "winner": "cjwoda",
-      "loser": "Sparky\u2019s Sleepers",
+      "winner": "CJ Woda",
+      "loser": "Zach Johansen",
       "win_pts": 186.22,
       "lose_pts": 129.0,
       "margin": 57.22
     },
     {
       "week": 4,
-      "winner": "MagicSkolBuz1",
-      "loser": "BigStickin032",
+      "winner": "Timmy Thurston",
+      "loser": "Dillon Knaggs",
       "win_pts": 168.42,
       "lose_pts": 114.88,
       "margin": 53.54
     },
     {
       "week": 1,
-      "winner": "BigStickin032",
-      "loser": "Pipemaster3000",
+      "winner": "Dillon Knaggs",
+      "loser": "Noah Pieper",
       "win_pts": 158.5,
       "lose_pts": 107.66,
       "margin": 50.84
@@ -385,40 +385,40 @@
   "nailbiters": [
     {
       "week": 4,
-      "winner": "CM-Smell ya later",
-      "loser": "Pipemaster3000",
+      "winner": "Dan Hataaja",
+      "loser": "Noah Pieper",
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
     },
     {
       "week": 5,
-      "winner": "ComebackDaBears",
-      "loser": "MagicSkolBuz1",
+      "winner": "Seth Halvorsen",
+      "loser": "Timmy Thurston",
       "win_pts": 132.34,
       "lose_pts": 127.6,
       "margin": 4.74
     },
     {
       "week": 5,
-      "winner": "cjwoda",
-      "loser": "Pipemaster3000",
+      "winner": "CJ Woda",
+      "loser": "Noah Pieper",
       "win_pts": 173.4,
       "lose_pts": 168.46,
       "margin": 4.94
     },
     {
       "week": 1,
-      "winner": "CM-Smell ya later",
-      "loser": "Sparky\u2019s Sleepers",
+      "winner": "Dan Hataaja",
+      "loser": "Zach Johansen",
       "win_pts": 134.82,
       "lose_pts": 129.42,
       "margin": 5.4
     },
     {
       "week": 3,
-      "winner": "Pipemaster3000",
-      "loser": "BigBrainBrian3",
+      "winner": "Noah Pieper",
+      "loser": "Brian Christensen",
       "win_pts": 155.58,
       "lose_pts": 147.84,
       "margin": 7.74
@@ -426,27 +426,27 @@
   ],
   "records": {
     "high_week": {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "week": 5,
       "pts": 202.46
     },
     "low_week": {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "week": 2,
       "pts": 90.0
     },
     "high_loss": {
       "week": 5,
-      "winner": "cjwoda",
-      "loser": "Pipemaster3000",
+      "winner": "CJ Woda",
+      "loser": "Noah Pieper",
       "win_pts": 173.4,
       "lose_pts": 168.46,
       "margin": 4.94
     },
     "low_win": {
       "week": 2,
-      "winner": "MagicSkolBuz1",
-      "loser": "BigBrainBrian3",
+      "winner": "Timmy Thurston",
+      "loser": "Brian Christensen",
       "win_pts": 109.28,
       "lose_pts": 90.0,
       "margin": 19.28
@@ -456,11 +456,11 @@
     {
       "week": 1,
       "high": {
-        "team": "ComebackDaBears",
+        "team": "Seth Halvorsen",
         "pts": 200.66
       },
       "low": {
-        "team": "Pipemaster3000",
+        "team": "Noah Pieper",
         "pts": 107.66
       },
       "avg": 144.45
@@ -468,11 +468,11 @@
     {
       "week": 2,
       "high": {
-        "team": "cjwoda",
+        "team": "CJ Woda",
         "pts": 186.22
       },
       "low": {
-        "team": "BigBrainBrian3",
+        "team": "Brian Christensen",
         "pts": 90.0
       },
       "avg": 135.54
@@ -480,11 +480,11 @@
     {
       "week": 3,
       "high": {
-        "team": "Pipemaster3000",
+        "team": "Noah Pieper",
         "pts": 155.58
       },
       "low": {
-        "team": "CM-Smell ya later",
+        "team": "Dan Hataaja",
         "pts": 97.62
       },
       "avg": 131.95
@@ -492,11 +492,11 @@
     {
       "week": 4,
       "high": {
-        "team": "BigBrainBrian3",
+        "team": "Brian Christensen",
         "pts": 177.38
       },
       "low": {
-        "team": "Sparky\u2019s Sleepers",
+        "team": "Zach Johansen",
         "pts": 104.48
       },
       "avg": 147.84
@@ -504,11 +504,11 @@
     {
       "week": 5,
       "high": {
-        "team": "BigBrainBrian3",
+        "team": "Brian Christensen",
         "pts": 202.46
       },
       "low": {
-        "team": "Sparky\u2019s Sleepers",
+        "team": "Zach Johansen",
         "pts": 122.42
       },
       "avg": 155.87
@@ -521,7 +521,7 @@
       "pos": "RB",
       "nfl": "DET",
       "pts": 153.7,
-      "owner": "ComebackDaBears",
+      "owner": "Seth Halvorsen",
       "weeks": 5
     },
     {
@@ -530,7 +530,7 @@
       "pos": "QB",
       "nfl": "BUF",
       "pts": 142.96,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -539,7 +539,7 @@
       "pos": "WR",
       "nfl": "SEA",
       "pts": 139.46,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -548,7 +548,7 @@
       "pos": "RB",
       "nfl": "ATL",
       "pts": 121.2,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 5
     },
     {
@@ -557,7 +557,7 @@
       "pos": "WR",
       "nfl": "DAL",
       "pts": 115.1,
-      "owner": "ComebackDaBears",
+      "owner": "Seth Halvorsen",
       "weeks": 5
     },
     {
@@ -566,7 +566,7 @@
       "pos": "RB",
       "nfl": "BAL",
       "pts": 111.8,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -575,7 +575,7 @@
       "pos": "RB",
       "nfl": "KC",
       "pts": 110.1,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 4
     },
     {
@@ -584,7 +584,7 @@
       "pos": "WR",
       "nfl": "GB",
       "pts": 109.4,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -593,7 +593,7 @@
       "pos": "RB",
       "nfl": "LAR",
       "pts": 109.3,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 5
     },
     {
@@ -602,7 +602,7 @@
       "pos": "WR",
       "nfl": "DET",
       "pts": 104.2,
-      "owner": "Sparky\u2019s Sleepers",
+      "owner": "Zach Johansen",
       "weeks": 5
     },
     {
@@ -611,7 +611,7 @@
       "pos": "QB",
       "nfl": "CIN",
       "pts": 101.24,
-      "owner": "MagicSkolBuz1",
+      "owner": "Timmy Thurston",
       "weeks": 5
     },
     {
@@ -620,7 +620,7 @@
       "pos": "WR",
       "nfl": "NO",
       "pts": 98.7,
-      "owner": "ComebackDaBears",
+      "owner": "Seth Halvorsen",
       "weeks": 5
     },
     {
@@ -629,7 +629,7 @@
       "pos": "RB",
       "nfl": "IND",
       "pts": 97.4,
-      "owner": "MagicSkolBuz1",
+      "owner": "Timmy Thurston",
       "weeks": 5
     },
     {
@@ -638,7 +638,7 @@
       "pos": "RB",
       "nfl": "DAL",
       "pts": 96.0,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -647,7 +647,7 @@
       "pos": "QB",
       "nfl": "SF",
       "pts": 95.54,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 4
     },
     {
@@ -656,7 +656,7 @@
       "pos": "WR",
       "nfl": "LAR",
       "pts": 95.1,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -665,7 +665,7 @@
       "pos": "RB",
       "nfl": "PIT",
       "pts": 93.0,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 5
     },
     {
@@ -674,7 +674,7 @@
       "pos": "RB",
       "nfl": "SF",
       "pts": 91.3,
-      "owner": "CM-Smell ya later",
+      "owner": "Dan Hataaja",
       "weeks": 5
     },
     {
@@ -683,7 +683,7 @@
       "pos": "TE",
       "nfl": "ARI",
       "pts": 90.8,
-      "owner": "ComebackDaBears",
+      "owner": "Seth Halvorsen",
       "weeks": 5
     },
     {
@@ -692,7 +692,7 @@
       "pos": "RB",
       "nfl": "BUF",
       "pts": 89.3,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 5
     },
     {
@@ -701,7 +701,7 @@
       "pos": "QB",
       "nfl": "LAR",
       "pts": 88.98,
-      "owner": "cjwoda",
+      "owner": "CJ Woda",
       "weeks": 5
     },
     {
@@ -710,7 +710,7 @@
       "pos": "QB",
       "nfl": "JAX",
       "pts": 86.86,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -719,7 +719,7 @@
       "pos": "WR",
       "nfl": "NYJ",
       "pts": 86.4,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -728,7 +728,7 @@
       "pos": "TE",
       "nfl": "NYG",
       "pts": 85.4,
-      "owner": "MagicSkolBuz1",
+      "owner": "Timmy Thurston",
       "weeks": 5
     },
     {
@@ -737,7 +737,7 @@
       "pos": "RB",
       "nfl": "LV",
       "pts": 84.6,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -746,7 +746,7 @@
       "pos": "QB",
       "nfl": "KC",
       "pts": 83.58,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 4
     },
     {
@@ -755,7 +755,7 @@
       "pos": "WR",
       "nfl": "BAL",
       "pts": 81.8,
-      "owner": "CM-Smell ya later",
+      "owner": "Dan Hataaja",
       "weeks": 4
     },
     {
@@ -764,7 +764,7 @@
       "pos": "WR",
       "nfl": "JAX",
       "pts": 81.5,
-      "owner": "CM-Smell ya later",
+      "owner": "Dan Hataaja",
       "weeks": 5
     },
     {
@@ -773,7 +773,7 @@
       "pos": "RB",
       "nfl": "CHI",
       "pts": 80.8,
-      "owner": "Sparky\u2019s Sleepers",
+      "owner": "Zach Johansen",
       "weeks": 5
     },
     {
@@ -782,7 +782,7 @@
       "pos": "QB",
       "nfl": "PHI",
       "pts": 80.02,
-      "owner": "CM-Smell ya later",
+      "owner": "Dan Hataaja",
       "weeks": 5
     },
     {
@@ -791,7 +791,7 @@
       "pos": "WR",
       "nfl": "CIN",
       "pts": 79.9,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -800,7 +800,7 @@
       "pos": "QB",
       "nfl": "BAL",
       "pts": 79.08,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 4
     },
     {
@@ -809,7 +809,7 @@
       "pos": "RB",
       "nfl": "CAR",
       "pts": 79.0,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 4
     },
     {
@@ -818,7 +818,7 @@
       "pos": "RB",
       "nfl": "TB",
       "pts": 78.7,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 5
     },
     {
@@ -827,7 +827,7 @@
       "pos": "WR",
       "nfl": "LAR",
       "pts": 77.8,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 3
     },
     {
@@ -836,7 +836,7 @@
       "pos": "TE",
       "nfl": "DET",
       "pts": 76.6,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 5
     },
     {
@@ -845,7 +845,7 @@
       "pos": "WR",
       "nfl": "SF",
       "pts": 76.6,
-      "owner": "BigBrainBrian3",
+      "owner": "Brian Christensen",
       "weeks": 5
     },
     {
@@ -854,7 +854,7 @@
       "pos": "WR",
       "nfl": "ATL",
       "pts": 76.2,
-      "owner": "BigStickin032",
+      "owner": "Dillon Knaggs",
       "weeks": 5
     },
     {
@@ -863,7 +863,7 @@
       "pos": "WR",
       "nfl": "CIN",
       "pts": 75.3,
-      "owner": "Pipemaster3000",
+      "owner": "Noah Pieper",
       "weeks": 5
     },
     {
@@ -872,13 +872,13 @@
       "pos": "WR",
       "nfl": "CAR",
       "pts": 74.5,
-      "owner": "CM-Smell ya later",
+      "owner": "Dan Hataaja",
       "weeks": 4
     }
   ],
   "position": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "QB": 231.94,
       "RB": 288.0,
       "WR": 436.46,
@@ -887,7 +887,7 @@
       "DEF": 39.0
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "QB": 94.66,
       "RB": 363.4,
       "WR": 266.7,
@@ -896,7 +896,7 @@
       "DEF": 35.0
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "QB": 80.02,
       "RB": 234.2,
       "WR": 398.0,
@@ -905,7 +905,7 @@
       "DEF": 67.0
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "QB": 101.24,
       "RB": 240.1,
       "WR": 320.1,
@@ -914,7 +914,7 @@
       "DEF": 28.0
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "QB": 108.8,
       "RB": 450.1,
       "WR": 340.9,
@@ -923,7 +923,7 @@
       "DEF": 18.0
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "QB": 202.12,
       "RB": 384.9,
       "WR": 308.7,
@@ -932,7 +932,7 @@
       "DEF": 23.0
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "QB": 151.52,
       "RB": 289.0,
       "WR": 394.2,
@@ -941,7 +941,7 @@
       "DEF": 53.0
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "QB": 127.66,
       "RB": 212.7,
       "WR": 318.88,
@@ -954,7 +954,7 @@
     {
       "round": 1,
       "pick": 1,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Omarion Hampton",
       "pos": "RB",
       "pts": 49.6
@@ -962,7 +962,7 @@
     {
       "round": 1,
       "pick": 2,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Justin Jefferson",
       "pos": "WR",
       "pts": 63.7
@@ -970,7 +970,7 @@
     {
       "round": 1,
       "pick": 3,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Malik Nabers",
       "pos": "WR",
       "pts": 73.9
@@ -978,7 +978,7 @@
     {
       "round": 1,
       "pick": 4,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "De'Von Achane",
       "pos": "RB",
       "pts": 24.6
@@ -986,7 +986,7 @@
     {
       "round": 1,
       "pick": 5,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Derrick Henry",
       "pos": "RB",
       "pts": 111.8
@@ -994,7 +994,7 @@
     {
       "round": 1,
       "pick": 6,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Chris Olave",
       "pos": "WR",
       "pts": 98.7
@@ -1002,7 +1002,7 @@
     {
       "round": 1,
       "pick": 7,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "DeVonta Smith",
       "pos": "WR",
       "pts": 48.5
@@ -1010,7 +1010,7 @@
     {
       "round": 1,
       "pick": 8,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Kyren Williams",
       "pos": "RB",
       "pts": 109.3
@@ -1018,7 +1018,7 @@
     {
       "round": 2,
       "pick": 9,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Ladd McConkey",
       "pos": "WR",
       "pts": 36.3
@@ -1026,7 +1026,7 @@
     {
       "round": 2,
       "pick": 10,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Tee Higgins",
       "pos": "WR",
       "pts": 75.3
@@ -1034,7 +1034,7 @@
     {
       "round": 2,
       "pick": 11,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Colston Loveland",
       "pos": "TE",
       "pts": 24.0
@@ -1042,7 +1042,7 @@
     {
       "round": 2,
       "pick": 12,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Javonte Williams",
       "pos": "RB",
       "pts": 96.0
@@ -1050,7 +1050,7 @@
     {
       "round": 2,
       "pick": 13,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Breece Hall",
       "pos": "RB",
       "pts": 42.5
@@ -1058,7 +1058,7 @@
     {
       "round": 2,
       "pick": 14,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Emeka Egbuka",
       "pos": "WR",
       "pts": 53.3
@@ -1066,7 +1066,7 @@
     {
       "round": 2,
       "pick": 15,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Josh Jacobs",
       "pos": "RB",
       "pts": 0.0
@@ -1074,7 +1074,7 @@
     {
       "round": 2,
       "pick": 16,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Jeremiyah Love",
       "pos": "RB",
       "pts": 51.1
@@ -1082,7 +1082,7 @@
     {
       "round": 3,
       "pick": 17,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Rashee Rice",
       "pos": "WR",
       "pts": 38.0
@@ -1090,7 +1090,7 @@
     {
       "round": 3,
       "pick": 18,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Christian McCaffrey",
       "pos": "RB",
       "pts": 91.3
@@ -1098,7 +1098,7 @@
     {
       "round": 3,
       "pick": 19,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Jonathan Taylor",
       "pos": "RB",
       "pts": 97.4
@@ -1106,7 +1106,7 @@
     {
       "round": 3,
       "pick": 20,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Ashton Jeanty",
       "pos": "RB",
       "pts": 84.6
@@ -1114,7 +1114,7 @@
     {
       "round": 3,
       "pick": 21,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Saquon Barkley",
       "pos": "RB",
       "pts": 23.0
@@ -1122,7 +1122,7 @@
     {
       "round": 3,
       "pick": 22,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "CeeDee Lamb",
       "pos": "WR",
       "pts": 115.1
@@ -1130,7 +1130,7 @@
     {
       "round": 3,
       "pick": 23,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "George Pickens",
       "pos": "WR",
       "pts": 68.5
@@ -1138,7 +1138,7 @@
     {
       "round": 3,
       "pick": 24,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Lamar Jackson",
       "pos": "QB",
       "pts": 79.08
@@ -1146,7 +1146,7 @@
     {
       "round": 4,
       "pick": 25,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Puka Nacua",
       "pos": "WR",
       "pts": 77.8
@@ -1154,7 +1154,7 @@
     {
       "round": 4,
       "pick": 26,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "James Cook",
       "pos": "RB",
       "pts": 89.3
@@ -1162,7 +1162,7 @@
     {
       "round": 4,
       "pick": 27,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Trey McBride",
       "pos": "TE",
       "pts": 90.8
@@ -1170,7 +1170,7 @@
     {
       "round": 4,
       "pick": 28,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Josh Allen",
       "pos": "QB",
       "pts": 142.96
@@ -1178,7 +1178,7 @@
     {
       "round": 4,
       "pick": 29,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Ja'Marr Chase",
       "pos": "WR",
       "pts": 79.9
@@ -1186,7 +1186,7 @@
     {
       "round": 4,
       "pick": 30,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Nico Collins",
       "pos": "WR",
       "pts": 62.6
@@ -1194,7 +1194,7 @@
     {
       "round": 4,
       "pick": 31,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "A.J. Brown",
       "pos": "WR",
       "pts": 5.6
@@ -1202,7 +1202,7 @@
     {
       "round": 4,
       "pick": 32,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Brock Bowers",
       "pos": "TE",
       "pts": 71.2
@@ -1210,7 +1210,7 @@
     {
       "round": 5,
       "pick": 33,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Jaylen Waddle",
       "pos": "WR",
       "pts": 48.7
@@ -1218,7 +1218,7 @@
     {
       "round": 5,
       "pick": 34,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Tetairoa McMillan",
       "pos": "WR",
       "pts": 74.5
@@ -1226,7 +1226,7 @@
     {
       "round": 5,
       "pick": 35,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Tyler Warren",
       "pos": "TE",
       "pts": 69.9
@@ -1234,7 +1234,7 @@
     {
       "round": 5,
       "pick": 36,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Garrett Wilson",
       "pos": "WR",
       "pts": 86.4
@@ -1242,7 +1242,7 @@
     {
       "round": 5,
       "pick": 37,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Davante Adams",
       "pos": "WR",
       "pts": 95.1
@@ -1250,7 +1250,7 @@
     {
       "round": 5,
       "pick": 38,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "David Montgomery",
       "pos": "RB",
       "pts": 45.5
@@ -1258,7 +1258,7 @@
     {
       "round": 5,
       "pick": 39,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Bucky Irving",
       "pos": "RB",
       "pts": 78.7
@@ -1266,7 +1266,7 @@
     {
       "round": 5,
       "pick": 40,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Cam Skattebo",
       "pos": "RB",
       "pts": 51.3
@@ -1274,7 +1274,7 @@
     {
       "round": 6,
       "pick": 41,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Sam LaPorta",
       "pos": "TE",
       "pts": 76.6
@@ -1282,7 +1282,7 @@
     {
       "round": 6,
       "pick": 42,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Harold Fannin",
       "pos": "TE",
       "pts": 51.7
@@ -1290,7 +1290,7 @@
     {
       "round": 6,
       "pick": 43,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Travis Etienne",
       "pos": "RB",
       "pts": 30.9
@@ -1298,7 +1298,7 @@
     {
       "round": 6,
       "pick": 44,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Luther Burden",
       "pos": "WR",
       "pts": 55.8
@@ -1306,7 +1306,7 @@
     {
       "round": 6,
       "pick": 45,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Terry McLaurin",
       "pos": "WR",
       "pts": 42.3
@@ -1314,7 +1314,7 @@
     {
       "round": 6,
       "pick": 46,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "DJ Moore",
       "pos": "WR",
       "pts": 36.3
@@ -1322,7 +1322,7 @@
     {
       "round": 6,
       "pick": 47,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Jalen Hurts",
       "pos": "QB",
       "pts": 80.02
@@ -1330,7 +1330,7 @@
     {
       "round": 6,
       "pick": 48,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "D'Andre Swift",
       "pos": "RB",
       "pts": 80.8
@@ -1338,7 +1338,7 @@
     {
       "round": 7,
       "pick": 49,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Drake Maye",
       "pos": "QB",
       "pts": 57.3
@@ -1346,7 +1346,7 @@
     {
       "round": 7,
       "pick": 50,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Quinshon Judkins",
       "pos": "RB",
       "pts": 56.3
@@ -1354,7 +1354,7 @@
     {
       "round": 7,
       "pick": 51,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Joe Burrow",
       "pos": "QB",
       "pts": 101.24
@@ -1362,7 +1362,7 @@
     {
       "round": 7,
       "pick": 52,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Jayden Daniels",
       "pos": "QB",
       "pts": 64.66
@@ -1370,7 +1370,7 @@
     {
       "round": 7,
       "pick": 53,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Tucker Kraft",
       "pos": "TE",
       "pts": 47.7
@@ -1378,7 +1378,7 @@
     {
       "round": 7,
       "pick": 54,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Caleb Williams",
       "pos": "QB",
       "pts": 44.98
@@ -1386,7 +1386,7 @@
     {
       "round": 7,
       "pick": 55,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Rome Odunze",
       "pos": "WR",
       "pts": 42.3
@@ -1394,7 +1394,7 @@
     {
       "round": 7,
       "pick": 56,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Jameson Williams",
       "pos": "WR",
       "pts": 57.6
@@ -1402,7 +1402,7 @@
     {
       "round": 8,
       "pick": 57,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Mike Evans",
       "pos": "WR",
       "pts": 76.6
@@ -1410,7 +1410,7 @@
     {
       "round": 8,
       "pick": 58,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Jaylen Warren",
       "pos": "RB",
       "pts": 93.0
@@ -1418,7 +1418,7 @@
     {
       "round": 8,
       "pick": 59,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Brian Thomas",
       "pos": "WR",
       "pts": 25.5
@@ -1426,7 +1426,7 @@
     {
       "round": 8,
       "pick": 60,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Carnell Tate",
       "pos": "WR",
       "pts": 48.4
@@ -1434,7 +1434,7 @@
     {
       "round": 8,
       "pick": 61,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Christian Watson",
       "pos": "WR",
       "pts": 109.4
@@ -1442,7 +1442,7 @@
     {
       "round": 8,
       "pick": 62,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Bhayshul Tuten",
       "pos": "RB",
       "pts": 63.7
@@ -1450,7 +1450,7 @@
     {
       "round": 8,
       "pick": 63,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Kyle Pitts",
       "pos": "TE",
       "pts": 26.9
@@ -1458,7 +1458,7 @@
     {
       "round": 8,
       "pick": 64,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "TreVeyon Henderson",
       "pos": "RB",
       "pts": 21.7
@@ -1466,7 +1466,7 @@
     {
       "round": 9,
       "pick": 65,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "DK Metcalf",
       "pos": "WR",
       "pts": 48.6
@@ -1474,7 +1474,7 @@
     {
       "round": 9,
       "pick": 66,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Parker Washington",
       "pos": "WR",
       "pts": 81.5
@@ -1482,7 +1482,7 @@
     {
       "round": 9,
       "pick": 67,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Jadarian Price",
       "pos": "RB",
       "pts": 14.0
@@ -1490,7 +1490,7 @@
     {
       "round": 9,
       "pick": 68,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Rhamondre Stevenson",
       "pos": "RB",
       "pts": 60.8
@@ -1498,7 +1498,7 @@
     {
       "round": 9,
       "pick": 69,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Marvin Harrison",
       "pos": "WR",
       "pts": 4.3
@@ -1506,7 +1506,7 @@
     {
       "round": 9,
       "pick": 70,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Makai Lemon",
       "pos": "WR",
       "pts": 0.0
@@ -1514,7 +1514,7 @@
     {
       "round": 9,
       "pick": 71,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Chuba Hubbard",
       "pos": "RB",
       "pts": 79.0
@@ -1522,7 +1522,7 @@
     {
       "round": 9,
       "pick": 72,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "RJ Harvey",
       "pos": "RB",
       "pts": 38.8
@@ -1530,7 +1530,7 @@
     {
       "round": 10,
       "pick": 73,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Rico Dowdle",
       "pos": "RB",
       "pts": 4.1
@@ -1538,7 +1538,7 @@
     {
       "round": 10,
       "pick": 74,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Stefon Diggs",
       "pos": "WR",
       "pts": 53.0
@@ -1546,7 +1546,7 @@
     {
       "round": 10,
       "pick": 75,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Courtland Sutton",
       "pos": "WR",
       "pts": 27.4
@@ -1554,7 +1554,7 @@
     {
       "round": 10,
       "pick": 76,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Jonathon Brooks",
       "pos": "RB",
       "pts": 9.3
@@ -1562,7 +1562,7 @@
     {
       "round": 10,
       "pick": 77,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Tony Pollard",
       "pos": "RB",
       "pts": 43.7
@@ -1570,7 +1570,7 @@
     {
       "round": 10,
       "pick": 78,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Los Angeles Rams",
       "pos": "DEF",
       "pts": 28.0
@@ -1578,7 +1578,7 @@
     {
       "round": 10,
       "pick": 79,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Chris Godwin",
       "pos": "WR",
       "pts": 38.7
@@ -1586,7 +1586,7 @@
     {
       "round": 10,
       "pick": 80,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Michael Wilson",
       "pos": "WR",
       "pts": 38.18
@@ -1594,7 +1594,7 @@
     {
       "round": 11,
       "pick": 81,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Travis Kelce",
       "pos": "TE",
       "pts": 52.6
@@ -1602,7 +1602,7 @@
     {
       "round": 11,
       "pick": 82,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Kyle Monangai",
       "pos": "RB",
       "pts": 59.3
@@ -1610,7 +1610,7 @@
     {
       "round": 11,
       "pick": 83,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Jordan Addison",
       "pos": "WR",
       "pts": 33.2
@@ -1618,7 +1618,7 @@
     {
       "round": 11,
       "pick": 84,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Jake Ferguson",
       "pos": "TE",
       "pts": 36.3
@@ -1626,7 +1626,7 @@
     {
       "round": 11,
       "pick": 85,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Brandon Aubrey",
       "pos": "K",
       "pts": 42.0
@@ -1634,7 +1634,7 @@
     {
       "round": 11,
       "pick": 86,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "J.K. Dobbins",
       "pos": "RB",
       "pts": 36.1
@@ -1642,7 +1642,7 @@
     {
       "round": 11,
       "pick": 87,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Jayden Reed",
       "pos": "WR",
       "pts": 6.4
@@ -1650,7 +1650,7 @@
     {
       "round": 11,
       "pick": 88,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "George Kittle",
       "pos": "TE",
       "pts": 71.8
@@ -1658,7 +1658,7 @@
     {
       "round": 12,
       "pick": 89,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Houston Texans",
       "pos": "DEF",
       "pts": 16.0
@@ -1666,7 +1666,7 @@
     {
       "round": 12,
       "pick": 90,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Justin Herbert",
       "pos": "QB",
       "pts": 13.26
@@ -1674,7 +1674,7 @@
     {
       "round": 12,
       "pick": 91,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Juwan Johnson",
       "pos": "TE",
       "pts": 65.8
@@ -1682,7 +1682,7 @@
     {
       "round": 12,
       "pick": 92,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "KC Concepcion",
       "pos": "WR",
       "pts": 7.8
@@ -1690,7 +1690,7 @@
     {
       "round": 12,
       "pick": 93,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Dallas Goedert",
       "pos": "TE",
       "pts": 34.9
@@ -1698,7 +1698,7 @@
     {
       "round": 12,
       "pick": 94,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Michael Pittman",
       "pos": "WR",
       "pts": 15.9
@@ -1706,7 +1706,7 @@
     {
       "round": 12,
       "pick": 95,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Dalton Kincaid",
       "pos": "TE",
       "pts": 49.7
@@ -1714,7 +1714,7 @@
     {
       "round": 12,
       "pick": 96,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Blake Corum",
       "pos": "RB",
       "pts": 5.4
@@ -1722,7 +1722,7 @@
     {
       "round": 13,
       "pick": 97,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Seattle Seahawks",
       "pos": "DEF",
       "pts": 51.0
@@ -1730,7 +1730,7 @@
     {
       "round": 13,
       "pick": 98,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Minnesota Vikings",
       "pos": "DEF",
       "pts": 67.0
@@ -1738,7 +1738,7 @@
     {
       "round": 13,
       "pick": 99,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Isaiah Likely",
       "pos": "TE",
       "pts": 85.4
@@ -1746,7 +1746,7 @@
     {
       "round": 13,
       "pick": 100,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Trevor Lawrence",
       "pos": "QB",
       "pts": 86.86
@@ -1754,7 +1754,7 @@
     {
       "round": 13,
       "pick": 101,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Jordan Mason",
       "pos": "RB",
       "pts": 11.9
@@ -1762,7 +1762,7 @@
     {
       "round": 13,
       "pick": 102,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Dak Prescott",
       "pos": "QB",
       "pts": 49.68
@@ -1770,7 +1770,7 @@
     {
       "round": 13,
       "pick": 103,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Philadelphia Eagles",
       "pos": "DEF",
       "pts": 14.0
@@ -1778,7 +1778,7 @@
     {
       "round": 13,
       "pick": 104,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Patrick Mahomes",
       "pos": "QB",
       "pts": 83.58
@@ -1786,7 +1786,7 @@
     {
       "round": 14,
       "pick": 105,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Deebo Samuel",
       "pos": "WR",
       "pts": 60.4
@@ -1794,7 +1794,7 @@
     {
       "round": 14,
       "pick": 106,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Jason Myers",
       "pos": "K",
       "pts": 28.0
@@ -1802,7 +1802,7 @@
     {
       "round": 14,
       "pick": 107,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Cam Little",
       "pos": "K",
       "pts": 45.0
@@ -1810,7 +1810,7 @@
     {
       "round": 14,
       "pick": 108,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Denver Broncos",
       "pos": "DEF",
       "pts": 39.0
@@ -1818,7 +1818,7 @@
     {
       "round": 14,
       "pick": 109,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "New England Patriots",
       "pos": "DEF",
       "pts": 0.0
@@ -1826,7 +1826,7 @@
     {
       "round": 14,
       "pick": 110,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Will Reichard",
       "pos": "K",
       "pts": 68.0
@@ -1834,7 +1834,7 @@
     {
       "round": 14,
       "pick": 111,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Kenny Gainwell",
       "pos": "RB",
       "pts": 0.0
@@ -1842,7 +1842,7 @@
     {
       "round": 14,
       "pick": 112,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Cameron Dicker",
       "pos": "K",
       "pts": 3.0
@@ -1850,7 +1850,7 @@
     {
       "round": 15,
       "pick": 113,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Jaxson Dart",
       "pos": "QB",
       "pts": 27.4
@@ -1858,7 +1858,7 @@
     {
       "round": 15,
       "pick": 114,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Ka'imi Fairbairn",
       "pos": "K",
       "pts": 53.0
@@ -1866,7 +1866,7 @@
     {
       "round": 15,
       "pick": 115,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Jordyn Tyson",
       "pos": "WR",
       "pts": 0.0
@@ -1874,7 +1874,7 @@
     {
       "round": 15,
       "pick": 116,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Jake Bates",
       "pos": "K",
       "pts": 49.0
@@ -1882,7 +1882,7 @@
     {
       "round": 15,
       "pick": 117,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Matthew Stafford",
       "pos": "QB",
       "pts": 88.98
@@ -1890,7 +1890,7 @@
     {
       "round": 15,
       "pick": 118,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Detroit Lions",
       "pos": "DEF",
       "pts": 6.0
@@ -1898,7 +1898,7 @@
     {
       "round": 15,
       "pick": 119,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Romeo Doubs",
       "pos": "WR",
       "pts": 46.9
@@ -1906,7 +1906,7 @@
     {
       "round": 15,
       "pick": 120,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Harrison Mevis",
       "pos": "K",
       "pts": 28.0
@@ -1914,7 +1914,7 @@
     {
       "round": 16,
       "pick": 121,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Bijan Robinson",
       "pos": "RB",
       "pts": 121.2
@@ -1922,7 +1922,7 @@
     {
       "round": 16,
       "pick": 122,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Kenneth Walker",
       "pos": "RB",
       "pts": 110.1
@@ -1930,7 +1930,7 @@
     {
       "round": 16,
       "pick": 123,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Jahmyr Gibbs",
       "pos": "RB",
       "pts": 153.7
@@ -1938,7 +1938,7 @@
     {
       "round": 16,
       "pick": 124,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "pts": 139.46
@@ -1946,7 +1946,7 @@
     {
       "round": 16,
       "pick": 125,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Drake London",
       "pos": "WR",
       "pts": 76.2
@@ -1954,7 +1954,7 @@
     {
       "round": 16,
       "pick": 126,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Chase Brown",
       "pos": "RB",
       "pts": 65.0
@@ -1962,7 +1962,7 @@
     {
       "round": 16,
       "pick": 127,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Zay Flowers",
       "pos": "WR",
       "pts": 81.8
@@ -1970,7 +1970,7 @@
     {
       "round": 16,
       "pick": 128,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
       "pts": 104.2
@@ -1979,151 +1979,151 @@
   "pickups": [
     {
       "week": 1,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Brock Purdy",
       "pos": "QB",
       "pts": 95.54
     },
     {
       "week": 3,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Jared Goff",
       "pos": "QB",
       "pts": 68.78
     },
     {
       "week": 2,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "name": "Aaron Jones",
       "pos": "RB",
       "pts": 60.2
     },
     {
       "week": 2,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Matthew Golden",
       "pos": "WR",
       "pts": 53.0
     },
     {
       "week": 1,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Jalen Coker",
       "pos": "WR",
       "pts": 52.2
     },
     {
       "week": 1,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "name": "Josh Downs",
       "pos": "WR",
       "pts": 44.9
     },
     {
       "week": 1,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "MarShawn Lloyd",
       "pos": "RB",
       "pts": 42.7
     },
     {
       "week": 2,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Emanuel Wilson",
       "pos": "RB",
       "pts": 41.6
     },
     {
       "week": 3,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "name": "Denzel Boston",
       "pos": "WR",
       "pts": 34.6
     },
     {
       "week": 4,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "name": "Ollie Gordon",
       "pos": "RB",
       "pts": 32.8
     },
     {
       "week": 1,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Khalil Shakir",
       "pos": "WR",
       "pts": 32.6
     },
     {
       "week": 2,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "name": "Jacory Croskey-Merritt",
       "pos": "RB",
       "pts": 32.3
     },
     {
       "week": 3,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "name": "Braelon Allen",
       "pos": "RB",
       "pts": 27.3
     },
     {
       "week": 2,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "name": "Green Bay Packers",
       "pos": "DEF",
       "pts": 24.0
     },
     {
       "week": 4,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "name": "Spencer Shrader",
       "pos": "K",
       "pts": 21.0
     }
   ],
   "standings_rank": {
-    "cjwoda": 1,
-    "ComebackDaBears": 2,
-    "CM-Smell ya later": 3,
-    "MagicSkolBuz1": 4,
-    "Pipemaster3000": 5,
-    "BigBrainBrian3": 6,
-    "BigStickin032": 7,
-    "Sparky\u2019s Sleepers": 8
+    "CJ Woda": 1,
+    "Seth Halvorsen": 2,
+    "Dan Hataaja": 3,
+    "Timmy Thurston": 4,
+    "Noah Pieper": 5,
+    "Brian Christensen": 6,
+    "Dillon Knaggs": 7,
+    "Zach Johansen": 8
   },
   "moves": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "moves": 0
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "moves": 0
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "moves": 0
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "moves": 0
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "moves": 0
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "moves": 0
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "moves": 0
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "moves": 0
     }
   ]

@@ -3,7 +3,7 @@
   "rows": [
     {
       "roster_id": 5,
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "manager": "CJ Woda",
       "wins": 4,
       "losses": 1,
@@ -19,7 +19,7 @@
     },
     {
       "roster_id": 4,
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "manager": "Seth Halvorsen",
       "wins": 4,
       "losses": 1,
@@ -35,7 +35,7 @@
     },
     {
       "roster_id": 6,
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "manager": "Dan Hataaja",
       "wins": 3,
       "losses": 2,
@@ -51,7 +51,7 @@
     },
     {
       "roster_id": 7,
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "manager": "Timmy Thurston",
       "wins": 3,
       "losses": 2,
@@ -67,7 +67,7 @@
     },
     {
       "roster_id": 8,
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "manager": "Noah Pieper",
       "wins": 2,
       "losses": 3,
@@ -83,7 +83,7 @@
     },
     {
       "roster_id": 2,
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "manager": "Brian Christensen",
       "wins": 2,
       "losses": 3,
@@ -99,7 +99,7 @@
     },
     {
       "roster_id": 1,
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "manager": "Dillon Knaggs",
       "wins": 2,
       "losses": 3,
@@ -115,7 +115,7 @@
     },
     {
       "roster_id": 3,
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "manager": "Zach Johansen",
       "wins": 0,
       "losses": 5,

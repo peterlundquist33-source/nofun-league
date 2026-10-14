@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T16:45:14+00:00",
+  "generated": "2026-10-14T16:48:10+00:00",
   "season": 2026,
   "through_week": 5,
   "model": {
@@ -13,7 +13,7 @@
   },
   "rows": [
     {
-      "team": "cjwoda",
+      "team": "CJ Woda",
       "manager": "CJ Woda",
       "score": 68.6,
       "record": "4-1",
@@ -26,10 +26,10 @@
       "rank": 1,
       "prev_rank": null,
       "move": 0,
-      "note": "Best in the league on the field and on the board. Nothing to argue about."
+      "note": "Leads the league where it counts: the scoreboard, every week."
     },
     {
-      "team": "BigBrainBrian3",
+      "team": "Brian Christensen",
       "manager": "Brian Christensen",
       "score": 61.9,
       "record": "2-3",
@@ -45,7 +45,7 @@
       "note": "Quietly one of the best teams here \u2014 no drama, just points."
     },
     {
-      "team": "Pipemaster3000",
+      "team": "Noah Pieper",
       "manager": "Noah Pieper",
       "score": 58.6,
       "record": "2-3",
@@ -58,10 +58,10 @@
       "rank": 3,
       "prev_rank": null,
       "move": 0,
-      "note": "Exactly as average as the record looks. Beats the bottom, loses to the top."
+      "note": "A .500 team in every direction. Entertaining, not frightening."
     },
     {
-      "team": "ComebackDaBears",
+      "team": "Seth Halvorsen",
       "manager": "Seth Halvorsen",
       "score": 56.4,
       "record": "4-1",
@@ -74,10 +74,10 @@
       "rank": 4,
       "prev_rank": null,
       "move": 0,
-      "note": "Exactly as average as the record looks. Beats the bottom, loses to the top."
+      "note": "Could finish anywhere. Nobody is planning around this team."
     },
     {
-      "team": "CM-Smell ya later",
+      "team": "Dan Hataaja",
       "manager": "Dan Hataaja",
       "score": 47.6,
       "record": "3-2",
@@ -93,7 +93,7 @@
       "note": "Could finish anywhere. Nobody is planning around this team."
     },
     {
-      "team": "BigStickin032",
+      "team": "Dillon Knaggs",
       "manager": "Dillon Knaggs",
       "score": 47.2,
       "record": "2-3",
@@ -106,10 +106,10 @@
       "rank": 6,
       "prev_rank": null,
       "move": 0,
-      "note": "Exactly as average as the record looks. Beats the bottom, loses to the top."
+      "note": "Could finish anywhere. Nobody is planning around this team."
     },
     {
-      "team": "MagicSkolBuz1",
+      "team": "Timmy Thurston",
       "manager": "Timmy Thurston",
       "score": 41.9,
       "record": "3-2",
@@ -125,7 +125,7 @@
       "note": "Below the line and sliding. The math is not sympathetic."
     },
     {
-      "team": "Sparky\u2019s Sleepers",
+      "team": "Zach Johansen",
       "manager": "Zach Johansen",
       "score": 17.7,
       "record": "0-5",
