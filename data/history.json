@@ -11,7 +11,7 @@
         {
           "roster_id": 5,
           "team": "cjwoda",
-          "manager": "cjwoda",
+          "manager": "Peter Lundquist",
           "wins": 4,
           "losses": 1,
           "ties": 0,
@@ -27,7 +27,7 @@
         {
           "roster_id": 4,
           "team": "ComebackDaBears",
-          "manager": "DaBears2424",
+          "manager": "Seth Halvorsen",
           "wins": 4,
           "losses": 1,
           "ties": 0,
@@ -43,7 +43,7 @@
         {
           "roster_id": 6,
           "team": "CM-Smell ya later",
-          "manager": "HaatSauce",
+          "manager": "Dan Hataaja",
           "wins": 3,
           "losses": 2,
           "ties": 0,
@@ -59,7 +59,7 @@
         {
           "roster_id": 7,
           "team": "MagicSkolBuz1",
-          "manager": "MagicSkolBuz1",
+          "manager": "Timmy Thurston",
           "wins": 3,
           "losses": 2,
           "ties": 0,
@@ -75,7 +75,7 @@
         {
           "roster_id": 8,
           "team": "Pipemaster3000",
-          "manager": "Pipemaster3000",
+          "manager": "Noah Pieper",
           "wins": 2,
           "losses": 3,
           "ties": 0,
@@ -91,7 +91,7 @@
         {
           "roster_id": 2,
           "team": "BigBrainBrian3",
-          "manager": "BigBrainBrian3",
+          "manager": "Brian Christensen",
           "wins": 2,
           "losses": 3,
           "ties": 0,
@@ -107,7 +107,7 @@
         {
           "roster_id": 1,
           "team": "BigStickin032",
-          "manager": "BigStickin032",
+          "manager": "Dillon Knaggs",
           "wins": 2,
           "losses": 3,
           "ties": 0,
@@ -123,7 +123,7 @@
         {
           "roster_id": 3,
           "team": "Sparky\u2019s Sleepers",
-          "manager": "Zjohansen0",
+          "manager": "Zach Johansen",
           "wins": 0,
           "losses": 5,
           "ties": 0,
@@ -149,7 +149,7 @@
         {
           "roster_id": 5,
           "team": "cjwoda",
-          "manager": "cjwoda",
+          "manager": "Peter Lundquist",
           "wins": 10,
           "losses": 5,
           "ties": 0,
@@ -165,7 +165,7 @@
         {
           "roster_id": 2,
           "team": "BigBrainBrian3",
-          "manager": "BigBrainBrian3",
+          "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -181,7 +181,7 @@
         {
           "roster_id": 8,
           "team": "Pipemaster3000",
-          "manager": "Pipemaster3000",
+          "manager": "Noah Pieper",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -197,7 +197,7 @@
         {
           "roster_id": 1,
           "team": "BigStickin032",
-          "manager": "BigStickin032",
+          "manager": "Dillon Knaggs",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -213,7 +213,7 @@
         {
           "roster_id": 3,
           "team": "Sparky\u2019s Sleepers",
-          "manager": "Zjohansen0",
+          "manager": "Zach Johansen",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -229,7 +229,7 @@
         {
           "roster_id": 4,
           "team": "ComebackDaBears",
-          "manager": "DaBears2424",
+          "manager": "Seth Halvorsen",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -245,7 +245,7 @@
         {
           "roster_id": 6,
           "team": "CM-Smell ya later",
-          "manager": "HaatSauce",
+          "manager": "Dan Hataaja",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -261,7 +261,7 @@
         {
           "roster_id": 7,
           "team": "Skoldaddy11",
-          "manager": "Skoldaddy11",
+          "manager": "Timmy Thurston",
           "wins": 6,
           "losses": 9,
           "ties": 0,
@@ -287,7 +287,7 @@
         {
           "roster_id": 7,
           "team": "Skoldaddy11",
-          "manager": "Skoldaddy11",
+          "manager": "Timmy Thurston",
           "wins": 12,
           "losses": 3,
           "ties": 0,
@@ -303,7 +303,7 @@
         {
           "roster_id": 5,
           "team": "cjwoda",
-          "manager": "cjwoda",
+          "manager": "Peter Lundquist",
           "wins": 9,
           "losses": 6,
           "ties": 0,
@@ -319,7 +319,7 @@
         {
           "roster_id": 4,
           "team": "ComebackDaBears",
-          "manager": "DaBears2424",
+          "manager": "Seth Halvorsen",
           "wins": 9,
           "losses": 6,
           "ties": 0,
@@ -335,7 +335,7 @@
         {
           "roster_id": 2,
           "team": "BigBrainBrian3",
-          "manager": "BigBrainBrian3",
+          "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -351,7 +351,7 @@
         {
           "roster_id": 3,
           "team": "Sparky\u2019s Sleepers",
-          "manager": "Zjohansen0",
+          "manager": "Zach Johansen",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -367,7 +367,7 @@
         {
           "roster_id": 1,
           "team": "BigStickin032",
-          "manager": "BigStickin032",
+          "manager": "Dillon Knaggs",
           "wins": 7,
           "losses": 8,
           "ties": 0,
@@ -383,7 +383,7 @@
         {
           "roster_id": 8,
           "team": "Pipemaster3000",
-          "manager": "Pipemaster3000",
+          "manager": "Noah Pieper",
           "wins": 4,
           "losses": 11,
           "ties": 0,
@@ -399,7 +399,7 @@
         {
           "roster_id": 6,
           "team": "CM-Smell ya later",
-          "manager": "HaatSauce",
+          "manager": "Dan Hataaja",
           "wins": 4,
           "losses": 11,
           "ties": 0,
@@ -425,7 +425,7 @@
         {
           "roster_id": 6,
           "team": "Lick my Chubb",
-          "manager": "HaatSauce",
+          "manager": "Dan Hataaja",
           "wins": 9,
           "losses": 6,
           "ties": 0,
@@ -441,7 +441,7 @@
         {
           "roster_id": 5,
           "team": "cjwoda",
-          "manager": "cjwoda",
+          "manager": "Peter Lundquist",
           "wins": 9,
           "losses": 6,
           "ties": 0,
@@ -457,7 +457,7 @@
         {
           "roster_id": 3,
           "team": "Zjohansen0",
-          "manager": "Zjohansen0",
+          "manager": "Zach Johansen",
           "wins": 9,
           "losses": 6,
           "ties": 0,
@@ -473,7 +473,7 @@
         {
           "roster_id": 2,
           "team": "BigBrainBrian3",
-          "manager": "BigBrainBrian3",
+          "manager": "Brian Christensen",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -489,7 +489,7 @@
         {
           "roster_id": 8,
           "team": "Pipemaster3000",
-          "manager": "Pipemaster3000",
+          "manager": "Noah Pieper",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -505,7 +505,7 @@
         {
           "roster_id": 1,
           "team": "BigStickin032",
-          "manager": "BigStickin032",
+          "manager": "Dillon Knaggs",
           "wins": 8,
           "losses": 7,
           "ties": 0,
@@ -521,7 +521,7 @@
         {
           "roster_id": 7,
           "team": "Skoldaddy11",
-          "manager": "Skoldaddy11",
+          "manager": "Timmy Thurston",
           "wins": 6,
           "losses": 9,
           "ties": 0,
@@ -537,7 +537,7 @@
         {
           "roster_id": 4,
           "team": "DaBears2424",
-          "manager": "DaBears2424",
+          "manager": "Seth Halvorsen",
           "wins": 3,
           "losses": 12,
           "ties": 0,

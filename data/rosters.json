@@ -3,7 +3,7 @@
   "rosters": [
     {
       "roster_id": 1,
-      "manager": "BigStickin032",
+      "manager": "Dillon Knaggs",
       "team": "BigStickin032",
       "handle": "BigStickin032",
       "avatar": "https://sleepercdn.com/avatars/thumbs/e7af4deab0289b4f5505646424895246",
@@ -11,10 +11,10 @@
         "7523",
         "7611",
         "12527",
-        "7564",
-        "8146",
-        "5844",
         "8112",
+        "8146",
+        "5022",
+        "8155",
         "8167",
         "11539",
         "CIN"
@@ -67,7 +67,7 @@
           "team": "PHI",
           "age": 31,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 34.9
         },
         {
@@ -77,7 +77,7 @@
           "team": "MIN",
           "age": 29,
           "injury": "Out",
-          "starter": true,
+          "starter": false,
           "season_pts": 1.7
         },
         {
@@ -117,7 +117,7 @@
           "team": "CIN",
           "age": 26,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 79.9
         },
         {
@@ -156,8 +156,8 @@
           "pos": "RB",
           "team": "NYJ",
           "age": 25,
-          "injury": "Out",
-          "starter": false,
+          "injury": "Questionable",
+          "starter": true,
           "season_pts": 42.5
         },
         {
@@ -194,7 +194,7 @@
     },
     {
       "roster_id": 2,
-      "manager": "BigBrainBrian3",
+      "manager": "Brian Christensen",
       "team": "BigBrainBrian3",
       "handle": "BigBrainBrian3",
       "avatar": "https://sleepercdn.com/uploads/2024ddb7c2246ea592bf3b7eec10b153.jpg",
@@ -207,8 +207,8 @@
         "4217",
         "12489",
         "12481",
-        "12015",
-        "HOU"
+        "13545",
+        "BAL"
       ],
       "players": [
         {
@@ -232,16 +232,6 @@
           "season_pts": 57.3
         },
         {
-          "id": "12015",
-          "name": "Harrison Mevis",
-          "pos": "K",
-          "team": "LAR",
-          "age": 24,
-          "injury": null,
-          "starter": true,
-          "season_pts": 28.0
-        },
-        {
           "id": "12481",
           "name": "Cam Skattebo",
           "pos": "RB",
@@ -260,6 +250,16 @@
           "injury": null,
           "starter": true,
           "season_pts": 38.8
+        },
+        {
+          "id": "13545",
+          "name": "Trey Smack",
+          "pos": "K",
+          "team": "GB",
+          "age": 23,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "2216",
@@ -307,7 +307,7 @@
           "pos": "QB",
           "team": "BAL",
           "age": 29,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 79.08
         },
@@ -362,33 +362,33 @@
           "season_pts": 121.2
         },
         {
-          "id": "HOU",
-          "name": "Houston Texans",
+          "id": "BAL",
+          "name": "Baltimore Ravens",
           "pos": "DEF",
-          "team": "HOU",
+          "team": "BAL",
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 16.0
+          "season_pts": 14.0
         }
       ]
     },
     {
       "roster_id": 3,
-      "manager": "Zjohansen0",
+      "manager": "Zach Johansen",
       "team": "Sparky\u2019s Sleepers",
       "handle": "Zjohansen0",
       "avatar": "https://sleepercdn.com/uploads/26944055d5c38a49ce5e76f745907734.jpg",
       "starters": [
-        "3163",
-        "12507",
+        "1166",
+        "12474",
         "6790",
-        "7547",
-        "5846",
-        "11604",
-        "7526",
+        "10229",
         "10232",
-        "7839",
+        "11604",
+        "1466",
+        "13346",
+        "6083",
         "SEA"
       ],
       "players": [
@@ -399,7 +399,7 @@
           "team": "KC",
           "age": 26,
           "injury": "Questionable",
-          "starter": false,
+          "starter": true,
           "season_pts": 38.0
         },
         {
@@ -423,14 +423,24 @@
           "season_pts": 71.2
         },
         {
-          "id": "11834",
-          "name": "Devaughn Vele",
-          "pos": "WR",
-          "team": "NO",
-          "age": 28,
+          "id": "1166",
+          "name": "Kirk Cousins",
+          "pos": "QB",
+          "team": "LV",
+          "age": 38,
           "injury": null,
-          "starter": false,
-          "season_pts": 6.6
+          "starter": true,
+          "season_pts": 0
+        },
+        {
+          "id": "12474",
+          "name": "Woody Marks",
+          "pos": "RB",
+          "team": "HOU",
+          "age": 25,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "12507",
@@ -439,18 +449,8 @@
           "team": "LAC",
           "age": 23,
           "injury": null,
-          "starter": true,
-          "season_pts": 49.6
-        },
-        {
-          "id": "13287",
-          "name": "Jeremiyah Love",
-          "pos": "RB",
-          "team": "ARI",
-          "age": 21,
-          "injury": null,
           "starter": false,
-          "season_pts": 51.1
+          "season_pts": 49.6
         },
         {
           "id": "13346",
@@ -459,7 +459,7 @@
           "team": "CLE",
           "age": 22,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 34.6
         },
         {
@@ -469,7 +469,7 @@
           "team": "KC",
           "age": 37,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 52.6
         },
         {
@@ -477,10 +477,20 @@
           "name": "Jared Goff",
           "pos": "QB",
           "team": "DET",
-          "age": 31,
+          "age": 32,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 68.78
+        },
+        {
+          "id": "4866",
+          "name": "Saquon Barkley",
+          "pos": "RB",
+          "team": "PHI",
+          "age": 29,
+          "injury": "Questionable",
+          "starter": false,
+          "season_pts": 23.0
         },
         {
           "id": "5846",
@@ -489,8 +499,18 @@
           "team": "PIT",
           "age": 28,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 48.6
+        },
+        {
+          "id": "6083",
+          "name": "Matt Gay",
+          "pos": "K",
+          "team": "LV",
+          "age": 32,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "6790",
@@ -509,7 +529,7 @@
           "team": "DEN",
           "age": 27,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 48.7
         },
         {
@@ -519,28 +539,8 @@
           "team": "DET",
           "age": 26,
           "injury": null,
-          "starter": true,
-          "season_pts": 104.2
-        },
-        {
-          "id": "7839",
-          "name": "Evan McPherson",
-          "pos": "K",
-          "team": "CIN",
-          "age": 27,
-          "injury": null,
-          "starter": true,
-          "season_pts": 7.0
-        },
-        {
-          "id": "8154",
-          "name": "Brian Robinson",
-          "pos": "RB",
-          "team": "ATL",
-          "age": 27,
-          "injury": null,
           "starter": false,
-          "season_pts": 1.6
+          "season_pts": 104.2
         },
         {
           "id": "SEA",
@@ -556,7 +556,7 @@
     },
     {
       "roster_id": 4,
-      "manager": "DaBears2424",
+      "manager": "Seth Halvorsen",
       "team": "ComebackDaBears",
       "handle": "DaBears2424",
       "avatar": "https://sleepercdn.com/avatars/thumbs/f0edbf4278f53f9425db175073df6584",
@@ -589,7 +589,7 @@
           "pos": "QB",
           "team": "CHI",
           "age": 24,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 44.98
         },
@@ -659,7 +659,7 @@
           "pos": "RB",
           "team": "HOU",
           "age": 29,
-          "injury": "Out",
+          "injury": "Doubtful",
           "starter": false,
           "season_pts": 45.5
         },
@@ -747,7 +747,7 @@
     },
     {
       "roster_id": 5,
-      "manager": "cjwoda",
+      "manager": "Peter Lundquist",
       "team": "cjwoda",
       "handle": "cjwoda",
       "avatar": "https://sleepercdn.com/avatars/thumbs/15d7cf259bc30eab8f6120f45f652fb6",
@@ -773,6 +773,16 @@
           "injury": null,
           "starter": true,
           "season_pts": 42.0
+        },
+        {
+          "id": "11628",
+          "name": "Marvin Harrison",
+          "pos": "WR",
+          "team": "HOU",
+          "age": 24,
+          "injury": null,
+          "starter": false,
+          "season_pts": 4.3
         },
         {
           "id": "12501",
@@ -815,6 +825,16 @@
           "season_pts": 48.4
         },
         {
+          "id": "13287",
+          "name": "Jeremiyah Love",
+          "pos": "RB",
+          "team": "ARI",
+          "age": 21,
+          "injury": null,
+          "starter": false,
+          "season_pts": 51.1
+        },
+        {
           "id": "13337",
           "name": "Emmett Johnson",
           "pos": "RB",
@@ -855,16 +875,6 @@
           "season_pts": 88.98
         },
         {
-          "id": "4866",
-          "name": "Saquon Barkley",
-          "pos": "RB",
-          "team": "PHI",
-          "age": 29,
-          "injury": "Out",
-          "starter": false,
-          "season_pts": 23.0
-        },
-        {
           "id": "4984",
           "name": "Josh Allen",
           "pos": "QB",
@@ -883,16 +893,6 @@
           "injury": null,
           "starter": true,
           "season_pts": 96.0
-        },
-        {
-          "id": "8134",
-          "name": "Khalil Shakir",
-          "pos": "WR",
-          "team": "BUF",
-          "age": 26,
-          "injury": null,
-          "starter": false,
-          "season_pts": 32.6
         },
         {
           "id": "8408",
@@ -938,7 +938,7 @@
     },
     {
       "roster_id": 6,
-      "manager": "HaatSauce",
+      "manager": "Dan Hataaja",
       "team": "CM-Smell ya later",
       "handle": "HaatSauce",
       "avatar": "https://sleepercdn.com/avatars/thumbs/15d7cf259bc30eab8f6120f45f652fb6",
@@ -981,7 +981,7 @@
           "pos": "WR",
           "team": "CAR",
           "age": 24,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 52.2
         },
@@ -1011,7 +1011,7 @@
           "pos": "RB",
           "team": "CHI",
           "age": 24,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 59.3
         },
@@ -1129,20 +1129,20 @@
     },
     {
       "roster_id": 7,
-      "manager": "MagicSkolBuz1",
+      "manager": "Timmy Thurston",
       "team": "MagicSkolBuz1",
       "handle": "MagicSkolBuz1",
       "avatar": "https://sleepercdn.com/avatars/thumbs/4f4090e5e9c3941414db40a871e3e909",
       "starters": [
-        "6770",
+        "6804",
         "6813",
-        "9224",
+        "12490",
         "11632",
         "7569",
         "12518",
         "9500",
-        "0",
-        "11792",
+        "4983",
+        "650",
         "LAR"
       ],
       "players": [
@@ -1163,7 +1163,7 @@
           "team": "MIN",
           "age": 25,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 68.0
         },
         {
@@ -1173,7 +1173,7 @@
           "team": "JAX",
           "age": 23,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 63.7
         },
         {
@@ -1181,7 +1181,7 @@
           "name": "Emeka Egbuka",
           "pos": "WR",
           "team": "TB",
-          "age": 23,
+          "age": 24,
           "injury": null,
           "starter": false,
           "season_pts": 53.3
@@ -1197,34 +1197,24 @@
           "season_pts": 69.9
         },
         {
-          "id": "13281",
-          "name": "Jordyn Tyson",
-          "pos": "WR",
-          "team": "NO",
-          "age": 22,
-          "injury": "IR",
-          "starter": false,
-          "season_pts": 0
-        },
-        {
-          "id": "13286",
-          "name": "Jadarian Price",
-          "pos": "RB",
-          "team": "SEA",
-          "age": 23,
-          "injury": "IR",
-          "starter": false,
-          "season_pts": 14.0
-        },
-        {
           "id": "4983",
           "name": "DJ Moore",
           "pos": "WR",
           "team": "BUF",
           "age": 29,
-          "injury": "Out",
-          "starter": false,
+          "injury": "Questionable",
+          "starter": true,
           "season_pts": 36.3
+        },
+        {
+          "id": "650",
+          "name": "Nick Folk",
+          "pos": "K",
+          "team": "ATL",
+          "age": 41,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "6770",
@@ -1233,8 +1223,18 @@
           "team": "CIN",
           "age": 29,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 101.24
+        },
+        {
+          "id": "6804",
+          "name": "Jordan Love",
+          "pos": "QB",
+          "team": "GB",
+          "age": 27,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "6813",
@@ -1245,16 +1245,6 @@
           "injury": null,
           "starter": true,
           "season_pts": 97.4
-        },
-        {
-          "id": "6819",
-          "name": "Michael Pittman",
-          "pos": "WR",
-          "team": "PIT",
-          "age": 29,
-          "injury": "IR",
-          "starter": false,
-          "season_pts": 15.9
         },
         {
           "id": "7569",
@@ -1283,7 +1273,7 @@
           "team": "CIN",
           "age": 26,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 65.0
         },
         {
@@ -1320,19 +1310,19 @@
     },
     {
       "roster_id": 8,
-      "manager": "Pipemaster3000",
+      "manager": "Noah Pieper",
       "team": "Pipemaster3000",
       "handle": "Pipemaster3000",
       "avatar": "https://sleepercdn.com/avatars/thumbs/f0edbf4278f53f9425db175073df6584",
       "starters": [
         "8183",
         "8138",
-        "11584",
+        "8151",
         "8137",
-        "6801",
-        "12506",
+        "11620",
+        "9480",
         "8228",
-        "8121",
+        "11584",
         "12185",
         "JAX"
       ],
@@ -1354,7 +1344,7 @@
           "team": "CHI",
           "age": 24,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 42.3
         },
         {
@@ -1374,7 +1364,7 @@
           "team": "CLE",
           "age": 22,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 51.7
         },
         {
@@ -1383,19 +1373,9 @@
           "pos": "WR",
           "team": "WAS",
           "age": 32,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 53.0
-        },
-        {
-          "id": "3321",
-          "name": "Tyreek Hill",
-          "pos": "WR",
-          "team": null,
-          "age": 31,
-          "injury": null,
-          "starter": false,
-          "season_pts": 0
         },
         {
           "id": "6801",
@@ -1404,7 +1384,7 @@
           "team": "CIN",
           "age": 27,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 75.3
         },
         {
@@ -1413,7 +1393,7 @@
           "pos": "WR",
           "team": "PHI",
           "age": 27,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 48.5
         },
@@ -1434,7 +1414,7 @@
           "team": "NE",
           "age": 26,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 46.9
         },
         {
@@ -1464,7 +1444,7 @@
           "team": "KC",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 110.1
         },
         {
@@ -1486,6 +1466,16 @@
           "injury": null,
           "starter": true,
           "season_pts": 93.0
+        },
+        {
+          "id": "9480",
+          "name": "Brenton Strange",
+          "pos": "TE",
+          "team": "JAX",
+          "age": 25,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "JAX",
