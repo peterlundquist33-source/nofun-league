@@ -1,58 +1,37 @@
 {
-  "12489": {
-    "name": "RJ Harvey",
-    "pos": "RB",
-    "team": "DEN",
-    "age": 25,
-    "injury": null
-  },
-  "10236": {
-    "name": "Dalton Kincaid",
-    "pos": "TE",
-    "team": "BUF",
-    "age": 26,
-    "injury": null
-  },
-  "7591": {
-    "name": "Justin Fields",
+  "4017": {
+    "name": "Deshaun Watson",
     "pos": "QB",
-    "team": "KC",
-    "age": 27,
+    "team": "CLE",
+    "age": 31,
     "injury": null
   },
-  "13279": {
-    "name": "Carnell Tate",
+  "2449": {
+    "name": "Stefon Diggs",
     "pos": "WR",
-    "team": "TEN",
-    "age": 21,
-    "injury": null
+    "team": "WAS",
+    "age": 32,
+    "injury": "Questionable"
   },
-  "7526": {
-    "name": "Jaylen Waddle",
+  "3199": {
+    "name": "Michael Thomas",
     "pos": "WR",
-    "team": "DEN",
-    "age": 27,
-    "injury": null
-  },
-  "8121": {
-    "name": "Romeo Doubs",
-    "pos": "WR",
-    "team": "NE",
-    "age": 26,
-    "injury": null
-  },
-  "11564": {
-    "name": "Drake Maye",
-    "pos": "QB",
-    "team": "NE",
-    "age": 24,
-    "injury": null
-  },
-  "5248": {
-    "name": "Gus Edwards",
-    "pos": "RB",
     "team": null,
-    "age": 29,
+    "age": 31,
+    "injury": null
+  },
+  "12512": {
+    "name": "Quinshon Judkins",
+    "pos": "RB",
+    "team": "CLE",
+    "age": 22,
+    "injury": "Questionable"
+  },
+  "12517": {
+    "name": "Colston Loveland",
+    "pos": "TE",
+    "team": "CHI",
+    "age": 22,
     "injury": null
   },
   "8135": {
@@ -62,184 +41,240 @@
     "age": 26,
     "injury": null
   },
-  "12514": {
-    "name": "Emeka Egbuka",
-    "pos": "WR",
-    "team": "TB",
-    "age": 24,
+  "7611": {
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "team": "NE",
+    "age": 28,
     "injury": null
   },
-  "9502": {
-    "name": "Tank Dell",
+  "12530": {
+    "name": "Travis Hunter",
+    "pos": "DB",
+    "team": "JAX",
+    "age": 23,
+    "injury": null
+  },
+  "12484": {
+    "name": "Jayden Higgins",
     "pos": "WR",
     "team": "HOU",
-    "age": 26,
+    "age": 23,
     "injury": "IR"
   },
-  "8129": {
-    "name": "Dameon Pierce",
-    "pos": "RB",
-    "team": "PHI",
-    "age": 26,
+  "167": {
+    "name": "Tom Brady",
+    "pos": "QB",
+    "team": null,
+    "age": 45,
     "injury": null
   },
-  "NO": {
-    "name": "New Orleans Saints",
+  "PIT": {
+    "name": "Pittsburgh Steelers",
     "pos": "DEF",
-    "team": "NO",
+    "team": "PIT",
     "age": null,
     "injury": null
   },
-  "9758": {
-    "name": "C.J. Stroud",
+  "4068": {
+    "name": "Mike Williams",
+    "pos": "WR",
+    "team": null,
+    "age": 30,
+    "injury": "DNR"
+  },
+  "NE": {
+    "name": "New England Patriots",
+    "pos": "DEF",
+    "team": "NE",
+    "age": null,
+    "injury": null
+  },
+  "5927": {
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "team": "WAS",
+    "age": 31,
+    "injury": null
+  },
+  "4892": {
+    "name": "Baker Mayfield",
     "pos": "QB",
-    "team": "HOU",
+    "team": "TB",
+    "age": 31,
+    "injury": "Doubtful"
+  },
+  "3321": {
+    "name": "Tyreek Hill",
+    "pos": "WR",
+    "team": null,
+    "age": 31,
+    "injury": null
+  },
+  "12524": {
+    "name": "Shedeur Sanders",
+    "pos": "QB",
+    "team": "CLE",
+    "age": 24,
+    "injury": null
+  },
+  "4881": {
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "team": "BAL",
+    "age": 29,
+    "injury": "Questionable"
+  },
+  "6845": {
+    "name": "Zack Moss",
+    "pos": "RB",
+    "team": null,
+    "age": 27,
+    "injury": "Questionable"
+  },
+  "1264": {
+    "name": "Justin Tucker",
+    "pos": "K",
+    "team": null,
+    "age": 35,
+    "injury": null
+  },
+  "4663": {
+    "name": "Austin Ekeler",
+    "pos": "RB",
+    "team": "WAS",
+    "age": 31,
+    "injury": null
+  },
+  "6797": {
+    "name": "Justin Herbert",
+    "pos": "QB",
+    "team": "LAC",
+    "age": 28,
+    "injury": null
+  },
+  "12508": {
+    "name": "Jaxson Dart",
+    "pos": "QB",
+    "team": "NYG",
+    "age": 23,
+    "injury": "IR"
+  },
+  "8130": {
+    "name": "Trey McBride",
+    "pos": "TE",
+    "team": "ARI",
+    "age": 26,
+    "injury": null
+  },
+  "8119": {
+    "name": "Jahan Dotson",
+    "pos": "WR",
+    "team": "ATL",
+    "age": 26,
+    "injury": null
+  },
+  "12504": {
+    "name": "Kaleb Johnson",
+    "pos": "RB",
+    "team": "GB",
+    "age": 23,
+    "injury": null
+  },
+  "13287": {
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "team": "ARI",
+    "age": 21,
+    "injury": null
+  },
+  "5012": {
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "team": "BAL",
+    "age": 31,
+    "injury": null
+  },
+  "5987": {
+    "name": "Alexander Mattison",
+    "pos": "RB",
+    "team": null,
+    "age": 27,
+    "injury": null
+  },
+  "5850": {
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "team": "GB",
+    "age": 28,
+    "injury": "NA"
+  },
+  "9487": {
+    "name": "Parker Washington",
+    "pos": "WR",
+    "team": "JAX",
+    "age": 24,
+    "injury": null
+  },
+  "8154": {
+    "name": "Brian Robinson",
+    "pos": "RB",
+    "team": "ATL",
+    "age": 27,
+    "injury": null
+  },
+  "11586": {
+    "name": "Blake Corum",
+    "pos": "RB",
+    "team": "LAR",
     "age": 25,
     "injury": null
   },
-  "503": {
-    "name": "Graham Gano",
-    "pos": "K",
-    "team": null,
-    "age": 38,
-    "injury": "Questionable"
+  "8144": {
+    "name": "Chris Olave",
+    "pos": "WR",
+    "team": "NO",
+    "age": 26,
+    "injury": null
   },
-  "4029": {
-    "name": "Dalvin Cook",
+  "3164": {
+    "name": "Ezekiel Elliott",
     "pos": "RB",
     "team": null,
     "age": 29,
     "injury": null
   },
-  "10859": {
-    "name": "Sam LaPorta",
-    "pos": "TE",
-    "team": "DET",
-    "age": 25,
+  "8183": {
+    "name": "Brock Purdy",
+    "pos": "QB",
+    "team": "SF",
+    "age": 26,
     "injury": null
   },
-  "8148": {
-    "name": "Jameson Williams",
-    "pos": "WR",
-    "team": "DET",
-    "age": 25,
+  "5248": {
+    "name": "Gus Edwards",
+    "pos": "RB",
+    "team": null,
+    "age": 29,
     "injury": null
   },
-  "5022": {
-    "name": "Dallas Goedert",
-    "pos": "TE",
+  "MIA": {
+    "name": "Miami Dolphins",
+    "pos": "DEF",
+    "team": "MIA",
+    "age": null,
+    "injury": null
+  },
+  "4195": {
+    "name": "Jake Elliott",
+    "pos": "K",
     "team": "PHI",
     "age": 31,
     "injury": null
   },
-  "1426": {
-    "name": "DeAndre Hopkins",
+  "7049": {
+    "name": "Jauan Jennings",
     "pos": "WR",
-    "team": null,
-    "age": 33,
-    "injury": null
-  },
-  "13337": {
-    "name": "Emmett Johnson",
-    "pos": "RB",
-    "team": "KC",
-    "age": 23,
-    "injury": null
-  },
-  "11566": {
-    "name": "Jayden Daniels",
-    "pos": "QB",
-    "team": "WAS",
-    "age": 25,
-    "injury": null
-  },
-  "10229": {
-    "name": "Rashee Rice",
-    "pos": "WR",
-    "team": "KC",
-    "age": 26,
-    "injury": "Questionable"
-  },
-  "4199": {
-    "name": "Aaron Jones",
-    "pos": "RB",
-    "team": "MIN",
-    "age": 31,
-    "injury": "Questionable"
-  },
-  "4033": {
-    "name": "David Njoku",
-    "pos": "TE",
-    "team": "LAC",
-    "age": 30,
-    "injury": "IR"
-  },
-  "7608": {
-    "name": "Khalil Herbert",
-    "pos": "RB",
-    "team": "ATL",
-    "age": 28,
-    "injury": null
-  },
-  "6801": {
-    "name": "Tee Higgins",
-    "pos": "WR",
-    "team": "CIN",
-    "age": 27,
-    "injury": null
-  },
-  "9229": {
-    "name": "Anthony Richardson",
-    "pos": "QB",
-    "team": "IND",
-    "age": 24,
-    "injury": null
-  },
-  "9225": {
-    "name": "Tank Bigsby",
-    "pos": "RB",
-    "team": "PHI",
-    "age": 24,
-    "injury": "IR"
-  },
-  "8134": {
-    "name": "Khalil Shakir",
-    "pos": "WR",
-    "team": "BUF",
-    "age": 26,
-    "injury": null
-  },
-  "12481": {
-    "name": "Cam Skattebo",
-    "pos": "RB",
-    "team": "NYG",
-    "age": 24,
-    "injury": null
-  },
-  "6943": {
-    "name": "Gabe Davis",
-    "pos": "WR",
-    "team": null,
-    "age": 26,
-    "injury": "Questionable"
-  },
-  "13286": {
-    "name": "Jadarian Price",
-    "pos": "RB",
-    "team": "SEA",
-    "age": 23,
-    "injury": "IR"
-  },
-  "7588": {
-    "name": "Javonte Williams",
-    "pos": "RB",
-    "team": "DAL",
-    "age": 26,
-    "injury": null
-  },
-  "5849": {
-    "name": "Kyler Murray",
-    "pos": "QB",
     "team": "MIN",
     "age": 29,
     "injury": null
@@ -251,452 +286,39 @@
     "age": 23,
     "injury": null
   },
-  "7042": {
-    "name": "Tyler Bass",
-    "pos": "K",
-    "team": "BUF",
-    "age": 29,
-    "injury": null
-  },
-  "DEN": {
-    "name": "Denver Broncos",
-    "pos": "DEF",
-    "team": "DEN",
-    "age": null,
-    "injury": null
-  },
-  "WAS": {
-    "name": "Washington Commanders",
-    "pos": "DEF",
-    "team": "WAS",
-    "age": null,
-    "injury": null
-  },
-  "BAL": {
-    "name": "Baltimore Ravens",
-    "pos": "DEF",
-    "team": "BAL",
-    "age": null,
-    "injury": null
-  },
-  "4046": {
-    "name": "Patrick Mahomes",
-    "pos": "QB",
-    "team": "KC",
-    "age": 31,
-    "injury": null
-  },
-  "4983": {
-    "name": "DJ Moore",
+  "11638": {
+    "name": "Ricky Pearsall",
     "pos": "WR",
-    "team": "BUF",
-    "age": 29,
-    "injury": "Questionable"
-  },
-  "5859": {
-    "name": "A.J. Brown",
-    "pos": "WR",
-    "team": "NE",
-    "age": 29,
-    "injury": "IR"
-  },
-  "6804": {
-    "name": "Jordan Love",
-    "pos": "QB",
-    "team": "GB",
-    "age": 27,
-    "injury": null
-  },
-  "8155": {
-    "name": "Breece Hall",
-    "pos": "RB",
-    "team": "NYJ",
-    "age": 25,
-    "injury": "Questionable"
-  },
-  "7839": {
-    "name": "Evan McPherson",
-    "pos": "K",
-    "team": "CIN",
-    "age": 27,
-    "injury": null
-  },
-  "5987": {
-    "name": "Alexander Mattison",
-    "pos": "RB",
-    "team": null,
-    "age": 27,
-    "injury": null
-  },
-  "11631": {
-    "name": "Brian Thomas",
-    "pos": "WR",
-    "team": "JAX",
-    "age": 24,
-    "injury": null
-  },
-  "6130": {
-    "name": "Devin Singletary",
-    "pos": "RB",
-    "team": "NYG",
-    "age": 29,
-    "injury": null
-  },
-  "4866": {
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "team": "PHI",
-    "age": 29,
-    "injury": "Questionable"
-  },
-  "12495": {
-    "name": "Ollie Gordon",
-    "pos": "RB",
-    "team": "MIA",
-    "age": 22,
-    "injury": "Questionable"
-  },
-  "9484": {
-    "name": "Tucker Kraft",
-    "pos": "TE",
-    "team": "GB",
-    "age": 25,
-    "injury": null
-  },
-  "13414": {
-    "name": "Kaelon Black",
-    "pos": "RB",
     "team": "SF",
-    "age": 24,
-    "injury": null
-  },
-  "8154": {
-    "name": "Brian Robinson",
-    "pos": "RB",
-    "team": "ATL",
-    "age": 27,
-    "injury": null
-  },
-  "11655": {
-    "name": "Tyrone Tracy",
-    "pos": "RB",
-    "team": "NYG",
     "age": 26,
-    "injury": null
-  },
-  "4066": {
-    "name": "Evan Engram",
-    "pos": "TE",
-    "team": "DEN",
-    "age": 32,
-    "injury": null
-  },
-  "8131": {
-    "name": "Isaiah Likely",
-    "pos": "TE",
-    "team": "NYG",
-    "age": 26,
-    "injury": null
-  },
-  "9226": {
-    "name": "De'Von Achane",
-    "pos": "RB",
-    "team": "MIA",
-    "age": 25,
     "injury": "IR"
   },
-  "4981": {
-    "name": "Calvin Ridley",
-    "pos": "WR",
-    "team": "TEN",
-    "age": 31,
-    "injury": null
-  },
-  "12504": {
-    "name": "Kaleb Johnson",
+  "12533": {
+    "name": "Jacory Croskey-Merritt",
     "pos": "RB",
-    "team": "GB",
-    "age": 23,
+    "team": "WAS",
+    "age": 25,
     "injury": null
   },
-  "1166": {
-    "name": "Kirk Cousins",
-    "pos": "QB",
+  "11604": {
+    "name": "Brock Bowers",
+    "pos": "TE",
     "team": "LV",
+    "age": 23,
+    "injury": null
+  },
+  "CLE": {
+    "name": "Cleveland Browns",
+    "pos": "DEF",
+    "team": "CLE",
+    "age": null,
+    "injury": null
+  },
+  "421": {
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "team": "LAR",
     "age": 38,
-    "injury": null
-  },
-  "9500": {
-    "name": "Josh Downs",
-    "pos": "WR",
-    "team": "IND",
-    "age": 25,
-    "injury": null
-  },
-  "6783": {
-    "name": "Jerry Jeudy",
-    "pos": "WR",
-    "team": "CLE",
-    "age": 27,
-    "injury": null
-  },
-  "TB": {
-    "name": "Tampa Bay Buccaneers",
-    "pos": "DEF",
-    "team": "TB",
-    "age": null,
-    "injury": null
-  },
-  "2505": {
-    "name": "Darren Waller",
-    "pos": "TE",
-    "team": "CAR",
-    "age": 34,
-    "injury": null
-  },
-  "3294": {
-    "name": "Dak Prescott",
-    "pos": "QB",
-    "team": "DAL",
-    "age": 33,
-    "injury": null
-  },
-  "6828": {
-    "name": "AJ Dillon",
-    "pos": "RB",
-    "team": "CAR",
-    "age": 28,
-    "injury": null
-  },
-  "4984": {
-    "name": "Josh Allen",
-    "pos": "QB",
-    "team": "BUF",
-    "age": 30,
-    "injury": null
-  },
-  "8259": {
-    "name": "Cameron Dicker",
-    "pos": "K",
-    "team": "LAC",
-    "age": 26,
-    "injury": null
-  },
-  "650": {
-    "name": "Nick Folk",
-    "pos": "K",
-    "team": "ATL",
-    "age": 41,
-    "injury": null
-  },
-  "11635": {
-    "name": "Ladd McConkey",
-    "pos": "WR",
-    "team": "LAC",
-    "age": 24,
-    "injury": "Questionable"
-  },
-  "11581": {
-    "name": "MarShawn Lloyd",
-    "pos": "RB",
-    "team": "GB",
-    "age": 25,
-    "injury": null
-  },
-  "8205": {
-    "name": "Isiah Pacheco",
-    "pos": "RB",
-    "team": "DET",
-    "age": 27,
-    "injury": "IR"
-  },
-  "9487": {
-    "name": "Parker Washington",
-    "pos": "WR",
-    "team": "JAX",
-    "age": 24,
-    "injury": null
-  },
-  "9753": {
-    "name": "Zach Charbonnet",
-    "pos": "RB",
-    "team": "SEA",
-    "age": 25,
-    "injury": "PUP"
-  },
-  "NYJ": {
-    "name": "New York Jets",
-    "pos": "DEF",
-    "team": "NYJ",
-    "age": null,
-    "injury": null
-  },
-  "MIN": {
-    "name": "Minnesota Vikings",
-    "pos": "DEF",
-    "team": "MIN",
-    "age": null,
-    "injury": null
-  },
-  "8130": {
-    "name": "Trey McBride",
-    "pos": "TE",
-    "team": "ARI",
-    "age": 26,
-    "injury": null
-  },
-  "12501": {
-    "name": "Matthew Golden",
-    "pos": "WR",
-    "team": "GB",
-    "age": 23,
-    "injury": null
-  },
-  "8408": {
-    "name": "Jordan Mason",
-    "pos": "RB",
-    "team": "MIN",
-    "age": 27,
-    "injury": "IR"
-  },
-  "9224": {
-    "name": "Chase Brown",
-    "pos": "RB",
-    "team": "CIN",
-    "age": 26,
-    "injury": null
-  },
-  "7525": {
-    "name": "DeVonta Smith",
-    "pos": "WR",
-    "team": "PHI",
-    "age": 27,
-    "injury": "Questionable"
-  },
-  "SF": {
-    "name": "San Francisco 49ers",
-    "pos": "DEF",
-    "team": "SF",
-    "age": null,
-    "injury": null
-  },
-  "4217": {
-    "name": "George Kittle",
-    "pos": "TE",
-    "team": "SF",
-    "age": 33,
-    "injury": null
-  },
-  "7543": {
-    "name": "Travis Etienne",
-    "pos": "RB",
-    "team": "NO",
-    "age": 27,
-    "injury": "IR"
-  },
-  "11834": {
-    "name": "Devaughn Vele",
-    "pos": "WR",
-    "team": "NO",
-    "age": 28,
-    "injury": null
-  },
-  "DET": {
-    "name": "Detroit Lions",
-    "pos": "DEF",
-    "team": "DET",
-    "age": null,
-    "injury": null
-  },
-  "12526": {
-    "name": "Tetairoa McMillan",
-    "pos": "WR",
-    "team": "CAR",
-    "age": 23,
-    "injury": null
-  },
-  "8136": {
-    "name": "Rachaad White",
-    "pos": "RB",
-    "team": "WAS",
-    "age": 27,
-    "injury": null
-  },
-  "12015": {
-    "name": "Harrison Mevis",
-    "pos": "K",
-    "team": null,
-    "age": 24,
-    "injury": null
-  },
-  "8112": {
-    "name": "Drake London",
-    "pos": "WR",
-    "team": "ATL",
-    "age": 25,
-    "injury": null
-  },
-  "4018": {
-    "name": "Joe Mixon",
-    "pos": "RB",
-    "team": null,
-    "age": 30,
-    "injury": "Questionable"
-  },
-  "6826": {
-    "name": "Cole Kmet",
-    "pos": "TE",
-    "team": "CHI",
-    "age": 27,
-    "injury": null
-  },
-  "5892": {
-    "name": "David Montgomery",
-    "pos": "RB",
-    "team": "HOU",
-    "age": 29,
-    "injury": "Doubtful"
-  },
-  "2749": {
-    "name": "Raheem Mostert",
-    "pos": "RB",
-    "team": null,
-    "age": 33,
-    "injury": "Questionable"
-  },
-  "3199": {
-    "name": "Michael Thomas",
-    "pos": "WR",
-    "team": null,
-    "age": 31,
-    "injury": null
-  },
-  "11539": {
-    "name": "Jake Bates",
-    "pos": "K",
-    "team": "DET",
-    "age": 27,
-    "injury": null
-  },
-  "4017": {
-    "name": "Deshaun Watson",
-    "pos": "QB",
-    "team": "CLE",
-    "age": 31,
-    "injury": null
-  },
-  "11584": {
-    "name": "Bucky Irving",
-    "pos": "RB",
-    "team": "TB",
-    "age": 24,
-    "injury": null
-  },
-  "2309": {
-    "name": "Amari Cooper",
-    "pos": "WR",
-    "team": null,
-    "age": 31,
     "injury": null
   },
   "1479": {
@@ -706,82 +328,82 @@
     "age": 34,
     "injury": null
   },
-  "11628": {
-    "name": "Marvin Harrison",
-    "pos": "WR",
-    "team": "HOU",
-    "age": 24,
+  "6130": {
+    "name": "Devin Singletary",
+    "pos": "RB",
+    "team": "NYG",
+    "age": 29,
     "injury": null
   },
-  "11576": {
-    "name": "Braelon Allen",
+  "6826": {
+    "name": "Cole Kmet",
+    "pos": "TE",
+    "team": "CHI",
+    "age": 27,
+    "injury": null
+  },
+  "4227": {
+    "name": "Harrison Butker",
+    "pos": "K",
+    "team": "KC",
+    "age": 31,
+    "injury": null
+  },
+  "12527": {
+    "name": "Ashton Jeanty",
     "pos": "RB",
-    "team": "NYJ",
+    "team": "LV",
     "age": 22,
     "injury": null
   },
-  "4068": {
-    "name": "Mike Williams",
-    "pos": "WR",
-    "team": null,
-    "age": 30,
-    "injury": "DNR"
-  },
-  "5927": {
-    "name": "Terry McLaurin",
-    "pos": "WR",
-    "team": "WAS",
+  "4046": {
+    "name": "Patrick Mahomes",
+    "pos": "QB",
+    "team": "KC",
     "age": 31,
     "injury": null
   },
-  "9756": {
-    "name": "Jordan Addison",
-    "pos": "WR",
-    "team": "MIN",
-    "age": 24,
-    "injury": "Out"
-  },
-  "4663": {
-    "name": "Austin Ekeler",
+  "12490": {
+    "name": "Bhayshul Tuten",
     "pos": "RB",
-    "team": "WAS",
+    "team": "JAX",
+    "age": 23,
+    "injury": null
+  },
+  "5045": {
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "team": "DEN",
     "age": 31,
     "injury": null
   },
-  "11589": {
-    "name": "Trey Benson",
-    "pos": "RB",
-    "team": "ARI",
-    "age": 24,
-    "injury": "IR"
-  },
-  "DAL": {
-    "name": "Dallas Cowboys",
-    "pos": "DEF",
-    "team": "DAL",
-    "age": null,
+  "4144": {
+    "name": "Jonnu Smith",
+    "pos": "TE",
+    "team": "GB",
+    "age": 31,
     "injury": null
   },
-  "9221": {
-    "name": "Jahmyr Gibbs",
-    "pos": "RB",
-    "team": "DET",
-    "age": 24,
-    "injury": null
-  },
-  "11620": {
-    "name": "Rome Odunze",
+  "13346": {
+    "name": "Denzel Boston",
     "pos": "WR",
-    "team": "CHI",
-    "age": 24,
+    "team": "CLE",
+    "age": 22,
     "injury": null
   },
-  "12474": {
-    "name": "Woody Marks",
-    "pos": "RB",
+  "5001": {
+    "name": "Dalton Schultz",
+    "pos": "TE",
     "team": "HOU",
-    "age": 25,
+    "age": 30,
     "injury": null
+  },
+  "4033": {
+    "name": "David Njoku",
+    "pos": "TE",
+    "team": "LAC",
+    "age": 30,
+    "injury": "IR"
   },
   "5872": {
     "name": "Deebo Samuel",
@@ -790,25 +412,32 @@
     "age": 30,
     "injury": "Out"
   },
-  "12519": {
-    "name": "Luther Burden",
+  "7525": {
+    "name": "DeVonta Smith",
     "pos": "WR",
-    "team": "CHI",
-    "age": 22,
+    "team": "PHI",
+    "age": 27,
+    "injury": "Questionable"
+  },
+  "6904": {
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "team": "PHI",
+    "age": 28,
     "injury": null
   },
-  "5012": {
-    "name": "Mark Andrews",
-    "pos": "TE",
-    "team": "BAL",
+  "4981": {
+    "name": "Calvin Ridley",
+    "pos": "WR",
+    "team": "TEN",
     "age": 31,
     "injury": null
   },
-  "KC": {
-    "name": "Kansas City Chiefs",
-    "pos": "DEF",
-    "team": "KC",
-    "age": null,
+  "2374": {
+    "name": "Tyler Lockett",
+    "pos": "WR",
+    "team": null,
+    "age": 33,
     "injury": null
   },
   "5848": {
@@ -825,116 +454,18 @@
     "age": 29,
     "injury": "IR"
   },
-  "11632": {
-    "name": "Malik Nabers",
-    "pos": "WR",
-    "team": "NYG",
-    "age": 23,
-    "injury": null
-  },
-  "12490": {
-    "name": "Bhayshul Tuten",
+  "8155": {
+    "name": "Breece Hall",
     "pos": "RB",
-    "team": "JAX",
-    "age": 23,
-    "injury": null
-  },
-  "2216": {
-    "name": "Mike Evans",
-    "pos": "WR",
-    "team": "SF",
-    "age": 33,
-    "injury": null
-  },
-  "11533": {
-    "name": "Brandon Aubrey",
-    "pos": "K",
-    "team": "DAL",
-    "age": 31,
-    "injury": null
-  },
-  "2747": {
-    "name": "Jason Myers",
-    "pos": "K",
-    "team": "SEA",
-    "age": 35,
-    "injury": null
-  },
-  "7049": {
-    "name": "Jauan Jennings",
-    "pos": "WR",
-    "team": "MIN",
-    "age": 29,
-    "injury": null
-  },
-  "9509": {
-    "name": "Bijan Robinson",
-    "pos": "RB",
-    "team": "ATL",
-    "age": 24,
-    "injury": null
-  },
-  "6803": {
-    "name": "Brandon Aiyuk",
-    "pos": "WR",
-    "team": "SF",
-    "age": 28,
-    "injury": "DNR"
-  },
-  "GB": {
-    "name": "Green Bay Packers",
-    "pos": "DEF",
-    "team": "GB",
-    "age": null,
-    "injury": null
-  },
-  "11637": {
-    "name": "Keon Coleman",
-    "pos": "WR",
-    "team": "BUF",
-    "age": 23,
-    "injury": null
-  },
-  "5045": {
-    "name": "Courtland Sutton",
-    "pos": "WR",
-    "team": "DEN",
-    "age": 31,
-    "injury": null
-  },
-  "8168": {
-    "name": "Skyy Moore",
-    "pos": "WR",
-    "team": "GB",
-    "age": 26,
+    "team": "NYJ",
+    "age": 25,
     "injury": "Questionable"
   },
-  "12533": {
-    "name": "Jacory Croskey-Merritt",
+  "7528": {
+    "name": "Najee Harris",
     "pos": "RB",
-    "team": "WAS",
-    "age": 25,
-    "injury": null
-  },
-  "12185": {
-    "name": "Spencer Shrader",
-    "pos": "K",
-    "team": "IND",
-    "age": 27,
-    "injury": null
-  },
-  "11638": {
-    "name": "Ricky Pearsall",
-    "pos": "WR",
-    "team": "SF",
-    "age": 26,
-    "injury": "IR"
-  },
-  "6806": {
-    "name": "J.K. Dobbins",
-    "pos": "RB",
-    "team": "DEN",
-    "age": 27,
+    "team": "NYG",
+    "age": 28,
     "injury": null
   },
   "9508": {
@@ -944,228 +475,11 @@
     "age": 25,
     "injury": null
   },
-  "11563": {
-    "name": "Bo Nix",
-    "pos": "QB",
-    "team": "DEN",
-    "age": 26,
-    "injury": null
-  },
-  "5937": {
-    "name": "Diontae Johnson",
-    "pos": "WR",
-    "team": null,
-    "age": 29,
-    "injury": null
-  },
-  "11786": {
-    "name": "Cam Little",
-    "pos": "K",
-    "team": "JAX",
-    "age": 23,
-    "injury": null
-  },
-  "8138": {
-    "name": "James Cook",
+  "6828": {
+    "name": "AJ Dillon",
     "pos": "RB",
-    "team": "BUF",
-    "age": 27,
-    "injury": null
-  },
-  "6151": {
-    "name": "Miles Sanders",
-    "pos": "RB",
-    "team": null,
+    "team": "CAR",
     "age": 28,
-    "injury": null
-  },
-  "6813": {
-    "name": "Jonathan Taylor",
-    "pos": "RB",
-    "team": "IND",
-    "age": 27,
-    "injury": null
-  },
-  "4137": {
-    "name": "James Conner",
-    "pos": "RB",
-    "team": "ARI",
-    "age": 31,
-    "injury": "IR"
-  },
-  "12518": {
-    "name": "Tyler Warren",
-    "pos": "TE",
-    "team": "IND",
-    "age": 24,
-    "injury": null
-  },
-  "12527": {
-    "name": "Ashton Jeanty",
-    "pos": "RB",
-    "team": "LV",
-    "age": 22,
-    "injury": null
-  },
-  "13294": {
-    "name": "Makai Lemon",
-    "pos": "WR",
-    "team": "PHI",
-    "age": 22,
-    "injury": null
-  },
-  "7528": {
-    "name": "Najee Harris",
-    "pos": "RB",
-    "team": "NYG",
-    "age": 28,
-    "injury": null
-  },
-  "9488": {
-    "name": "Jaxon Smith-Njigba",
-    "pos": "WR",
-    "team": "SEA",
-    "age": 24,
-    "injury": "Questionable"
-  },
-  "6770": {
-    "name": "Joe Burrow",
-    "pos": "QB",
-    "team": "CIN",
-    "age": 29,
-    "injury": null
-  },
-  "13281": {
-    "name": "Jordyn Tyson",
-    "pos": "WR",
-    "team": "NO",
-    "age": 22,
-    "injury": "IR"
-  },
-  "HOU": {
-    "name": "Houston Texans",
-    "pos": "DEF",
-    "team": "HOU",
-    "age": null,
-    "injury": null
-  },
-  "10232": {
-    "name": "Michael Wilson",
-    "pos": "WR",
-    "team": "ARI",
-    "age": 26,
-    "injury": null
-  },
-  "4149": {
-    "name": "Jamaal Williams",
-    "pos": "RB",
-    "team": null,
-    "age": 29,
-    "injury": null
-  },
-  "PIT": {
-    "name": "Pittsburgh Steelers",
-    "pos": "DEF",
-    "team": "PIT",
-    "age": null,
-    "injury": null
-  },
-  "13346": {
-    "name": "Denzel Boston",
-    "pos": "WR",
-    "team": "CLE",
-    "age": 22,
-    "injury": null
-  },
-  "6904": {
-    "name": "Jalen Hurts",
-    "pos": "QB",
-    "team": "PHI",
-    "age": 28,
-    "injury": null
-  },
-  "7523": {
-    "name": "Trevor Lawrence",
-    "pos": "QB",
-    "team": "JAX",
-    "age": 27,
-    "injury": null
-  },
-  "7600": {
-    "name": "Pat Freiermuth",
-    "pos": "TE",
-    "team": "PIT",
-    "age": 27,
-    "injury": null
-  },
-  "2449": {
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "team": "WAS",
-    "age": 32,
-    "injury": "Questionable"
-  },
-  "6938": {
-    "name": "Cam Akers",
-    "pos": "RB",
-    "team": null,
-    "age": 26,
-    "injury": null
-  },
-  "11792": {
-    "name": "Will Reichard",
-    "pos": "K",
-    "team": "MIN",
-    "age": 25,
-    "injury": null
-  },
-  "9754": {
-    "name": "Quentin Johnston",
-    "pos": "WR",
-    "team": "LAC",
-    "age": 25,
-    "injury": "Questionable"
-  },
-  "11586": {
-    "name": "Blake Corum",
-    "pos": "RB",
-    "team": "LAR",
-    "age": 25,
-    "injury": null
-  },
-  "4988": {
-    "name": "Nick Chubb",
-    "pos": "RB",
-    "team": null,
-    "age": 30,
-    "injury": null
-  },
-  "12009": {
-    "name": "Jack Plummer",
-    "pos": "QB",
-    "team": null,
-    "age": 25,
-    "injury": null
-  },
-  "6790": {
-    "name": "D'Andre Swift",
-    "pos": "RB",
-    "team": "CHI",
-    "age": 27,
-    "injury": null
-  },
-  "NE": {
-    "name": "New England Patriots",
-    "pos": "DEF",
-    "team": "NE",
-    "age": null,
-    "injury": null
-  },
-  "8146": {
-    "name": "Garrett Wilson",
-    "pos": "WR",
-    "team": "NYJ",
-    "age": 26,
     "injury": null
   },
   "5967": {
@@ -1175,130 +489,207 @@
     "age": 29,
     "injury": null
   },
-  "167": {
-    "name": "Tom Brady",
-    "pos": "QB",
-    "team": null,
-    "age": 45,
+  "DEN": {
+    "name": "Denver Broncos",
+    "pos": "DEF",
+    "team": "DEN",
+    "age": null,
     "injury": null
   },
-  "12512": {
-    "name": "Quinshon Judkins",
-    "pos": "RB",
-    "team": "CLE",
-    "age": 22,
-    "injury": "Questionable"
-  },
-  "6797": {
-    "name": "Justin Herbert",
+  "6770": {
+    "name": "Joe Burrow",
     "pos": "QB",
-    "team": "LAC",
-    "age": 28,
+    "team": "CIN",
+    "age": 29,
     "injury": null
   },
-  "7002": {
-    "name": "Juwan Johnson",
-    "pos": "TE",
-    "team": "NO",
+  "4984": {
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
     "age": 30,
     "injury": null
   },
-  "4227": {
-    "name": "Harrison Butker",
-    "pos": "K",
-    "team": "KC",
-    "age": 31,
-    "injury": null
-  },
-  "PHI": {
-    "name": "Philadelphia Eagles",
-    "pos": "DEF",
-    "team": "PHI",
-    "age": null,
-    "injury": null
-  },
-  "5095": {
-    "name": "Daniel Carlson",
-    "pos": "K",
-    "team": "NO",
-    "age": 31,
-    "injury": null
-  },
-  "11646": {
-    "name": "Jalen Coker",
-    "pos": "WR",
-    "team": "CAR",
+  "11584": {
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "team": "TB",
     "age": 24,
+    "injury": null
+  },
+  "4988": {
+    "name": "Nick Chubb",
+    "pos": "RB",
+    "team": null,
+    "age": 30,
+    "injury": null
+  },
+  "5937": {
+    "name": "Diontae Johnson",
+    "pos": "WR",
+    "team": null,
+    "age": 29,
+    "injury": null
+  },
+  "11565": {
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "team": "NYG",
+    "age": 23,
+    "injury": null
+  },
+  "11620": {
+    "name": "Rome Odunze",
+    "pos": "WR",
+    "team": "CHI",
+    "age": 24,
+    "injury": null
+  },
+  "6650": {
+    "name": "Chase McLaughlin",
+    "pos": "K",
+    "team": "TB",
+    "age": 30,
+    "injury": null
+  },
+  "6945": {
+    "name": "Antonio Gibson",
+    "pos": "RB",
+    "team": null,
+    "age": 27,
     "injury": "Questionable"
   },
-  "3451": {
-    "name": "Ka'imi Fairbairn",
+  "2747": {
+    "name": "Jason Myers",
     "pos": "K",
-    "team": "HOU",
-    "age": 32,
-    "injury": null
-  },
-  "CLE": {
-    "name": "Cleveland Browns",
-    "pos": "DEF",
-    "team": "CLE",
-    "age": null,
-    "injury": null
-  },
-  "5850": {
-    "name": "Josh Jacobs",
-    "pos": "RB",
-    "team": "GB",
-    "age": 28,
-    "injury": "NA"
-  },
-  "SEA": {
-    "name": "Seattle Seahawks",
-    "pos": "DEF",
     "team": "SEA",
-    "age": null,
-    "injury": null
-  },
-  "5844": {
-    "name": "T.J. Hockenson",
-    "pos": "TE",
-    "team": "MIN",
-    "age": 29,
-    "injury": "Out"
-  },
-  "8167": {
-    "name": "Christian Watson",
-    "pos": "WR",
-    "team": "GB",
-    "age": 27,
-    "injury": null
-  },
-  "4195": {
-    "name": "Jake Elliott",
-    "pos": "K",
-    "team": "PHI",
-    "age": 31,
-    "injury": null
-  },
-  "4892": {
-    "name": "Baker Mayfield",
-    "pos": "QB",
-    "team": "TB",
-    "age": 31,
-    "injury": "Doubtful"
-  },
-  "1264": {
-    "name": "Justin Tucker",
-    "pos": "K",
-    "team": null,
     "age": 35,
     "injury": null
   },
-  "11624": {
-    "name": "Xavier Worthy",
-    "pos": "WR",
-    "team": "KC",
+  "13286": {
+    "name": "Jadarian Price",
+    "pos": "RB",
+    "team": "SEA",
     "age": 23,
+    "injury": "IR"
+  },
+  "5947": {
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "team": "JAX",
+    "age": 29,
+    "injury": null
+  },
+  "13545": {
+    "name": "Trey Smack",
+    "pos": "K",
+    "team": "GB",
+    "age": 23,
+    "injury": null
+  },
+  "12534": {
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "team": "CHI",
+    "age": 24,
+    "injury": "Questionable"
+  },
+  "BAL": {
+    "name": "Baltimore Ravens",
+    "pos": "DEF",
+    "team": "BAL",
+    "age": null,
+    "injury": null
+  },
+  "4217": {
+    "name": "George Kittle",
+    "pos": "TE",
+    "team": "SF",
+    "age": 33,
+    "injury": null
+  },
+  "11786": {
+    "name": "Cam Little",
+    "pos": "K",
+    "team": "JAX",
+    "age": 23,
+    "injury": null
+  },
+  "6801": {
+    "name": "Tee Higgins",
+    "pos": "WR",
+    "team": "CIN",
+    "age": 27,
+    "injury": null
+  },
+  "11533": {
+    "name": "Brandon Aubrey",
+    "pos": "K",
+    "team": "DAL",
+    "age": 31,
+    "injury": null
+  },
+  "4149": {
+    "name": "Jamaal Williams",
+    "pos": "RB",
+    "team": null,
+    "age": 29,
+    "injury": null
+  },
+  "1166": {
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "team": "LV",
+    "age": 38,
+    "injury": null
+  },
+  "8132": {
+    "name": "Tyler Allgeier",
+    "pos": "RB",
+    "team": "ARI",
+    "age": 26,
+    "injury": null
+  },
+  "8129": {
+    "name": "Dameon Pierce",
+    "pos": "RB",
+    "team": "PHI",
+    "age": 26,
+    "injury": null
+  },
+  "8134": {
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "team": "BUF",
+    "age": 26,
+    "injury": null
+  },
+  "7523": {
+    "name": "Trevor Lawrence",
+    "pos": "QB",
+    "team": "JAX",
+    "age": 27,
+    "injury": null
+  },
+  "11581": {
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "team": "GB",
+    "age": 25,
+    "injury": null
+  },
+  "7564": {
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "team": "CIN",
+    "age": 26,
+    "injury": null
+  },
+  "10859": {
+    "name": "Sam LaPorta",
+    "pos": "TE",
+    "team": "DET",
+    "age": 25,
     "injury": null
   },
   "4035": {
@@ -1308,6 +699,41 @@
     "age": 31,
     "injury": null
   },
+  "GB": {
+    "name": "Green Bay Packers",
+    "pos": "DEF",
+    "team": "GB",
+    "age": null,
+    "injury": null
+  },
+  "JAX": {
+    "name": "Jacksonville Jaguars",
+    "pos": "DEF",
+    "team": "JAX",
+    "age": null,
+    "injury": null
+  },
+  "7600": {
+    "name": "Pat Freiermuth",
+    "pos": "TE",
+    "team": "PIT",
+    "age": 27,
+    "injury": null
+  },
+  "8139": {
+    "name": "Zamir White",
+    "pos": "RB",
+    "team": "NO",
+    "age": 27,
+    "injury": null
+  },
+  "6804": {
+    "name": "Jordan Love",
+    "pos": "QB",
+    "team": "GB",
+    "age": 27,
+    "injury": null
+  },
   "11583": {
     "name": "Jonathon Brooks",
     "pos": "RB",
@@ -1315,46 +741,158 @@
     "age": 23,
     "injury": "IR"
   },
-  "6650": {
-    "name": "Chase McLaughlin",
-    "pos": "K",
-    "team": "TB",
-    "age": 30,
-    "injury": null
-  },
-  "5001": {
-    "name": "Dalton Schultz",
-    "pos": "TE",
-    "team": "HOU",
-    "age": 30,
-    "injury": null
-  },
-  "5947": {
-    "name": "Jakobi Meyers",
+  "4983": {
+    "name": "DJ Moore",
     "pos": "WR",
-    "team": "JAX",
+    "team": "BUF",
     "age": 29,
+    "injury": "Questionable"
+  },
+  "NO": {
+    "name": "New Orleans Saints",
+    "pos": "DEF",
+    "team": "NO",
+    "age": null,
     "injury": null
   },
-  "8110": {
-    "name": "Jake Ferguson",
-    "pos": "TE",
-    "team": "DAL",
-    "age": 27,
+  "8259": {
+    "name": "Cameron Dicker",
+    "pos": "K",
+    "team": "LAC",
+    "age": 26,
     "injury": null
   },
-  "4034": {
-    "name": "Christian McCaffrey",
+  "13298": {
+    "name": "KC Concepcion",
+    "pos": "WR",
+    "team": "CLE",
+    "age": 22,
+    "injury": "Questionable"
+  },
+  "11655": {
+    "name": "Tyrone Tracy",
     "pos": "RB",
-    "team": "SF",
-    "age": 30,
+    "team": "NYG",
+    "age": 26,
     "injury": null
   },
-  "7594": {
-    "name": "Chuba Hubbard",
-    "pos": "RB",
+  "11563": {
+    "name": "Bo Nix",
+    "pos": "QB",
+    "team": "DEN",
+    "age": 26,
+    "injury": null
+  },
+  "WAS": {
+    "name": "Washington Commanders",
+    "pos": "DEF",
+    "team": "WAS",
+    "age": null,
+    "injury": null
+  },
+  "1426": {
+    "name": "DeAndre Hopkins",
+    "pos": "WR",
+    "team": null,
+    "age": 33,
+    "injury": null
+  },
+  "9997": {
+    "name": "Zay Flowers",
+    "pos": "WR",
+    "team": "BAL",
+    "age": 26,
+    "injury": null
+  },
+  "11646": {
+    "name": "Jalen Coker",
+    "pos": "WR",
     "team": "CAR",
+    "age": 24,
+    "injury": "Questionable"
+  },
+  "8131": {
+    "name": "Isaiah Likely",
+    "pos": "TE",
+    "team": "NYG",
+    "age": 26,
+    "injury": null
+  },
+  "5892": {
+    "name": "David Montgomery",
+    "pos": "RB",
+    "team": "HOU",
+    "age": 29,
+    "injury": "Doubtful"
+  },
+  "MIN": {
+    "name": "Minnesota Vikings",
+    "pos": "DEF",
+    "team": "MIN",
+    "age": null,
+    "injury": null
+  },
+  "8205": {
+    "name": "Isiah Pacheco",
+    "pos": "RB",
+    "team": "DET",
     "age": 27,
+    "injury": "IR"
+  },
+  "9221": {
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "team": "DET",
+    "age": 24,
+    "injury": null
+  },
+  "6790": {
+    "name": "D'Andre Swift",
+    "pos": "RB",
+    "team": "CHI",
+    "age": 27,
+    "injury": null
+  },
+  "6822": {
+    "name": "Jake Fromm",
+    "pos": "QB",
+    "team": null,
+    "age": 26,
+    "injury": null
+  },
+  "12015": {
+    "name": "Harrison Mevis",
+    "pos": "K",
+    "team": null,
+    "age": 24,
+    "injury": null
+  },
+  "5785": {
+    "name": "James Butler",
+    "pos": "RB",
+    "team": null,
+    "age": 26,
+    "injury": null
+  },
+  "11635": {
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "team": "LAC",
+    "age": 24,
+    "injury": "Questionable"
+  },
+  "2197": {
+    "name": "Brandin Cooks",
+    "pos": "WR",
+    "team": "SF",
+    "age": 33,
+    "injury": null
+  },
+  "2216": {
+    "name": "Mike Evans",
+    "pos": "WR",
+    "team": "SF",
+    "age": 33,
     "injury": null
   },
   "12529": {
@@ -1364,10 +902,241 @@
     "age": 23,
     "injury": "Doubtful"
   },
-  "8183": {
-    "name": "Brock Purdy",
+  "4199": {
+    "name": "Aaron Jones",
+    "pos": "RB",
+    "team": "MIN",
+    "age": 31,
+    "injury": "Questionable"
+  },
+  "5849": {
+    "name": "Kyler Murray",
     "pos": "QB",
+    "team": "MIN",
+    "age": 29,
+    "injury": null
+  },
+  "3198": {
+    "name": "Derrick Henry",
+    "pos": "RB",
+    "team": "BAL",
+    "age": 32,
+    "injury": null
+  },
+  "LAR": {
+    "name": "Los Angeles Rams",
+    "pos": "DEF",
+    "team": "LAR",
+    "age": null,
+    "injury": null
+  },
+  "4066": {
+    "name": "Evan Engram",
+    "pos": "TE",
+    "team": "DEN",
+    "age": 32,
+    "injury": null
+  },
+  "9758": {
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "team": "HOU",
+    "age": 25,
+    "injury": null
+  },
+  "9500": {
+    "name": "Josh Downs",
+    "pos": "WR",
+    "team": "IND",
+    "age": 25,
+    "injury": null
+  },
+  "11560": {
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "team": "CHI",
+    "age": 24,
+    "injury": "Questionable"
+  },
+  "12519": {
+    "name": "Luther Burden",
+    "pos": "WR",
+    "team": "CHI",
+    "age": 22,
+    "injury": null
+  },
+  "8148": {
+    "name": "Jameson Williams",
+    "pos": "WR",
+    "team": "DET",
+    "age": 25,
+    "injury": null
+  },
+  "12495": {
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "team": "MIA",
+    "age": 22,
+    "injury": "Questionable"
+  },
+  "11566": {
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "team": "WAS",
+    "age": 25,
+    "injury": null
+  },
+  "3451": {
+    "name": "Ka'imi Fairbairn",
+    "pos": "K",
+    "team": "HOU",
+    "age": 32,
+    "injury": null
+  },
+  "12185": {
+    "name": "Spencer Shrader",
+    "pos": "K",
+    "team": "IND",
+    "age": 27,
+    "injury": null
+  },
+  "9480": {
+    "name": "Brenton Strange",
+    "pos": "TE",
+    "team": "JAX",
+    "age": 25,
+    "injury": null
+  },
+  "KC": {
+    "name": "Kansas City Chiefs",
+    "pos": "DEF",
+    "team": "KC",
+    "age": null,
+    "injury": null
+  },
+  "11632": {
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "team": "NYG",
+    "age": 23,
+    "injury": null
+  },
+  "2133": {
+    "name": "Davante Adams",
+    "pos": "WR",
+    "team": "LAR",
+    "age": 33,
+    "injury": null
+  },
+  "11589": {
+    "name": "Trey Benson",
+    "pos": "RB",
+    "team": "ARI",
+    "age": 24,
+    "injury": "IR"
+  },
+  "4137": {
+    "name": "James Conner",
+    "pos": "RB",
+    "team": "ARI",
+    "age": 31,
+    "injury": "IR"
+  },
+  "7021": {
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "team": "PIT",
+    "age": 28,
+    "injury": "Questionable"
+  },
+  "TB": {
+    "name": "Tampa Bay Buccaneers",
+    "pos": "DEF",
+    "team": "TB",
+    "age": null,
+    "injury": null
+  },
+  "13414": {
+    "name": "Kaelon Black",
+    "pos": "RB",
     "team": "SF",
+    "age": 24,
+    "injury": null
+  },
+  "11564": {
+    "name": "Drake Maye",
+    "pos": "QB",
+    "team": "NE",
+    "age": 24,
+    "injury": null
+  },
+  "11834": {
+    "name": "Devaughn Vele",
+    "pos": "WR",
+    "team": "NO",
+    "age": 28,
+    "injury": null
+  },
+  "SEA": {
+    "name": "Seattle Seahawks",
+    "pos": "DEF",
+    "team": "SEA",
+    "age": null,
+    "injury": null
+  },
+  "8150": {
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "team": "LAR",
+    "age": 26,
+    "injury": null
+  },
+  "12518": {
+    "name": "Tyler Warren",
+    "pos": "TE",
+    "team": "IND",
+    "age": 24,
+    "injury": null
+  },
+  "4018": {
+    "name": "Joe Mixon",
+    "pos": "RB",
+    "team": null,
+    "age": 30,
+    "injury": "Questionable"
+  },
+  "6803": {
+    "name": "Brandon Aiyuk",
+    "pos": "WR",
+    "team": "SF",
+    "age": 28,
+    "injury": "DNR"
+  },
+  "11624": {
+    "name": "Xavier Worthy",
+    "pos": "WR",
+    "team": "KC",
+    "age": 23,
+    "injury": null
+  },
+  "7567": {
+    "name": "Kenny Gainwell",
+    "pos": "RB",
+    "team": "TB",
+    "age": 27,
+    "injury": null
+  },
+  "10232": {
+    "name": "Michael Wilson",
+    "pos": "WR",
+    "team": "ARI",
+    "age": 26,
+    "injury": null
+  },
+  "7588": {
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "team": "DAL",
     "age": 26,
     "injury": null
   },
@@ -1378,158 +1147,18 @@
     "age": 29,
     "injury": null
   },
-  "8144": {
-    "name": "Chris Olave",
-    "pos": "WR",
-    "team": "NO",
-    "age": 26,
-    "injury": null
-  },
-  "LAR": {
-    "name": "Los Angeles Rams",
-    "pos": "DEF",
-    "team": "LAR",
-    "age": null,
-    "injury": null
-  },
-  "11604": {
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "team": "LV",
-    "age": 23,
-    "injury": null
-  },
-  "11435": {
-    "name": "Emanuel Wilson",
+  "12474": {
+    "name": "Woody Marks",
     "pos": "RB",
-    "team": "SEA",
-    "age": 27,
-    "injury": null
-  },
-  "9228": {
-    "name": "Bryce Young",
-    "pos": "QB",
-    "team": "CAR",
-    "age": 25,
-    "injury": null
-  },
-  "8137": {
-    "name": "George Pickens",
-    "pos": "WR",
-    "team": "DAL",
-    "age": 25,
-    "injury": null
-  },
-  "4144": {
-    "name": "Jonnu Smith",
-    "pos": "TE",
-    "team": "GB",
-    "age": 31,
-    "injury": null
-  },
-  "2197": {
-    "name": "Brandin Cooks",
-    "pos": "WR",
-    "team": "SF",
-    "age": 33,
-    "injury": null
-  },
-  "8228": {
-    "name": "Jaylen Warren",
-    "pos": "RB",
-    "team": "PIT",
-    "age": 27,
-    "injury": null
-  },
-  "7611": {
-    "name": "Rhamondre Stevenson",
-    "pos": "RB",
-    "team": "NE",
-    "age": 28,
-    "injury": null
-  },
-  "12487": {
-    "name": "Terrance Ferguson",
-    "pos": "TE",
-    "team": "LAR",
-    "age": 23,
-    "injury": "IR"
-  },
-  "2374": {
-    "name": "Tyler Lockett",
-    "pos": "WR",
-    "team": null,
-    "age": 33,
-    "injury": null
-  },
-  "421": {
-    "name": "Matthew Stafford",
-    "pos": "QB",
-    "team": "LAR",
-    "age": 38,
-    "injury": null
-  },
-  "3321": {
-    "name": "Tyreek Hill",
-    "pos": "WR",
-    "team": null,
-    "age": 31,
-    "injury": null
-  },
-  "8119": {
-    "name": "Jahan Dotson",
-    "pos": "WR",
-    "team": "ATL",
-    "age": 26,
-    "injury": null
-  },
-  "12484": {
-    "name": "Jayden Higgins",
-    "pos": "WR",
     "team": "HOU",
-    "age": 23,
-    "injury": "IR"
-  },
-  "13545": {
-    "name": "Trey Smack",
-    "pos": "K",
-    "team": "GB",
-    "age": 23,
+    "age": 25,
     "injury": null
   },
-  "3198": {
-    "name": "Derrick Henry",
-    "pos": "RB",
-    "team": "BAL",
-    "age": 32,
-    "injury": null
-  },
-  "12530": {
-    "name": "Travis Hunter",
-    "pos": "DB",
-    "team": "JAX",
-    "age": 23,
-    "injury": null
-  },
-  "8139": {
-    "name": "Zamir White",
-    "pos": "RB",
-    "team": "NO",
-    "age": 27,
-    "injury": null
-  },
-  "13287": {
-    "name": "Jeremiyah Love",
-    "pos": "RB",
-    "team": "ARI",
-    "age": 21,
-    "injury": null
-  },
-  "1945": {
-    "name": "Chris Boswell",
-    "pos": "K",
-    "team": "PIT",
-    "age": 35,
+  "DAL": {
+    "name": "Dallas Cowboys",
+    "pos": "DEF",
+    "team": "DAL",
+    "age": null,
     "injury": null
   },
   "7553": {
@@ -1539,67 +1168,130 @@
     "age": 26,
     "injury": null
   },
-  "8150": {
-    "name": "Kyren Williams",
-    "pos": "RB",
-    "team": "LAR",
-    "age": 26,
-    "injury": null
-  },
-  "7567": {
-    "name": "Kenny Gainwell",
-    "pos": "RB",
-    "team": "TB",
-    "age": 27,
-    "injury": null
-  },
-  "3164": {
-    "name": "Ezekiel Elliott",
+  "4029": {
+    "name": "Dalvin Cook",
     "pos": "RB",
     "team": null,
     "age": 29,
     "injury": null
   },
-  "MIA": {
-    "name": "Miami Dolphins",
-    "pos": "DEF",
-    "team": "MIA",
-    "age": null,
-    "injury": null
-  },
-  "8132": {
-    "name": "Tyler Allgeier",
-    "pos": "RB",
-    "team": "ARI",
-    "age": 26,
-    "injury": null
-  },
-  "JAX": {
-    "name": "Jacksonville Jaguars",
-    "pos": "DEF",
-    "team": "JAX",
-    "age": null,
-    "injury": null
-  },
-  "13298": {
-    "name": "KC Concepcion",
+  "11631": {
+    "name": "Brian Thomas",
     "pos": "WR",
-    "team": "CLE",
-    "age": 22,
+    "team": "JAX",
+    "age": 24,
+    "injury": null
+  },
+  "12514": {
+    "name": "Emeka Egbuka",
+    "pos": "WR",
+    "team": "TB",
+    "age": 24,
+    "injury": null
+  },
+  "8151": {
+    "name": "Kenneth Walker",
+    "pos": "RB",
+    "team": "KC",
+    "age": 25,
+    "injury": null
+  },
+  "10222": {
+    "name": "Jayden Reed",
+    "pos": "WR",
+    "team": "GB",
+    "age": 26,
+    "injury": "IR"
+  },
+  "7839": {
+    "name": "Evan McPherson",
+    "pos": "K",
+    "team": "CIN",
+    "age": 27,
+    "injury": null
+  },
+  "2309": {
+    "name": "Amari Cooper",
+    "pos": "WR",
+    "team": null,
+    "age": 31,
+    "injury": null
+  },
+  "6819": {
+    "name": "Michael Pittman",
+    "pos": "WR",
+    "team": "PIT",
+    "age": 29,
+    "injury": "IR"
+  },
+  "9509": {
+    "name": "Bijan Robinson",
+    "pos": "RB",
+    "team": "ATL",
+    "age": 24,
+    "injury": null
+  },
+  "4866": {
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "team": "PHI",
+    "age": 29,
     "injury": "Questionable"
   },
-  "9997": {
-    "name": "Zay Flowers",
+  "BUF": {
+    "name": "Buffalo Bills",
+    "pos": "DEF",
+    "team": "BUF",
+    "age": null,
+    "injury": null
+  },
+  "11628": {
+    "name": "Marvin Harrison",
     "pos": "WR",
-    "team": "BAL",
+    "team": "HOU",
+    "age": 24,
+    "injury": null
+  },
+  "8121": {
+    "name": "Romeo Doubs",
+    "pos": "WR",
+    "team": "NE",
     "age": 26,
     "injury": null
   },
-  "1466": {
-    "name": "Travis Kelce",
+  "7608": {
+    "name": "Khalil Herbert",
+    "pos": "RB",
+    "team": "ATL",
+    "age": 28,
+    "injury": null
+  },
+  "5844": {
+    "name": "T.J. Hockenson",
     "pos": "TE",
-    "team": "KC",
-    "age": 37,
+    "team": "MIN",
+    "age": 29,
+    "injury": "Out"
+  },
+  "12481": {
+    "name": "Cam Skattebo",
+    "pos": "RB",
+    "team": "NYG",
+    "age": 24,
+    "injury": null
+  },
+  "9756": {
+    "name": "Jordan Addison",
+    "pos": "WR",
+    "team": "MIN",
+    "age": 24,
+    "injury": "Out"
+  },
+  "6083": {
+    "name": "Matt Gay",
+    "pos": "K",
+    "team": "LV",
+    "age": 32,
     "injury": null
   },
   "6786": {
@@ -1616,88 +1308,25 @@
     "age": 27,
     "injury": null
   },
-  "4037": {
-    "name": "Chris Godwin",
-    "pos": "WR",
-    "team": "TB",
-    "age": 30,
-    "injury": null
-  },
-  "10222": {
-    "name": "Jayden Reed",
-    "pos": "WR",
-    "team": "GB",
-    "age": 26,
+  "7543": {
+    "name": "Travis Etienne",
+    "pos": "RB",
+    "team": "NO",
+    "age": 27,
     "injury": "IR"
   },
-  "BUF": {
-    "name": "Buffalo Bills",
-    "pos": "DEF",
-    "team": "BUF",
-    "age": null,
-    "injury": null
-  },
-  "6083": {
-    "name": "Matt Gay",
-    "pos": "K",
-    "team": "LV",
-    "age": 32,
-    "injury": null
-  },
-  "11565": {
-    "name": "J.J. McCarthy",
+  "9228": {
+    "name": "Bryce Young",
     "pos": "QB",
-    "team": "NYG",
-    "age": 23,
+    "team": "CAR",
+    "age": 25,
     "injury": null
   },
-  "6845": {
-    "name": "Zack Moss",
-    "pos": "RB",
-    "team": null,
-    "age": 27,
-    "injury": "Questionable"
-  },
-  "CIN": {
-    "name": "Cincinnati Bengals",
-    "pos": "DEF",
-    "team": "CIN",
-    "age": null,
-    "injury": null
-  },
-  "6794": {
-    "name": "Justin Jefferson",
-    "pos": "WR",
-    "team": "MIN",
-    "age": 27,
-    "injury": null
-  },
-  "11560": {
-    "name": "Caleb Williams",
-    "pos": "QB",
-    "team": "CHI",
-    "age": 24,
-    "injury": "Questionable"
-  },
-  "4666": {
-    "name": "Younghoe Koo",
-    "pos": "K",
-    "team": null,
-    "age": 31,
-    "injury": null
-  },
-  "12506": {
-    "name": "Harold Fannin",
-    "pos": "TE",
-    "team": "CLE",
-    "age": 22,
-    "injury": null
-  },
-  "8151": {
-    "name": "Kenneth Walker",
+  "13337": {
+    "name": "Emmett Johnson",
     "pos": "RB",
     "team": "KC",
-    "age": 25,
+    "age": 23,
     "injury": null
   },
   "4039": {
@@ -1707,109 +1336,46 @@
     "age": 33,
     "injury": null
   },
-  "7021": {
-    "name": "Rico Dowdle",
+  "4666": {
+    "name": "Younghoe Koo",
+    "pos": "K",
+    "team": null,
+    "age": 31,
+    "injury": null
+  },
+  "6151": {
+    "name": "Miles Sanders",
     "pos": "RB",
-    "team": "PIT",
-    "age": 28,
-    "injury": "Questionable"
-  },
-  "2133": {
-    "name": "Davante Adams",
-    "pos": "WR",
-    "team": "LAR",
-    "age": 33,
-    "injury": null
-  },
-  "6819": {
-    "name": "Michael Pittman",
-    "pos": "WR",
-    "team": "PIT",
-    "age": 29,
-    "injury": "IR"
-  },
-  "9493": {
-    "name": "Puka Nacua",
-    "pos": "WR",
-    "team": "LAR",
-    "age": 25,
-    "injury": null
-  },
-  "5846": {
-    "name": "DK Metcalf",
-    "pos": "WR",
-    "team": "PIT",
+    "team": null,
     "age": 28,
     "injury": null
   },
-  "7547": {
-    "name": "Amon-Ra St. Brown",
-    "pos": "WR",
-    "team": "DET",
-    "age": 26,
+  "7594": {
+    "name": "Chuba Hubbard",
+    "pos": "RB",
+    "team": "CAR",
+    "age": 27,
     "injury": null
   },
-  "4881": {
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "team": "BAL",
-    "age": 29,
-    "injury": "Questionable"
-  },
-  "12508": {
-    "name": "Jaxson Dart",
-    "pos": "QB",
-    "team": "NYG",
+  "12487": {
+    "name": "Terrance Ferguson",
+    "pos": "TE",
+    "team": "LAR",
     "age": 23,
     "injury": "IR"
   },
-  "12517": {
-    "name": "Colston Loveland",
-    "pos": "TE",
-    "team": "CHI",
-    "age": 22,
-    "injury": null
-  },
-  "7564": {
-    "name": "Ja'Marr Chase",
+  "9488": {
+    "name": "Jaxon Smith-Njigba",
     "pos": "WR",
-    "team": "CIN",
-    "age": 26,
-    "injury": null
-  },
-  "5785": {
-    "name": "James Butler",
-    "pos": "RB",
-    "team": null,
-    "age": 26,
-    "injury": null
-  },
-  "12524": {
-    "name": "Shedeur Sanders",
-    "pos": "QB",
-    "team": "CLE",
+    "team": "SEA",
     "age": 24,
-    "injury": null
-  },
-  "9480": {
-    "name": "Brenton Strange",
-    "pos": "TE",
-    "team": "JAX",
-    "age": 25,
-    "injury": null
-  },
-  "6945": {
-    "name": "Antonio Gibson",
-    "pos": "RB",
-    "team": null,
-    "age": 27,
     "injury": "Questionable"
   },
-  "6822": {
-    "name": "Jake Fromm",
-    "pos": "QB",
-    "team": null,
-    "age": 26,
+  "1945": {
+    "name": "Chris Boswell",
+    "pos": "K",
+    "team": "PIT",
+    "age": 35,
     "injury": null
   },
   "3163": {
@@ -1819,11 +1385,445 @@
     "age": 32,
     "injury": null
   },
-  "12534": {
-    "name": "Kyle Monangai",
+  "7591": {
+    "name": "Justin Fields",
+    "pos": "QB",
+    "team": "KC",
+    "age": 27,
+    "injury": null
+  },
+  "11435": {
+    "name": "Emanuel Wilson",
     "pos": "RB",
-    "team": "CHI",
+    "team": "SEA",
+    "age": 27,
+    "injury": null
+  },
+  "8228": {
+    "name": "Jaylen Warren",
+    "pos": "RB",
+    "team": "PIT",
+    "age": 27,
+    "injury": null
+  },
+  "9229": {
+    "name": "Anthony Richardson",
+    "pos": "QB",
+    "team": "IND",
     "age": 24,
+    "injury": null
+  },
+  "650": {
+    "name": "Nick Folk",
+    "pos": "K",
+    "team": "ATL",
+    "age": 41,
+    "injury": null
+  },
+  "8112": {
+    "name": "Drake London",
+    "pos": "WR",
+    "team": "ATL",
+    "age": 25,
+    "injury": null
+  },
+  "6794": {
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "team": "MIN",
+    "age": 27,
+    "injury": null
+  },
+  "1466": {
+    "name": "Travis Kelce",
+    "pos": "TE",
+    "team": "KC",
+    "age": 37,
+    "injury": null
+  },
+  "11576": {
+    "name": "Braelon Allen",
+    "pos": "RB",
+    "team": "NYJ",
+    "age": 22,
+    "injury": null
+  },
+  "2749": {
+    "name": "Raheem Mostert",
+    "pos": "RB",
+    "team": null,
+    "age": 33,
     "injury": "Questionable"
+  },
+  "10229": {
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "team": "KC",
+    "age": 26,
+    "injury": "Questionable"
+  },
+  "8168": {
+    "name": "Skyy Moore",
+    "pos": "WR",
+    "team": "GB",
+    "age": 26,
+    "injury": "Questionable"
+  },
+  "9225": {
+    "name": "Tank Bigsby",
+    "pos": "RB",
+    "team": "PHI",
+    "age": 24,
+    "injury": "IR"
+  },
+  "11539": {
+    "name": "Jake Bates",
+    "pos": "K",
+    "team": "DET",
+    "age": 27,
+    "injury": null
+  },
+  "SF": {
+    "name": "San Francisco 49ers",
+    "pos": "DEF",
+    "team": "SF",
+    "age": null,
+    "injury": null
+  },
+  "8136": {
+    "name": "Rachaad White",
+    "pos": "RB",
+    "team": "WAS",
+    "age": 27,
+    "injury": null
+  },
+  "9226": {
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "team": "MIA",
+    "age": 25,
+    "injury": "IR"
+  },
+  "11792": {
+    "name": "Will Reichard",
+    "pos": "K",
+    "team": "MIN",
+    "age": 25,
+    "injury": null
+  },
+  "9753": {
+    "name": "Zach Charbonnet",
+    "pos": "RB",
+    "team": "SEA",
+    "age": 25,
+    "injury": "PUP"
+  },
+  "7042": {
+    "name": "Tyler Bass",
+    "pos": "K",
+    "team": "BUF",
+    "age": 29,
+    "injury": null
+  },
+  "6938": {
+    "name": "Cam Akers",
+    "pos": "RB",
+    "team": null,
+    "age": 26,
+    "injury": null
+  },
+  "11637": {
+    "name": "Keon Coleman",
+    "pos": "WR",
+    "team": "BUF",
+    "age": 23,
+    "injury": null
+  },
+  "5095": {
+    "name": "Daniel Carlson",
+    "pos": "K",
+    "team": "NO",
+    "age": 31,
+    "injury": null
+  },
+  "8408": {
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "team": "MIN",
+    "age": 27,
+    "injury": "IR"
+  },
+  "8167": {
+    "name": "Christian Watson",
+    "pos": "WR",
+    "team": "GB",
+    "age": 27,
+    "injury": null
+  },
+  "12526": {
+    "name": "Tetairoa McMillan",
+    "pos": "WR",
+    "team": "CAR",
+    "age": 23,
+    "injury": null
+  },
+  "3294": {
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "team": "DAL",
+    "age": 33,
+    "injury": null
+  },
+  "7526": {
+    "name": "Jaylen Waddle",
+    "pos": "WR",
+    "team": "DEN",
+    "age": 27,
+    "injury": null
+  },
+  "HOU": {
+    "name": "Houston Texans",
+    "pos": "DEF",
+    "team": "HOU",
+    "age": null,
+    "injury": null
+  },
+  "5022": {
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "team": "PHI",
+    "age": 31,
+    "injury": null
+  },
+  "9484": {
+    "name": "Tucker Kraft",
+    "pos": "TE",
+    "team": "GB",
+    "age": 25,
+    "injury": null
+  },
+  "12506": {
+    "name": "Harold Fannin",
+    "pos": "TE",
+    "team": "CLE",
+    "age": 22,
+    "injury": null
+  },
+  "7002": {
+    "name": "Juwan Johnson",
+    "pos": "TE",
+    "team": "NO",
+    "age": 30,
+    "injury": null
+  },
+  "PHI": {
+    "name": "Philadelphia Eagles",
+    "pos": "DEF",
+    "team": "PHI",
+    "age": null,
+    "injury": null
+  },
+  "6806": {
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "team": "DEN",
+    "age": 27,
+    "injury": null
+  },
+  "8110": {
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "team": "DAL",
+    "age": 27,
+    "injury": null
+  },
+  "13281": {
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "team": "NO",
+    "age": 22,
+    "injury": "IR"
+  },
+  "503": {
+    "name": "Graham Gano",
+    "pos": "K",
+    "team": null,
+    "age": 38,
+    "injury": "Questionable"
+  },
+  "2505": {
+    "name": "Darren Waller",
+    "pos": "TE",
+    "team": "CAR",
+    "age": 34,
+    "injury": null
+  },
+  "8146": {
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "team": "NYJ",
+    "age": 26,
+    "injury": null
+  },
+  "12009": {
+    "name": "Jack Plummer",
+    "pos": "QB",
+    "team": null,
+    "age": 25,
+    "injury": null
+  },
+  "9502": {
+    "name": "Tank Dell",
+    "pos": "WR",
+    "team": "HOU",
+    "age": 26,
+    "injury": "IR"
+  },
+  "9754": {
+    "name": "Quentin Johnston",
+    "pos": "WR",
+    "team": "LAC",
+    "age": 25,
+    "injury": "Questionable"
+  },
+  "4034": {
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "team": "SF",
+    "age": 30,
+    "injury": null
+  },
+  "8137": {
+    "name": "George Pickens",
+    "pos": "WR",
+    "team": "DAL",
+    "age": 25,
+    "injury": null
+  },
+  "12501": {
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "team": "GB",
+    "age": 23,
+    "injury": null
+  },
+  "12489": {
+    "name": "RJ Harvey",
+    "pos": "RB",
+    "team": "DEN",
+    "age": 25,
+    "injury": null
+  },
+  "13294": {
+    "name": "Makai Lemon",
+    "pos": "WR",
+    "team": "PHI",
+    "age": 22,
+    "injury": null
+  },
+  "NYJ": {
+    "name": "New York Jets",
+    "pos": "DEF",
+    "team": "NYJ",
+    "age": null,
+    "injury": null
+  },
+  "8138": {
+    "name": "James Cook",
+    "pos": "RB",
+    "team": "BUF",
+    "age": 27,
+    "injury": null
+  },
+  "DET": {
+    "name": "Detroit Lions",
+    "pos": "DEF",
+    "team": "DET",
+    "age": null,
+    "injury": null
+  },
+  "6943": {
+    "name": "Gabe Davis",
+    "pos": "WR",
+    "team": null,
+    "age": 26,
+    "injury": "Questionable"
+  },
+  "6813": {
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "team": "IND",
+    "age": 27,
+    "injury": null
+  },
+  "9224": {
+    "name": "Chase Brown",
+    "pos": "RB",
+    "team": "CIN",
+    "age": 26,
+    "injury": null
+  },
+  "5846": {
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "team": "PIT",
+    "age": 28,
+    "injury": null
+  },
+  "5859": {
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "team": "NE",
+    "age": 29,
+    "injury": "IR"
+  },
+  "CIN": {
+    "name": "Cincinnati Bengals",
+    "pos": "DEF",
+    "team": "CIN",
+    "age": null,
+    "injury": null
+  },
+  "10236": {
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "team": "BUF",
+    "age": 26,
+    "injury": null
+  },
+  "9493": {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "team": "LAR",
+    "age": 25,
+    "injury": null
+  },
+  "13279": {
+    "name": "Carnell Tate",
+    "pos": "WR",
+    "team": "TEN",
+    "age": 21,
+    "injury": null
+  },
+  "7547": {
+    "name": "Amon-Ra St. Brown",
+    "pos": "WR",
+    "team": "DET",
+    "age": 26,
+    "injury": null
+  },
+  "4037": {
+    "name": "Chris Godwin",
+    "pos": "WR",
+    "team": "TB",
+    "age": 30,
+    "injury": null
+  },
+  "6783": {
+    "name": "Jerry Jeudy",
+    "pos": "WR",
+    "team": "CLE",
+    "age": 27,
+    "injury": null
   }
 }
