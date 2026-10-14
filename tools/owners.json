@@ -1,10 +1,10 @@
 {
-  "995562801747910656": {"name": "Timmy Thurston"},
-  "998002547333902336": {"name": "Dillon Knaggs"},
-  "1002383170941161472": {"name": "Brian Christensen"},
-  "1002716154072240128": {"name": "Zach Johansen"},
-  "1002720184680955904": {"name": "Seth Halvorsen"},
-  "1002721050507005952": {"name": "Noah Pieper"},
-  "1002735718667612160": {"name": "CJ Woda"},
-  "1002764857709608960": {"name": "Dan Hataaja"}
+  "995562801747910656": {"name": "Timmy Thurston", "team": "Timmy Thurston"},
+  "998002547333902336": {"name": "Dillon Knaggs", "team": "Dillon Knaggs"},
+  "1002383170941161472": {"name": "Brian Christensen", "team": "Brian Christensen"},
+  "1002716154072240128": {"name": "Zach Johansen", "team": "Zach Johansen"},
+  "1002720184680955904": {"name": "Seth Halvorsen", "team": "Seth Halvorsen"},
+  "1002721050507005952": {"name": "Noah Pieper", "team": "Noah Pieper"},
+  "1002735718667612160": {"name": "CJ Woda", "team": "CJ Woda"},
+  "1002764857709608960": {"name": "Dan Hataaja", "team": "Dan Hataaja"}
 }
