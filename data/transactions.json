@@ -4,6 +4,79 @@
     {
       "week": 6,
       "type": "free_agent",
+      "created": 1792084464074,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "9228": "Dan Hataaja"
+      },
+      "drops": {
+        "7553": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
+      "created": 1792057269829,
+      "teams": [
+        "Dillon Knaggs"
+      ],
+      "adds": {
+        "KC": "Dillon Knaggs"
+      },
+      "drops": {
+        "CIN": "Dillon Knaggs"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
+      "created": 1792057237585,
+      "teams": [
+        "Dillon Knaggs"
+      ],
+      "adds": {
+        "2020": "Dillon Knaggs"
+      },
+      "drops": {
+        "11539": "Dillon Knaggs"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
+      "created": 1792025908189,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "SF": "Dan Hataaja"
+      },
+      "drops": {
+        "4037": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "waiver",
+      "created": 1791993523920,
+      "teams": [
+        "Timmy Thurston"
+      ],
+      "adds": {
+        "11834": "Timmy Thurston"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
       "created": 1791993482888,
       "teams": [
         "Timmy Thurston"

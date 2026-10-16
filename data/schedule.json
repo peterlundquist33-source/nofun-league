@@ -359,7 +359,7 @@
     },
     {
       "week": 6,
-      "played": false,
+      "played": true,
       "games": [
         {
           "matchup_id": 1,
@@ -371,43 +371,43 @@
           "b": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 0
+            "points": 14.6
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 14.6,
+          "winner": "Brian Christensen"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 38.4
           },
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
             "points": 0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 38.4,
+          "winner": "CJ Woda"
         },
         {
           "matchup_id": 3,
           "a": {
             "roster_id": 3,
             "team": "Zach Johansen",
-            "points": 0
+            "points": 6.0
           },
           "b": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 0
+            "points": 5.2
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 0.8,
+          "winner": "Zach Johansen"
         },
         {
           "matchup_id": 4,
@@ -422,7 +422,7 @@
             "points": 0
           },
           "played": false,
-          "margin": null,
+          "margin": 0,
           "winner": null
         }
       ],
