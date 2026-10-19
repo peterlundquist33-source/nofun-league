@@ -4,6 +4,49 @@
     {
       "week": 6,
       "type": "free_agent",
+      "created": 1792352443918,
+      "teams": [
+        "Timmy Thurston"
+      ],
+      "adds": {
+        "8132": "Timmy Thurston"
+      },
+      "drops": {
+        "11834": "Timmy Thurston"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
+      "created": 1792182129191,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "8129": "Zach Johansen"
+      },
+      "drops": {
+        "8132": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
+      "created": 1792182063065,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "8132": "Zach Johansen"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 6,
+      "type": "free_agent",
       "created": 1792084464074,
       "teams": [
         "Dan Hataaja"

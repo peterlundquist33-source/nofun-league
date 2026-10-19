@@ -86,7 +86,7 @@
           "pos": "WR",
           "team": "WAS",
           "age": 31,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 42.3
         },
@@ -307,7 +307,7 @@
           "pos": "QB",
           "team": "BAL",
           "age": 29,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 79.08
         },
@@ -383,11 +383,11 @@
         "1166",
         "12474",
         "6790",
-        "10229",
+        "5846",
         "10232",
         "11604",
         "1466",
-        "13346",
+        "8129",
         "6083",
         "SEA"
       ],
@@ -398,8 +398,8 @@
           "pos": "WR",
           "team": "KC",
           "age": 26,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 38.0
         },
         {
@@ -458,8 +458,8 @@
           "pos": "WR",
           "team": "CLE",
           "age": 22,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": null,
+          "starter": false,
           "season_pts": 34.6
         },
         {
@@ -488,7 +488,7 @@
           "pos": "RB",
           "team": "PHI",
           "age": 29,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 23.0
         },
@@ -499,7 +499,7 @@
           "team": "PIT",
           "age": 28,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 48.6
         },
         {
@@ -541,6 +541,16 @@
           "injury": null,
           "starter": false,
           "season_pts": 104.2
+        },
+        {
+          "id": "8129",
+          "name": "Dameon Pierce",
+          "pos": "RB",
+          "team": "PHI",
+          "age": 26,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "SEA",
@@ -589,7 +599,7 @@
           "pos": "QB",
           "team": "CHI",
           "age": 24,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 44.98
         },
@@ -719,7 +729,7 @@
           "pos": "WR",
           "team": "NO",
           "age": 26,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 98.7
         },
@@ -810,7 +820,7 @@
           "pos": "RB",
           "team": "WAS",
           "age": 25,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 32.3
         },
@@ -830,7 +840,7 @@
           "pos": "RB",
           "team": "ARI",
           "age": 21,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 51.1
         },
@@ -960,8 +970,8 @@
           "name": "Dalton Kincaid",
           "pos": "TE",
           "team": "BUF",
-          "age": 26,
-          "injury": null,
+          "age": 27,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 49.7
         },
@@ -991,7 +1001,7 @@
           "pos": "RB",
           "team": "CLE",
           "age": 22,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 56.3
         },
@@ -1011,7 +1021,7 @@
           "pos": "RB",
           "team": "CHI",
           "age": 24,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 59.3
         },
@@ -1051,7 +1061,7 @@
           "pos": "WR",
           "team": "NE",
           "age": 29,
-          "injury": "IR",
+          "injury": null,
           "starter": false,
           "season_pts": 5.6
         },
@@ -1071,7 +1081,7 @@
           "pos": "QB",
           "team": "PHI",
           "age": 28,
-          "injury": "Out",
+          "injury": "IR",
           "starter": false,
           "season_pts": 80.02
         },
@@ -1101,7 +1111,7 @@
           "pos": "WR",
           "team": "BAL",
           "age": 26,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 81.8
         },
@@ -1141,7 +1151,7 @@
         "7569",
         "12518",
         "9500",
-        "4983",
+        "8132",
         "650",
         "LAR"
       ],
@@ -1165,16 +1175,6 @@
           "injury": null,
           "starter": false,
           "season_pts": 68.0
-        },
-        {
-          "id": "11834",
-          "name": "Devaughn Vele",
-          "pos": "WR",
-          "team": "NO",
-          "age": 28,
-          "injury": null,
-          "starter": false,
-          "season_pts": 6.6
         },
         {
           "id": "12490",
@@ -1202,7 +1202,7 @@
           "pos": "TE",
           "team": "IND",
           "age": 24,
-          "injury": null,
+          "injury": "Out",
           "starter": true,
           "season_pts": 69.9
         },
@@ -1212,8 +1212,8 @@
           "pos": "WR",
           "team": "BUF",
           "age": 29,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 36.3
         },
         {
@@ -1275,6 +1275,16 @@
           "injury": null,
           "starter": false,
           "season_pts": 85.4
+        },
+        {
+          "id": "8132",
+          "name": "Tyler Allgeier",
+          "pos": "RB",
+          "team": "ARI",
+          "age": 26,
+          "injury": null,
+          "starter": true,
+          "season_pts": 12.9
         },
         {
           "id": "9224",
@@ -1403,7 +1413,7 @@
           "pos": "WR",
           "team": "PHI",
           "age": 27,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 48.5
         },
@@ -1423,7 +1433,7 @@
           "pos": "WR",
           "team": "NE",
           "age": 26,
-          "injury": null,
+          "injury": "Out",
           "starter": false,
           "season_pts": 46.9
         },
