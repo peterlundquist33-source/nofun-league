@@ -28,7 +28,7 @@
           "age": 25,
           "injury": null,
           "starter": false,
-          "season_pts": 64.66
+          "season_pts": 85.66
         },
         {
           "id": "12495",
@@ -48,7 +48,7 @@
           "age": 22,
           "injury": null,
           "starter": true,
-          "season_pts": 84.6
+          "season_pts": 100.4
         },
         {
           "id": "2020",
@@ -58,7 +58,7 @@
           "age": 34,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 8.0
         },
         {
           "id": "5022",
@@ -68,7 +68,7 @@
           "age": 31,
           "injury": null,
           "starter": true,
-          "season_pts": 34.9
+          "season_pts": 47.0
         },
         {
           "id": "5844",
@@ -86,9 +86,9 @@
           "pos": "WR",
           "team": "WAS",
           "age": 31,
-          "injury": null,
+          "injury": "Out",
           "starter": false,
-          "season_pts": 42.3
+          "season_pts": 46.0
         },
         {
           "id": "5967",
@@ -98,7 +98,7 @@
           "age": 29,
           "injury": null,
           "starter": true,
-          "season_pts": 43.7
+          "season_pts": 51.3
         },
         {
           "id": "7523",
@@ -108,7 +108,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 86.86
+          "season_pts": 114.2
         },
         {
           "id": "7564",
@@ -128,7 +128,7 @@
           "age": 28,
           "injury": null,
           "starter": true,
-          "season_pts": 60.8
+          "season_pts": 64.4
         },
         {
           "id": "8112",
@@ -138,7 +138,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 76.2
+          "season_pts": 88.4
         },
         {
           "id": "8146",
@@ -148,7 +148,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 86.4
+          "season_pts": 94.8
         },
         {
           "id": "8155",
@@ -168,7 +168,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 109.4
+          "season_pts": 118.8
         },
         {
           "id": "9226",
@@ -188,7 +188,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 9.0
+          "season_pts": 24.0
         }
       ]
     },
@@ -199,14 +199,14 @@
       "handle": "BigBrainBrian3",
       "avatar": "https://sleepercdn.com/uploads/2024ddb7c2246ea592bf3b7eec10b153.jpg",
       "starters": [
-        "11564",
+        "4881",
         "9509",
         "8150",
         "9493",
-        "2216",
+        "8148",
         "4217",
         "12489",
-        "12481",
+        "10859",
         "13545",
         "BAL"
       ],
@@ -218,7 +218,7 @@
           "team": "DET",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 76.6
         },
         {
@@ -228,8 +228,8 @@
           "team": "NE",
           "age": 24,
           "injury": null,
-          "starter": true,
-          "season_pts": 57.3
+          "starter": false,
+          "season_pts": 81.1
         },
         {
           "id": "12481",
@@ -238,7 +238,7 @@
           "team": "NYG",
           "age": 24,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 51.3
         },
         {
@@ -249,7 +249,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 38.8
+          "season_pts": 53.4
         },
         {
           "id": "13545",
@@ -259,7 +259,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 12.0
         },
         {
           "id": "2216",
@@ -267,9 +267,9 @@
           "pos": "WR",
           "team": "SF",
           "age": 33,
-          "injury": "Questionable",
-          "starter": true,
-          "season_pts": 76.6
+          "injury": "Out",
+          "starter": false,
+          "season_pts": 89.0
         },
         {
           "id": "4046",
@@ -279,7 +279,7 @@
           "age": 31,
           "injury": null,
           "starter": false,
-          "season_pts": 83.58
+          "season_pts": 94.06
         },
         {
           "id": "4199",
@@ -299,7 +299,7 @@
           "age": 33,
           "injury": null,
           "starter": true,
-          "season_pts": 71.8
+          "season_pts": 89.7
         },
         {
           "id": "4881",
@@ -308,7 +308,7 @@
           "team": "BAL",
           "age": 29,
           "injury": "Out",
-          "starter": false,
+          "starter": true,
           "season_pts": 79.08
         },
         {
@@ -328,7 +328,7 @@
           "team": "DET",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 57.6
         },
         {
@@ -339,7 +339,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 109.3
+          "season_pts": 119.0
         },
         {
           "id": "9493",
@@ -349,7 +349,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 77.8
+          "season_pts": 91.8
         },
         {
           "id": "9509",
@@ -359,7 +359,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 121.2
+          "season_pts": 128.5
         },
         {
           "id": "BAL",
@@ -369,7 +369,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 14.0
+          "season_pts": 24.0
         }
       ]
     },
@@ -410,7 +410,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 38.18
+          "season_pts": 45.38
         },
         {
           "id": "11604",
@@ -420,7 +420,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 71.2
+          "season_pts": 82.2
         },
         {
           "id": "1166",
@@ -430,7 +430,7 @@
           "age": 38,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 18.52
         },
         {
           "id": "12474",
@@ -440,7 +440,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 10.1
         },
         {
           "id": "12507",
@@ -450,7 +450,7 @@
           "age": 23,
           "injury": null,
           "starter": false,
-          "season_pts": 49.6
+          "season_pts": 57.5
         },
         {
           "id": "13346",
@@ -460,7 +460,7 @@
           "age": 22,
           "injury": null,
           "starter": false,
-          "season_pts": 34.6
+          "season_pts": 37.1
         },
         {
           "id": "1466",
@@ -470,7 +470,7 @@
           "age": 37,
           "injury": null,
           "starter": true,
-          "season_pts": 52.6
+          "season_pts": 61.9
         },
         {
           "id": "3163",
@@ -500,7 +500,7 @@
           "age": 28,
           "injury": null,
           "starter": true,
-          "season_pts": 48.6
+          "season_pts": 68.9
         },
         {
           "id": "6083",
@@ -510,7 +510,7 @@
           "age": 32,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 12.0
         },
         {
           "id": "6790",
@@ -520,7 +520,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 80.8
+          "season_pts": 103.8
         },
         {
           "id": "7526",
@@ -530,7 +530,7 @@
           "age": 27,
           "injury": "Questionable",
           "starter": false,
-          "season_pts": 48.7
+          "season_pts": 55.1
         },
         {
           "id": "7547",
@@ -550,7 +550,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 15.0
         },
         {
           "id": "SEA",
@@ -560,7 +560,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 51.0
+          "season_pts": 57.0
         }
       ]
     },
@@ -571,9 +571,9 @@
       "handle": "DaBears2424",
       "avatar": "https://sleepercdn.com/avatars/thumbs/f0edbf4278f53f9425db175073df6584",
       "starters": [
-        "3294",
+        "11560",
         "11435",
-        "11581",
+        "9221",
         "6786",
         "8144",
         "8130",
@@ -591,7 +591,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 41.6
+          "season_pts": 46.8
         },
         {
           "id": "11560",
@@ -600,8 +600,8 @@
           "team": "CHI",
           "age": 24,
           "injury": null,
-          "starter": false,
-          "season_pts": 44.98
+          "starter": true,
+          "season_pts": 61.48
         },
         {
           "id": "11581",
@@ -610,8 +610,8 @@
           "team": "GB",
           "age": 25,
           "injury": null,
-          "starter": true,
-          "season_pts": 42.7
+          "starter": false,
+          "season_pts": 43.7
         },
         {
           "id": "11631",
@@ -631,7 +631,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 45.0
+          "season_pts": 54.0
         },
         {
           "id": "12517",
@@ -641,7 +641,7 @@
           "age": 22,
           "injury": null,
           "starter": true,
-          "season_pts": 24.0
+          "season_pts": 42.5
         },
         {
           "id": "3294",
@@ -650,8 +650,8 @@
           "team": "DAL",
           "age": 33,
           "injury": null,
-          "starter": true,
-          "season_pts": 49.68
+          "starter": false,
+          "season_pts": 60.7
         },
         {
           "id": "5045",
@@ -661,7 +661,7 @@
           "age": 31,
           "injury": null,
           "starter": false,
-          "season_pts": 27.4
+          "season_pts": 31.3
         },
         {
           "id": "5892",
@@ -681,7 +681,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 115.1
+          "season_pts": 131.1
         },
         {
           "id": "6806",
@@ -691,7 +691,7 @@
           "age": 27,
           "injury": null,
           "starter": false,
-          "season_pts": 36.1
+          "season_pts": 49.7
         },
         {
           "id": "7002",
@@ -721,7 +721,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 90.8
+          "season_pts": 103.1
         },
         {
           "id": "8144",
@@ -731,7 +731,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 98.7
+          "season_pts": 113.0
         },
         {
           "id": "9221",
@@ -740,7 +740,7 @@
           "team": "DET",
           "age": 24,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 153.7
         },
         {
@@ -751,7 +751,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 24.0
+          "season_pts": 32.0
         }
       ]
     },
@@ -782,7 +782,7 @@
           "age": 31,
           "injury": null,
           "starter": true,
-          "season_pts": 42.0
+          "season_pts": 43.0
         },
         {
           "id": "11628",
@@ -792,7 +792,7 @@
           "age": 24,
           "injury": null,
           "starter": false,
-          "season_pts": 4.3
+          "season_pts": 10.7
         },
         {
           "id": "12501",
@@ -802,7 +802,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 53.0
+          "season_pts": 75.4
         },
         {
           "id": "12519",
@@ -812,7 +812,7 @@
           "age": 22,
           "injury": null,
           "starter": true,
-          "season_pts": 55.8
+          "season_pts": 73.3
         },
         {
           "id": "12533",
@@ -820,7 +820,7 @@
           "pos": "RB",
           "team": "WAS",
           "age": 25,
-          "injury": "Out",
+          "injury": "IR",
           "starter": false,
           "season_pts": 32.3
         },
@@ -832,7 +832,7 @@
           "age": 21,
           "injury": null,
           "starter": false,
-          "season_pts": 48.4
+          "season_pts": 67.4
         },
         {
           "id": "13287",
@@ -852,7 +852,7 @@
           "age": 23,
           "injury": null,
           "starter": false,
-          "season_pts": 3.7
+          "season_pts": 8.1
         },
         {
           "id": "2133",
@@ -860,9 +860,9 @@
           "pos": "WR",
           "team": "LAR",
           "age": 33,
-          "injury": null,
+          "injury": "Out",
           "starter": true,
-          "season_pts": 95.1
+          "season_pts": 102.0
         },
         {
           "id": "3198",
@@ -872,7 +872,7 @@
           "age": 32,
           "injury": null,
           "starter": true,
-          "season_pts": 111.8
+          "season_pts": 116.8
         },
         {
           "id": "421",
@@ -882,7 +882,7 @@
           "age": 38,
           "injury": null,
           "starter": false,
-          "season_pts": 88.98
+          "season_pts": 105.86
         },
         {
           "id": "4984",
@@ -892,7 +892,7 @@
           "age": 30,
           "injury": null,
           "starter": true,
-          "season_pts": 142.96
+          "season_pts": 161.26
         },
         {
           "id": "7588",
@@ -902,7 +902,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 96.0
+          "season_pts": 109.0
         },
         {
           "id": "8408",
@@ -922,7 +922,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 47.7
+          "season_pts": 56.4
         },
         {
           "id": "9488",
@@ -932,7 +932,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 139.46
+          "season_pts": 164.86
         },
         {
           "id": "DEN",
@@ -942,7 +942,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 39.0
+          "season_pts": 52.0
         }
       ]
     },
@@ -973,7 +973,7 @@
           "age": 27,
           "injury": "Questionable",
           "starter": true,
-          "season_pts": 49.7
+          "season_pts": 60.5
         },
         {
           "id": "11576",
@@ -983,7 +983,7 @@
           "age": 22,
           "injury": null,
           "starter": true,
-          "season_pts": 27.3
+          "season_pts": 39.7
         },
         {
           "id": "11646",
@@ -993,7 +993,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 52.2
+          "season_pts": 67.9
         },
         {
           "id": "12512",
@@ -1013,7 +1013,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 74.5
+          "season_pts": 89.1
         },
         {
           "id": "12534",
@@ -1033,7 +1033,7 @@
           "age": 32,
           "injury": null,
           "starter": true,
-          "season_pts": 53.0
+          "season_pts": 64.0
         },
         {
           "id": "4034",
@@ -1043,7 +1043,7 @@
           "age": 30,
           "injury": null,
           "starter": true,
-          "season_pts": 91.3
+          "season_pts": 122.0
         },
         {
           "id": "5850",
@@ -1061,9 +1061,9 @@
           "pos": "WR",
           "team": "NE",
           "age": 29,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
-          "season_pts": 5.6
+          "season_pts": 11.3
         },
         {
           "id": "6794",
@@ -1093,7 +1093,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 13.64
+          "season_pts": 33.48
         },
         {
           "id": "9487",
@@ -1103,7 +1103,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 81.5
+          "season_pts": 91.9
         },
         {
           "id": "9997",
@@ -1113,7 +1113,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 81.8
+          "season_pts": 94.5
         },
         {
           "id": "MIN",
@@ -1133,7 +1133,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 10.0
+          "season_pts": 15.0
         }
       ]
     },
@@ -1164,7 +1164,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 73.9
+          "season_pts": 102.4
         },
         {
           "id": "11792",
@@ -1184,7 +1184,7 @@
           "age": 23,
           "injury": null,
           "starter": true,
-          "season_pts": 63.7
+          "season_pts": 88.4
         },
         {
           "id": "12514",
@@ -1194,7 +1194,7 @@
           "age": 24,
           "injury": null,
           "starter": false,
-          "season_pts": 53.3
+          "season_pts": 71.1
         },
         {
           "id": "12518",
@@ -1224,7 +1224,7 @@
           "age": 41,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 1.0
         },
         {
           "id": "6770",
@@ -1244,7 +1244,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 20.24
         },
         {
           "id": "6813",
@@ -1254,7 +1254,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 97.4
+          "season_pts": 118.5
         },
         {
           "id": "7569",
@@ -1264,7 +1264,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 62.6
+          "season_pts": 73.5
         },
         {
           "id": "8131",
@@ -1274,7 +1274,7 @@
           "age": 26,
           "injury": null,
           "starter": false,
-          "season_pts": 85.4
+          "season_pts": 109.3
         },
         {
           "id": "8132",
@@ -1284,7 +1284,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 12.9
+          "season_pts": 18.7
         },
         {
           "id": "9224",
@@ -1304,7 +1304,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 44.9
+          "season_pts": 53.6
         },
         {
           "id": "9756",
@@ -1324,7 +1324,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 28.0
+          "season_pts": 32.0
         }
       ]
     },
@@ -1355,7 +1355,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 78.7
+          "season_pts": 85.6
         },
         {
           "id": "11620",
@@ -1365,7 +1365,7 @@
           "age": 24,
           "injury": null,
           "starter": true,
-          "season_pts": 42.3
+          "season_pts": 49.2
         },
         {
           "id": "12185",
@@ -1375,7 +1375,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 21.0
+          "season_pts": 30.0
         },
         {
           "id": "12506",
@@ -1385,7 +1385,7 @@
           "age": 22,
           "injury": null,
           "starter": false,
-          "season_pts": 51.7
+          "season_pts": 53.6
         },
         {
           "id": "2449",
@@ -1393,9 +1393,9 @@
           "pos": "WR",
           "team": "WAS",
           "age": 32,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
-          "season_pts": 53.0
+          "season_pts": 69.4
         },
         {
           "id": "6801",
@@ -1415,7 +1415,7 @@
           "age": 27,
           "injury": null,
           "starter": false,
-          "season_pts": 48.5
+          "season_pts": 69.0
         },
         {
           "id": "7594",
@@ -1425,7 +1425,7 @@
           "age": 27,
           "injury": null,
           "starter": false,
-          "season_pts": 79.0
+          "season_pts": 98.1
         },
         {
           "id": "8121",
@@ -1433,9 +1433,9 @@
           "pos": "WR",
           "team": "NE",
           "age": 26,
-          "injury": "Out",
+          "injury": "IR",
           "starter": false,
-          "season_pts": 46.9
+          "season_pts": 58.1
         },
         {
           "id": "8137",
@@ -1445,7 +1445,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 68.5
+          "season_pts": 81.8
         },
         {
           "id": "8138",
@@ -1455,17 +1455,17 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 89.3
+          "season_pts": 113.6
         },
         {
           "id": "8151",
           "name": "Kenneth Walker",
           "pos": "RB",
           "team": "KC",
-          "age": 25,
+          "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 110.1
+          "season_pts": 138.0
         },
         {
           "id": "8183",
@@ -1475,7 +1475,7 @@
           "age": 26,
           "injury": null,
           "starter": true,
-          "season_pts": 95.54
+          "season_pts": 112.9
         },
         {
           "id": "8228",
@@ -1485,7 +1485,7 @@
           "age": 27,
           "injury": null,
           "starter": true,
-          "season_pts": 93.0
+          "season_pts": 102.8
         },
         {
           "id": "9480",
@@ -1495,7 +1495,7 @@
           "age": 25,
           "injury": null,
           "starter": true,
-          "season_pts": 0
+          "season_pts": 9.4
         },
         {
           "id": "JAX",
@@ -1505,7 +1505,7 @@
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 20.0
+          "season_pts": 18.0
         }
       ]
     }
