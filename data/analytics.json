@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T17:53:12+00:00",
+  "generated": "2026-10-23T17:39:13+00:00",
   "season": 2026,
   "through_week": 6,
   "allplay": [
@@ -308,14 +308,19 @@
   ],
   "close_games": [
     {
-      "team": "CJ Woda",
+      "team": "Dan Hataaja",
       "wins": 2,
       "losses": 0
     },
     {
-      "team": "Dan Hataaja",
+      "team": "CJ Woda",
       "wins": 2,
-      "losses": 0
+      "losses": 1
+    },
+    {
+      "team": "Brian Christensen",
+      "wins": 2,
+      "losses": 1
     },
     {
       "team": "Seth Halvorsen",
@@ -324,11 +329,6 @@
     },
     {
       "team": "Timmy Thurston",
-      "wins": 1,
-      "losses": 1
-    },
-    {
-      "team": "Brian Christensen",
       "wins": 1,
       "losses": 1
     },
@@ -408,6 +408,14 @@
       "margin": 2.26
     },
     {
+      "week": 7,
+      "winner": "Brian Christensen",
+      "loser": "CJ Woda",
+      "win_pts": 27.44,
+      "lose_pts": 23.7,
+      "margin": 3.74
+    },
+    {
       "week": 4,
       "winner": "Dan Hataaja",
       "loser": "Noah Pieper",
@@ -422,14 +430,6 @@
       "win_pts": 132.34,
       "lose_pts": 127.6,
       "margin": 4.74
-    },
-    {
-      "week": 5,
-      "winner": "CJ Woda",
-      "loser": "Noah Pieper",
-      "win_pts": 173.4,
-      "lose_pts": 168.46,
-      "margin": 4.94
     }
   ],
   "records": {
@@ -452,12 +452,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
-      "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "week": 7,
+      "winner": "Zach Johansen",
+      "loser": "Noah Pieper",
+      "win_pts": 19.0,
+      "lose_pts": 0,
+      "margin": 19.0
     }
   },
   "weekly_board": [
@@ -564,7 +564,7 @@
     },
     {
       "id": "8151",
-      "name": "Kenneth Walker",
+      "name": "Kenneth Walker III",
       "pos": "RB",
       "nfl": "KC",
       "pts": 138.0,
@@ -645,7 +645,7 @@
     },
     {
       "id": "8138",
-      "name": "James Cook",
+      "name": "James Cook III",
       "pos": "RB",
       "nfl": "BUF",
       "pts": 113.6,
@@ -1175,7 +1175,7 @@
       "round": 4,
       "pick": 26,
       "team": "Noah Pieper",
-      "name": "James Cook",
+      "name": "James Cook III",
       "pos": "RB",
       "pts": 113.6
     },
@@ -1303,7 +1303,7 @@
       "round": 6,
       "pick": 42,
       "team": "Noah Pieper",
-      "name": "Harold Fannin",
+      "name": "Harold Fannin Jr.",
       "pos": "TE",
       "pts": 53.6
     },
@@ -1311,7 +1311,7 @@
       "round": 6,
       "pick": 43,
       "team": "Seth Halvorsen",
-      "name": "Travis Etienne",
+      "name": "Travis Etienne Jr.",
       "pos": "RB",
       "pts": 30.9
     },
@@ -1319,7 +1319,7 @@
       "round": 6,
       "pick": 44,
       "team": "CJ Woda",
-      "name": "Luther Burden",
+      "name": "Luther Burden III",
       "pos": "WR",
       "pts": 73.3
     },
@@ -1439,7 +1439,7 @@
       "round": 8,
       "pick": 59,
       "team": "Seth Halvorsen",
-      "name": "Brian Thomas",
+      "name": "Brian Thomas Jr.",
       "pos": "WR",
       "pts": 25.5
     },
@@ -1471,7 +1471,7 @@
       "round": 8,
       "pick": 63,
       "team": "Dan Hataaja",
-      "name": "Kyle Pitts",
+      "name": "Kyle Pitts Sr.",
       "pos": "TE",
       "pts": 26.9
     },
@@ -1519,7 +1519,7 @@
       "round": 9,
       "pick": 69,
       "team": "CJ Woda",
-      "name": "Marvin Harrison",
+      "name": "Marvin Harrison Jr.",
       "pos": "WR",
       "pts": 10.7
     },
@@ -1599,7 +1599,7 @@
       "round": 10,
       "pick": 79,
       "team": "Dan Hataaja",
-      "name": "Chris Godwin",
+      "name": "Chris Godwin Jr.",
       "pos": "WR",
       "pts": 38.7
     },
@@ -1703,7 +1703,7 @@
       "round": 12,
       "pick": 92,
       "team": "CJ Woda",
-      "name": "KC Concepcion",
+      "name": "KC Concepcion Jr.",
       "pos": "WR",
       "pts": 7.8
     },
@@ -1719,7 +1719,7 @@
       "round": 12,
       "pick": 94,
       "team": "Timmy Thurston",
-      "name": "Michael Pittman",
+      "name": "Michael Pittman Jr.",
       "pos": "WR",
       "pts": 15.9
     },
@@ -1807,7 +1807,7 @@
       "round": 14,
       "pick": 105,
       "team": "Brian Christensen",
-      "name": "Deebo Samuel",
+      "name": "Deebo Samuel Sr.",
       "pos": "WR",
       "pts": 60.4
     },
@@ -1943,7 +1943,7 @@
       "round": 16,
       "pick": 122,
       "team": "Noah Pieper",
-      "name": "Kenneth Walker",
+      "name": "Kenneth Walker III",
       "pos": "RB",
       "pts": 138.0
     },
@@ -2028,7 +2028,7 @@
     {
       "week": 2,
       "team": "Brian Christensen",
-      "name": "Aaron Jones",
+      "name": "Aaron Jones Sr.",
       "pos": "RB",
       "pts": 60.2
     },
@@ -2084,7 +2084,7 @@
     {
       "week": 4,
       "team": "Dillon Knaggs",
-      "name": "Ollie Gordon",
+      "name": "Ollie Gordon II",
       "pos": "RB",
       "pts": 32.8
     },
