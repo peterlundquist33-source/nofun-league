@@ -9,7 +9,7 @@
       "avatar": "https://sleepercdn.com/avatars/thumbs/e7af4deab0289b4f5505646424895246",
       "starters": [
         "11563",
-        "8155",
+        "12495",
         "12527",
         "8112",
         "8146",
@@ -47,7 +47,7 @@
           "team": "MIA",
           "age": 22,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 32.8
         },
         {
@@ -76,7 +76,7 @@
           "pos": "TE",
           "team": "PHI",
           "age": 31,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 47.0
         },
@@ -136,7 +136,7 @@
           "pos": "WR",
           "team": "ATL",
           "age": 25,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 88.4
         },
@@ -156,8 +156,8 @@
           "pos": "RB",
           "team": "NYJ",
           "age": 25,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 42.5
         },
         {
@@ -166,7 +166,7 @@
           "pos": "WR",
           "team": "GB",
           "age": 27,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 118.8
         },
@@ -205,7 +205,7 @@
         "9493",
         "8148",
         "4217",
-        "12489",
+        "4199",
         "10859",
         "13545",
         "NYJ"
@@ -232,12 +232,22 @@
           "season_pts": 81.1
         },
         {
+          "id": "11624",
+          "name": "Xavier Worthy",
+          "pos": "WR",
+          "team": "KC",
+          "age": 23,
+          "injury": null,
+          "starter": false,
+          "season_pts": 0
+        },
+        {
           "id": "12481",
           "name": "Cam Skattebo",
           "pos": "RB",
           "team": "NYG",
           "age": 24,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 51.3
         },
@@ -248,7 +258,7 @@
           "team": "DEN",
           "age": 25,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 53.4
         },
         {
@@ -267,7 +277,7 @@
           "pos": "WR",
           "team": "SF",
           "age": 33,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 89.0
         },
@@ -287,8 +297,8 @@
           "pos": "RB",
           "team": "MIN",
           "age": 31,
-          "injury": null,
-          "starter": false,
+          "injury": "Questionable",
+          "starter": true,
           "season_pts": 60.2
         },
         {
@@ -307,19 +317,9 @@
           "pos": "QB",
           "team": "BAL",
           "age": 29,
-          "injury": "Questionable",
-          "starter": false,
-          "season_pts": 79.08
-        },
-        {
-          "id": "5872",
-          "name": "Deebo Samuel Sr.",
-          "pos": "WR",
-          "team": "SF",
-          "age": 30,
           "injury": "Out",
           "starter": false,
-          "season_pts": 60.4
+          "season_pts": 79.08
         },
         {
           "id": "8148",
@@ -347,7 +347,7 @@
           "pos": "WR",
           "team": "LAR",
           "age": 25,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 91.8
         },
@@ -380,14 +380,14 @@
       "handle": "Zjohansen0",
       "avatar": "https://sleepercdn.com/uploads/26944055d5c38a49ce5e76f745907734.jpg",
       "starters": [
-        "3163",
-        "4866",
+        "9758",
+        "12474",
         "6790",
         "5846",
         "7547",
         "11604",
         "10232",
-        "12474",
+        "4866",
         "6083",
         "SEA"
       ],
@@ -398,7 +398,7 @@
           "pos": "WR",
           "team": "KC",
           "age": 26,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 38.0
         },
@@ -428,7 +428,7 @@
           "pos": "RB",
           "team": "HOU",
           "age": 25,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 10.1
         },
@@ -448,7 +448,7 @@
           "pos": "TE",
           "team": "KC",
           "age": 37,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 61.9
         },
@@ -459,7 +459,7 @@
           "team": "DET",
           "age": 32,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 68.78
         },
         {
@@ -517,8 +517,8 @@
           "name": "Amon-Ra St. Brown",
           "pos": "WR",
           "team": "DET",
-          "age": 26,
-          "injury": null,
+          "age": 27,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 104.2
         },
@@ -539,7 +539,7 @@
           "team": "HOU",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 0
         },
         {
@@ -659,7 +659,7 @@
           "pos": "RB",
           "team": "HOU",
           "age": 29,
-          "injury": "Doubtful",
+          "injury": "Out",
           "starter": false,
           "season_pts": 45.5
         },
@@ -790,7 +790,7 @@
           "pos": "WR",
           "team": "GB",
           "age": 23,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 75.4
         },
@@ -830,7 +830,7 @@
           "pos": "RB",
           "team": "ARI",
           "age": 21,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 51.1
         },
@@ -900,7 +900,7 @@
           "pos": "RB",
           "team": "MIN",
           "age": 27,
-          "injury": "IR",
+          "injury": null,
           "starter": false,
           "season_pts": 11.9
         },
@@ -945,10 +945,10 @@
       "starters": [
         "9228",
         "4034",
-        "12512",
+        "5850",
         "9997",
         "6794",
-        "9482",
+        "5844",
         "11646",
         "12526",
         "3451",
@@ -991,8 +991,8 @@
           "pos": "RB",
           "team": "CLE",
           "age": 22,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": null,
+          "starter": false,
           "season_pts": 56.3
         },
         {
@@ -1031,9 +1031,19 @@
           "pos": "RB",
           "team": "SF",
           "age": 30,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 122.0
+        },
+        {
+          "id": "5844",
+          "name": "T.J. Hockenson",
+          "pos": "TE",
+          "team": "MIN",
+          "age": 29,
+          "injury": null,
+          "starter": true,
+          "season_pts": 1.7
         },
         {
           "id": "5850",
@@ -1042,7 +1052,7 @@
           "team": "GB",
           "age": 28,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 0
         },
         {
@@ -1074,16 +1084,6 @@
           "injury": null,
           "starter": true,
           "season_pts": 33.48
-        },
-        {
-          "id": "9482",
-          "name": "Michael Mayer",
-          "pos": "TE",
-          "team": "LV",
-          "age": 25,
-          "injury": null,
-          "starter": true,
-          "season_pts": 0
         },
         {
           "id": "9487",
@@ -1308,7 +1308,7 @@
         "8183",
         "8151",
         "7594",
-        "7525",
+        "8137",
         "6801",
         "12506",
         "8228",
@@ -1393,8 +1393,8 @@
           "pos": "WR",
           "team": "PHI",
           "age": 27,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 69.0
         },
         {
@@ -1423,8 +1423,8 @@
           "pos": "WR",
           "team": "DAL",
           "age": 25,
-          "injury": "Questionable",
-          "starter": false,
+          "injury": null,
+          "starter": true,
           "season_pts": 81.8
         },
         {

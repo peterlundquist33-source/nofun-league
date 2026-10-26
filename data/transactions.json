@@ -4,6 +4,51 @@
     {
       "week": 7,
       "type": "free_agent",
+      "created": 1792938438073,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "5844": "Dan Hataaja"
+      },
+      "drops": {
+        "9482": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 7,
+      "type": "free_agent",
+      "created": 1792893770932,
+      "teams": [
+        "Brian Christensen"
+      ],
+      "adds": {
+        "11624": "Brian Christensen"
+      },
+      "drops": {
+        "4037": "Brian Christensen"
+      },
+      "faab": null
+    },
+    {
+      "week": 7,
+      "type": "free_agent",
+      "created": 1792785412974,
+      "teams": [
+        "Brian Christensen"
+      ],
+      "adds": {
+        "4037": "Brian Christensen"
+      },
+      "drops": {
+        "5872": "Brian Christensen"
+      },
+      "faab": null
+    },
+    {
+      "week": 7,
+      "type": "free_agent",
       "created": 1792759871742,
       "teams": [
         "Zach Johansen"
