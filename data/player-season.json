@@ -2,12 +2,13 @@
   "season": 2026,
   "players": {
     "11539": {
-      "pts": 49.0,
-      "weeks": 5,
+      "pts": 58.0,
+      "weeks": 6,
       "owners": {
-        "Dillon Knaggs": 49.0
+        "Dillon Knaggs": 49.0,
+        "Seth Halvorsen": 9.0
       },
-      "started": 5
+      "started": 6
     },
     "11566": {
       "pts": 85.66,
@@ -18,20 +19,20 @@
       "started": 1
     },
     "12527": {
-      "pts": 100.4,
-      "weeks": 6,
+      "pts": 122.0,
+      "weeks": 7,
       "owners": {
-        "Dillon Knaggs": 100.4
+        "Dillon Knaggs": 122.0
       },
-      "started": 6
+      "started": 7
     },
     "5022": {
-      "pts": 47.0,
-      "weeks": 4,
+      "pts": 56.8,
+      "weeks": 5,
       "owners": {
-        "Dillon Knaggs": 47.0
+        "Dillon Knaggs": 56.8
       },
-      "started": 3
+      "started": 4
     },
     "5927": {
       "pts": 46.0,
@@ -41,10 +42,10 @@
       }
     },
     "5967": {
-      "pts": 51.3,
-      "weeks": 6,
+      "pts": 87.8,
+      "weeks": 7,
       "owners": {
-        "Dillon Knaggs": 51.3
+        "Dillon Knaggs": 87.8
       },
       "started": 1
     },
@@ -57,18 +58,18 @@
       "started": 5
     },
     "7564": {
-      "pts": 79.9,
-      "weeks": 5,
-      "owners": {
-        "Dillon Knaggs": 79.9
-      },
-      "started": 5
-    },
-    "7611": {
-      "pts": 64.4,
+      "pts": 97.1,
       "weeks": 6,
       "owners": {
-        "Dillon Knaggs": 64.4
+        "Dillon Knaggs": 97.1
+      },
+      "started": 6
+    },
+    "7611": {
+      "pts": 86.9,
+      "weeks": 7,
+      "owners": {
+        "Dillon Knaggs": 86.9
       },
       "started": 3
     },
@@ -81,20 +82,20 @@
       "started": 2
     },
     "8112": {
-      "pts": 88.4,
-      "weeks": 6,
+      "pts": 108.0,
+      "weeks": 7,
       "owners": {
-        "Dillon Knaggs": 88.4
+        "Dillon Knaggs": 108.0
       },
-      "started": 4
+      "started": 5
     },
     "8146": {
-      "pts": 94.8,
-      "weeks": 6,
+      "pts": 99.4,
+      "weeks": 7,
       "owners": {
-        "Dillon Knaggs": 94.8
+        "Dillon Knaggs": 99.4
       },
-      "started": 6
+      "started": 7
     },
     "8155": {
       "pts": 42.5,
@@ -105,12 +106,12 @@
       "started": 3
     },
     "8167": {
-      "pts": 118.8,
-      "weeks": 6,
+      "pts": 129.5,
+      "weeks": 7,
       "owners": {
-        "Dillon Knaggs": 118.8
+        "Dillon Knaggs": 129.5
       },
-      "started": 5
+      "started": 6
     },
     "9226": {
       "pts": 24.6,
@@ -130,12 +131,12 @@
       "started": 3
     },
     "10859": {
-      "pts": 76.6,
-      "weeks": 5,
+      "pts": 79.4,
+      "weeks": 6,
       "owners": {
-        "Brian Christensen": 76.6
+        "Brian Christensen": 79.4
       },
-      "started": 5
+      "started": 6
     },
     "11635": {
       "pts": 36.3,
@@ -154,18 +155,18 @@
       "started": 5
     },
     "12481": {
-      "pts": 51.3,
-      "weeks": 5,
+      "pts": 70.4,
+      "weeks": 6,
       "owners": {
-        "Brian Christensen": 51.3
+        "Brian Christensen": 70.4
       },
       "started": 5
     },
     "12489": {
-      "pts": 53.4,
-      "weeks": 5,
+      "pts": 67.4,
+      "weeks": 6,
       "owners": {
-        "Brian Christensen": 53.4
+        "Brian Christensen": 67.4
       },
       "started": 1
     },
@@ -178,19 +179,19 @@
       "started": 5
     },
     "4046": {
-      "pts": 94.06,
-      "weeks": 5,
+      "pts": 100.06,
+      "weeks": 6,
       "owners": {
-        "Brian Christensen": 94.06
+        "Brian Christensen": 100.06
       }
     },
     "4217": {
-      "pts": 89.7,
-      "weeks": 6,
+      "pts": 104.5,
+      "weeks": 7,
       "owners": {
-        "Brian Christensen": 89.7
+        "Brian Christensen": 104.5
       },
-      "started": 1
+      "started": 2
     },
     "4881": {
       "pts": 79.08,
@@ -215,36 +216,36 @@
       }
     },
     "8148": {
-      "pts": 57.6,
-      "weeks": 5,
+      "pts": 83.7,
+      "weeks": 6,
       "owners": {
-        "Brian Christensen": 57.6
+        "Brian Christensen": 83.7
       },
-      "started": 3
+      "started": 4
     },
     "8150": {
-      "pts": 119.0,
-      "weeks": 6,
+      "pts": 137.1,
+      "weeks": 7,
       "owners": {
-        "Brian Christensen": 119.0
+        "Brian Christensen": 137.1
       },
-      "started": 6
+      "started": 7
     },
     "9493": {
-      "pts": 91.8,
-      "weeks": 4,
+      "pts": 113.6,
+      "weeks": 5,
       "owners": {
-        "Brian Christensen": 91.8
-      },
-      "started": 5
-    },
-    "9509": {
-      "pts": 128.5,
-      "weeks": 6,
-      "owners": {
-        "Brian Christensen": 128.5
+        "Brian Christensen": 113.6
       },
       "started": 6
+    },
+    "9509": {
+      "pts": 145.7,
+      "weeks": 7,
+      "owners": {
+        "Brian Christensen": 145.7
+      },
+      "started": 7
     },
     "10229": {
       "pts": 38.0,
@@ -255,21 +256,21 @@
       "started": 4
     },
     "10232": {
-      "pts": 45.38,
-      "weeks": 5,
+      "pts": 55.98,
+      "weeks": 6,
       "owners": {
-        "Zach Johansen": 45.38
+        "Zach Johansen": 55.98
       },
-      "started": 3
+      "started": 4
     },
     "11564": {
-      "pts": 81.1,
-      "weeks": 4,
+      "pts": 108.54,
+      "weeks": 5,
       "owners": {
         "Zach Johansen": 17.84,
-        "Brian Christensen": 63.26
+        "Brian Christensen": 90.7
       },
-      "started": 3
+      "started": 4
     },
     "11586": {
       "pts": 5.4,
@@ -303,44 +304,44 @@
       "started": 3
     },
     "1466": {
-      "pts": 61.9,
-      "weeks": 5,
+      "pts": 70.3,
+      "weeks": 6,
       "owners": {
-        "Zach Johansen": 61.9
+        "Zach Johansen": 70.3
       },
       "started": 5
     },
     "5846": {
-      "pts": 68.9,
-      "weeks": 6,
+      "pts": 76.5,
+      "weeks": 7,
       "owners": {
-        "Zach Johansen": 68.9
+        "Zach Johansen": 76.5
       },
-      "started": 3
+      "started": 4
     },
     "6790": {
-      "pts": 103.8,
-      "weeks": 6,
+      "pts": 122.8,
+      "weeks": 7,
       "owners": {
-        "Zach Johansen": 103.8
+        "Zach Johansen": 122.8
       },
-      "started": 6
+      "started": 7
     },
     "7526": {
-      "pts": 55.1,
-      "weeks": 6,
+      "pts": 63.9,
+      "weeks": 7,
       "owners": {
-        "Zach Johansen": 55.1
+        "Zach Johansen": 63.9
       },
       "started": 3
     },
     "7547": {
-      "pts": 104.2,
-      "weeks": 5,
+      "pts": 128.4,
+      "weeks": 6,
       "owners": {
-        "Zach Johansen": 104.2
+        "Zach Johansen": 128.4
       },
-      "started": 5
+      "started": 6
     },
     "8259": {
       "pts": 3.0,
@@ -351,26 +352,26 @@
       "started": 2
     },
     "SEA": {
-      "pts": 57.0,
-      "weeks": 6,
+      "pts": 67.0,
+      "weeks": 7,
       "owners": {
-        "Zach Johansen": 57.0
+        "Zach Johansen": 67.0
       },
-      "started": 6
+      "started": 7
     },
     "11560": {
-      "pts": 61.48,
-      "weeks": 3,
+      "pts": 83.6,
+      "weeks": 4,
       "owners": {
-        "Seth Halvorsen": 61.48
+        "Seth Halvorsen": 83.6
       },
-      "started": 2
+      "started": 3
     },
     "11581": {
-      "pts": 43.7,
-      "weeks": 6,
+      "pts": 49.2,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 43.7
+        "Seth Halvorsen": 49.2
       },
       "started": 1
     },
@@ -390,10 +391,10 @@
       "started": 6
     },
     "5045": {
-      "pts": 31.3,
-      "weeks": 6,
+      "pts": 38.8,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 31.3
+        "Seth Halvorsen": 38.8
       }
     },
     "5892": {
@@ -405,27 +406,27 @@
       "started": 5
     },
     "6786": {
-      "pts": 131.1,
-      "weeks": 6,
+      "pts": 155.5,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 131.1
+        "Seth Halvorsen": 155.5
       },
-      "started": 6
+      "started": 7
     },
     "6806": {
-      "pts": 49.7,
-      "weeks": 6,
+      "pts": 58.0,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 49.7
+        "Seth Halvorsen": 58.0
       }
     },
     "7002": {
-      "pts": 65.8,
-      "weeks": 5,
+      "pts": 67.5,
+      "weeks": 6,
       "owners": {
-        "Seth Halvorsen": 65.8
+        "Seth Halvorsen": 67.5
       },
-      "started": 3
+      "started": 4
     },
     "7543": {
       "pts": 30.9,
@@ -436,37 +437,37 @@
       "started": 3
     },
     "8130": {
-      "pts": 103.1,
-      "weeks": 6,
+      "pts": 130.2,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 103.1
+        "Seth Halvorsen": 130.2
       },
-      "started": 6
+      "started": 7
     },
     "8132": {
-      "pts": 18.7,
-      "weeks": 3,
+      "pts": 26.6,
+      "weeks": 4,
       "owners": {
         "Seth Halvorsen": 12.9,
-        "Timmy Thurston": 5.8
+        "Timmy Thurston": 13.7
       },
-      "started": 1
+      "started": 2
     },
     "8144": {
-      "pts": 113.0,
-      "weeks": 6,
+      "pts": 124.6,
+      "weeks": 7,
       "owners": {
-        "Seth Halvorsen": 113.0
+        "Seth Halvorsen": 124.6
       },
-      "started": 6
+      "started": 7
     },
     "9221": {
-      "pts": 153.7,
-      "weeks": 5,
+      "pts": 171.0,
+      "weeks": 6,
       "owners": {
-        "Seth Halvorsen": 153.7
+        "Seth Halvorsen": 171.0
       },
-      "started": 5
+      "started": 6
     },
     "DET": {
       "pts": 6.0,
@@ -477,12 +478,12 @@
       "started": 1
     },
     "11533": {
-      "pts": 43.0,
-      "weeks": 6,
+      "pts": 57.0,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 43.0
+        "CJ Woda": 57.0
       },
-      "started": 6
+      "started": 7
     },
     "11583": {
       "pts": 9.3,
@@ -492,26 +493,27 @@
       }
     },
     "11628": {
-      "pts": 10.7,
-      "weeks": 2,
+      "pts": 18.3,
+      "weeks": 3,
       "owners": {
-        "CJ Woda": 10.7
+        "CJ Woda": 18.3
       }
     },
     "12519": {
-      "pts": 73.3,
-      "weeks": 6,
+      "pts": 97.0,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 73.3
+        "CJ Woda": 97.0
       },
-      "started": 4
+      "started": 5
     },
     "13279": {
-      "pts": 67.4,
-      "weeks": 6,
+      "pts": 77.3,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 67.4
-      }
+        "CJ Woda": 77.3
+      },
+      "started": 1
     },
     "13298": {
       "pts": 7.8,
@@ -529,27 +531,29 @@
       "started": 6
     },
     "3198": {
-      "pts": 116.8,
-      "weeks": 6,
+      "pts": 122.7,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 116.8
+        "CJ Woda": 122.7
       },
-      "started": 6
+      "started": 7
     },
     "421": {
-      "pts": 105.86,
-      "weeks": 6,
+      "pts": 123.36,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 105.86
-      }
+        "CJ Woda": 123.36
+      },
+      "started": 1
     },
     "4866": {
-      "pts": 23.0,
-      "weeks": 4,
+      "pts": 38.1,
+      "weeks": 5,
       "owners": {
-        "CJ Woda": 23.0
+        "CJ Woda": 23.0,
+        "Zach Johansen": 15.1
       },
-      "started": 4
+      "started": 5
     },
     "4984": {
       "pts": 161.26,
@@ -560,43 +564,43 @@
       "started": 6
     },
     "7588": {
-      "pts": 109.0,
-      "weeks": 6,
+      "pts": 130.5,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 109.0
+        "CJ Woda": 130.5
       },
-      "started": 6
+      "started": 7
     },
     "8408": {
-      "pts": 11.9,
-      "weeks": 1,
+      "pts": 18.7,
+      "weeks": 2,
       "owners": {
-        "CJ Woda": 11.9
+        "CJ Woda": 18.7
       }
     },
     "9484": {
-      "pts": 56.4,
-      "weeks": 6,
+      "pts": 71.2,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 56.4
+        "CJ Woda": 71.2
       },
-      "started": 6
+      "started": 7
     },
     "9488": {
-      "pts": 164.86,
-      "weeks": 6,
+      "pts": 196.16,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 164.86
+        "CJ Woda": 196.16
       },
-      "started": 6
+      "started": 7
     },
     "DEN": {
-      "pts": 52.0,
-      "weeks": 6,
+      "pts": 55.0,
+      "weeks": 7,
       "owners": {
-        "CJ Woda": 52.0
+        "CJ Woda": 55.0
       },
-      "started": 6
+      "started": 7
     },
     "10236": {
       "pts": 60.5,
@@ -607,28 +611,28 @@
       "started": 5
     },
     "11646": {
-      "pts": 67.9,
-      "weeks": 4,
-      "owners": {
-        "Dan Hataaja": 67.9
-      },
-      "started": 3
-    },
-    "12512": {
-      "pts": 56.3,
+      "pts": 69.8,
       "weeks": 5,
       "owners": {
-        "Dan Hataaja": 56.3
+        "Dan Hataaja": 69.8
+      },
+      "started": 4
+    },
+    "12512": {
+      "pts": 79.7,
+      "weeks": 6,
+      "owners": {
+        "Dan Hataaja": 79.7
       },
       "started": 4
     },
     "12526": {
-      "pts": 89.1,
-      "weeks": 5,
+      "pts": 97.1,
+      "weeks": 6,
       "owners": {
-        "Dan Hataaja": 89.1
+        "Dan Hataaja": 97.1
       },
-      "started": 5
+      "started": 6
     },
     "12534": {
       "pts": 59.3,
@@ -639,20 +643,20 @@
       "started": 1
     },
     "3451": {
-      "pts": 64.0,
-      "weeks": 6,
+      "pts": 75.0,
+      "weeks": 7,
       "owners": {
-        "Dan Hataaja": 64.0
+        "Dan Hataaja": 75.0
       },
-      "started": 6
+      "started": 7
     },
     "4034": {
-      "pts": 122.0,
-      "weeks": 6,
+      "pts": 144.0,
+      "weeks": 7,
       "owners": {
-        "Dan Hataaja": 122.0
+        "Dan Hataaja": 144.0
       },
-      "started": 6
+      "started": 7
     },
     "4037": {
       "pts": 38.7,
@@ -662,20 +666,20 @@
       }
     },
     "5859": {
-      "pts": 11.3,
-      "weeks": 2,
+      "pts": 19.1,
+      "weeks": 3,
       "owners": {
-        "Dan Hataaja": 11.3
+        "Dan Hataaja": 19.1
       },
       "started": 1
     },
     "6794": {
-      "pts": 63.7,
-      "weeks": 4,
+      "pts": 72.1,
+      "weeks": 5,
       "owners": {
-        "Dan Hataaja": 63.7
+        "Dan Hataaja": 72.1
       },
-      "started": 4
+      "started": 5
     },
     "6904": {
       "pts": 80.02,
@@ -694,36 +698,36 @@
       "started": 5
     },
     "9997": {
-      "pts": 94.5,
-      "weeks": 5,
-      "owners": {
-        "Dan Hataaja": 94.5
-      },
-      "started": 4
-    },
-    "MIN": {
-      "pts": 67.0,
-      "weeks": 5,
-      "owners": {
-        "Dan Hataaja": 67.0
-      },
-      "started": 5
-    },
-    "11632": {
-      "pts": 102.4,
+      "pts": 122.2,
       "weeks": 6,
       "owners": {
-        "Timmy Thurston": 102.4
+        "Dan Hataaja": 122.2
       },
       "started": 5
     },
-    "11792": {
-      "pts": 68.0,
-      "weeks": 5,
+    "MIN": {
+      "pts": 78.0,
+      "weeks": 6,
       "owners": {
-        "Timmy Thurston": 68.0
+        "Dan Hataaja": 78.0
       },
-      "started": 5
+      "started": 6
+    },
+    "11632": {
+      "pts": 120.5,
+      "weeks": 7,
+      "owners": {
+        "Timmy Thurston": 120.5
+      },
+      "started": 6
+    },
+    "11792": {
+      "pts": 80.0,
+      "weeks": 6,
+      "owners": {
+        "Timmy Thurston": 80.0
+      },
+      "started": 6
     },
     "12490": {
       "pts": 88.4,
@@ -766,20 +770,20 @@
       "started": 4
     },
     "6770": {
-      "pts": 101.24,
-      "weeks": 5,
+      "pts": 130.12,
+      "weeks": 6,
       "owners": {
-        "Timmy Thurston": 101.24
+        "Timmy Thurston": 130.12
       },
       "started": 5
     },
     "6813": {
-      "pts": 118.5,
-      "weeks": 6,
+      "pts": 137.5,
+      "weeks": 7,
       "owners": {
-        "Timmy Thurston": 118.5
+        "Timmy Thurston": 137.5
       },
-      "started": 6
+      "started": 7
     },
     "6819": {
       "pts": 15.9,
@@ -789,43 +793,44 @@
       }
     },
     "7569": {
-      "pts": 73.5,
-      "weeks": 4,
-      "owners": {
-        "Timmy Thurston": 73.5
-      },
-      "started": 4
-    },
-    "8131": {
-      "pts": 109.3,
-      "weeks": 6,
-      "owners": {
-        "Timmy Thurston": 109.3
-      }
-    },
-    "9224": {
-      "pts": 65.0,
+      "pts": 76.1,
       "weeks": 5,
       "owners": {
-        "Timmy Thurston": 65.0
+        "Timmy Thurston": 76.1
       },
       "started": 5
     },
-    "9500": {
-      "pts": 53.6,
+    "8131": {
+      "pts": 112.5,
+      "weeks": 7,
+      "owners": {
+        "Timmy Thurston": 112.5
+      },
+      "started": 1
+    },
+    "9224": {
+      "pts": 74.8,
       "weeks": 6,
       "owners": {
-        "Timmy Thurston": 53.6
-      },
-      "started": 3
-    },
-    "LAR": {
-      "pts": 32.0,
-      "weeks": 5,
-      "owners": {
-        "Timmy Thurston": 32.0
+        "Timmy Thurston": 74.8
       },
       "started": 6
+    },
+    "9500": {
+      "pts": 57.4,
+      "weeks": 7,
+      "owners": {
+        "Timmy Thurston": 57.4
+      },
+      "started": 4
+    },
+    "LAR": {
+      "pts": 33.0,
+      "weeks": 6,
+      "owners": {
+        "Timmy Thurston": 33.0
+      },
+      "started": 7
     },
     "10222": {
       "pts": 6.4,
@@ -835,28 +840,28 @@
       }
     },
     "11584": {
-      "pts": 85.6,
-      "weeks": 6,
+      "pts": 109.6,
+      "weeks": 7,
       "owners": {
-        "Noah Pieper": 85.6
+        "Noah Pieper": 109.6
       },
-      "started": 4
+      "started": 5
     },
     "11620": {
-      "pts": 49.2,
-      "weeks": 6,
+      "pts": 60.1,
+      "weeks": 7,
       "owners": {
-        "Noah Pieper": 49.2
+        "Noah Pieper": 60.1
       },
       "started": 1
     },
     "12506": {
-      "pts": 53.6,
-      "weeks": 6,
+      "pts": 66.7,
+      "weeks": 7,
       "owners": {
-        "Noah Pieper": 53.6
+        "Noah Pieper": 66.7
       },
-      "started": 5
+      "started": 6
     },
     "2449": {
       "pts": 69.4,
@@ -882,12 +887,12 @@
       "started": 1
     },
     "6801": {
-      "pts": 75.3,
-      "weeks": 5,
+      "pts": 102.1,
+      "weeks": 6,
       "owners": {
-        "Noah Pieper": 75.3
+        "Noah Pieper": 102.1
       },
-      "started": 3
+      "started": 4
     },
     "7525": {
       "pts": 69.0,
@@ -898,20 +903,20 @@
       "started": 3
     },
     "7594": {
-      "pts": 98.1,
-      "weeks": 5,
-      "owners": {
-        "Noah Pieper": 98.1
-      },
-      "started": 3
-    },
-    "8137": {
-      "pts": 81.8,
+      "pts": 108.1,
       "weeks": 6,
       "owners": {
-        "Noah Pieper": 81.8
+        "Noah Pieper": 108.1
       },
-      "started": 6
+      "started": 4
+    },
+    "8137": {
+      "pts": 97.5,
+      "weeks": 7,
+      "owners": {
+        "Noah Pieper": 97.5
+      },
+      "started": 7
     },
     "8138": {
       "pts": 113.6,
@@ -922,20 +927,20 @@
       "started": 6
     },
     "8151": {
-      "pts": 138.0,
-      "weeks": 5,
-      "owners": {
-        "Noah Pieper": 138.0
-      },
-      "started": 5
-    },
-    "8228": {
-      "pts": 102.8,
+      "pts": 147.7,
       "weeks": 6,
       "owners": {
-        "Noah Pieper": 102.8
+        "Noah Pieper": 147.7
       },
-      "started": 4
+      "started": 6
+    },
+    "8228": {
+      "pts": 119.5,
+      "weeks": 7,
+      "owners": {
+        "Noah Pieper": 119.5
+      },
+      "started": 5
     },
     "PHI": {
       "pts": 14.0,
@@ -955,12 +960,12 @@
       "started": 2
     },
     "4199": {
-      "pts": 60.2,
-      "weeks": 4,
+      "pts": 63.8,
+      "weeks": 5,
       "owners": {
-        "Brian Christensen": 60.2
+        "Brian Christensen": 63.8
       },
-      "started": 3
+      "started": 4
     },
     "TB": {
       "pts": 4.0,
@@ -985,12 +990,12 @@
       }
     },
     "12517": {
-      "pts": 42.5,
-      "weeks": 5,
+      "pts": 62.4,
+      "weeks": 6,
       "owners": {
-        "Seth Halvorsen": 42.5
+        "Seth Halvorsen": 62.4
       },
-      "started": 4
+      "started": 5
     },
     "BAL": {
       "pts": 24.0,
@@ -1025,10 +1030,10 @@
       }
     },
     "9756": {
-      "pts": 33.2,
-      "weeks": 3,
+      "pts": 37.5,
+      "weeks": 4,
       "owners": {
-        "Timmy Thurston": 33.2
+        "Timmy Thurston": 37.5
       },
       "started": 1
     },
@@ -1041,12 +1046,12 @@
       "started": 1
     },
     "8183": {
-      "pts": 112.9,
-      "weeks": 5,
+      "pts": 124.92,
+      "weeks": 6,
       "owners": {
-        "Noah Pieper": 112.9
+        "Noah Pieper": 124.92
       },
-      "started": 5
+      "started": 6
     },
     "12487": {
       "pts": 1.9,
@@ -1073,12 +1078,12 @@
       "started": 1
     },
     "11604": {
-      "pts": 82.2,
-      "weeks": 4,
+      "pts": 95.5,
+      "weeks": 5,
       "owners": {
-        "Zach Johansen": 82.2
+        "Zach Johansen": 95.5
       },
-      "started": 3
+      "started": 4
     },
     "13346": {
       "pts": 37.1,
@@ -1088,10 +1093,10 @@
       }
     },
     "3163": {
-      "pts": 68.78,
-      "weeks": 3,
+      "pts": 86.8,
+      "weeks": 4,
       "owners": {
-        "Zach Johansen": 68.78
+        "Zach Johansen": 86.8
       },
       "started": 3
     },
@@ -1112,75 +1117,77 @@
       "started": 2
     },
     "9228": {
-      "pts": 33.48,
-      "weeks": 2,
+      "pts": 38.9,
+      "weeks": 3,
       "owners": {
         "Zach Johansen": 13.64,
-        "Dan Hataaja": 19.84
-      },
-      "started": 1
-    },
-    "11435": {
-      "pts": 46.8,
-      "weeks": 4,
-      "owners": {
-        "Seth Halvorsen": 46.8
+        "Dan Hataaja": 25.26
       },
       "started": 2
     },
-    "3294": {
-      "pts": 60.7,
-      "weeks": 4,
+    "11435": {
+      "pts": 65.3,
+      "weeks": 5,
       "owners": {
-        "Seth Halvorsen": 60.7
+        "Seth Halvorsen": 65.3
+      },
+      "started": 3
+    },
+    "3294": {
+      "pts": 83.98,
+      "weeks": 5,
+      "owners": {
+        "Seth Halvorsen": 83.98
       },
       "started": 4
     },
     "GB": {
-      "pts": 32.0,
-      "weeks": 4,
+      "pts": 37.0,
+      "weeks": 5,
       "owners": {
-        "Seth Halvorsen": 32.0
+        "Seth Halvorsen": 37.0
+      },
+      "started": 5
+    },
+    "12501": {
+      "pts": 85.3,
+      "weeks": 5,
+      "owners": {
+        "CJ Woda": 85.3
       },
       "started": 4
     },
-    "12501": {
-      "pts": 75.4,
+    "13337": {
+      "pts": 11.8,
       "weeks": 4,
       "owners": {
-        "CJ Woda": 75.4
-      },
-      "started": 3
-    },
-    "13337": {
-      "pts": 8.1,
-      "weeks": 3,
-      "owners": {
-        "CJ Woda": 8.1
+        "CJ Woda": 11.8
       }
     },
     "12495": {
-      "pts": 32.8,
-      "weeks": 2,
-      "owners": {
-        "Dillon Knaggs": 32.8
-      }
-    },
-    "11576": {
-      "pts": 39.7,
+      "pts": 50.1,
       "weeks": 3,
       "owners": {
-        "Dan Hataaja": 39.7
+        "Dillon Knaggs": 50.1
+      },
+      "started": 1
+    },
+    "11576": {
+      "pts": 59.1,
+      "weeks": 4,
+      "owners": {
+        "Dan Hataaja": 59.1
       },
       "started": 3
     },
     "5844": {
-      "pts": 1.7,
-      "weeks": 1,
+      "pts": 15.2,
+      "weeks": 2,
       "owners": {
-        "Dillon Knaggs": 1.7
+        "Dillon Knaggs": 1.7,
+        "Dan Hataaja": 13.5
       },
-      "started": 1
+      "started": 2
     },
     "CIN": {
       "pts": 10.0,
@@ -1196,7 +1203,7 @@
       "owners": {
         "Brian Christensen": 16.0
       },
-      "started": 1
+      "started": 2
     },
     "11834": {
       "pts": 13.8,
@@ -1222,28 +1229,28 @@
       }
     },
     "12185": {
-      "pts": 30.0,
+      "pts": 33.0,
+      "weeks": 3,
+      "owners": {
+        "Noah Pieper": 33.0
+      },
+      "started": 3
+    },
+    "2020": {
+      "pts": 22.0,
       "weeks": 2,
       "owners": {
-        "Noah Pieper": 30.0
+        "Dillon Knaggs": 22.0
       },
       "started": 2
     },
-    "2020": {
-      "pts": 8.0,
-      "weeks": 1,
-      "owners": {
-        "Dillon Knaggs": 8.0
-      },
-      "started": 1
-    },
     "13545": {
-      "pts": 12.0,
-      "weeks": 1,
+      "pts": 16.0,
+      "weeks": 2,
       "owners": {
-        "Brian Christensen": 12.0
+        "Brian Christensen": 16.0
       },
-      "started": 1
+      "started": 2
     },
     "1166": {
       "pts": 18.52,
@@ -1254,26 +1261,26 @@
       "started": 1
     },
     "12474": {
-      "pts": 10.1,
-      "weeks": 1,
+      "pts": 19.2,
+      "weeks": 2,
       "owners": {
-        "Zach Johansen": 10.1
+        "Zach Johansen": 19.2
       },
-      "started": 1
+      "started": 2
     },
     "6083": {
-      "pts": 12.0,
-      "weeks": 1,
+      "pts": 20.0,
+      "weeks": 2,
       "owners": {
-        "Zach Johansen": 12.0
+        "Zach Johansen": 20.0
       },
-      "started": 1
+      "started": 2
     },
     "8129": {
-      "pts": 15.0,
-      "weeks": 1,
+      "pts": 26.8,
+      "weeks": 2,
       "owners": {
-        "Zach Johansen": 15.0
+        "Zach Johansen": 26.8
       },
       "started": 1
     },
@@ -1286,18 +1293,64 @@
       "started": 1
     },
     "6804": {
-      "pts": 20.24,
-      "weeks": 1,
+      "pts": 37.2,
+      "weeks": 2,
       "owners": {
-        "Timmy Thurston": 20.24
+        "Timmy Thurston": 37.2
       },
-      "started": 1
+      "started": 2
     },
     "9480": {
       "pts": 9.4,
       "weeks": 1,
       "owners": {
         "Noah Pieper": 9.4
+      },
+      "started": 1
+    },
+    "11563": {
+      "pts": 26.28,
+      "weeks": 1,
+      "owners": {
+        "Dillon Knaggs": 26.28
+      },
+      "started": 1
+    },
+    "11624": {
+      "pts": 4.1,
+      "weeks": 1,
+      "owners": {
+        "Brian Christensen": 4.1
+      }
+    },
+    "9758": {
+      "pts": 16.52,
+      "weeks": 1,
+      "owners": {
+        "Zach Johansen": 16.52
+      },
+      "started": 1
+    },
+    "5850": {
+      "pts": 20.1,
+      "weeks": 1,
+      "owners": {
+        "Dan Hataaja": 20.1
+      },
+      "started": 1
+    },
+    "13274": {
+      "pts": 5.7,
+      "weeks": 1,
+      "owners": {
+        "Noah Pieper": 5.7
+      }
+    },
+    "CLE": {
+      "pts": 6.0,
+      "weeks": 1,
+      "owners": {
+        "Noah Pieper": 6.0
       },
       "started": 1
     }
