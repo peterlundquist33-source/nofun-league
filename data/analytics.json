@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T18:38:21+00:00",
+  "generated": "2026-10-30T18:22:59+00:00",
   "season": 2026,
   "through_week": 7,
   "allplay": [
@@ -208,9 +208,9 @@
         114.88,
         165.84,
         119.44,
-        141.08
+        140.98
       ],
-      "avg": 138.24,
+      "avg": 138.22,
       "high": 165.84,
       "low": 114.88,
       "stdev": 17.75
@@ -299,8 +299,8 @@
     },
     {
       "team": "Dillon Knaggs",
-      "pf": 967.66,
-      "ppts": 1142.98,
+      "pf": 967.56,
+      "ppts": 1142.88,
       "eff": 84.7,
       "left": 175.32,
       "left_pg": 25.05
@@ -460,12 +460,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
+      "week": 8,
+      "winner": "Seth Halvorsen",
       "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "win_pts": 14.0,
+      "lose_pts": 2.0,
+      "margin": 12.0
     }
   },
   "weekly_board": [
@@ -551,7 +551,7 @@
         "team": "Timmy Thurston",
         "pts": 94.36
       },
-      "avg": 134.86
+      "avg": 134.84
     }
   ],
   "top_players": [
@@ -973,7 +973,7 @@
     },
     {
       "team": "Dillon Knaggs",
-      "QB": 226.14,
+      "QB": 226.04,
       "RB": 413.9,
       "WR": 480.0,
       "TE": 96.7,

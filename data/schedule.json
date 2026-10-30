@@ -453,7 +453,7 @@
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 141.08
+            "points": 140.98
           },
           "b": {
             "roster_id": 4,
@@ -461,7 +461,7 @@
             "points": 156.62
           },
           "played": true,
-          "margin": 15.54,
+          "margin": 15.64,
           "winner": "Seth Halvorsen"
         },
         {
@@ -501,55 +501,55 @@
     },
     {
       "week": 8,
-      "played": false,
+      "played": true,
       "games": [
         {
           "matchup_id": 1,
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 0
+            "points": 2.0
           },
           "b": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 0
+            "points": 14.0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 12.0,
+          "winner": "Seth Halvorsen"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 38.2
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 0
+            "points": 21.52
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 16.68,
+          "winner": "CJ Woda"
         },
         {
           "matchup_id": 3,
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 0
+            "points": 17.3
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
             "points": 0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 17.3,
+          "winner": "Dillon Knaggs"
         },
         {
           "matchup_id": 4,
@@ -561,11 +561,11 @@
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 0
+            "points": 43.16
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 43.16,
+          "winner": "Dan Hataaja"
         }
       ],
       "playoff": false
