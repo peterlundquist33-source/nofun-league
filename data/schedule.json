@@ -508,64 +508,64 @@
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 2.0
+            "points": 117.46
           },
           "b": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 14.0
+            "points": 98.2
           },
           "played": true,
-          "margin": 12.0,
-          "winner": "Seth Halvorsen"
+          "margin": 19.26,
+          "winner": "Brian Christensen"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 38.2
+            "points": 100.46
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 21.52
+            "points": 132.52
           },
           "played": true,
-          "margin": 16.68,
-          "winner": "CJ Woda"
+          "margin": 32.06,
+          "winner": "Timmy Thurston"
         },
         {
           "matchup_id": 3,
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 17.3
+            "points": 109.2
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
-            "points": 0
+            "points": 157.78
           },
           "played": true,
-          "margin": 17.3,
-          "winner": "Dillon Knaggs"
+          "margin": 48.58,
+          "winner": "Noah Pieper"
         },
         {
           "matchup_id": 4,
           "a": {
             "roster_id": 3,
             "team": "Zach Johansen",
-            "points": 0
+            "points": 118.74
           },
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 43.16
+            "points": 101.76
           },
           "played": true,
-          "margin": 43.16,
-          "winner": "Dan Hataaja"
+          "margin": 16.98,
+          "winner": "Zach Johansen"
         }
       ],
       "playoff": false

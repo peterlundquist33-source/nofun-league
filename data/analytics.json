@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T18:22:59+00:00",
+  "generated": "2026-11-02T22:36:57+00:00",
   "season": 2026,
   "through_week": 7,
   "allplay": [
@@ -460,12 +460,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 8,
-      "winner": "Seth Halvorsen",
+      "week": 2,
+      "winner": "Timmy Thurston",
       "loser": "Brian Christensen",
-      "win_pts": 14.0,
-      "lose_pts": 2.0,
-      "margin": 12.0
+      "win_pts": 109.28,
+      "lose_pts": 90.0,
+      "margin": 19.28
     }
   },
   "weekly_board": [
