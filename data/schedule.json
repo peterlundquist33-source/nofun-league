@@ -572,7 +572,7 @@
     },
     {
       "week": 9,
-      "played": false,
+      "played": true,
       "games": [
         {
           "matchup_id": 1,
@@ -584,27 +584,27 @@
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 0
+            "points": 8.9
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 8.9,
+          "winner": "Timmy Thurston"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 0
+            "points": 17.0
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
             "points": 0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 17.0,
+          "winner": "Seth Halvorsen"
         },
         {
           "matchup_id": 3,
@@ -616,27 +616,27 @@
           "b": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 5.58
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 5.58,
+          "winner": "CJ Woda"
         },
         {
           "matchup_id": 4,
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 0
+            "points": 25.58
           },
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 0
+            "points": 19.4
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 6.18,
+          "winner": "Dillon Knaggs"
         }
       ],
       "playoff": false

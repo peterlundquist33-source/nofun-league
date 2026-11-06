@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T20:19:23+00:00",
+  "generated": "2026-11-06T20:07:26+00:00",
   "season": 2026,
   "through_week": 8,
   "allplay": [
@@ -325,13 +325,18 @@
   "close_games": [
     {
       "team": "CJ Woda",
-      "wins": 2,
+      "wins": 3,
       "losses": 0
     },
     {
       "team": "Dan Hataaja",
       "wins": 2,
-      "losses": 0
+      "losses": 1
+    },
+    {
+      "team": "Timmy Thurston",
+      "wins": 2,
+      "losses": 1
     },
     {
       "team": "Noah Pieper",
@@ -344,24 +349,19 @@
       "losses": 0
     },
     {
-      "team": "Timmy Thurston",
-      "wins": 1,
-      "losses": 1
-    },
-    {
       "team": "Brian Christensen",
       "wins": 1,
-      "losses": 1
+      "losses": 2
     },
     {
       "team": "Dillon Knaggs",
-      "wins": 0,
+      "wins": 1,
       "losses": 2
     },
     {
       "team": "Zach Johansen",
       "wins": 0,
-      "losses": 2
+      "losses": 3
     }
   ],
   "blowouts": [
@@ -468,12 +468,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
-      "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "week": 9,
+      "winner": "CJ Woda",
+      "loser": "Zach Johansen",
+      "win_pts": 5.58,
+      "lose_pts": 0,
+      "margin": 5.58
     }
   },
   "weekly_board": [
