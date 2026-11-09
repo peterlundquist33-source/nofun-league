@@ -12,9 +12,9 @@
         "7611",
         "12527",
         "8112",
-        "8146",
-        "4993",
         "7564",
+        "4993",
+        "12495",
         "8167",
         "2020",
         "JAX"
@@ -37,7 +37,7 @@
           "team": "MIA",
           "age": 22,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 57.0
         },
         {
@@ -116,7 +116,7 @@
           "pos": "RB",
           "team": "NE",
           "age": 28,
-          "injury": null,
+          "injury": "Out",
           "starter": true,
           "season_pts": 98.9
         },
@@ -126,7 +126,7 @@
           "pos": "TE",
           "team": "DAL",
           "age": 27,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 36.3
         },
@@ -147,7 +147,7 @@
           "team": "NYJ",
           "age": 26,
           "injury": "Out",
-          "starter": true,
+          "starter": false,
           "season_pts": 113.7
         },
         {
@@ -166,7 +166,7 @@
           "pos": "WR",
           "team": "GB",
           "age": 27,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 146.8
         },
@@ -205,7 +205,7 @@
         "9493",
         "8148",
         "10859",
-        "12481",
+        "11620",
         "4217",
         "7839",
         "SF"
@@ -238,7 +238,7 @@
           "team": "CHI",
           "age": 24,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 60.1
         },
         {
@@ -247,8 +247,8 @@
           "pos": "RB",
           "team": "NYG",
           "age": 24,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 70.4
         },
         {
@@ -257,7 +257,7 @@
           "pos": "WR",
           "team": "SF",
           "age": 33,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 89.0
         },
@@ -277,7 +277,7 @@
           "pos": "QB",
           "team": "KC",
           "age": 31,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 125.5
         },
@@ -347,7 +347,7 @@
           "pos": "WR",
           "team": "LAR",
           "age": 25,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 138.6
         },
@@ -386,7 +386,7 @@
         "10229",
         "7547",
         "11604",
-        "10232",
+        "6130",
         "1466",
         "6083",
         "SEA"
@@ -408,9 +408,19 @@
           "pos": "WR",
           "team": "ARI",
           "age": 26,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Out",
+          "starter": false,
           "season_pts": 82.78
+        },
+        {
+          "id": "11586",
+          "name": "Blake Corum",
+          "pos": "RB",
+          "team": "LAR",
+          "age": 25,
+          "injury": null,
+          "starter": false,
+          "season_pts": 5.4
         },
         {
           "id": "11604",
@@ -431,16 +441,6 @@
           "injury": null,
           "starter": false,
           "season_pts": 62.2
-        },
-        {
-          "id": "13346",
-          "name": "Denzel Boston",
-          "pos": "WR",
-          "team": "CLE",
-          "age": 22,
-          "injury": null,
-          "starter": false,
-          "season_pts": 37.1
         },
         {
           "id": "13424",
@@ -488,7 +488,7 @@
           "pos": "RB",
           "team": "PHI",
           "age": 29,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 50.5
         },
@@ -501,6 +501,16 @@
           "injury": null,
           "starter": true,
           "season_pts": 30.0
+        },
+        {
+          "id": "6130",
+          "name": "Devin Singletary",
+          "pos": "RB",
+          "team": "NYG",
+          "age": 29,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "6790",
@@ -518,7 +528,7 @@
           "pos": "WR",
           "team": "DEN",
           "age": 27,
-          "injury": null,
+          "injury": "Out",
           "starter": false,
           "season_pts": 78.8
         },
@@ -528,19 +538,9 @@
           "pos": "WR",
           "team": "DET",
           "age": 27,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 141.0
-        },
-        {
-          "id": "9758",
-          "name": "C.J. Stroud",
-          "pos": "QB",
-          "team": "HOU",
-          "age": 25,
-          "injury": null,
-          "starter": false,
-          "season_pts": 16.52
         },
         {
           "id": "SEA",
@@ -780,7 +780,7 @@
           "pos": "WR",
           "team": "LAC",
           "age": 24,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 48.9
         },
@@ -800,7 +800,7 @@
           "pos": "WR",
           "team": "CHI",
           "age": 22,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 115.6
         },
@@ -870,7 +870,7 @@
           "pos": "WR",
           "team": "SF",
           "age": 30,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 60.4
         },
@@ -949,7 +949,7 @@
         "9997",
         "6794",
         "5844",
-        "11646",
+        "12526",
         "9487",
         "6650",
         "MIN"
@@ -961,7 +961,7 @@
           "pos": "TE",
           "team": "BUF",
           "age": 27,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 79.1
         },
@@ -982,7 +982,7 @@
           "team": "CAR",
           "age": 25,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 79.4
         },
         {
@@ -1002,7 +1002,7 @@
           "team": "CAR",
           "age": 23,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 108.9
         },
         {
@@ -1011,7 +1011,7 @@
           "pos": "RB",
           "team": "CHI",
           "age": 24,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 59.3
         },
@@ -1021,7 +1021,7 @@
           "pos": "RB",
           "team": "SF",
           "age": 30,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 144.0
         },
@@ -1041,7 +1041,7 @@
           "pos": "RB",
           "team": "GB",
           "age": 28,
-          "injury": null,
+          "injury": "Out",
           "starter": true,
           "season_pts": 43.3
         },
@@ -1142,7 +1142,7 @@
           "pos": "WR",
           "team": "NYG",
           "age": 23,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 120.5
         },
@@ -1172,7 +1172,7 @@
           "pos": "WR",
           "team": "TB",
           "age": 24,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 71.1
         },
@@ -1192,7 +1192,7 @@
           "pos": "WR",
           "team": "BUF",
           "age": 29,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 52.9
         },
@@ -1393,7 +1393,7 @@
           "pos": "WR",
           "team": "PHI",
           "age": 27,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 69.0
         },
@@ -1423,7 +1423,7 @@
           "pos": "WR",
           "team": "DAL",
           "age": 25,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": true,
           "season_pts": 104.3
         },

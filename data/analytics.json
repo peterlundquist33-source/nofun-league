@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T20:07:26+00:00",
+  "generated": "2026-11-09T23:17:15+00:00",
   "season": 2026,
   "through_week": 8,
   "allplay": [
@@ -329,33 +329,33 @@
       "losses": 0
     },
     {
+      "team": "Noah Pieper",
+      "wins": 3,
+      "losses": 3
+    },
+    {
       "team": "Dan Hataaja",
       "wins": 2,
-      "losses": 1
-    },
-    {
-      "team": "Timmy Thurston",
-      "wins": 2,
-      "losses": 1
-    },
-    {
-      "team": "Noah Pieper",
-      "wins": 2,
-      "losses": 3
+      "losses": 0
     },
     {
       "team": "Seth Halvorsen",
       "wins": 1,
-      "losses": 0
+      "losses": 1
+    },
+    {
+      "team": "Timmy Thurston",
+      "wins": 1,
+      "losses": 1
     },
     {
       "team": "Brian Christensen",
       "wins": 1,
-      "losses": 2
+      "losses": 1
     },
     {
       "team": "Dillon Knaggs",
-      "wins": 1,
+      "wins": 0,
       "losses": 2
     },
     {
@@ -372,6 +372,14 @@
       "win_pts": 177.38,
       "lose_pts": 104.48,
       "margin": 72.9
+    },
+    {
+      "week": 9,
+      "winner": "Brian Christensen",
+      "loser": "Timmy Thurston",
+      "win_pts": 161.06,
+      "lose_pts": 93.78,
+      "margin": 67.28
     },
     {
       "week": 1,
@@ -396,14 +404,6 @@
       "win_pts": 168.42,
       "lose_pts": 114.88,
       "margin": 53.54
-    },
-    {
-      "week": 1,
-      "winner": "Dillon Knaggs",
-      "loser": "Noah Pieper",
-      "win_pts": 158.5,
-      "lose_pts": 107.66,
-      "margin": 50.84
     }
   ],
   "nailbiters": [
@@ -432,20 +432,20 @@
       "margin": 3.6
     },
     {
+      "week": 9,
+      "winner": "CJ Woda",
+      "loser": "Zach Johansen",
+      "win_pts": 112.08,
+      "lose_pts": 107.6,
+      "margin": 4.48
+    },
+    {
       "week": 4,
       "winner": "Dan Hataaja",
       "loser": "Noah Pieper",
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
-    },
-    {
-      "week": 5,
-      "winner": "Seth Halvorsen",
-      "loser": "Timmy Thurston",
-      "win_pts": 132.34,
-      "lose_pts": 127.6,
-      "margin": 4.74
     }
   ],
   "records": {
@@ -468,12 +468,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 9,
-      "winner": "CJ Woda",
-      "loser": "Zach Johansen",
-      "win_pts": 5.58,
-      "lose_pts": 0,
-      "margin": 5.58
+      "week": 2,
+      "winner": "Timmy Thurston",
+      "loser": "Brian Christensen",
+      "win_pts": 109.28,
+      "lose_pts": 90.0,
+      "margin": 19.28
     }
   },
   "weekly_board": [

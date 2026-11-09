@@ -4,6 +4,36 @@
     {
       "week": 9,
       "type": "free_agent",
+      "created": 1793997705746,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "11586": "Zach Johansen"
+      },
+      "drops": {
+        "13346": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "free_agent",
+      "created": 1793997649093,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "6130": "Zach Johansen"
+      },
+      "drops": {
+        "9758": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "free_agent",
       "created": 1793919585999,
       "teams": [
         "Seth Halvorsen"
