@@ -1,38 +1,38 @@
 {
-  "generated": "2026-11-09T23:17:15+00:00",
+  "generated": "2026-11-10T20:38:18+00:00",
   "season": 2026,
-  "through_week": 8,
+  "through_week": 9,
   "disclaimer": "Every line is generated from this league's Sleeper stats. Fantasy football only.",
   "items": [
     {
       "tag": "cellar",
       "title": "Basement Dweller",
-      "line": "2-6. Zach Johansen has turned every Sunday into a formality for the opponent."
+      "line": "Zach Johansen is 2-7. At some point that stops being bad luck and starts being a roster."
     },
     {
       "tag": "skid",
       "title": "Active Skid",
-      "line": "Dillon Knaggs has lost 3 straight. The streak is now the most consistent thing about this team."
+      "line": "3 losses in a row for Timmy Thurston. Each one somehow a little more avoidable than the last."
     },
     {
       "tag": "bench",
       "title": "Points Left On The Bench",
-      "line": "Timmy Thurston has stranded 237.88 points on the bench \u2014 29.73 a week of pure lineup malpractice."
+      "line": "Timmy Thurston has stranded 262.18 points on the bench \u2014 29.13 a week of pure lineup malpractice."
     },
     {
       "tag": "lucky",
       "title": "Luckiest Team Alive",
-      "line": "Seth Halvorsen should be 4.14 wins by all-play. Instead: 6-2. Enjoy it while the calendar allows."
+      "line": "Nobody has been handed more than Dan Hataaja \u2014 5-4 on 25-38 play."
     },
     {
       "tag": "unlucky",
       "title": "Robbed Weekly",
-      "line": "Dillon Knaggs would be 3.57 wins against an average slate. The bracket won't care."
+      "line": "Dillon Knaggs: good enough to beat most of the league most weeks, and 3-6 anyway."
     },
     {
       "tag": "floor",
       "title": "Lowest Score Of The Season",
-      "line": "90.0 points, Week 2, Brian Christensen. That's not a bad week, that's a forfeit with extra steps."
+      "line": "Week 2: Brian Christensen managed 90.0. The league average that week was 135.54."
     },
     {
       "tag": "blowout",
@@ -42,42 +42,42 @@
     {
       "tag": "pa",
       "title": "Punching Bag",
-      "line": "Noah Pieper has absorbed 1158.04 points against \u2014 the most in the league, by a wide margin."
+      "line": "1312.5 points allowed. Noah Pieper is the league's favorite week on the schedule."
     },
     {
       "tag": "coinflip",
       "title": "Can't Win Close",
-      "line": "Zach Johansen is 0-3 in games inside 10 points. Clutch is apparently optional."
+      "line": "Noah Pieper keeps it close and loses anyway: 2-3 in coin-flip games."
     },
     {
       "tag": "bust",
       "title": "Draft Day Regret",
-      "line": "De'Von Achane in round 1 was Dillon Knaggs's big swing. 24.6 points later, it's a cautionary tale."
+      "line": "Round 1, overall pick 4: De'Von Achane. Dillon Knaggs is still waiting on delivery."
     },
     {
       "tag": "gem",
       "title": "Actually A Good Pick",
-      "line": "Jaxon Smith-Njigba has 219.96 points after going in round 16 to CJ Woda. Credit where it's due, and nowhere else."
+      "line": "Jaxon Smith-Njigba has 232.06 points after going in round 16 to CJ Woda. Credit where it's due, and nowhere else."
     },
     {
       "tag": "ceiling",
       "title": "Best Roster, Worst Manager",
-      "line": "Noah Pieper could be scoring 166.1 a week. It's scoring 146.8. Draw your own conclusion."
+      "line": "Dillon Knaggs could be scoring 161.4 a week. It's scoring 136.4. Draw your own conclusion."
     },
     {
       "tag": "volatile",
       "title": "Pick A Lane",
-      "line": "Brian Christensen's standard deviation is 33.01. That's not a team, that's a weather pattern."
+      "line": "Brian Christensen's standard deviation is 31.75. That's not a team, that's a weather pattern."
     },
     {
       "tag": "lowwin",
       "title": "Won With Nothing",
-      "line": "Timmy Thurston won Week 2 with 109.28 points. Brian Christensen managed 90.0. Somebody had to."
+      "line": "Week 2 gave us Timmy Thurston 109.28 over Brian Christensen 90.0. Football was the real loser."
     },
     {
       "tag": "highloss",
       "title": "Scored Big, Lost Anyway",
-      "line": "Noah Pieper put up 168.46 in Week 5 and lost. That one stings for the rest of the season."
+      "line": "Week 5: 168.46 points from Noah Pieper, still a loss to CJ Woda. The schedule is undefeated."
     }
   ]
 }
