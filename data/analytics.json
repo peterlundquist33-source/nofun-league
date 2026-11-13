@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T20:38:18+00:00",
+  "generated": "2026-11-13T20:40:42+00:00",
   "season": 2026,
   "through_week": 9,
   "allplay": [
@@ -476,12 +476,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
-      "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "week": 10,
+      "winner": "Brian Christensen",
+      "loser": "Noah Pieper",
+      "win_pts": 27.2,
+      "lose_pts": 0,
+      "margin": 27.2
     }
   },
   "weekly_board": [

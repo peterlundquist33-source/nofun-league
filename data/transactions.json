@@ -2,6 +2,208 @@
   "season": 2026,
   "rows": [
     {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794542429363,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "7021": "Zach Johansen"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794455033972,
+      "teams": [
+        "Seth Halvorsen"
+      ],
+      "adds": {
+        "13298": "Seth Halvorsen"
+      },
+      "drops": {
+        "10213": "Seth Halvorsen"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794454962367,
+      "teams": [
+        "Seth Halvorsen"
+      ],
+      "adds": {
+        "12491": "Seth Halvorsen"
+      },
+      "drops": {
+        "6806": "Seth Halvorsen"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794435704482,
+      "teams": [
+        "Brian Christensen"
+      ],
+      "adds": {
+        "9501": "Brian Christensen"
+      },
+      "drops": {
+        "5846": "Brian Christensen"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794403244919,
+      "teams": [
+        "CJ Woda"
+      ],
+      "adds": {
+        "HOU": "CJ Woda"
+      },
+      "drops": {
+        "8408": "CJ Woda"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794366838682,
+      "teams": [
+        "Noah Pieper"
+      ],
+      "adds": {
+        "13296": "Noah Pieper"
+      },
+      "drops": {
+        "13274": "Noah Pieper"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794355096663,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "13346": "Zach Johansen"
+      },
+      "drops": {},
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "free_agent",
+      "created": 1794354756733,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {},
+      "drops": {
+        "13424": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "free_agent",
+      "created": 1794354727155,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {},
+      "drops": {
+        "1479": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794328077681,
+      "teams": [
+        "Brian Christensen"
+      ],
+      "adds": {
+        "5846": "Brian Christensen"
+      },
+      "drops": {
+        "4037": "Brian Christensen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794328049321,
+      "teams": [
+        "Brian Christensen"
+      ],
+      "adds": {
+        "BAL": "Brian Christensen"
+      },
+      "drops": {
+        "SF": "Brian Christensen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794318095632,
+      "teams": [
+        "Dillon Knaggs"
+      ],
+      "adds": {
+        "5189": "Dillon Knaggs"
+      },
+      "drops": {
+        "2020": "Dillon Knaggs"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794255106903,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "9758": "Zach Johansen"
+      },
+      "drops": {
+        "6130": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 9,
+      "type": "waiver",
+      "created": 1794196703815,
+      "teams": [
+        "Noah Pieper"
+      ],
+      "adds": {
+        "9502": "Noah Pieper"
+      },
+      "drops": {
+        "1166": "Noah Pieper"
+      },
+      "faab": null
+    },
+    {
       "week": 9,
       "type": "free_agent",
       "created": 1793997705746,

@@ -643,23 +643,23 @@
     },
     {
       "week": 10,
-      "played": false,
+      "played": true,
       "games": [
         {
           "matchup_id": 1,
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 0
+            "points": 27.2
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
             "points": 0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 27.2,
+          "winner": "Brian Christensen"
         },
         {
           "matchup_id": 2,
@@ -674,7 +674,7 @@
             "points": 0
           },
           "played": false,
-          "margin": null,
+          "margin": 0,
           "winner": null
         },
         {
@@ -690,7 +690,7 @@
             "points": 0
           },
           "played": false,
-          "margin": null,
+          "margin": 0,
           "winner": null
         },
         {
@@ -706,7 +706,7 @@
             "points": 0
           },
           "played": false,
-          "margin": null,
+          "margin": 0,
           "winner": null
         }
       ],
