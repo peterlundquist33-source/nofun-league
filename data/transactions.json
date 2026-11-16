@@ -4,6 +4,64 @@
     {
       "week": 10,
       "type": "free_agent",
+      "created": 1794797732463,
+      "teams": [
+        "CJ Woda"
+      ],
+      "adds": {
+        "9754": "CJ Woda"
+      },
+      "drops": {
+        "11635": "CJ Woda"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794788204095,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {},
+      "drops": {
+        "7526": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794717723931,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "2747": "Dan Hataaja"
+      },
+      "drops": {
+        "6650": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794674167645,
+      "teams": [
+        "CJ Woda"
+      ],
+      "adds": {
+        "13337": "CJ Woda"
+      },
+      "drops": {
+        "421": "CJ Woda"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
       "created": 1794542429363,
       "teams": [
         "Zach Johansen"

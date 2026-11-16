@@ -650,64 +650,64 @@
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 27.2
+            "points": 86.52
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
-            "points": 0
+            "points": 180.86
           },
           "played": true,
-          "margin": 27.2,
-          "winner": "Brian Christensen"
+          "margin": 94.34,
+          "winner": "Noah Pieper"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 3,
             "team": "Zach Johansen",
-            "points": 0
+            "points": 117.12
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 0
+            "points": 148.3
           },
-          "played": false,
-          "margin": 0,
-          "winner": null
+          "played": true,
+          "margin": 31.18,
+          "winner": "Timmy Thurston"
         },
         {
           "matchup_id": 3,
           "a": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 0
+            "points": 155.92
           },
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 0
+            "points": 151.6
           },
-          "played": false,
-          "margin": 0,
-          "winner": null
+          "played": true,
+          "margin": 4.32,
+          "winner": "Seth Halvorsen"
         },
         {
           "matchup_id": 4,
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 0
+            "points": 138.88
           },
           "b": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 128.14
           },
-          "played": false,
-          "margin": 0,
-          "winner": null
+          "played": true,
+          "margin": 10.74,
+          "winner": "Dillon Knaggs"
         }
       ],
       "playoff": false

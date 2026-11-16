@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T20:40:42+00:00",
+  "generated": "2026-11-16T23:13:59+00:00",
   "season": 2026,
   "through_week": 9,
   "allplay": [
@@ -337,19 +337,19 @@
       "losses": 0
     },
     {
-      "team": "Dan Hataaja",
+      "team": "Seth Halvorsen",
       "wins": 2,
       "losses": 0
+    },
+    {
+      "team": "Dan Hataaja",
+      "wins": 2,
+      "losses": 1
     },
     {
       "team": "Noah Pieper",
       "wins": 2,
       "losses": 3
-    },
-    {
-      "team": "Seth Halvorsen",
-      "wins": 1,
-      "losses": 0
     },
     {
       "team": "Brian Christensen",
@@ -373,6 +373,14 @@
     }
   ],
   "blowouts": [
+    {
+      "week": 10,
+      "winner": "Noah Pieper",
+      "loser": "Brian Christensen",
+      "win_pts": 180.86,
+      "lose_pts": 86.52,
+      "margin": 94.34
+    },
     {
       "week": 4,
       "winner": "Brian Christensen",
@@ -404,14 +412,6 @@
       "win_pts": 168.42,
       "lose_pts": 114.88,
       "margin": 53.54
-    },
-    {
-      "week": 1,
-      "winner": "Dillon Knaggs",
-      "loser": "Noah Pieper",
-      "win_pts": 158.5,
-      "lose_pts": 107.66,
-      "margin": 50.84
     }
   ],
   "nailbiters": [
@@ -440,20 +440,20 @@
       "margin": 3.6
     },
     {
+      "week": 10,
+      "winner": "Seth Halvorsen",
+      "loser": "Dan Hataaja",
+      "win_pts": 155.92,
+      "lose_pts": 151.6,
+      "margin": 4.32
+    },
+    {
       "week": 4,
       "winner": "Dan Hataaja",
       "loser": "Noah Pieper",
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
-    },
-    {
-      "week": 5,
-      "winner": "Seth Halvorsen",
-      "loser": "Timmy Thurston",
-      "win_pts": 132.34,
-      "lose_pts": 127.6,
-      "margin": 4.74
     }
   ],
   "records": {
@@ -476,12 +476,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 10,
-      "winner": "Brian Christensen",
-      "loser": "Noah Pieper",
-      "win_pts": 27.2,
-      "lose_pts": 0,
-      "margin": 27.2
+      "week": 2,
+      "winner": "Timmy Thurston",
+      "loser": "Brian Christensen",
+      "win_pts": 109.28,
+      "lose_pts": 90.0,
+      "margin": 19.28
     }
   },
   "weekly_board": [
