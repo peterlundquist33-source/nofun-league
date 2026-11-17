@@ -1,53 +1,53 @@
 {
-  "generated": "2026-11-16T23:13:59+00:00",
+  "generated": "2026-11-17T21:56:28+00:00",
   "season": 2026,
-  "through_week": 9,
+  "through_week": 10,
   "disclaimer": "Every line is generated from this league's Sleeper stats. Fantasy football only.",
   "items": [
     {
       "tag": "cellar",
       "title": "Basement Dweller",
-      "line": "Zach Johansen is 2-7. At some point that stops being bad luck and starts being a roster."
+      "line": "Zach Johansen is 2-8. At some point that stops being bad luck and starts being a roster."
     },
     {
       "tag": "skid",
       "title": "Active Skid",
-      "line": "3 losses in a row for Timmy Thurston. Each one somehow a little more avoidable than the last."
+      "line": "Seth Halvorsen: 2-game skid and counting. The lineup changes, the result doesn't."
     },
     {
       "tag": "bench",
       "title": "Points Left On The Bench",
-      "line": "Timmy Thurston has stranded 262.18 points on the bench \u2014 29.13 a week of pure lineup malpractice."
+      "line": "Timmy Thurston is only 79.7% efficient. The roster is fine; the person submitting it is the problem."
     },
     {
       "tag": "lucky",
       "title": "Luckiest Team Alive",
-      "line": "Nobody has been handed more than Dan Hataaja \u2014 5-4 on 25-38 play."
+      "line": "Dan Hataaja is 6-4 but only 31-39 against the whole league. The schedule is doing the heavy lifting."
     },
     {
       "tag": "unlucky",
       "title": "Robbed Weekly",
-      "line": "Dillon Knaggs: good enough to beat most of the league most weeks, and 3-6 anyway."
+      "line": "Dillon Knaggs plays to an 31-39 all-play record and has 3-7 to show for it. Brutal schedule."
     },
     {
       "tag": "floor",
       "title": "Lowest Score Of The Season",
-      "line": "Week 2: Brian Christensen managed 90.0. The league average that week was 135.54."
+      "line": "90.0 points, Week 2, Brian Christensen. That's not a bad week, that's a forfeit with extra steps."
     },
     {
       "tag": "blowout",
       "title": "Worst Beating So Far",
-      "line": "Noah Pieper 180.86, Brian Christensen 86.52. A 94.34-point hug from Week 10."
+      "line": "Week 10: Brian Christensen lost to Noah Pieper by 88.34. Mercy rules exist for a reason."
     },
     {
       "tag": "pa",
       "title": "Punching Bag",
-      "line": "1312.5 points allowed. Noah Pieper is the league's favorite week on the schedule."
+      "line": "Dan Hataaja has absorbed 1429.38 points against \u2014 the most in the league, by a wide margin."
     },
     {
       "tag": "coinflip",
       "title": "Can't Win Close",
-      "line": "Noah Pieper keeps it close and loses anyway: 2-3 in coin-flip games."
+      "line": "Dillon Knaggs is 0-3 in games inside 10 points. Clutch is apparently optional."
     },
     {
       "tag": "bust",
@@ -57,17 +57,17 @@
     {
       "tag": "gem",
       "title": "Actually A Good Pick",
-      "line": "Jaxon Smith-Njigba has 232.06 points after going in round 16 to CJ Woda. Credit where it's due, and nowhere else."
+      "line": "Round 16: Jaxon Smith-Njigba, 263.16 points, CJ Woda. Broken clocks and all that."
     },
     {
       "tag": "ceiling",
       "title": "Best Roster, Worst Manager",
-      "line": "Dillon Knaggs could be scoring 161.4 a week. It's scoring 136.4. Draw your own conclusion."
+      "line": "Dillon Knaggs has the 3rd best roster ceiling and sits 7th in the standings. The talent isn't the issue."
     },
     {
       "tag": "volatile",
       "title": "Pick A Lane",
-      "line": "Brian Christensen's standard deviation is 31.75. That's not a team, that's a weather pattern."
+      "line": "202.46 one week, 90.0 another. Brian Christensen is a coin with a hole in it."
     },
     {
       "tag": "lowwin",
@@ -77,7 +77,7 @@
     {
       "tag": "highloss",
       "title": "Scored Big, Lost Anyway",
-      "line": "Week 5: 168.46 points from Noah Pieper, still a loss to CJ Woda. The schedule is undefeated."
+      "line": "Noah Pieper put up 168.46 in Week 5 and lost. That one stings for the rest of the season."
     }
   ]
 }

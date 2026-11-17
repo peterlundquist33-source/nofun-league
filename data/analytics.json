@@ -1,121 +1,121 @@
 {
-  "generated": "2026-11-16T23:13:59+00:00",
+  "generated": "2026-11-17T21:56:27+00:00",
   "season": 2026,
-  "through_week": 9,
+  "through_week": 10,
   "allplay": [
     {
-      "team": "CJ Woda",
-      "record": "45-18",
-      "pct": 0.714,
-      "form_pct": 0.667
-    },
-    {
       "team": "Noah Pieper",
-      "record": "43-20",
-      "pct": 0.683,
-      "form_pct": 0.857
+      "record": "50-20",
+      "pct": 0.714,
+      "form_pct": 1.0
     },
     {
-      "team": "Brian Christensen",
-      "record": "35-28",
-      "pct": 0.556,
-      "form_pct": 0.476
+      "team": "CJ Woda",
+      "record": "49-21",
+      "pct": 0.7,
+      "form_pct": 0.571
     },
     {
       "team": "Seth Halvorsen",
-      "record": "34-29",
-      "pct": 0.54,
-      "form_pct": 0.714
+      "record": "39-31",
+      "pct": 0.557,
+      "form_pct": 0.619
     },
     {
-      "team": "Dillon Knaggs",
-      "record": "29-34",
-      "pct": 0.46,
-      "form_pct": 0.524
+      "team": "Brian Christensen",
+      "record": "35-35",
+      "pct": 0.5,
+      "form_pct": 0.333
     },
     {
       "team": "Dan Hataaja",
-      "record": "25-38",
-      "pct": 0.397,
-      "form_pct": 0.095
+      "record": "31-39",
+      "pct": 0.443,
+      "form_pct": 0.333
+    },
+    {
+      "team": "Dillon Knaggs",
+      "record": "31-39",
+      "pct": 0.443,
+      "form_pct": 0.381
     },
     {
       "team": "Timmy Thurston",
-      "record": "22-41",
-      "pct": 0.349,
-      "form_pct": 0.286
+      "record": "25-45",
+      "pct": 0.357,
+      "form_pct": 0.429
     },
     {
       "team": "Zach Johansen",
-      "record": "19-44",
-      "pct": 0.302,
-      "form_pct": 0.381
+      "record": "20-50",
+      "pct": 0.286,
+      "form_pct": 0.333
     }
   ],
   "luck": [
     {
       "team": "Dan Hataaja",
-      "real_pct": 0.556,
-      "allplay_pct": 0.397,
-      "allplay": "25-38",
-      "luck": 0.159,
-      "expected_wins": 3.57
-    },
-    {
-      "team": "Seth Halvorsen",
-      "real_pct": 0.667,
-      "allplay_pct": 0.54,
-      "allplay": "34-29",
-      "luck": 0.127,
-      "expected_wins": 4.86
+      "real_pct": 0.6,
+      "allplay_pct": 0.443,
+      "allplay": "31-39",
+      "luck": 0.157,
+      "expected_wins": 4.43
     },
     {
       "team": "Timmy Thurston",
-      "real_pct": 0.444,
-      "allplay_pct": 0.349,
-      "allplay": "22-41",
-      "luck": 0.095,
-      "expected_wins": 3.14
+      "real_pct": 0.5,
+      "allplay_pct": 0.357,
+      "allplay": "25-45",
+      "luck": 0.143,
+      "expected_wins": 3.57
     },
     {
       "team": "CJ Woda",
-      "real_pct": 0.778,
-      "allplay_pct": 0.714,
-      "allplay": "45-18",
-      "luck": 0.063,
-      "expected_wins": 6.43
+      "real_pct": 0.8,
+      "allplay_pct": 0.7,
+      "allplay": "49-21",
+      "luck": 0.1,
+      "expected_wins": 7.0
+    },
+    {
+      "team": "Seth Halvorsen",
+      "real_pct": 0.6,
+      "allplay_pct": 0.557,
+      "allplay": "39-31",
+      "luck": 0.043,
+      "expected_wins": 5.57
     },
     {
       "team": "Zach Johansen",
-      "real_pct": 0.222,
-      "allplay_pct": 0.302,
-      "allplay": "19-44",
-      "luck": -0.079,
-      "expected_wins": 2.71
+      "real_pct": 0.2,
+      "allplay_pct": 0.286,
+      "allplay": "20-50",
+      "luck": -0.086,
+      "expected_wins": 2.86
     },
     {
       "team": "Brian Christensen",
-      "real_pct": 0.444,
-      "allplay_pct": 0.556,
-      "allplay": "35-28",
-      "luck": -0.111,
+      "real_pct": 0.4,
+      "allplay_pct": 0.5,
+      "allplay": "35-35",
+      "luck": -0.1,
       "expected_wins": 5.0
     },
     {
       "team": "Noah Pieper",
-      "real_pct": 0.556,
-      "allplay_pct": 0.683,
-      "allplay": "43-20",
-      "luck": -0.127,
-      "expected_wins": 6.14
+      "real_pct": 0.6,
+      "allplay_pct": 0.714,
+      "allplay": "50-20",
+      "luck": -0.114,
+      "expected_wins": 7.14
     },
     {
       "team": "Dillon Knaggs",
-      "real_pct": 0.333,
-      "allplay_pct": 0.46,
-      "allplay": "29-34",
-      "luck": -0.127,
-      "expected_wins": 4.14
+      "real_pct": 0.3,
+      "allplay_pct": 0.443,
+      "allplay": "31-39",
+      "luck": -0.143,
+      "expected_wins": 4.43
     }
   ],
   "scoring": [
@@ -130,12 +130,13 @@
         122.86,
         137.02,
         157.78,
-        177.78
+        177.78,
+        180.86
       ],
-      "avg": 150.23,
-      "high": 177.78,
+      "avg": 153.29,
+      "high": 180.86,
       "low": 107.66,
-      "stdev": 21.63
+      "stdev": 22.49
     },
     {
       "team": "CJ Woda",
@@ -148,12 +149,13 @@
         131.2,
         151.5,
         142.86,
-        124.94
+        124.94,
+        148.74
       ],
-      "avg": 149.52,
+      "avg": 149.45,
       "high": 186.22,
       "low": 124.94,
-      "stdev": 19.58
+      "stdev": 18.58
     },
     {
       "team": "Seth Halvorsen",
@@ -166,12 +168,13 @@
         95.32,
         156.62,
         129.58,
-        154.46
+        154.46,
+        155.92
       ],
-      "avg": 144.02,
+      "avg": 145.21,
       "high": 200.66,
       "low": 95.32,
-      "stdev": 27.1
+      "stdev": 25.96
     },
     {
       "team": "Brian Christensen",
@@ -184,12 +187,13 @@
         121.7,
         135.84,
         117.46,
-        161.06
+        161.06,
+        92.52
       ],
-      "avg": 143.39,
+      "avg": 138.3,
       "high": 202.46,
       "low": 90.0,
-      "stdev": 31.75
+      "stdev": 33.76
     },
     {
       "team": "Dillon Knaggs",
@@ -202,12 +206,13 @@
         119.44,
         140.98,
         120.2,
-        140.28
+        140.28,
+        138.88
       ],
-      "avg": 136.45,
+      "avg": 136.69,
       "high": 165.84,
       "low": 114.88,
-      "stdev": 16.69
+      "stdev": 15.85
     },
     {
       "team": "Dan Hataaja",
@@ -220,12 +225,13 @@
         143.14,
         129.02,
         101.76,
-        110.64
+        110.64,
+        163.0
       ],
-      "avg": 132.04,
+      "avg": 135.14,
       "high": 167.92,
       "low": 97.62,
-      "stdev": 23.04
+      "stdev": 23.75
     },
     {
       "team": "Timmy Thurston",
@@ -238,12 +244,13 @@
         124.94,
         94.36,
         132.52,
-        114.18
+        114.18,
+        148.3
       ],
-      "avg": 124.75,
+      "avg": 127.1,
       "high": 168.42,
       "low": 94.36,
-      "stdev": 19.11
+      "stdev": 19.46
     },
     {
       "team": "Zach Johansen",
@@ -256,95 +263,91 @@
         132.42,
         133.42,
         148.64,
-        107.6
+        107.6,
+        117.12
       ],
-      "avg": 123.68,
+      "avg": 123.03,
       "high": 148.64,
       "low": 104.48,
-      "stdev": 14.16
+      "stdev": 13.58
     }
   ],
   "efficiency": [
     {
       "team": "CJ Woda",
-      "pf": 1345.72,
-      "ppts": 1458.68,
-      "eff": 92.3,
-      "left": 112.96,
-      "left_pg": 12.55
-    },
-    {
-      "team": "Brian Christensen",
-      "pf": 1290.5,
-      "ppts": 1425.36,
-      "eff": 90.5,
-      "left": 134.86,
-      "left_pg": 14.98
+      "pf": 1494.46,
+      "ppts": 1631.72,
+      "eff": 91.6,
+      "left": 137.26,
+      "left_pg": 13.73
     },
     {
       "team": "Seth Halvorsen",
-      "pf": 1296.14,
-      "ppts": 1441.54,
-      "eff": 89.9,
-      "left": 145.4,
-      "left_pg": 16.16
+      "pf": 1452.06,
+      "ppts": 1607.06,
+      "eff": 90.4,
+      "left": 155.0,
+      "left_pg": 15.5
     },
     {
       "team": "Noah Pieper",
-      "pf": 1352.04,
-      "ppts": 1514.84,
+      "pf": 1532.9,
+      "ppts": 1717.0,
       "eff": 89.3,
-      "left": 162.8,
-      "left_pg": 18.09
+      "left": 184.1,
+      "left_pg": 18.41
     },
     {
-      "team": "Zach Johansen",
-      "pf": 1113.16,
-      "ppts": 1292.76,
-      "eff": 86.1,
-      "left": 179.6,
-      "left_pg": 19.96
+      "team": "Brian Christensen",
+      "pf": 1383.02,
+      "ppts": 1560.18,
+      "eff": 88.6,
+      "left": 177.16,
+      "left_pg": 17.72
     },
     {
       "team": "Dan Hataaja",
-      "pf": 1188.38,
-      "ppts": 1390.38,
-      "eff": 85.5,
-      "left": 202.0,
-      "left_pg": 22.44
+      "pf": 1351.38,
+      "ppts": 1555.18,
+      "eff": 86.9,
+      "left": 203.8,
+      "left_pg": 20.38
+    },
+    {
+      "team": "Zach Johansen",
+      "pf": 1230.28,
+      "ppts": 1424.8,
+      "eff": 86.3,
+      "left": 194.52,
+      "left_pg": 19.45
     },
     {
       "team": "Dillon Knaggs",
-      "pf": 1228.04,
-      "ppts": 1452.74,
-      "eff": 84.5,
-      "left": 224.7,
-      "left_pg": 24.97
+      "pf": 1366.92,
+      "ppts": 1613.22,
+      "eff": 84.7,
+      "left": 246.3,
+      "left_pg": 24.63
     },
     {
       "team": "Timmy Thurston",
-      "pf": 1122.74,
-      "ppts": 1384.92,
-      "eff": 81.1,
-      "left": 262.18,
-      "left_pg": 29.13
+      "pf": 1271.04,
+      "ppts": 1594.78,
+      "eff": 79.7,
+      "left": 323.74,
+      "left_pg": 32.37
     }
   ],
   "close_games": [
     {
       "team": "CJ Woda",
-      "wins": 2,
-      "losses": 0
-    },
-    {
-      "team": "Seth Halvorsen",
-      "wins": 2,
+      "wins": 3,
       "losses": 0
     },
     {
       "team": "Dan Hataaja",
-      "wins": 2,
-      "losses": 1
+      "wins": 3,
+      "losses": 0
     },
     {
       "team": "Noah Pieper",
@@ -352,7 +355,7 @@
       "losses": 3
     },
     {
-      "team": "Brian Christensen",
+      "team": "Seth Halvorsen",
       "wins": 1,
       "losses": 1
     },
@@ -362,14 +365,19 @@
       "losses": 1
     },
     {
-      "team": "Dillon Knaggs",
-      "wins": 0,
-      "losses": 2
+      "team": "Brian Christensen",
+      "wins": 1,
+      "losses": 1
     },
     {
       "team": "Zach Johansen",
       "wins": 0,
       "losses": 2
+    },
+    {
+      "team": "Dillon Knaggs",
+      "wins": 0,
+      "losses": 3
     }
   ],
   "blowouts": [
@@ -378,8 +386,8 @@
       "winner": "Noah Pieper",
       "loser": "Brian Christensen",
       "win_pts": 180.86,
-      "lose_pts": 86.52,
-      "margin": 94.34
+      "lose_pts": 92.52,
+      "margin": 88.34
     },
     {
       "week": 4,
@@ -440,20 +448,20 @@
       "margin": 3.6
     },
     {
-      "week": 10,
-      "winner": "Seth Halvorsen",
-      "loser": "Dan Hataaja",
-      "win_pts": 155.92,
-      "lose_pts": 151.6,
-      "margin": 4.32
-    },
-    {
       "week": 4,
       "winner": "Dan Hataaja",
       "loser": "Noah Pieper",
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
+    },
+    {
+      "week": 5,
+      "winner": "Seth Halvorsen",
+      "loser": "Timmy Thurston",
+      "win_pts": 132.34,
+      "lose_pts": 127.6,
+      "margin": 4.74
     }
   ],
   "records": {
@@ -592,6 +600,18 @@
         "pts": 107.6
       },
       "avg": 136.37
+    },
+    {
+      "week": 10,
+      "high": {
+        "team": "Noah Pieper",
+        "pts": 180.86
+      },
+      "low": {
+        "team": "Brian Christensen",
+        "pts": 92.52
+      },
+      "avg": 143.17
     }
   ],
   "top_players": [
@@ -600,26 +620,26 @@
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
       "nfl": "SEA",
-      "pts": 232.06,
+      "pts": 263.16,
       "owner": "CJ Woda",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "id": "9221",
       "name": "Jahmyr Gibbs",
       "pos": "RB",
       "nfl": "DET",
-      "pts": 209.2,
+      "pts": 253.4,
       "owner": "Seth Halvorsen",
-      "weeks": 8
+      "weeks": 9
     },
     {
-      "id": "6786",
-      "name": "CeeDee Lamb",
-      "pos": "WR",
-      "nfl": "DAL",
-      "pts": 201.8,
-      "owner": "Seth Halvorsen",
+      "id": "6770",
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "nfl": "CIN",
+      "pts": 232.3,
+      "owner": "Timmy Thurston",
       "weeks": 9
     },
     {
@@ -627,18 +647,36 @@
       "name": "Josh Allen",
       "pos": "QB",
       "nfl": "BUF",
-      "pts": 200.68,
+      "pts": 223.02,
       "owner": "CJ Woda",
-      "weeks": 8
+      "weeks": 9
     },
     {
-      "id": "6770",
-      "name": "Joe Burrow",
-      "pos": "QB",
-      "nfl": "CIN",
-      "pts": 199.14,
-      "owner": "Timmy Thurston",
-      "weeks": 8
+      "id": "6786",
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "nfl": "DAL",
+      "pts": 222.0,
+      "owner": "Seth Halvorsen",
+      "weeks": 10
+    },
+    {
+      "id": "4034",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "nfl": "SF",
+      "pts": 213.0,
+      "owner": "Dan Hataaja",
+      "weeks": 9
+    },
+    {
+      "id": "9509",
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "nfl": "ATL",
+      "pts": 197.7,
+      "owner": "Brian Christensen",
+      "weeks": 10
     },
     {
       "id": "8151",
@@ -650,12 +688,12 @@
       "weeks": 8
     },
     {
-      "id": "9509",
-      "name": "Bijan Robinson",
-      "pos": "RB",
-      "nfl": "ATL",
-      "pts": 180.0,
-      "owner": "Brian Christensen",
+      "id": "7564",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "nfl": "CIN",
+      "pts": 193.8,
+      "owner": "Dillon Knaggs",
       "weeks": 9
     },
     {
@@ -663,7 +701,52 @@
       "name": "Christian Watson",
       "pos": "WR",
       "nfl": "GB",
-      "pts": 176.9,
+      "pts": 183.6,
+      "owner": "Dillon Knaggs",
+      "weeks": 10
+    },
+    {
+      "id": "7547",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "nfl": "DET",
+      "pts": 183.4,
+      "owner": "Zach Johansen",
+      "weeks": 9
+    },
+    {
+      "id": "8183",
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "nfl": "SF",
+      "pts": 181.86,
+      "owner": "Noah Pieper",
+      "weeks": 8
+    },
+    {
+      "id": "7594",
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "nfl": "CAR",
+      "pts": 180.8,
+      "owner": "Noah Pieper",
+      "weeks": 9
+    },
+    {
+      "id": "4046",
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "nfl": "KC",
+      "pts": 177.4,
+      "owner": "Brian Christensen",
+      "weeks": 9
+    },
+    {
+      "id": "7523",
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "nfl": "JAX",
+      "pts": 173.96,
       "owner": "Dillon Knaggs",
       "weeks": 9
     },
@@ -677,58 +760,67 @@
       "weeks": 7
     },
     {
-      "id": "4034",
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "nfl": "SF",
-      "pts": 166.7,
-      "owner": "Dan Hataaja",
-      "weeks": 8
-    },
-    {
       "id": "8130",
       "name": "Trey McBride",
       "pos": "TE",
       "nfl": "ARI",
-      "pts": 162.8,
+      "pts": 171.5,
       "owner": "Seth Halvorsen",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "id": "6801",
       "name": "Tee Higgins",
       "pos": "WR",
       "nfl": "CIN",
-      "pts": 159.8,
+      "pts": 171.4,
       "owner": "Noah Pieper",
-      "weeks": 8
+      "weeks": 9
     },
     {
-      "id": "7564",
-      "name": "Ja'Marr Chase",
-      "pos": "WR",
-      "nfl": "CIN",
-      "pts": 159.7,
-      "owner": "Dillon Knaggs",
-      "weeks": 8
+      "id": "8138",
+      "name": "James Cook III",
+      "pos": "RB",
+      "nfl": "BUF",
+      "pts": 170.1,
+      "owner": "Noah Pieper",
+      "weeks": 9
     },
     {
       "id": "7588",
       "name": "Javonte Williams",
       "pos": "RB",
       "nfl": "DAL",
-      "pts": 159.6,
+      "pts": 167.3,
       "owner": "CJ Woda",
-      "weeks": 9
+      "weeks": 10
+    },
+    {
+      "id": "6813",
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "nfl": "IND",
+      "pts": 165.9,
+      "owner": "Timmy Thurston",
+      "weeks": 10
     },
     {
       "id": "8150",
       "name": "Kyren Williams",
       "pos": "RB",
       "nfl": "LAR",
-      "pts": 159.1,
+      "pts": 164.3,
       "owner": "Brian Christensen",
-      "weeks": 9
+      "weeks": 10
+    },
+    {
+      "id": "3198",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "nfl": "BAL",
+      "pts": 161.28,
+      "owner": "CJ Woda",
+      "weeks": 10
     },
     {
       "id": "11584",
@@ -740,13 +832,22 @@
       "weeks": 9
     },
     {
-      "id": "7547",
-      "name": "Amon-Ra St. Brown",
-      "pos": "WR",
-      "nfl": "DET",
-      "pts": 157.6,
-      "owner": "Zach Johansen",
+      "id": "3294",
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "nfl": "DAL",
+      "pts": 157.7,
+      "owner": "Seth Halvorsen",
       "weeks": 8
+    },
+    {
+      "id": "8131",
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "nfl": "NYG",
+      "pts": 156.5,
+      "owner": "Timmy Thurston",
+      "weeks": 9
     },
     {
       "id": "6790",
@@ -758,67 +859,76 @@
       "weeks": 9
     },
     {
-      "id": "6813",
-      "name": "Jonathan Taylor",
-      "pos": "RB",
-      "nfl": "IND",
-      "pts": 153.6,
-      "owner": "Timmy Thurston",
-      "weeks": 9
-    },
-    {
-      "id": "8183",
-      "name": "Brock Purdy",
-      "pos": "QB",
-      "nfl": "SF",
-      "pts": 150.2,
-      "owner": "Noah Pieper",
-      "weeks": 7
-    },
-    {
       "id": "11564",
       "name": "Drake Maye",
       "pos": "QB",
       "nfl": "NE",
-      "pts": 149.26,
+      "pts": 152.28,
       "owner": "Brian Christensen",
-      "weeks": 7
+      "weeks": 8
     },
     {
-      "id": "8138",
-      "name": "James Cook III",
+      "id": "12501",
+      "name": "Matthew Golden",
+      "pos": "WR",
+      "nfl": "GB",
+      "pts": 150.6,
+      "owner": "CJ Woda",
+      "weeks": 8
+    },
+    {
+      "id": "8228",
+      "name": "Jaylen Warren",
       "pos": "RB",
-      "nfl": "BUF",
-      "pts": 148.4,
+      "nfl": "PIT",
+      "pts": 149.9,
       "owner": "Noah Pieper",
-      "weeks": 8
-    },
-    {
-      "id": "7523",
-      "name": "Trevor Lawrence",
-      "pos": "QB",
-      "nfl": "JAX",
-      "pts": 147.18,
-      "owner": "Dillon Knaggs",
-      "weeks": 8
-    },
-    {
-      "id": "7594",
-      "name": "Chuba Hubbard",
-      "pos": "RB",
-      "nfl": "CAR",
-      "pts": 146.6,
-      "owner": "Noah Pieper",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "id": "11604",
       "name": "Brock Bowers",
       "pos": "TE",
       "nfl": "LV",
-      "pts": 146.0,
+      "pts": 149.8,
       "owner": "Zach Johansen",
-      "weeks": 7
+      "weeks": 8
+    },
+    {
+      "id": "12527",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "nfl": "LV",
+      "pts": 149.7,
+      "owner": "Dillon Knaggs",
+      "weeks": 10
+    },
+    {
+      "id": "8137",
+      "name": "George Pickens",
+      "pos": "WR",
+      "nfl": "DAL",
+      "pts": 147.8,
+      "owner": "Noah Pieper",
+      "weeks": 9
+    },
+    {
+      "id": "12490",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "nfl": "JAX",
+      "pts": 147.5,
+      "owner": "Timmy Thurston",
+      "weeks": 9
+    },
+    {
+      "id": "8144",
+      "name": "Chris Olave",
+      "pos": "WR",
+      "nfl": "NO",
+      "pts": 147.4,
+      "owner": "Seth Halvorsen",
+      "weeks": 9
     },
     {
       "id": "421",
@@ -830,204 +940,114 @@
       "weeks": 9
     },
     {
-      "id": "3198",
-      "name": "Derrick Henry",
+      "id": "5967",
+      "name": "Tony Pollard",
       "pos": "RB",
-      "nfl": "BAL",
-      "pts": 142.28,
-      "owner": "CJ Woda",
-      "weeks": 9
-    },
-    {
-      "id": "4046",
-      "name": "Patrick Mahomes",
-      "pos": "QB",
-      "nfl": "KC",
-      "pts": 141.98,
-      "owner": "Brian Christensen",
-      "weeks": 8
-    },
-    {
-      "id": "8144",
-      "name": "Chris Olave",
-      "pos": "WR",
-      "nfl": "NO",
-      "pts": 141.4,
-      "owner": "Seth Halvorsen",
-      "weeks": 8
-    },
-    {
-      "id": "8228",
-      "name": "Jaylen Warren",
-      "pos": "RB",
-      "nfl": "PIT",
-      "pts": 140.8,
-      "owner": "Noah Pieper",
-      "weeks": 8
-    },
-    {
-      "id": "12527",
-      "name": "Ashton Jeanty",
-      "pos": "RB",
-      "nfl": "LV",
-      "pts": 139.3,
+      "nfl": "TEN",
+      "pts": 140.4,
       "owner": "Dillon Knaggs",
       "weeks": 9
-    },
-    {
-      "id": "12501",
-      "name": "Matthew Golden",
-      "pos": "WR",
-      "nfl": "GB",
-      "pts": 138.6,
-      "owner": "CJ Woda",
-      "weeks": 7
-    },
-    {
-      "id": "12519",
-      "name": "Luther Burden III",
-      "pos": "WR",
-      "nfl": "CHI",
-      "pts": 136.3,
-      "owner": "CJ Woda",
-      "weeks": 9
-    },
-    {
-      "id": "11632",
-      "name": "Malik Nabers",
-      "pos": "WR",
-      "nfl": "NYG",
-      "pts": 129.8,
-      "owner": "Timmy Thurston",
-      "weeks": 8
-    },
-    {
-      "id": "8131",
-      "name": "Isaiah Likely",
-      "pos": "TE",
-      "nfl": "NYG",
-      "pts": 128.8,
-      "owner": "Timmy Thurston",
-      "weeks": 8
     },
     {
       "id": "9997",
       "name": "Zay Flowers",
       "pos": "WR",
       "nfl": "BAL",
-      "pts": 127.5,
-      "owner": "Dan Hataaja",
-      "weeks": 7
-    },
-    {
-      "id": "12490",
-      "name": "Bhayshul Tuten",
-      "pos": "RB",
-      "nfl": "JAX",
-      "pts": 127.2,
-      "owner": "Timmy Thurston",
-      "weeks": 8
-    },
-    {
-      "id": "12526",
-      "name": "Tetairoa McMillan",
-      "pos": "WR",
-      "nfl": "CAR",
-      "pts": 124.5,
+      "pts": 138.9,
       "owner": "Dan Hataaja",
       "weeks": 8
-    },
-    {
-      "id": "3294",
-      "name": "Dak Prescott",
-      "pos": "QB",
-      "nfl": "DAL",
-      "pts": 123.28,
-      "owner": "Seth Halvorsen",
-      "weeks": 7
     },
     {
       "id": "8112",
       "name": "Drake London",
       "pos": "WR",
       "nfl": "ATL",
-      "pts": 121.6,
+      "pts": 138.5,
       "owner": "Dillon Knaggs",
+      "weeks": 10
+    },
+    {
+      "id": "9487",
+      "name": "Parker Washington",
+      "pos": "WR",
+      "nfl": "JAX",
+      "pts": 137.8,
+      "owner": "Dan Hataaja",
       "weeks": 9
     }
   ],
   "position": [
     {
       "team": "CJ Woda",
-      "QB": 343.54,
-      "RB": 428.38,
-      "WR": 757.56,
-      "TE": 90.4,
-      "K": 78.0,
-      "DEF": 64.0
-    },
-    {
-      "team": "Seth Halvorsen",
-      "QB": 233.62,
-      "RB": 541.2,
-      "WR": 417.0,
-      "TE": 325.0,
-      "K": 86.0,
-      "DEF": 74.0
+      "QB": 365.88,
+      "RB": 496.38,
+      "WR": 828.16,
+      "TE": 93.3,
+      "K": 89.0,
+      "DEF": 70.0
     },
     {
       "team": "Noah Pieper",
-      "QB": 204.28,
-      "RB": 791.3,
-      "WR": 561.7,
-      "TE": 123.4,
-      "K": 78.0,
-      "DEF": 35.0
+      "QB": 235.94,
+      "RB": 856.3,
+      "WR": 652.3,
+      "TE": 148.4,
+      "K": 86.0,
+      "DEF": 40.0
+    },
+    {
+      "team": "Seth Halvorsen",
+      "QB": 268.04,
+      "RB": 611.2,
+      "WR": 454.9,
+      "TE": 338.5,
+      "K": 105.0,
+      "DEF": 78.0
     },
     {
       "team": "Dan Hataaja",
-      "QB": 135.98,
-      "RB": 449.7,
-      "WR": 600.6,
-      "TE": 148.4,
-      "K": 97.0,
-      "DEF": 95.0
-    },
-    {
-      "team": "Brian Christensen",
-      "QB": 352.48,
-      "RB": 553.9,
-      "WR": 489.9,
-      "TE": 207.4,
-      "K": 59.0,
-      "DEF": 72.0
+      "QB": 144.08,
+      "RB": 517.7,
+      "WR": 668.1,
+      "TE": 156.2,
+      "K": 99.0,
+      "DEF": 117.0
     },
     {
       "team": "Timmy Thurston",
-      "QB": 294.04,
-      "RB": 452.6,
-      "WR": 511.0,
-      "TE": 212.9,
-      "K": 90.0,
-      "DEF": 60.0
+      "QB": 338.0,
+      "RB": 514.9,
+      "WR": 577.5,
+      "TE": 243.0,
+      "K": 102.0,
+      "DEF": 77.0
+    },
+    {
+      "team": "Brian Christensen",
+      "QB": 390.92,
+      "RB": 616.5,
+      "WR": 500.3,
+      "TE": 223.4,
+      "K": 66.0,
+      "DEF": 78.0
     },
     {
       "team": "Dillon Knaggs",
-      "QB": 288.56,
-      "RB": 512.7,
-      "WR": 617.9,
-      "TE": 127.1,
-      "K": 91.0,
-      "DEF": 83.0
+      "QB": 336.1,
+      "RB": 578.8,
+      "WR": 691.2,
+      "TE": 129.0,
+      "K": 99.0,
+      "DEF": 86.0
     },
     {
       "team": "Zach Johansen",
-      "QB": 195.06,
-      "RB": 414.9,
-      "WR": 535.48,
-      "TE": 254.2,
-      "K": 61.0,
-      "DEF": 81.0
+      "QB": 235.92,
+      "RB": 458.7,
+      "WR": 577.08,
+      "TE": 263.0,
+      "K": 69.0,
+      "DEF": 93.0
     }
   ],
   "draft_value": [
@@ -1037,7 +1057,7 @@
       "team": "Zach Johansen",
       "name": "Omarion Hampton",
       "pos": "RB",
-      "pts": 68.2
+      "pts": 85.7
     },
     {
       "round": 1,
@@ -1045,7 +1065,7 @@
       "team": "Dan Hataaja",
       "name": "Justin Jefferson",
       "pos": "WR",
-      "pts": 95.2
+      "pts": 111.6
     },
     {
       "round": 1,
@@ -1053,7 +1073,7 @@
       "team": "Timmy Thurston",
       "name": "Malik Nabers",
       "pos": "WR",
-      "pts": 129.8
+      "pts": 137.2
     },
     {
       "round": 1,
@@ -1069,7 +1089,7 @@
       "team": "CJ Woda",
       "name": "Derrick Henry",
       "pos": "RB",
-      "pts": 142.28
+      "pts": 161.28
     },
     {
       "round": 1,
@@ -1077,7 +1097,7 @@
       "team": "Seth Halvorsen",
       "name": "Chris Olave",
       "pos": "WR",
-      "pts": 141.4
+      "pts": 147.4
     },
     {
       "round": 1,
@@ -1093,7 +1113,7 @@
       "team": "Brian Christensen",
       "name": "Kyren Williams",
       "pos": "RB",
-      "pts": 159.1
+      "pts": 164.3
     },
     {
       "round": 2,
@@ -1109,7 +1129,7 @@
       "team": "Noah Pieper",
       "name": "Tee Higgins",
       "pos": "WR",
-      "pts": 159.8
+      "pts": 171.4
     },
     {
       "round": 2,
@@ -1125,7 +1145,7 @@
       "team": "CJ Woda",
       "name": "Javonte Williams",
       "pos": "RB",
-      "pts": 159.6
+      "pts": 167.3
     },
     {
       "round": 2,
@@ -1133,7 +1153,7 @@
       "team": "Dillon Knaggs",
       "name": "Breece Hall",
       "pos": "RB",
-      "pts": 54.2
+      "pts": 69.0
     },
     {
       "round": 2,
@@ -1165,7 +1185,7 @@
       "team": "Zach Johansen",
       "name": "Rashee Rice",
       "pos": "WR",
-      "pts": 66.2
+      "pts": 79.4
     },
     {
       "round": 3,
@@ -1173,7 +1193,7 @@
       "team": "Dan Hataaja",
       "name": "Christian McCaffrey",
       "pos": "RB",
-      "pts": 166.7
+      "pts": 213.0
     },
     {
       "round": 3,
@@ -1181,7 +1201,7 @@
       "team": "Timmy Thurston",
       "name": "Jonathan Taylor",
       "pos": "RB",
-      "pts": 153.6
+      "pts": 165.9
     },
     {
       "round": 3,
@@ -1189,7 +1209,7 @@
       "team": "Dillon Knaggs",
       "name": "Ashton Jeanty",
       "pos": "RB",
-      "pts": 139.3
+      "pts": 149.7
     },
     {
       "round": 3,
@@ -1205,7 +1225,7 @@
       "team": "Seth Halvorsen",
       "name": "CeeDee Lamb",
       "pos": "WR",
-      "pts": 201.8
+      "pts": 222.0
     },
     {
       "round": 3,
@@ -1213,7 +1233,7 @@
       "team": "Noah Pieper",
       "name": "George Pickens",
       "pos": "WR",
-      "pts": 104.3
+      "pts": 147.8
     },
     {
       "round": 3,
@@ -1237,7 +1257,7 @@
       "team": "Noah Pieper",
       "name": "James Cook III",
       "pos": "RB",
-      "pts": 148.4
+      "pts": 170.1
     },
     {
       "round": 4,
@@ -1245,7 +1265,7 @@
       "team": "Seth Halvorsen",
       "name": "Trey McBride",
       "pos": "TE",
-      "pts": 162.8
+      "pts": 171.5
     },
     {
       "round": 4,
@@ -1253,7 +1273,7 @@
       "team": "CJ Woda",
       "name": "Josh Allen",
       "pos": "QB",
-      "pts": 200.68
+      "pts": 223.02
     },
     {
       "round": 4,
@@ -1261,7 +1281,7 @@
       "team": "Dillon Knaggs",
       "name": "Ja'Marr Chase",
       "pos": "WR",
-      "pts": 159.7
+      "pts": 193.8
     },
     {
       "round": 4,
@@ -1269,7 +1289,7 @@
       "team": "Timmy Thurston",
       "name": "Nico Collins",
       "pos": "WR",
-      "pts": 91.6
+      "pts": 116.0
     },
     {
       "round": 4,
@@ -1277,7 +1297,7 @@
       "team": "Dan Hataaja",
       "name": "A.J. Brown",
       "pos": "WR",
-      "pts": 19.1
+      "pts": 23.8
     },
     {
       "round": 4,
@@ -1285,7 +1305,7 @@
       "team": "Zach Johansen",
       "name": "Brock Bowers",
       "pos": "TE",
-      "pts": 146.0
+      "pts": 149.8
     },
     {
       "round": 5,
@@ -1301,7 +1321,7 @@
       "team": "Dan Hataaja",
       "name": "Tetairoa McMillan",
       "pos": "WR",
-      "pts": 124.5
+      "pts": 131.0
     },
     {
       "round": 5,
@@ -1309,7 +1329,7 @@
       "team": "Timmy Thurston",
       "name": "Tyler Warren",
       "pos": "TE",
-      "pts": 84.1
+      "pts": 86.5
     },
     {
       "round": 5,
@@ -1317,7 +1337,7 @@
       "team": "Dillon Knaggs",
       "name": "Garrett Wilson",
       "pos": "WR",
-      "pts": 113.7
+      "pts": 129.3
     },
     {
       "round": 5,
@@ -1349,7 +1369,7 @@
       "team": "Brian Christensen",
       "name": "Cam Skattebo",
       "pos": "RB",
-      "pts": 70.4
+      "pts": 97.6
     },
     {
       "round": 6,
@@ -1357,7 +1377,7 @@
       "team": "Brian Christensen",
       "name": "Sam LaPorta",
       "pos": "TE",
-      "pts": 93.1
+      "pts": 95.7
     },
     {
       "round": 6,
@@ -1365,7 +1385,7 @@
       "team": "Noah Pieper",
       "name": "Harold Fannin Jr.",
       "pos": "TE",
-      "pts": 102.3
+      "pts": 118.4
     },
     {
       "round": 6,
@@ -1373,7 +1393,7 @@
       "team": "Seth Halvorsen",
       "name": "Travis Etienne Jr.",
       "pos": "RB",
-      "pts": 30.9
+      "pts": 37.3
     },
     {
       "round": 6,
@@ -1397,7 +1417,7 @@
       "team": "Timmy Thurston",
       "name": "DJ Moore",
       "pos": "WR",
-      "pts": 59.5
+      "pts": 78.9
     },
     {
       "round": 6,
@@ -1421,7 +1441,7 @@
       "team": "Zach Johansen",
       "name": "Drake Maye",
       "pos": "QB",
-      "pts": 149.26
+      "pts": 152.28
     },
     {
       "round": 7,
@@ -1429,7 +1449,7 @@
       "team": "Dan Hataaja",
       "name": "Quinshon Judkins",
       "pos": "RB",
-      "pts": 92.1
+      "pts": 108.2
     },
     {
       "round": 7,
@@ -1437,7 +1457,7 @@
       "team": "Timmy Thurston",
       "name": "Joe Burrow",
       "pos": "QB",
-      "pts": 199.14
+      "pts": 232.3
     },
     {
       "round": 7,
@@ -1445,7 +1465,7 @@
       "team": "Dillon Knaggs",
       "name": "Jayden Daniels",
       "pos": "QB",
-      "pts": 115.2
+      "pts": 135.96
     },
     {
       "round": 7,
@@ -1453,7 +1473,7 @@
       "team": "CJ Woda",
       "name": "Tucker Kraft",
       "pos": "TE",
-      "pts": 90.4
+      "pts": 93.3
     },
     {
       "round": 7,
@@ -1477,7 +1497,7 @@
       "team": "Brian Christensen",
       "name": "Jameson Williams",
       "pos": "WR",
-      "pts": 105.7
+      "pts": 114.7
     },
     {
       "round": 8,
@@ -1493,7 +1513,7 @@
       "team": "Noah Pieper",
       "name": "Jaylen Warren",
       "pos": "RB",
-      "pts": 140.8
+      "pts": 149.9
     },
     {
       "round": 8,
@@ -1517,7 +1537,7 @@
       "team": "Dillon Knaggs",
       "name": "Christian Watson",
       "pos": "WR",
-      "pts": 176.9
+      "pts": 183.6
     },
     {
       "round": 8,
@@ -1525,7 +1545,7 @@
       "team": "Timmy Thurston",
       "name": "Bhayshul Tuten",
       "pos": "RB",
-      "pts": 127.2
+      "pts": 147.5
     },
     {
       "round": 8,
@@ -1557,7 +1577,7 @@
       "team": "Dan Hataaja",
       "name": "Parker Washington",
       "pos": "WR",
-      "pts": 109.6
+      "pts": 137.8
     },
     {
       "round": 9,
@@ -1573,7 +1593,7 @@
       "team": "Dillon Knaggs",
       "name": "Rhamondre Stevenson",
       "pos": "RB",
-      "pts": 113.7
+      "pts": 115.2
     },
     {
       "round": 9,
@@ -1597,7 +1617,7 @@
       "team": "Noah Pieper",
       "name": "Chuba Hubbard",
       "pos": "RB",
-      "pts": 146.6
+      "pts": 180.8
     },
     {
       "round": 9,
@@ -1613,7 +1633,7 @@
       "team": "Brian Christensen",
       "name": "Rico Dowdle",
       "pos": "RB",
-      "pts": 4.1
+      "pts": 9.5
     },
     {
       "round": 10,
@@ -1621,7 +1641,7 @@
       "team": "Noah Pieper",
       "name": "Stefon Diggs",
       "pos": "WR",
-      "pts": 90.3
+      "pts": 110.6
     },
     {
       "round": 10,
@@ -1645,7 +1665,7 @@
       "team": "Dillon Knaggs",
       "name": "Tony Pollard",
       "pos": "RB",
-      "pts": 116.5
+      "pts": 140.4
     },
     {
       "round": 10,
@@ -1653,7 +1673,7 @@
       "team": "Timmy Thurston",
       "name": "Los Angeles Rams",
       "pos": "DEF",
-      "pts": 60.0
+      "pts": 77.0
     },
     {
       "round": 10,
@@ -1677,7 +1697,7 @@
       "team": "Zach Johansen",
       "name": "Travis Kelce",
       "pos": "TE",
-      "pts": 99.3
+      "pts": 104.3
     },
     {
       "round": 11,
@@ -1709,7 +1729,7 @@
       "team": "CJ Woda",
       "name": "Brandon Aubrey",
       "pos": "K",
-      "pts": 78.0
+      "pts": 89.0
     },
     {
       "round": 11,
@@ -1733,7 +1753,7 @@
       "team": "Brian Christensen",
       "name": "George Kittle",
       "pos": "TE",
-      "pts": 114.3
+      "pts": 127.7
     },
     {
       "round": 12,
@@ -1741,7 +1761,7 @@
       "team": "Brian Christensen",
       "name": "Houston Texans",
       "pos": "DEF",
-      "pts": 16.0
+      "pts": 22.0
     },
     {
       "round": 12,
@@ -1757,7 +1777,7 @@
       "team": "Seth Halvorsen",
       "name": "Juwan Johnson",
       "pos": "TE",
-      "pts": 78.9
+      "pts": 83.7
     },
     {
       "round": 12,
@@ -1765,7 +1785,7 @@
       "team": "CJ Woda",
       "name": "KC Concepcion Jr.",
       "pos": "WR",
-      "pts": 14.5
+      "pts": 26.2
     },
     {
       "round": 12,
@@ -1789,7 +1809,7 @@
       "team": "Dan Hataaja",
       "name": "Dalton Kincaid",
       "pos": "TE",
-      "pts": 84.9
+      "pts": 92.7
     },
     {
       "round": 12,
@@ -1797,7 +1817,7 @@
       "team": "Zach Johansen",
       "name": "Blake Corum",
       "pos": "RB",
-      "pts": 17.2
+      "pts": 38.1
     },
     {
       "round": 13,
@@ -1805,7 +1825,7 @@
       "team": "Zach Johansen",
       "name": "Seattle Seahawks",
       "pos": "DEF",
-      "pts": 81.0
+      "pts": 93.0
     },
     {
       "round": 13,
@@ -1813,7 +1833,7 @@
       "team": "Dan Hataaja",
       "name": "Minnesota Vikings",
       "pos": "DEF",
-      "pts": 90.0
+      "pts": 112.0
     },
     {
       "round": 13,
@@ -1821,7 +1841,7 @@
       "team": "Timmy Thurston",
       "name": "Isaiah Likely",
       "pos": "TE",
-      "pts": 128.8
+      "pts": 156.5
     },
     {
       "round": 13,
@@ -1829,7 +1849,7 @@
       "team": "Dillon Knaggs",
       "name": "Trevor Lawrence",
       "pos": "QB",
-      "pts": 147.18
+      "pts": 173.96
     },
     {
       "round": 13,
@@ -1845,7 +1865,7 @@
       "team": "Seth Halvorsen",
       "name": "Dak Prescott",
       "pos": "QB",
-      "pts": 123.28
+      "pts": 157.7
     },
     {
       "round": 13,
@@ -1861,7 +1881,7 @@
       "team": "Brian Christensen",
       "name": "Patrick Mahomes",
       "pos": "QB",
-      "pts": 141.98
+      "pts": 177.4
     },
     {
       "round": 14,
@@ -1869,7 +1889,7 @@
       "team": "Brian Christensen",
       "name": "Deebo Samuel Sr.",
       "pos": "WR",
-      "pts": 60.4
+      "pts": 86.3
     },
     {
       "round": 14,
@@ -1877,7 +1897,7 @@
       "team": "Noah Pieper",
       "name": "Jason Myers",
       "pos": "K",
-      "pts": 28.0
+      "pts": 30.0
     },
     {
       "round": 14,
@@ -1885,7 +1905,7 @@
       "team": "Seth Halvorsen",
       "name": "Cam Little",
       "pos": "K",
-      "pts": 77.0
+      "pts": 96.0
     },
     {
       "round": 14,
@@ -1909,7 +1929,7 @@
       "team": "Timmy Thurston",
       "name": "Will Reichard",
       "pos": "K",
-      "pts": 89.0
+      "pts": 101.0
     },
     {
       "round": 14,
@@ -1997,7 +2017,7 @@
       "team": "Brian Christensen",
       "name": "Bijan Robinson",
       "pos": "RB",
-      "pts": 180.0
+      "pts": 197.7
     },
     {
       "round": 16,
@@ -2013,7 +2033,7 @@
       "team": "Seth Halvorsen",
       "name": "Jahmyr Gibbs",
       "pos": "RB",
-      "pts": 209.2
+      "pts": 253.4
     },
     {
       "round": 16,
@@ -2021,7 +2041,7 @@
       "team": "CJ Woda",
       "name": "Jaxon Smith-Njigba",
       "pos": "WR",
-      "pts": 232.06
+      "pts": 263.16
     },
     {
       "round": 16,
@@ -2029,7 +2049,7 @@
       "team": "Dillon Knaggs",
       "name": "Drake London",
       "pos": "WR",
-      "pts": 121.6
+      "pts": 138.5
     },
     {
       "round": 16,
@@ -2037,7 +2057,7 @@
       "team": "Timmy Thurston",
       "name": "Chase Brown",
       "pos": "RB",
-      "pts": 101.4
+      "pts": 129.7
     },
     {
       "round": 16,
@@ -2045,7 +2065,7 @@
       "team": "Dan Hataaja",
       "name": "Zay Flowers",
       "pos": "WR",
-      "pts": 127.5
+      "pts": 138.9
     },
     {
       "round": 16,
@@ -2053,7 +2073,7 @@
       "team": "Zach Johansen",
       "name": "Amon-Ra St. Brown",
       "pos": "WR",
-      "pts": 157.6
+      "pts": 183.4
     }
   ],
   "pickups": [
@@ -2062,114 +2082,114 @@
       "team": "Noah Pieper",
       "name": "Brock Purdy",
       "pos": "QB",
-      "pts": 150.2
+      "pts": 181.86
     },
     {
       "week": 2,
       "team": "CJ Woda",
       "name": "Matthew Golden",
       "pos": "WR",
-      "pts": 138.6
+      "pts": 150.6
     },
     {
       "week": 3,
       "team": "Zach Johansen",
       "name": "Jared Goff",
       "pos": "QB",
-      "pts": 101.14
+      "pts": 121.56
     },
     {
       "week": 6,
       "team": "Timmy Thurston",
       "name": "Jordan Love",
       "pos": "QB",
-      "pts": 94.9
+      "pts": 105.7
     },
     {
       "week": 3,
       "team": "Dan Hataaja",
       "name": "Braelon Allen",
       "pos": "RB",
-      "pts": 87.8
-    },
-    {
-      "week": 1,
-      "team": "Dan Hataaja",
-      "name": "Jalen Coker",
-      "pos": "WR",
-      "pts": 86.0
+      "pts": 93.4
     },
     {
       "week": 1,
       "team": "Timmy Thurston",
       "name": "Josh Downs",
       "pos": "WR",
-      "pts": 75.1
+      "pts": 90.4
+    },
+    {
+      "week": 1,
+      "team": "Dan Hataaja",
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "pts": 86.3
     },
     {
       "week": 2,
       "team": "Brian Christensen",
       "name": "Aaron Jones Sr.",
       "pos": "RB",
-      "pts": 72.9
-    },
-    {
-      "week": 6,
-      "team": "Dan Hataaja",
-      "name": "Bryce Young",
-      "pos": "QB",
-      "pts": 69.6
-    },
-    {
-      "week": 2,
-      "team": "Zach Johansen",
-      "name": "Bryce Young",
-      "pos": "QB",
-      "pts": 69.6
-    },
-    {
-      "week": 6,
-      "team": "Timmy Thurston",
-      "name": "Tyler Allgeier",
-      "pos": "RB",
-      "pts": 69.3
-    },
-    {
-      "week": 6,
-      "team": "Zach Johansen",
-      "name": "Tyler Allgeier",
-      "pos": "RB",
-      "pts": 69.3
-    },
-    {
-      "week": 1,
-      "team": "Seth Halvorsen",
-      "name": "Tyler Allgeier",
-      "pos": "RB",
-      "pts": 69.3
-    },
-    {
-      "week": 2,
-      "team": "Seth Halvorsen",
-      "name": "Emanuel Wilson",
-      "pos": "RB",
-      "pts": 65.3
+      "pts": 85.4
     },
     {
       "week": 4,
       "team": "Dillon Knaggs",
       "name": "Ollie Gordon II",
       "pos": "RB",
-      "pts": 64.4
+      "pts": 79.9
+    },
+    {
+      "week": 6,
+      "team": "Dan Hataaja",
+      "name": "Bryce Young",
+      "pos": "QB",
+      "pts": 77.7
+    },
+    {
+      "week": 2,
+      "team": "Zach Johansen",
+      "name": "Bryce Young",
+      "pos": "QB",
+      "pts": 77.7
+    },
+    {
+      "week": 6,
+      "team": "Timmy Thurston",
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "pts": 70.7
+    },
+    {
+      "week": 6,
+      "team": "Zach Johansen",
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "pts": 70.7
+    },
+    {
+      "week": 1,
+      "team": "Seth Halvorsen",
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "pts": 70.7
+    },
+    {
+      "week": 2,
+      "team": "Seth Halvorsen",
+      "name": "Green Bay Packers",
+      "pos": "DEF",
+      "pts": 67.0
     }
   ],
   "standings_rank": {
     "CJ Woda": 1,
-    "Seth Halvorsen": 2,
-    "Noah Pieper": 3,
+    "Noah Pieper": 2,
+    "Seth Halvorsen": 3,
     "Dan Hataaja": 4,
-    "Brian Christensen": 5,
-    "Timmy Thurston": 6,
+    "Timmy Thurston": 5,
+    "Brian Christensen": 6,
     "Dillon Knaggs": 7,
     "Zach Johansen": 8
   },
@@ -2179,11 +2199,11 @@
       "moves": 0
     },
     {
-      "team": "Seth Halvorsen",
+      "team": "Noah Pieper",
       "moves": 0
     },
     {
-      "team": "Noah Pieper",
+      "team": "Seth Halvorsen",
       "moves": 0
     },
     {
@@ -2191,11 +2211,11 @@
       "moves": 0
     },
     {
-      "team": "Brian Christensen",
+      "team": "Timmy Thurston",
       "moves": 0
     },
     {
-      "team": "Timmy Thurston",
+      "team": "Brian Christensen",
       "moves": 0
     },
     {

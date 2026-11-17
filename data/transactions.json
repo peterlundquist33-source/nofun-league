@@ -4,6 +4,32 @@
     {
       "week": 10,
       "type": "free_agent",
+      "created": 1794924049489,
+      "teams": [
+        "CJ Woda"
+      ],
+      "adds": {},
+      "drops": {
+        "9754": "CJ Woda"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
+      "created": 1794921921361,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {},
+      "drops": {
+        "10232": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 10,
+      "type": "free_agent",
       "created": 1794797732463,
       "teams": [
         "CJ Woda"
