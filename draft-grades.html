@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draft Report Card — NoFunLeague</title>
+  <meta name="description" content="Every NoFunLeague draft pick ever, scored against the rest of its own round.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Draft Report Card</p>
+  <h1>Who actually <span class="fun">drafts</span></h1>
+  <p class="hero-sub">Every pick in league history, scored against the other picks
+     in the same round of the same draft. A 12th-rounder isn't judged against a 1st.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">The table</span>
+      <h2 class="section-title">Career drafting</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Value per pick is points above what that round usually
+         returns. Hit rate is the share of picks that beat their round.</p>
+    </div>
+  </div>
+  <div id="board"><div class="loading">Loading the board</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Steals</span>
+      <h2 class="section-title">Best picks ever made</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div id="steals"><div class="loading">Loading steals</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Busts</span>
+      <h2 class="section-title">Picks nobody wants to talk about</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div id="busts"><div class="loading">Loading busts</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Method</span>
+      <h2 class="section-title">How this is scored</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div class="card dg-method">
+    <p>Each pick is compared to the <b>median points scored by every other pick in
+       the same round of the same draft</b>. Beat that median and the pick is worth
+       positive value; fall short and it isn't.</p>
+    <p>Scoring a player means the fantasy points he put up <b>that season</b>, in
+       this league's own scoring settings &mdash; not a career total and not
+       somebody else's rankings.</p>
+    <p><b>Keepers are excluded.</b> They weren't really drafted, and counting them
+       would flatter whoever held onto a star.</p>
+    <p>Like everything else here, it's arithmetic over Sleeper's own data. No
+       opinions, no model, same answer every time.</p>
+  </div>
+</section>
+
+<script src="js/site.js?v=1"></script>
+<script src="js/data.js?v=1"></script>
+<script>
+(function () {
+  var N = window.NFL;
+
+  N.all(["meta", "draft-grades", "rivalries"]).then(function (d) {
+    var g = d["draft-grades"], riv = d.rivalries;
+    if (!g || !g.managers || !g.managers.length) {
+      ["board", "steals", "busts"].forEach(function (id) { N.oops(id, "draft grades"); });
+      return;
+    }
+    var name = {};
+    ((riv && riv.managers) || []).forEach(function (m) { name[m.user_id] = m.manager; });
+    var who = function (u) { return name[u] || "Unknown"; };
+
+    N.fill("hero-meta",
+      "<span><b>" + g.graded_picks + "</b> picks graded</span>" +
+      "<span><b>" + g.seasons.length + "</b> drafts</span>" +
+      "<span>" + g.seasons[g.seasons.length - 1] + "&ndash;" + g.seasons[0] + "</span>");
+    N.stamp(d.meta, g.graded_picks + " picks");
+
+    var max = Math.max.apply(null, g.managers.map(function (c) {
+      return Math.abs(c.value_per_pick);
+    })) || 1;
+
+    N.fill("board", '<div class="card rv-wrap"><table class="rv-grid dg-board">' +
+      "<thead><tr><th>Manager</th><th>Value / pick</th><th>Total</th>" +
+      "<th>Hit rate</th><th>Picks</th></tr></thead><tbody>" +
+      g.managers.map(function (c, i) {
+        var v = c.value_per_pick;
+        var w = Math.round(Math.abs(v) / max * 100);
+        return "<tr><th class=\"rv-row\">" +
+          '<a href="manager.html?m=' + encodeURIComponent(c.user_id) + '">' +
+          N.esc(who(c.user_id)) + "</a><small>" + N.ordinal(i + 1) + " of " +
+          g.managers.length + "</small></th>" +
+          '<td class="dg-barcell"><span class="dg-bar ' +
+            (v >= 0 ? "pos" : "neg") + '" style="width:' + w + '%"></span>' +
+            '<b class="' + (v >= 0 ? "rv-up" : "rv-down") + '">' +
+            N.signed(v, 1) + "</b></td>" +
+          "<td>" + N.signed(c.value, 0) + "</td>" +
+          "<td>" + c.hit_rate + "%</td>" +
+          "<td>" + c.picks + "</td></tr>";
+      }).join("") + "</tbody></table></div>");
+
+    N.fill("steals", list(g.steals, "rv-up"));
+    N.fill("busts", list(g.busts, "rv-down"));
+
+    function list(rows, cls) {
+      return '<div class="rv-cards">' + rows.slice(0, 12).map(function (p) {
+        return '<article class="card rv-card">' +
+          '<div class="rv-card-top"><span>' + N.esc(p.name) + "</span>" +
+          '<b class="' + cls + '">' + N.signed(p.value, 1) + "</b></div>" +
+          '<div class="rv-card-sub">' + p.season + " &middot; round " + p.round +
+          ", pick " + p.pick + " &middot; " + N.esc(p.pos || "") + "</div>" +
+          '<ul class="rv-facts">' +
+            "<li><span>Drafted by</span><b>" + N.esc(who(p.user_id) || p.team) + "</b></li>" +
+            "<li><span>Scored</span><b>" + p.pts + " <small>vs " + p.round_median +
+            " round median</small></b></li>" +
+          "</ul></article>";
+      }).join("") + "</div>";
+    }
+  }).catch(function () {
+    ["board", "steals", "busts"].forEach(function (id) { N.oops(id, "draft grades"); });
+  });
+})();
+</script>
+</body>
+</html>

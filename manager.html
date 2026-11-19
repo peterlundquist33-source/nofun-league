@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manager — NoFunLeague</title>
+  <meta name="description" content="One manager's whole NoFunLeague career on a page.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow" id="hero-eyebrow">Manager</p>
+  <h1 id="hero-name">Loading<span class="fun">&hellip;</span></h1>
+  <p class="hero-sub" id="hero-sub">The whole career on one page.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div id="picker"></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Career</span>
+      <h2 class="section-title">The record</h2>
+      <div class="rule"></div>
+    </div>
+  </div>
+  <div id="career"><div class="loading">Loading career</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Head to head</span>
+      <h2 class="section-title">Against everybody</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Best matchup at the top, worst at the bottom.</p>
+    </div>
+  </div>
+  <div id="h2h"><div class="loading">Loading head-to-head</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Drafting</span>
+      <h2 class="section-title">On the clock</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Every pick scored against the rest of its own round,
+         so a 12th-rounder isn't judged against a 1st.</p>
+    </div>
+  </div>
+  <div id="draft"><div class="loading">Loading draft record</div></div>
+</section>
+
+<script src="js/site.js?v=1"></script>
+<script src="js/data.js?v=1"></script>
+<script>
+(function () {
+  var N = window.NFL;
+
+  N.all(["meta", "rivalries", "draft-grades", "history"]).then(function (d) {
+    var riv = d.rivalries, grades = d["draft-grades"], hist = d.history;
+    if (!riv || !riv.cards || !riv.cards.length) {
+      ["career", "h2h", "draft"].forEach(function (id) { N.oops(id, "manager data"); });
+      return;
+    }
+
+    var name = {};
+    riv.managers.forEach(function (m) { name[m.user_id] = m.manager; });
+
+    // ?m=<user_id>, falling back to the first manager alphabetically so the
+    // page is never blank when someone lands on it without a parameter.
+    var want = new URLSearchParams(location.search).get("m");
+    var card = null;
+    riv.cards.forEach(function (c) { if (c.user_id === want) card = c; });
+    if (!card) card = riv.cards[0];
+
+    document.title = card.manager + " — NoFunLeague";
+    N.fill("hero-eyebrow", N.esc(card.team || "Manager"));
+    N.fill("hero-name", N.esc(card.manager));
+    N.fill("hero-sub", "Every game, every rival and every pick since " +
+      Math.min.apply(null, riv.seasons) + ".");
+    N.fill("hero-meta",
+      "<span><b>" + card.all_time.w + "&ndash;" + card.all_time.l + "</b> all-time</span>" +
+      "<span><b>" + card.rows.length + "</b> rivals</span>" +
+      (card.best ? "<span>Owns <b>" + N.esc(card.best.opponent_name) + "</b></span>" : ""));
+    N.stamp(d.meta, card.manager);
+
+    /* ------------------------------------------------------------ picker */
+    N.fill("picker", '<div class="mgr-picker">' + riv.cards.slice()
+      .sort(function (a, b) { return a.manager.localeCompare(b.manager); })
+      .map(function (c) {
+        return '<a href="manager.html?m=' + encodeURIComponent(c.user_id) + '"' +
+          (c.user_id === card.user_id ? ' class="active"' : "") + ">" +
+          N.esc(c.manager) + "</a>";
+      }).join("") + "</div>");
+
+    /* ------------------------------------------------------------ career */
+    var seasons = (hist && hist.seasons || []).map(function (s) {
+      var mine = null;
+      (s.standings || []).forEach(function (r) {
+        if (r.manager === card.manager || r.team === card.team) mine = r;
+      });
+      if (!mine) return null;
+      return {
+        season: s.season,
+        record: mine.wins + "&ndash;" + mine.losses + (mine.ties ? "&ndash;" + mine.ties : ""),
+        pf: N.num(mine.pf, 1),
+        champ: s.champion && (s.champion === card.manager || s.champion === card.team),
+      };
+    }).filter(Boolean);
+
+    var titles = seasons.filter(function (s) { return s.champ; }).length;
+    N.fill("career",
+      '<div class="mgr-stats">' +
+        stat("All-time", card.all_time.w + "–" + card.all_time.l) +
+        stat("Win rate", N.pct(card.all_time.w / Math.max(1, card.all_time.w + card.all_time.l))) +
+        stat("Titles", String(titles)) +
+        stat("Seasons", String(seasons.length)) +
+      "</div>" +
+      (seasons.length
+        ? '<div class="card mgr-seasons"><table class="rv-grid"><thead><tr>' +
+          "<th>Season</th><th>Record</th><th>Points for</th><th></th>" +
+          "</tr></thead><tbody>" + seasons.map(function (s) {
+            return "<tr><th class=\"rv-row\">" + s.season + "</th><td>" + s.record +
+              "</td><td>" + s.pf + "</td><td>" +
+              (s.champ ? '<span class="mgr-chip">Champion</span>' : "") + "</td></tr>";
+          }).join("") + "</tbody></table></div>"
+        : ""));
+
+    /* --------------------------------------------------------------- h2h */
+    N.fill("h2h", '<div class="rv-cards">' + card.rows.map(function (r) {
+      var cls = r.w > r.l ? "rv-up" : r.w < r.l ? "rv-down" : "rv-even";
+      return '<article class="card rv-card">' +
+        '<div class="rv-card-top"><span>vs ' + N.esc(r.opponent_name) + "</span>" +
+          '<b class="' + cls + '">' + r.w + "&ndash;" + r.l + "</b></div>" +
+        '<div class="rv-card-sub">' + r.games + " meetings &middot; " +
+          r.ppg + " to " + r.opp_ppg + " per game</div>" +
+        '<p class="mgr-link"><a href="rivalries.html">see the full ledger</a></p>' +
+        "</article>";
+    }).join("") + "</div>");
+
+    /* ------------------------------------------------------------- draft */
+    var g = null;
+    (grades && grades.managers || []).forEach(function (c) {
+      if (c.user_id === card.user_id) g = c;
+    });
+    if (!g) {
+      N.fill("draft", '<p class="rv-note">No graded draft picks for this manager yet.</p>');
+      return;
+    }
+    var rank = (grades.managers || []).findIndex(function (c) {
+      return c.user_id === card.user_id;
+    }) + 1;
+    N.fill("draft",
+      '<div class="mgr-stats">' +
+        stat("Draft rank", rank + " of " + grades.managers.length) +
+        stat("Value per pick", N.signed(g.value_per_pick, 1)) +
+        stat("Hit rate", g.hit_rate + "%") +
+        stat("Picks graded", String(g.picks)) +
+      "</div>" +
+      '<div class="rv-cards">' +
+        pickCard("Best pick", g.best) +
+        pickCard("Worst pick", g.worst) +
+      "</div>");
+
+    function pickCard(title, p) {
+      if (!p) return "";
+      return '<article class="card rv-card"><div class="rv-card-top">' +
+        "<span>" + title + '</span><b class="' +
+        (p.value >= 0 ? "rv-up" : "rv-down") + '">' + N.signed(p.value, 1) + "</b></div>" +
+        '<div class="rv-card-sub">' + N.esc(p.name) + " &middot; " + N.esc(p.pos) +
+        " &middot; " + p.season + " round " + p.round + "</div>" +
+        '<ul class="rv-facts"><li><span>Scored</span><b>' + p.pts +
+        "</b></li><li><span>Round median</span><b>" + p.round_median +
+        "</b></li></ul></article>";
+    }
+  }).catch(function () {
+    ["career", "h2h", "draft"].forEach(function (id) { N.oops(id, "manager data"); });
+  });
+
+  function stat(label, value) {
+    return '<div class="mgr-stat"><span>' + label + "</span><b>" + value + "</b></div>";
+  }
+})();
+</script>
+</body>
+</html>

@@ -366,3 +366,95 @@ details.note p + p { margin-top: var(--s-3); }
 details.note p, details.note li { color: var(--text-2); font-size: var(--fs-14); }
 details.note ul { margin: var(--s-2) 0 0 var(--s-4); list-style: disc; }
 details.note li { margin-bottom: var(--s-1); }
+
+/* ---------- rivalries, manager cards, draft report card ---------- */
+
+.rv-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 0; }
+table.rv-grid { width: 100%; border-collapse: collapse; font-size: var(--fs-13); }
+table.rv-grid th, table.rv-grid td {
+  padding: var(--s-2) var(--s-3); text-align: center; white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+table.rv-grid thead th {
+  color: var(--text-3); font-weight: 600; font-size: var(--fs-12);
+  text-transform: uppercase; letter-spacing: 0.06em; background: var(--surface-2);
+  position: sticky; top: 0; z-index: 1;
+}
+.rv-corner, th.rv-row {
+  text-align: left; position: sticky; left: 0; background: var(--surface); z-index: 2;
+}
+.rv-corner { background: var(--surface-2); z-index: 3; color: var(--text-3); }
+th.rv-row { font-weight: 600; min-width: 148px; }
+th.rv-row small { display: block; color: var(--text-3); font-weight: 400; margin-top: 2px; }
+th.rv-row a { color: inherit; }
+.rv-self { background: var(--surface-2); }
+.rv-none { color: var(--text-3); }
+.rv-up    { color: var(--pos); background: var(--pos-tint); font-weight: 600; }
+.rv-down  { color: var(--neg); background: var(--neg-tint); font-weight: 600; }
+.rv-even  { color: var(--text-2); }
+.rv-note  { margin-top: var(--s-3); color: var(--text-3); font-size: var(--fs-13); }
+
+.rv-cards {
+  display: grid; gap: var(--s-3);
+  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+}
+.rv-card { padding: var(--s-4); }
+.rv-card-top {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: var(--s-2); font-size: var(--fs-14);
+}
+.rv-card-top b { font-size: 1.05rem; letter-spacing: -0.01em; }
+.rv-card-top .rv-lead { color: var(--accent-bright); font-weight: 600; }
+.rv-card-top .rv-up, .rv-card-top .rv-down { background: none; padding: 0; }
+.rv-card-sub { color: var(--text-3); font-size: var(--fs-12); margin-top: 2px; }
+.rv-facts { margin-top: var(--s-3); border-top: 1px solid var(--line); }
+.rv-facts li {
+  display: flex; justify-content: space-between; gap: var(--s-3);
+  padding: var(--s-2) 0; font-size: var(--fs-13); border-bottom: 1px solid var(--line);
+}
+.rv-facts li:last-child { border-bottom: 0; }
+.rv-facts span { color: var(--text-3); }
+.rv-facts small { color: var(--text-3); font-weight: 400; }
+
+.mgr-picker { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.mgr-picker a {
+  padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-2);
+  color: var(--text-2); font-size: var(--fs-13); text-decoration: none;
+}
+.mgr-picker a:hover { color: var(--text); border-color: var(--accent-line); }
+.mgr-picker a.active {
+  background: var(--accent-tint); border-color: var(--accent-line);
+  color: var(--accent-bright); font-weight: 600;
+}
+.mgr-stats {
+  display: grid; gap: var(--s-3); margin-bottom: var(--s-4);
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+}
+.mgr-stat {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: var(--s-3) var(--s-4);
+}
+.mgr-stat span {
+  display: block; color: var(--text-3); font-size: var(--fs-12);
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.mgr-stat b { font-size: 1.35rem; letter-spacing: -0.02em; }
+.mgr-seasons { padding: 0; overflow-x: auto; }
+.mgr-chip {
+  background: var(--accent-tint); border: 1px solid var(--accent-line);
+  color: var(--accent-bright); border-radius: 999px;
+  padding: 2px 10px; font-size: var(--fs-12); font-weight: 600;
+}
+.mgr-link { margin-top: var(--s-3); font-size: var(--fs-12); }
+
+.dg-board td { text-align: right; }
+.dg-barcell { position: relative; min-width: 128px; }
+.dg-bar {
+  position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+  height: 60%; border-radius: 3px; opacity: 0.28; z-index: 0;
+}
+.dg-bar.pos { background: var(--pos); }
+.dg-bar.neg { background: var(--neg); }
+.dg-barcell b { position: relative; z-index: 1; }
+.dg-method p { color: var(--text-2); font-size: var(--fs-14); }
+.dg-method p + p { margin-top: var(--s-3); }

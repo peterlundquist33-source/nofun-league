@@ -3,6 +3,7 @@
   "rosters": [
     {
       "roster_id": 1,
+      "user_id": "998002547333902336",
       "manager": "Dillon Knaggs",
       "team": "Dillon Knaggs",
       "handle": "BigStickin032",
@@ -16,8 +17,8 @@
         "4993",
         "5967",
         "8155",
-        "5189",
-        "JAX"
+        "3451",
+        "PIT"
       ],
       "players": [
         {
@@ -29,6 +30,16 @@
           "injury": null,
           "starter": false,
           "season_pts": 135.96
+        },
+        {
+          "id": "11604",
+          "name": "Brock Bowers",
+          "pos": "TE",
+          "team": "LV",
+          "age": 23,
+          "injury": "Questionable",
+          "starter": false,
+          "season_pts": 149.8
         },
         {
           "id": "12495",
@@ -51,6 +62,16 @@
           "season_pts": 149.7
         },
         {
+          "id": "3451",
+          "name": "Ka'imi Fairbairn",
+          "pos": "K",
+          "team": "HOU",
+          "age": 32,
+          "injury": null,
+          "starter": true,
+          "season_pts": 75.0
+        },
+        {
           "id": "4993",
           "name": "Mike Gesicki",
           "pos": "TE",
@@ -69,16 +90,6 @@
           "injury": null,
           "starter": false,
           "season_pts": 74.0
-        },
-        {
-          "id": "5189",
-          "name": "Eddy Pineiro",
-          "pos": "K",
-          "team": "SF",
-          "age": 31,
-          "injury": null,
-          "starter": true,
-          "season_pts": 8.0
         },
         {
           "id": "5967",
@@ -161,39 +172,20 @@
           "season_pts": 69.0
         },
         {
-          "id": "8167",
-          "name": "Christian Watson",
-          "pos": "WR",
-          "team": "GB",
-          "age": 27,
-          "injury": null,
-          "starter": false,
-          "season_pts": 183.6
-        },
-        {
-          "id": "9226",
-          "name": "De'Von Achane",
-          "pos": "RB",
-          "team": "MIA",
-          "age": 25,
-          "injury": "IR",
-          "starter": false,
-          "season_pts": 24.6
-        },
-        {
-          "id": "JAX",
-          "name": "Jacksonville Jaguars",
+          "id": "PIT",
+          "name": "Pittsburgh Steelers",
           "pos": "DEF",
-          "team": "JAX",
+          "team": "PIT",
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 33.0
+          "season_pts": 18.0
         }
       ]
     },
     {
       "roster_id": 2,
+      "user_id": "1002383170941161472",
       "manager": "Brian Christensen",
       "team": "Brian Christensen",
       "handle": "BigBrainBrian3",
@@ -208,7 +200,7 @@
         "2216",
         "10859",
         "7839",
-        "BAL"
+        "CHI"
       ],
       "players": [
         {
@@ -257,9 +249,19 @@
           "pos": "WR",
           "team": "SF",
           "age": 33,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 89.0
+        },
+        {
+          "id": "4035",
+          "name": "Alvin Kamara",
+          "pos": "RB",
+          "team": "NO",
+          "age": 31,
+          "injury": null,
+          "starter": false,
+          "season_pts": 0
         },
         {
           "id": "4046",
@@ -342,16 +344,6 @@
           "season_pts": 173.6
         },
         {
-          "id": "9501",
-          "name": "DeMario Douglas",
-          "pos": "WR",
-          "team": "NE",
-          "age": 25,
-          "injury": null,
-          "starter": false,
-          "season_pts": 1.4
-        },
-        {
           "id": "9509",
           "name": "Bijan Robinson",
           "pos": "RB",
@@ -362,34 +354,35 @@
           "season_pts": 197.7
         },
         {
-          "id": "BAL",
-          "name": "Baltimore Ravens",
+          "id": "CHI",
+          "name": "Chicago Bears",
           "pos": "DEF",
-          "team": "BAL",
+          "team": "CHI",
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 30.0
+          "season_pts": 0
         }
       ]
     },
     {
       "roster_id": 3,
+      "user_id": "1002716154072240128",
       "manager": "Zach Johansen",
       "team": "Zach Johansen",
       "handle": "Zjohansen0",
       "avatar": "https://sleepercdn.com/uploads/26944055d5c38a49ce5e76f745907734.jpg",
       "starters": [
-        "3163",
+        "9758",
         "6790",
         "4866",
         "10229",
         "7547",
         "1466",
         "12507",
-        "0",
+        "13281",
         "6083",
-        "SEA"
+        "BUF"
       ],
       "players": [
         {
@@ -413,16 +406,6 @@
           "season_pts": 38.1
         },
         {
-          "id": "11604",
-          "name": "Brock Bowers",
-          "pos": "TE",
-          "team": "LV",
-          "age": 23,
-          "injury": "Out",
-          "starter": false,
-          "season_pts": 149.8
-        },
-        {
           "id": "12507",
           "name": "Omarion Hampton",
           "pos": "RB",
@@ -433,14 +416,14 @@
           "season_pts": 85.7
         },
         {
-          "id": "13346",
-          "name": "Denzel Boston",
+          "id": "13281",
+          "name": "Jordyn Tyson",
           "pos": "WR",
-          "team": "CLE",
+          "team": "NO",
           "age": 22,
-          "injury": null,
-          "starter": false,
-          "season_pts": 39.7
+          "injury": "Questionable",
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "1466",
@@ -448,7 +431,7 @@
           "pos": "TE",
           "team": "KC",
           "age": 37,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 104.3
         },
@@ -459,7 +442,7 @@
           "team": "DET",
           "age": 32,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 121.56
         },
         {
@@ -478,7 +461,7 @@
           "pos": "K",
           "team": "LV",
           "age": 32,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 45.0
         },
@@ -513,14 +496,44 @@
           "season_pts": 183.4
         },
         {
+          "id": "8167",
+          "name": "Christian Watson",
+          "pos": "WR",
+          "team": "GB",
+          "age": 27,
+          "injury": null,
+          "starter": false,
+          "season_pts": 183.6
+        },
+        {
+          "id": "9226",
+          "name": "De'Von Achane",
+          "pos": "RB",
+          "team": "MIA",
+          "age": 25,
+          "injury": "IR",
+          "starter": false,
+          "season_pts": 24.6
+        },
+        {
           "id": "9758",
           "name": "C.J. Stroud",
           "pos": "QB",
           "team": "HOU",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 36.96
+        },
+        {
+          "id": "BUF",
+          "name": "Buffalo Bills",
+          "pos": "DEF",
+          "team": "BUF",
+          "age": null,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
         },
         {
           "id": "SEA",
@@ -529,13 +542,14 @@
           "team": "SEA",
           "age": null,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 93.0
         }
       ]
     },
     {
       "roster_id": 4,
+      "user_id": "1002720184680955904",
       "manager": "Seth Halvorsen",
       "team": "Seth Halvorsen",
       "handle": "DaBears2424",
@@ -550,7 +564,7 @@
         "12517",
         "5892",
         "11786",
-        "GB"
+        "KC"
       ],
       "players": [
         {
@@ -558,7 +572,7 @@
           "name": "Caleb Williams",
           "pos": "QB",
           "team": "CHI",
-          "age": 24,
+          "age": 25,
           "injury": null,
           "starter": false,
           "season_pts": 110.34
@@ -639,7 +653,7 @@
           "pos": "RB",
           "team": "HOU",
           "age": 29,
-          "injury": "Out",
+          "injury": null,
           "starter": true,
           "season_pts": 45.5
         },
@@ -714,19 +728,20 @@
           "season_pts": 24.9
         },
         {
-          "id": "GB",
-          "name": "Green Bay Packers",
+          "id": "KC",
+          "name": "Kansas City Chiefs",
           "pos": "DEF",
-          "team": "GB",
+          "team": "KC",
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 67.0
+          "season_pts": 27.0
         }
       ]
     },
     {
       "roster_id": 5,
+      "user_id": "1002735718667612160",
       "manager": "CJ Woda",
       "team": "CJ Woda",
       "handle": "cjwoda",
@@ -737,11 +752,11 @@
         "7588",
         "12519",
         "13279",
-        "9484",
+        "8210",
         "13337",
         "8136",
         "11533",
-        "HOU"
+        "DEN"
       ],
       "players": [
         {
@@ -770,7 +785,7 @@
           "pos": "WR",
           "team": "CHI",
           "age": 22,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 136.3
         },
@@ -780,7 +795,7 @@
           "pos": "WR",
           "team": "TEN",
           "age": 21,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 77.3
         },
@@ -865,13 +880,23 @@
           "season_pts": 27.1
         },
         {
+          "id": "8210",
+          "name": "Chig Okonkwo",
+          "pos": "TE",
+          "team": "WAS",
+          "age": 27,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
+        },
+        {
           "id": "9484",
           "name": "Tucker Kraft",
           "pos": "TE",
           "team": "GB",
           "age": 26,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 93.3
         },
         {
@@ -891,7 +916,7 @@
           "team": "DEN",
           "age": null,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 64.0
         },
         {
@@ -901,13 +926,14 @@
           "team": "HOU",
           "age": null,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 22.0
         }
       ]
     },
     {
       "roster_id": 6,
+      "user_id": "1002764857709608960",
       "manager": "Dan Hataaja",
       "team": "Dan Hataaja",
       "handle": "HaatSauce",
@@ -919,7 +945,7 @@
         "9997",
         "6794",
         "10236",
-        "5859",
+        "12526",
         "9487",
         "2747",
         "MIN"
@@ -931,7 +957,7 @@
           "pos": "TE",
           "team": "BUF",
           "age": 27,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 92.7
         },
@@ -972,7 +998,7 @@
           "team": "CAR",
           "age": 23,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 131.0
         },
         {
@@ -981,7 +1007,7 @@
           "pos": "RB",
           "team": "CHI",
           "age": 24,
-          "injury": "Out",
+          "injury": null,
           "starter": false,
           "season_pts": 59.3
         },
@@ -1011,7 +1037,7 @@
           "pos": "TE",
           "team": "MIN",
           "age": 29,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 38.3
         },
@@ -1032,7 +1058,7 @@
           "team": "NE",
           "age": 29,
           "injury": "Out",
-          "starter": true,
+          "starter": false,
           "season_pts": 23.8
         },
         {
@@ -1089,6 +1115,7 @@
     },
     {
       "roster_id": 7,
+      "user_id": "995562801747910656",
       "manager": "Timmy Thurston",
       "team": "Timmy Thurston",
       "handle": "MagicSkolBuz1",
@@ -1132,7 +1159,7 @@
           "pos": "RB",
           "team": "JAX",
           "age": 23,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 147.5
         },
@@ -1270,6 +1297,7 @@
     },
     {
       "roster_id": 8,
+      "user_id": "1002721050507005952",
       "manager": "Noah Pieper",
       "team": "Noah Pieper",
       "handle": "Pipemaster3000",
@@ -1280,11 +1308,11 @@
         "8138",
         "8137",
         "6801",
-        "12506",
+        "9480",
         "7594",
-        "8228",
+        "11584",
         "12185",
-        "CLE"
+        "DET"
       ],
       "players": [
         {
@@ -1294,7 +1322,7 @@
           "team": "TB",
           "age": 24,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 159.1
         },
         {
@@ -1314,7 +1342,7 @@
           "team": "CLE",
           "age": 22,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 118.4
         },
         {
@@ -1323,7 +1351,7 @@
           "pos": "WR",
           "team": "MIA",
           "age": 23,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 10.1
         },
@@ -1353,7 +1381,7 @@
           "pos": "WR",
           "team": "PHI",
           "age": 28,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 69.0
         },
@@ -1403,7 +1431,7 @@
           "pos": "RB",
           "team": "KC",
           "age": 26,
-          "injury": "Out",
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 196.4
         },
@@ -1424,7 +1452,7 @@
           "team": "PIT",
           "age": 28,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 149.9
         },
         {
@@ -1434,7 +1462,7 @@
           "team": "JAX",
           "age": 25,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 30.0
         },
         {
@@ -1448,14 +1476,14 @@
           "season_pts": 5.1
         },
         {
-          "id": "CLE",
-          "name": "Cleveland Browns",
+          "id": "DET",
+          "name": "Detroit Lions",
           "pos": "DEF",
-          "team": "CLE",
+          "team": "DET",
           "age": null,
           "injury": null,
           "starter": true,
-          "season_pts": 24.0
+          "season_pts": 6.0
         }
       ]
     }

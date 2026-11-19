@@ -30,13 +30,17 @@
     { href: "rankings.html",  label: "Power" },
     { href: "schedule.html",  label: "Schedule" },
     { href: "burns.html",     label: "Burns" },
+    { href: "rivalries.html", label: "Rivalries" },
     { label: "More", menu: [
-      { href: "stats.html",   label: "Stats & Analytics" },
-      { href: "draft.html",   label: "Draft History" },
-      { href: "history.html", label: "League History" }
+      { href: "manager.html",      label: "Managers" },
+      { href: "draft-grades.html", label: "Draft Report Card" },
+      { href: "stats.html",        label: "Stats & Analytics" },
+      { href: "draft.html",        label: "Draft History" },
+      { href: "history.html",      label: "League History" }
     ] }
   ];
-  var UNDER_MORE = ["stats.html", "draft.html", "history.html"];
+  var UNDER_MORE = ["manager.html", "draft-grades.html", "stats.html",
+                    "draft.html", "history.html"];
 
   function frag(html) {
     var t = document.createElement("template");

@@ -2,6 +2,7 @@
   "teams": [
     {
       "roster_id": 1,
+      "user_id": "998002547333902336",
       "manager": "Dillon Knaggs",
       "team": "Dillon Knaggs",
       "handle": "BigStickin032",
@@ -9,6 +10,7 @@
     },
     {
       "roster_id": 2,
+      "user_id": "1002383170941161472",
       "manager": "Brian Christensen",
       "team": "Brian Christensen",
       "handle": "BigBrainBrian3",
@@ -16,6 +18,7 @@
     },
     {
       "roster_id": 3,
+      "user_id": "1002716154072240128",
       "manager": "Zach Johansen",
       "team": "Zach Johansen",
       "handle": "Zjohansen0",
@@ -23,6 +26,7 @@
     },
     {
       "roster_id": 4,
+      "user_id": "1002720184680955904",
       "manager": "Seth Halvorsen",
       "team": "Seth Halvorsen",
       "handle": "DaBears2424",
@@ -30,6 +34,7 @@
     },
     {
       "roster_id": 5,
+      "user_id": "1002735718667612160",
       "manager": "CJ Woda",
       "team": "CJ Woda",
       "handle": "cjwoda",
@@ -37,6 +42,7 @@
     },
     {
       "roster_id": 6,
+      "user_id": "1002764857709608960",
       "manager": "Dan Hataaja",
       "team": "Dan Hataaja",
       "handle": "HaatSauce",
@@ -44,6 +50,7 @@
     },
     {
       "roster_id": 7,
+      "user_id": "995562801747910656",
       "manager": "Timmy Thurston",
       "team": "Timmy Thurston",
       "handle": "MagicSkolBuz1",
@@ -51,6 +58,7 @@
     },
     {
       "roster_id": 8,
+      "user_id": "1002721050507005952",
       "manager": "Noah Pieper",
       "team": "Noah Pieper",
       "handle": "Pipemaster3000",

@@ -6,6 +6,8 @@ Reads data/*.json (written by tools/snapshot.py) and writes:
   analytics.json   all-play, luck, efficiency, scoring spread, records, top players
   power.json       the deterministic power board + a templated note per team
   burns.json       the trash-talk board, picked from templates by real stats
+  rivalries.json   all-time head-to-head for every pairing, plus a manager card
+  draft-grades.json  every pick ever, scored against the rest of its own round
 
 Nothing here calls a model. Every line of copy is a format string filled with a
 number that came out of Sleeper, so the same snapshot always produces the same
@@ -257,6 +259,189 @@ def build_analytics(meta, standings, scores, schedule, players, pseason, drafts,
         "standings_rank": {r["team"]: r["rank"] for r in rows},
         "moves": sorted([{"team": r["team"], "moves": r["moves"]} for r in rows],
                         key=lambda x: -x["moves"]),
+    }
+
+
+# ----------------------------------------------------------------- rivalries
+
+def build_rivalries(meta, meetings):
+    """All-time head-to-head, keyed by Sleeper user_id.
+
+    Everything here is arithmetic over completed games. A pairing's record,
+    streak, biggest win and closest game are all recomputed from the same rows,
+    so nothing can drift out of step with the schedule it came from.
+    """
+    managers = {m["user_id"]: m for m in meetings.get("managers", [])}
+    rows = [r for r in meetings.get("rows", []) if r.get("winner") or r["margin"] == 0]
+
+    pairs = {}
+    for r in sorted(rows, key=lambda r: (r["season"], r["week"])):
+        a, b = r["a"], r["b"]
+        key = tuple(sorted((a, b)))
+        p = pairs.setdefault(key, {"games": [], "w": {a: 0, b: 0}, "ties": 0})
+        p["w"].setdefault(a, 0)
+        p["w"].setdefault(b, 0)
+        if r["winner"]:
+            p["w"][r["winner"]] += 1
+        else:
+            p["ties"] += 1
+        p["games"].append(r)
+
+    def side(r, uid):
+        return ("a", "b") if r["a"] == uid else ("b", "a")
+
+    out = []
+    for (x, y), p in pairs.items():
+        games = p["games"]
+        last = games[-1]
+        # Streak is from the most recent game backwards, held by whoever won it.
+        holder, streak = last["winner"], 0
+        if holder:
+            for r in reversed(games):
+                if r["winner"] != holder:
+                    break
+                streak += 1
+        widest = max(games, key=lambda r: r["margin"])
+        closest = min(games, key=lambda r: r["margin"])
+        total = {x: 0.0, y: 0.0}
+        for r in games:
+            me, _ = side(r, x)
+            total[x] += r[f"{me}_pts"]
+            total[y] += r["b_pts" if me == "a" else "a_pts"]
+        n = len(games)
+        out.append({
+            "a": x, "b": y,
+            "a_name": (managers.get(x) or {}).get("manager", x),
+            "b_name": (managers.get(y) or {}).get("manager", y),
+            "games": n,
+            "a_wins": p["w"][x], "b_wins": p["w"][y], "ties": p["ties"],
+            "a_ppg": round(total[x] / n, 1), "b_ppg": round(total[y] / n, 1),
+            "streak_holder": holder, "streak": streak,
+            "last": {"season": last["season"], "week": last["week"],
+                     "winner": last["winner"], "margin": last["margin"]},
+            "widest": {"season": widest["season"], "week": widest["week"],
+                       "winner": widest["winner"], "margin": widest["margin"],
+                       "score": f'{max(widest["a_pts"], widest["b_pts"]):.1f}'
+                                f'–{min(widest["a_pts"], widest["b_pts"]):.1f}'},
+            "closest": {"season": closest["season"], "week": closest["week"],
+                        "winner": closest["winner"], "margin": closest["margin"]},
+        })
+
+    # Per-manager card: their row of the grid, best and worst matchup.
+    cards = []
+    for uid, m in managers.items():
+        mine = []
+        for p in out:
+            if uid not in (p["a"], p["b"]):
+                continue
+            me_first = p["a"] == uid
+            opp = p["b"] if me_first else p["a"]
+            mine.append({
+                "opponent": opp,
+                "opponent_name": (managers.get(opp) or {}).get("manager", opp),
+                "w": p["a_wins"] if me_first else p["b_wins"],
+                "l": p["b_wins"] if me_first else p["a_wins"],
+                "ties": p["ties"],
+                "games": p["games"],
+                "ppg": p["a_ppg"] if me_first else p["b_ppg"],
+                "opp_ppg": p["b_ppg"] if me_first else p["a_ppg"],
+            })
+        mine.sort(key=lambda r: (-(r["w"] / r["games"]), r["opponent_name"]))
+        wins = sum(r["w"] for r in mine)
+        losses = sum(r["l"] for r in mine)
+        cards.append({
+            **m,
+            "all_time": {"w": wins, "l": losses,
+                         "ties": sum(r["ties"] for r in mine) // 1},
+            "best": mine[0] if mine else None,
+            "worst": mine[-1] if mine else None,
+            "rows": mine,
+        })
+    cards.sort(key=lambda c: -(c["all_time"]["w"] /
+                               max(1, c["all_time"]["w"] + c["all_time"]["l"])))
+
+    return {
+        "generated": meta.get("generated"),
+        "seasons": meetings.get("seasons", []),
+        "total_games": len(rows),
+        "managers": [managers[k] for k in sorted(managers,
+                                                 key=lambda k: managers[k]["manager"].lower())],
+        "pairs": sorted(out, key=lambda p: (p["a_name"].lower(), p["b_name"].lower())),
+        "cards": cards,
+    }
+
+
+# ------------------------------------------------------------- draft grades
+
+def build_draft_grades(meta, drafts, season_pts, players):
+    """Score every pick against the other picks in the same round, same year.
+
+    A pick is only fairly judged against its own cost. Comparing a 12th-rounder
+    to a 1st is meaningless, so value here is points above the median of that
+    round in that draft — positive means the pick beat what that slot usually
+    returns.
+
+    Keepers are excluded: they were not really drafted, and counting them
+    flatters whoever kept a star.
+    """
+    seasons = season_pts.get("seasons", {})
+    names = players or {}
+    graded, by_manager = [], {}
+
+    for d in drafts.get("drafts", []):
+        s = str(d["season"])
+        pts_for = seasons.get(s) or {}
+        if not pts_for:
+            continue                       # no scoring data for that season
+        rounds = {}
+        for p in d["picks"]:
+            if p.get("keeper"):
+                continue
+            rounds.setdefault(p["round"], []).append(p)
+        for rnd, picks in rounds.items():
+            vals = sorted(pts_for.get(p["player_id"], 0.0) for p in picks)
+            if not vals:
+                continue
+            mid = statistics.median(vals)
+            for p in picks:
+                pts = pts_for.get(p["player_id"], 0.0)
+                info = names.get(p["player_id"]) or {}
+                row = {
+                    "season": d["season"], "round": rnd, "pick": p["pick"],
+                    "user_id": p.get("user_id"), "team": p["team"],
+                    "player_id": p["player_id"],
+                    "name": info.get("name", p["player_id"]),
+                    "pos": info.get("pos", ""),
+                    "pts": round(pts, 1),
+                    "round_median": round(mid, 1),
+                    "value": round(pts - mid, 1),
+                }
+                graded.append(row)
+                if p.get("user_id"):
+                    by_manager.setdefault(p["user_id"], []).append(row)
+
+    cards = []
+    for uid, rows in by_manager.items():
+        rows.sort(key=lambda r: -r["value"])
+        cards.append({
+            "user_id": uid,
+            "picks": len(rows),
+            "value": round(sum(r["value"] for r in rows), 1),
+            "value_per_pick": round(sum(r["value"] for r in rows) / len(rows), 2),
+            "hit_rate": round(100 * sum(1 for r in rows if r["value"] > 0) / len(rows)),
+            "best": rows[0],
+            "worst": rows[-1],
+        })
+    cards.sort(key=lambda c: -c["value_per_pick"])
+
+    graded.sort(key=lambda r: -r["value"])
+    return {
+        "generated": meta.get("generated"),
+        "seasons": sorted({d["season"] for d in drafts.get("drafts", [])}, reverse=True),
+        "graded_picks": len(graded),
+        "managers": cards,
+        "steals": graded[:20],
+        "busts": [r for r in graded[-20:]][::-1],
     }
 
 
@@ -588,6 +773,27 @@ def main():
     burns = build_burns(loaded["meta"], loaded["standings"], analytics)
     write("burns", burns)
     print(f'  burns: {len(burns["items"])} items')
+
+    # All-time sections. These read seasons the current snapshot doesn't cover,
+    # so they are skipped rather than half-written when their inputs are absent.
+    meetings = read("meetings")
+    if meetings and meetings.get("rows"):
+        riv = build_rivalries(loaded["meta"], meetings)
+        write("rivalries", riv)
+        print(f'  rivalries: {len(riv["pairs"])} pairings over '
+              f'{riv["total_games"]} games, seasons {riv["seasons"]}')
+    else:
+        print("  rivalries: skipped (no data/meetings.json — rerun snapshot.py)")
+
+    season_pts = read("season-points")
+    if season_pts and loaded["drafts"].get("drafts"):
+        grades = build_draft_grades(loaded["meta"], loaded["drafts"], season_pts,
+                                    loaded["players"])
+        write("draft-grades", grades)
+        print(f'  draft grades: {grades["graded_picks"]} picks over '
+              f'{len(grades["seasons"])} drafts')
+    else:
+        print("  draft grades: skipped (no data/season-points.json)")
     return 0
 
 

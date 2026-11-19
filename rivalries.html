@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rivalries — NoFunLeague</title>
+  <meta name="description" content="Every all-time head-to-head record in the NoFunLeague, back to 2023.">
+  <meta name="theme-color" content="#0a1526">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<header class="hero">
+  <p class="hero-eyebrow">Rivalries</p>
+  <h1>The <span class="fun">ledger</span></h1>
+  <p class="hero-sub">Every head-to-head record in league history. Nobody gets to
+     round their own number &mdash; it's all here, back to the first season.</p>
+  <div class="hero-meta" id="hero-meta"></div>
+</header>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">This week</span>
+      <h2 class="section-title">On the schedule</h2>
+      <div class="rule"></div>
+      <p class="section-sub">The history behind each of this week's matchups.</p>
+    </div>
+  </div>
+  <div id="this-week"><div class="loading">Loading this week</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Head to head</span>
+      <h2 class="section-title">The grid</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Read across your row: that's your record against
+         everyone. Green means you're up, red means you're not.</p>
+    </div>
+  </div>
+  <div id="grid"><div class="loading">Loading the grid</div></div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Every pairing</span>
+      <h2 class="section-title">All 28 rivalries</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Sorted by how lopsided they are. The top of this list
+         is where the grudges live.</p>
+    </div>
+  </div>
+  <div id="pairs"><div class="loading">Loading pairings</div></div>
+</section>
+
+<script src="js/site.js?v=1"></script>
+<script src="js/data.js?v=1"></script>
+<script>
+(function () {
+  var N = window.NFL;
+
+  N.all(["meta", "rivalries", "schedule"]).then(function (d) {
+    var meta = d.meta, riv = d.rivalries, sched = d.schedule;
+    if (!riv || !riv.cards || !riv.cards.length) {
+      N.oops("grid", "rivalries");
+      N.oops("pairs", "rivalries");
+      N.oops("this-week", "rivalries");
+      return;
+    }
+
+    var name = {};
+    riv.managers.forEach(function (m) { name[m.user_id] = m.manager; });
+    var order = riv.managers.map(function (m) { return m.user_id; });
+    var card = {};
+    riv.cards.forEach(function (c) { card[c.user_id] = c; });
+
+    N.fill("hero-meta",
+      "<span><b>" + riv.total_games + "</b> games</span>" +
+      "<span><b>" + riv.seasons.length + "</b> seasons</span>" +
+      "<span><b>" + riv.pairs.length + "</b> pairings</span>");
+    N.stamp(meta, riv.seasons[riv.seasons.length - 1] + "–" + riv.seasons[0]);
+
+    /* ---------------------------------------------------------- the grid */
+    var head = '<th class="rv-corner"><span>Record vs &rarr;</span></th>' +
+      order.map(function (u) {
+        return '<th class="rv-head"><span>' + N.esc(short(name[u])) + "</span></th>";
+      }).join("");
+
+    var body = order.map(function (me) {
+      var c = card[me];
+      var cells = order.map(function (opp) {
+        if (opp === me) return '<td class="rv-self"></td>';
+        var row = null;
+        c.rows.forEach(function (r) { if (r.opponent === opp) row = r; });
+        if (!row) return '<td class="rv-none">&mdash;</td>';
+        var cls = row.w > row.l ? "rv-up" : row.w < row.l ? "rv-down" : "rv-even";
+        return '<td class="' + cls + '" title="' + N.esc(name[me]) + " " + row.w + "-" +
+          row.l + " vs " + N.esc(name[opp]) + ', ' + row.ppg + " to " + row.opp_ppg +
+          ' points per game">' + row.w + "&ndash;" + row.l + "</td>";
+      }).join("");
+      var tot = c.all_time;
+      return "<tr><th class=\"rv-row\">" + N.esc(name[me]) +
+        '<small>' + tot.w + "&ndash;" + tot.l + " all-time</small></th>" + cells + "</tr>";
+    }).join("");
+
+    N.fill("grid", '<div class="card rv-wrap"><table class="rv-grid">' +
+      "<thead><tr>" + head + "</tr></thead><tbody>" + body + "</tbody></table></div>" +
+      '<p class="rv-note">Every cell is that row\'s record against that column, ' +
+      "across " + riv.seasons.length + " seasons. Hover for points per game.</p>");
+
+    /* ------------------------------------------------------- all pairings */
+    var pairs = riv.pairs.slice().sort(function (a, b) {
+      return gap(b) - gap(a) || b.games - a.games;
+    });
+    N.fill("pairs", '<div class="rv-cards">' + pairs.map(function (p) {
+      var aUp = p.a_wins > p.b_wins, bUp = p.b_wins > p.a_wins;
+      var holder = p.streak_holder ? name[p.streak_holder] : null;
+      return '<article class="card rv-card">' +
+        '<div class="rv-card-top">' +
+          '<span class="' + (aUp ? "rv-lead" : "") + '">' + N.esc(p.a_name) + "</span>" +
+          '<b>' + p.a_wins + "&ndash;" + p.b_wins + "</b>" +
+          '<span class="' + (bUp ? "rv-lead" : "") + '">' + N.esc(p.b_name) + "</span>" +
+        "</div>" +
+        '<div class="rv-card-sub">' + p.games + " meetings &middot; " +
+          p.a_ppg + " to " + p.b_ppg + " per game</div>" +
+        '<ul class="rv-facts">' +
+          (holder && p.streak > 1
+            ? "<li><span>Streak</span><b>" + N.esc(holder) + ", " + p.streak + " straight</b></li>"
+            : "") +
+          "<li><span>Biggest</span><b>" + N.esc(name[p.widest.winner] || "&mdash;") +
+            " by " + N.num(p.widest.margin, 1) + " <small>(" + p.widest.season +
+            " wk " + p.widest.week + ")</small></b></li>" +
+          "<li><span>Closest</span><b>" + N.esc(name[p.closest.winner] || "tie") +
+            " by " + N.num(p.closest.margin, 1) + " <small>(" + p.closest.season +
+            " wk " + p.closest.week + ")</small></b></li>" +
+        "</ul></article>";
+    }).join("") + "</div>");
+
+    /* -------------------------------------------------------- this week */
+    var wk = null;
+    (sched && sched.weeks || []).forEach(function (w) {
+      if (w.week === meta.week) wk = w;
+    });
+    if (!wk) {
+      N.fill("this-week", '<p class="rv-note">No matchups scheduled for week ' +
+        meta.week + " yet.</p>");
+    } else {
+      // The schedule carries team names; the ledger is keyed by user_id, so
+      // match on the manager name the snapshot wrote for both.
+      var byName = {};
+      riv.managers.forEach(function (m) {
+        byName[m.manager] = m.user_id;
+        byName[m.team] = m.user_id;
+      });
+      var items = wk.games.map(function (g) {
+        var x = byName[g.a.team], y = byName[g.b.team];
+        var p = null;
+        riv.pairs.forEach(function (q) {
+          if ((q.a === x && q.b === y) || (q.a === y && q.b === x)) p = q;
+        });
+        if (!p) {
+          return '<article class="card rv-card"><div class="rv-card-top">' +
+            "<span>" + N.esc(g.a.team) + "</span><b>&mdash;</b><span>" +
+            N.esc(g.b.team) + "</span></div>" +
+            '<div class="rv-card-sub">First meeting on record</div></article>';
+        }
+        var xW = p.a === x ? p.a_wins : p.b_wins;
+        var yW = p.a === x ? p.b_wins : p.a_wins;
+        var lead = xW > yW ? g.a.team : yW > xW ? g.b.team : null;
+        return '<article class="card rv-card">' +
+          '<div class="rv-card-top">' +
+            '<span class="' + (xW > yW ? "rv-lead" : "") + '">' + N.esc(g.a.team) + "</span>" +
+            "<b>" + xW + "&ndash;" + yW + "</b>" +
+            '<span class="' + (yW > xW ? "rv-lead" : "") + '">' + N.esc(g.b.team) + "</span>" +
+          "</div>" +
+          '<div class="rv-card-sub">' +
+            (lead ? N.esc(lead) + " leads the series" : "Dead even") +
+            " &middot; " + p.games + " meetings</div>" +
+          '<ul class="rv-facts"><li><span>Last</span><b>' +
+            N.esc(name[p.last.winner] || "tie") + " by " + N.num(p.last.margin, 1) +
+            " <small>(" + p.last.season + " wk " + p.last.week + ")</small></b></li></ul>" +
+          "</article>";
+      }).join("");
+      N.fill("this-week", '<div class="rv-cards">' + items + "</div>");
+    }
+  }).catch(function () {
+    N.oops("grid", "rivalries");
+    N.oops("pairs", "rivalries");
+    N.oops("this-week", "rivalries");
+  });
+
+  function gap(p) { return Math.abs(p.a_wins - p.b_wins); }
+  function short(s) {
+    var bits = String(s).split(/\s+/);
+    return bits.length > 1 ? bits[0] + " " + bits[1][0] + "." : s;
+  }
+})();
+</script>
+</body>
+</html>

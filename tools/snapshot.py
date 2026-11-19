@@ -44,6 +44,10 @@ def team_identity(league_id):
         team = ov.get("team") or (meta.get("team_name") or "").strip() or handle
         out[rid] = {
             "roster_id": rid,
+            # Sleeper reuses roster_id per season, so it cannot join a manager
+            # across years — user_id is the only stable identity and every
+            # cross-season record on the site is keyed by it.
+            "user_id": str(uid) if uid else None,
             "manager": manager,
             "team": team,
             "handle": handle,
@@ -190,6 +194,58 @@ def weekly(league_id, ident, through, playoff_start):
     return schedule, scores, ppool
 
 
+# ------------------------------------------------------------------- meetings
+
+def meetings_for(league_id, ident, season, playoff_start):
+    """Every completed head-to-head game in one season, keyed by user_id.
+
+    The site's cross-season records are built from these rows. A manager who
+    changed team name — or roster slot — between seasons still joins correctly,
+    because the only identity carried here is the Sleeper user_id.
+
+    Rosters whose owner_id is missing (an abandoned team Sleeper left
+    unassigned) are skipped rather than merged under a null key, which would
+    silently pool unrelated managers into one phantom rivalry.
+    """
+    rows, ppts = [], {}
+    for wk in range(1, LAST_WEEK + 1):
+        raw = get(f"/league/{league_id}/matchups/{wk}")
+        if not raw:
+            continue
+        by_id, side = {}, {}
+        for m in raw:
+            side[m["roster_id"]] = m
+            by_id.setdefault(m.get("matchup_id"), []).append(m["roster_id"])
+            # These responses already carry per-player scoring, so a season's
+            # production costs no extra requests — it is what makes grading an
+            # old draft possible at all.
+            for pid, p in (m.get("players_points") or {}).items():
+                if p:
+                    ppts[str(pid)] = round(ppts.get(str(pid), 0) + p, 2)
+        for mid, rids in sorted((k, v) for k, v in by_id.items() if k is not None):
+            if len(rids) != 2:
+                continue
+            a_rid, b_rid = sorted(rids)
+            a_pts = round(side[a_rid].get("points") or 0, 2)
+            b_pts = round(side[b_rid].get("points") or 0, 2)
+            if a_pts <= 0 and b_pts <= 0:
+                continue                      # not played yet
+            a_id = (ident.get(a_rid) or {}).get("user_id")
+            b_id = (ident.get(b_rid) or {}).get("user_id")
+            if not a_id or not b_id or a_id == b_id:
+                continue
+            rows.append({
+                "season": season,
+                "week": wk,
+                "playoff": wk >= playoff_start,
+                "a": a_id, "a_team": label(ident, a_rid), "a_pts": a_pts,
+                "b": b_id, "b_team": label(ident, b_rid), "b_pts": b_pts,
+                "winner": a_id if a_pts > b_pts else b_id if b_pts > a_pts else None,
+                "margin": round(abs(a_pts - b_pts), 2),
+            })
+    return rows, ppts
+
+
 # ------------------------------------------------------------------- players
 
 def player_universe(needed):
@@ -239,6 +295,8 @@ def drafts_for(league_id, season, ident):
                 "slot": p.get("draft_slot"),
                 "roster_id": p.get("roster_id"),
                 "team": label(ident, p.get("roster_id")),
+                # Who actually made the pick, for grading drafts across seasons.
+                "user_id": (ident.get(p.get("roster_id")) or {}).get("user_id"),
                 "player_id": str(p.get("player_id")),
                 "keeper": bool(p.get("is_keeper")),
             } for p in picks],
@@ -304,11 +362,28 @@ def main():
         needed.update(str(p) for p in (r.get("players") or []))
     drafts = []
     history = []
+    meetings = []
+    managers = {}
+    season_pts = {}
     for lg in chain:
         lid, s = lg["league_id"], int(lg["season"])
         lg_ident = ident if lid == LEAGUE_ID else team_identity(lid)
+        lg_playoff = (lg.get("settings") or {}).get("playoff_week_start") or 15
+        rows, ppts = meetings_for(lid, lg_ident, s, lg_playoff)
+        meetings.extend(rows)
+        season_pts[str(s)] = ppts
+        # Newest season wins on name, since that is what the league calls them
+        # now; older seasons only fill in managers who have since left.
+        for t in lg_ident.values():
+            uid = t.get("user_id")
+            if uid and uid not in managers:
+                managers[uid] = {"user_id": uid, "manager": t["manager"],
+                                 "team": t["team"], "avatar": t.get("avatar"),
+                                 "last_season": s}
         for d in drafts_for(lid, s, lg_ident):
             needed.update(p["player_id"] for p in d["picks"])
+            # Grading a pick needs the drafted player's name even if he never
+            # scored a point, so pull every drafted id into the player universe.
             drafts.append(d)
         champ, runner, third = bracket_results(lid, lg_ident)
         history.append({
@@ -373,6 +448,13 @@ def main():
     write("player-season", {"season": season, "players": ppool})
     write("drafts", {"drafts": sorted(drafts, key=lambda d: -d["season"])})
     write("history", {"seasons": sorted(history, key=lambda h: -h["season"])})
+    write("meetings", {
+        "seasons": sorted({m["season"] for m in meetings}, reverse=True),
+        "managers": [managers[k] for k in sorted(managers,
+                                                 key=lambda k: managers[k]["manager"].lower())],
+        "rows": sorted(meetings, key=lambda m: (-m["season"], m["week"])),
+    })
+    write("season-points", {"seasons": season_pts})
     write("transactions", {"season": season,
                            "rows": transactions_for(LEAGUE_ID, ident)})
     return 0

@@ -13,6 +13,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12507",
           "keeper": false
         },
@@ -22,6 +23,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6794",
           "keeper": false
         },
@@ -31,6 +33,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11632",
           "keeper": false
         },
@@ -40,6 +43,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "9226",
           "keeper": false
         },
@@ -49,6 +53,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "3198",
           "keeper": false
         },
@@ -58,6 +63,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "8144",
           "keeper": false
         },
@@ -67,6 +73,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "7525",
           "keeper": false
         },
@@ -76,6 +83,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8150",
           "keeper": false
         },
@@ -85,6 +93,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "11635",
           "keeper": false
         },
@@ -94,6 +103,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "6801",
           "keeper": false
         },
@@ -103,6 +113,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "12517",
           "keeper": false
         },
@@ -112,6 +123,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7588",
           "keeper": false
         },
@@ -121,6 +133,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8155",
           "keeper": false
         },
@@ -130,6 +143,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "12514",
           "keeper": false
         },
@@ -139,6 +153,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5850",
           "keeper": false
         },
@@ -148,6 +163,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "13287",
           "keeper": false
         },
@@ -157,6 +173,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "10229",
           "keeper": true
         },
@@ -166,6 +183,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4034",
           "keeper": true
         },
@@ -175,6 +193,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6813",
           "keeper": true
         },
@@ -184,6 +203,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "12527",
           "keeper": true
         },
@@ -193,6 +213,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4866",
           "keeper": true
         },
@@ -202,6 +223,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6786",
           "keeper": true
         },
@@ -211,6 +233,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8137",
           "keeper": true
         },
@@ -220,6 +243,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4881",
           "keeper": true
         },
@@ -229,6 +253,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9493",
           "keeper": true
         },
@@ -238,6 +263,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8138",
           "keeper": true
         },
@@ -247,6 +273,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "8130",
           "keeper": true
         },
@@ -256,6 +283,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4984",
           "keeper": true
         },
@@ -265,6 +293,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7564",
           "keeper": true
         },
@@ -274,6 +303,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "7569",
           "keeper": true
         },
@@ -283,6 +313,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5859",
           "keeper": true
         },
@@ -292,6 +323,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11604",
           "keeper": true
         },
@@ -301,6 +333,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "7526",
           "keeper": false
         },
@@ -310,6 +343,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "12526",
           "keeper": false
         },
@@ -319,6 +353,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "12518",
           "keeper": false
         },
@@ -328,6 +363,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8146",
           "keeper": false
         },
@@ -337,6 +373,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "2133",
           "keeper": false
         },
@@ -346,6 +383,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5892",
           "keeper": false
         },
@@ -355,6 +393,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "11584",
           "keeper": false
         },
@@ -364,6 +403,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12481",
           "keeper": false
         },
@@ -373,6 +413,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "10859",
           "keeper": false
         },
@@ -382,6 +423,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "12506",
           "keeper": false
         },
@@ -391,6 +433,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7543",
           "keeper": false
         },
@@ -400,6 +443,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "12519",
           "keeper": false
         },
@@ -409,6 +453,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5927",
           "keeper": false
         },
@@ -418,6 +463,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4983",
           "keeper": false
         },
@@ -427,6 +473,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6904",
           "keeper": false
         },
@@ -436,6 +483,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6790",
           "keeper": false
         },
@@ -445,6 +493,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11564",
           "keeper": false
         },
@@ -454,6 +503,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "12512",
           "keeper": false
         },
@@ -463,6 +513,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6770",
           "keeper": false
         },
@@ -472,6 +523,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "11566",
           "keeper": false
         },
@@ -481,6 +533,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "9484",
           "keeper": false
         },
@@ -490,6 +543,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11560",
           "keeper": false
         },
@@ -499,6 +553,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "11620",
           "keeper": false
         },
@@ -508,6 +563,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8148",
           "keeper": false
         },
@@ -517,6 +573,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "2216",
           "keeper": false
         },
@@ -526,6 +583,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8228",
           "keeper": false
         },
@@ -535,6 +593,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11631",
           "keeper": false
         },
@@ -544,6 +603,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "13279",
           "keeper": false
         },
@@ -553,6 +613,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8167",
           "keeper": false
         },
@@ -562,6 +623,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "12490",
           "keeper": false
         },
@@ -571,6 +633,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7553",
           "keeper": false
         },
@@ -580,6 +643,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12529",
           "keeper": false
         },
@@ -589,6 +653,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "5846",
           "keeper": false
         },
@@ -598,6 +663,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9487",
           "keeper": false
         },
@@ -607,6 +673,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "13286",
           "keeper": false
         },
@@ -616,6 +683,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7611",
           "keeper": false
         },
@@ -625,6 +693,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "11628",
           "keeper": false
         },
@@ -634,6 +703,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "13294",
           "keeper": false
         },
@@ -643,6 +713,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "7594",
           "keeper": false
         },
@@ -652,6 +723,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12489",
           "keeper": false
         },
@@ -661,6 +733,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "7021",
           "keeper": false
         },
@@ -670,6 +743,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2449",
           "keeper": false
         },
@@ -679,6 +753,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5045",
           "keeper": false
         },
@@ -688,6 +763,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "11583",
           "keeper": false
         },
@@ -697,6 +773,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5967",
           "keeper": false
         },
@@ -706,6 +783,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "LAR",
           "keeper": false
         },
@@ -715,6 +793,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4037",
           "keeper": false
         },
@@ -724,6 +803,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "10232",
           "keeper": false
         },
@@ -733,6 +813,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "1466",
           "keeper": false
         },
@@ -742,6 +823,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "12534",
           "keeper": false
         },
@@ -751,6 +833,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9756",
           "keeper": false
         },
@@ -760,6 +843,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8110",
           "keeper": false
         },
@@ -769,6 +853,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "11533",
           "keeper": false
         },
@@ -778,6 +863,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6806",
           "keeper": false
         },
@@ -787,6 +873,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "10222",
           "keeper": false
         },
@@ -796,6 +883,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4217",
           "keeper": false
         },
@@ -805,6 +893,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "HOU",
           "keeper": false
         },
@@ -814,6 +903,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "6797",
           "keeper": false
         },
@@ -823,6 +913,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7002",
           "keeper": false
         },
@@ -832,6 +923,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "13298",
           "keeper": false
         },
@@ -841,6 +933,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5022",
           "keeper": false
         },
@@ -850,6 +943,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6819",
           "keeper": false
         },
@@ -859,6 +953,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "10236",
           "keeper": false
         },
@@ -868,6 +963,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11586",
           "keeper": false
         },
@@ -877,6 +973,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "SEA",
           "keeper": false
         },
@@ -886,6 +983,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "MIN",
           "keeper": false
         },
@@ -895,6 +993,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8131",
           "keeper": false
         },
@@ -904,6 +1003,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7523",
           "keeper": false
         },
@@ -913,6 +1013,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8408",
           "keeper": false
         },
@@ -922,6 +1023,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "3294",
           "keeper": false
         },
@@ -931,6 +1033,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "PHI",
           "keeper": false
         },
@@ -940,6 +1043,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4046",
           "keeper": false
         },
@@ -949,6 +1053,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5872",
           "keeper": false
         },
@@ -958,6 +1063,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2747",
           "keeper": false
         },
@@ -967,6 +1073,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11786",
           "keeper": false
         },
@@ -976,6 +1083,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "DEN",
           "keeper": false
         },
@@ -985,6 +1093,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "NE",
           "keeper": false
         },
@@ -994,6 +1103,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11792",
           "keeper": false
         },
@@ -1003,6 +1113,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7567",
           "keeper": false
         },
@@ -1012,6 +1123,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8259",
           "keeper": false
         },
@@ -1021,6 +1133,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12508",
           "keeper": false
         },
@@ -1030,6 +1143,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "3451",
           "keeper": false
         },
@@ -1039,6 +1153,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "13281",
           "keeper": false
         },
@@ -1048,6 +1163,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "11539",
           "keeper": false
         },
@@ -1057,6 +1173,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "421",
           "keeper": false
         },
@@ -1066,6 +1183,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "DET",
           "keeper": false
         },
@@ -1075,6 +1193,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8121",
           "keeper": false
         },
@@ -1084,6 +1203,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12015",
           "keeper": false
         },
@@ -1093,6 +1213,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9509",
           "keeper": true
         },
@@ -1102,6 +1223,7 @@
           "slot": 7,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8151",
           "keeper": true
         },
@@ -1111,6 +1233,7 @@
           "slot": 6,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "9221",
           "keeper": true
         },
@@ -1120,6 +1243,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "9488",
           "keeper": true
         },
@@ -1129,6 +1253,7 @@
           "slot": 4,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8112",
           "keeper": true
         },
@@ -1138,6 +1263,7 @@
           "slot": 3,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9224",
           "keeper": true
         },
@@ -1147,6 +1273,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9997",
           "keeper": true
         },
@@ -1156,6 +1283,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "7547",
           "keeper": true
         }
@@ -1174,6 +1302,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "12527",
           "keeper": false
         },
@@ -1183,6 +1312,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5859",
           "keeper": false
         },
@@ -1192,6 +1322,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "8130",
           "keeper": false
         },
@@ -1201,6 +1332,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11584",
           "keeper": false
         },
@@ -1210,6 +1342,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9226",
           "keeper": false
         },
@@ -1219,6 +1352,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "9488",
           "keeper": false
         },
@@ -1228,6 +1362,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6813",
           "keeper": false
         },
@@ -1237,6 +1372,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8138",
           "keeper": false
         },
@@ -1246,6 +1382,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "10859",
           "keeper": false
         },
@@ -1255,6 +1392,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11635",
           "keeper": false
         },
@@ -1264,6 +1402,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "6801",
           "keeper": false
         },
@@ -1273,6 +1412,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5927",
           "keeper": false
         },
@@ -1282,6 +1422,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8150",
           "keeper": false
         },
@@ -1291,6 +1432,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11566",
           "keeper": false
         },
@@ -1300,6 +1442,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "2216",
           "keeper": false
         },
@@ -1309,6 +1452,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8146",
           "keeper": false
         },
@@ -1318,6 +1462,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "4217",
           "keeper": false
         },
@@ -1327,6 +1472,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6770",
           "keeper": false
         },
@@ -1336,6 +1482,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4035",
           "keeper": false
         },
@@ -1345,6 +1492,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4046",
           "keeper": false
         },
@@ -1354,6 +1502,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5844",
           "keeper": false
         },
@@ -1363,6 +1512,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "12507",
           "keeper": false
         },
@@ -1372,6 +1522,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8155",
           "keeper": false
         },
@@ -1381,6 +1532,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2133",
           "keeper": false
         },
@@ -1390,6 +1542,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8151",
           "keeper": false
         },
@@ -1399,6 +1552,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "5846",
           "keeper": false
         },
@@ -1408,6 +1562,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4983",
           "keeper": false
         },
@@ -1417,6 +1572,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4137",
           "keeper": false
         },
@@ -1426,6 +1582,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11624",
           "keeper": false
         },
@@ -1435,6 +1592,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7594",
           "keeper": false
         },
@@ -1444,6 +1602,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9997",
           "keeper": false
         },
@@ -1453,6 +1612,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7525",
           "keeper": false
         },
@@ -1462,6 +1622,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5045",
           "keeper": false
         },
@@ -1471,6 +1632,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "8205",
           "keeper": false
         },
@@ -1480,6 +1642,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7526",
           "keeper": false
         },
@@ -1489,6 +1652,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12489",
           "keeper": false
         },
@@ -1498,6 +1662,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4981",
           "keeper": false
         },
@@ -1507,6 +1672,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "12529",
           "keeper": false
         },
@@ -1516,6 +1682,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "12526",
           "keeper": false
         },
@@ -1525,6 +1692,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8137",
           "keeper": false
         },
@@ -1534,6 +1702,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "5872",
           "keeper": false
         },
@@ -1543,6 +1712,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "12530",
           "keeper": false
         },
@@ -1552,6 +1722,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8148",
           "keeper": false
         },
@@ -1561,6 +1732,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5967",
           "keeper": false
         },
@@ -1570,6 +1742,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6790",
           "keeper": false
         },
@@ -1579,6 +1752,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "12514",
           "keeper": false
         },
@@ -1588,6 +1762,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9756",
           "keeper": false
         },
@@ -1597,6 +1772,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "4199",
           "keeper": false
         },
@@ -1606,6 +1782,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "11655",
           "keeper": false
         },
@@ -1615,6 +1792,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "11620",
           "keeper": false
         },
@@ -1624,6 +1802,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "12504",
           "keeper": false
         },
@@ -1633,6 +1812,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6783",
           "keeper": false
         },
@@ -1642,6 +1822,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8144",
           "keeper": false
         },
@@ -1651,6 +1832,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4066",
           "keeper": false
         },
@@ -1660,6 +1842,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4033",
           "keeper": false
         },
@@ -1669,6 +1852,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "5947",
           "keeper": false
         },
@@ -1678,6 +1862,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4892",
           "keeper": false
         },
@@ -1687,6 +1872,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "5012",
           "keeper": false
         },
@@ -1696,6 +1882,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "2449",
           "keeper": false
         },
@@ -1705,6 +1892,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12501",
           "keeper": false
         },
@@ -1714,6 +1902,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12518",
           "keeper": false
         },
@@ -1723,6 +1912,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "12481",
           "keeper": false
         },
@@ -1732,6 +1922,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "8154",
           "keeper": false
         },
@@ -1741,6 +1932,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "12490",
           "keeper": false
         },
@@ -1750,6 +1942,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8228",
           "keeper": false
         },
@@ -1759,6 +1952,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "11533",
           "keeper": false
         },
@@ -1768,6 +1962,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11638",
           "keeper": false
         },
@@ -1777,6 +1972,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "10229",
           "keeper": false
         },
@@ -1786,6 +1982,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "6806",
           "keeper": false
         },
@@ -1795,6 +1992,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8134",
           "keeper": false
         },
@@ -1804,6 +2002,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11563",
           "keeper": false
         },
@@ -1813,6 +2012,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "7543",
           "keeper": false
         },
@@ -1822,6 +2022,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "6819",
           "keeper": false
         },
@@ -1831,6 +2032,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4988",
           "keeper": false
         },
@@ -1840,6 +2042,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "3294",
           "keeper": false
         },
@@ -1849,6 +2052,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12517",
           "keeper": false
         },
@@ -1858,6 +2062,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4037",
           "keeper": false
         },
@@ -1867,6 +2072,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4018",
           "keeper": false
         },
@@ -1876,6 +2082,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "10236",
           "keeper": false
         },
@@ -1885,6 +2092,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5022",
           "keeper": false
         },
@@ -1894,6 +2102,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "12512",
           "keeper": false
         },
@@ -1903,6 +2112,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4039",
           "keeper": false
         },
@@ -1912,6 +2122,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5849",
           "keeper": false
         },
@@ -1921,6 +2132,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "12533",
           "keeper": false
         },
@@ -1930,6 +2142,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "11539",
           "keeper": false
         },
@@ -1939,6 +2152,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8408",
           "keeper": false
         },
@@ -1948,6 +2162,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "PHI",
           "keeper": false
         },
@@ -1957,6 +2172,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "11637",
           "keeper": false
         },
@@ -1966,6 +2182,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "9753",
           "keeper": false
         },
@@ -1975,6 +2192,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6797",
           "keeper": false
         },
@@ -1984,6 +2202,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "PIT",
           "keeper": false
         },
@@ -1993,6 +2212,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "BAL",
           "keeper": false
         },
@@ -2002,6 +2222,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8259",
           "keeper": false
         },
@@ -2011,6 +2232,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "9484",
           "keeper": false
         },
@@ -2020,6 +2242,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7588",
           "keeper": false
         },
@@ -2029,6 +2252,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "1945",
           "keeper": false
         },
@@ -2038,6 +2262,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "DEN",
           "keeper": false
         },
@@ -2047,6 +2272,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7553",
           "keeper": false
         },
@@ -2056,6 +2282,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4227",
           "keeper": false
         },
@@ -2065,6 +2292,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "BUF",
           "keeper": false
         },
@@ -2074,6 +2302,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "11565",
           "keeper": false
         },
@@ -2083,6 +2312,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "6650",
           "keeper": false
         },
@@ -2092,6 +2322,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "10222",
           "keeper": false
         },
@@ -2101,6 +2332,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "12484",
           "keeper": false
         },
@@ -2110,6 +2342,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "MIN",
           "keeper": false
         },
@@ -2119,6 +2352,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "7611",
           "keeper": false
         },
@@ -2128,6 +2362,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8110",
           "keeper": false
         },
@@ -2137,6 +2372,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9500",
           "keeper": false
         },
@@ -2146,6 +2382,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "3163",
           "keeper": false
         },
@@ -2155,6 +2392,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "WAS",
           "keeper": false
         },
@@ -2164,6 +2402,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7049",
           "keeper": false
         },
@@ -2173,6 +2412,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "9508",
           "keeper": false
         },
@@ -2182,6 +2422,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8183",
           "keeper": false
         },
@@ -2191,6 +2432,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9758",
           "keeper": false
         },
@@ -2200,6 +2442,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11560",
           "keeper": false
         },
@@ -2209,6 +2452,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4663",
           "keeper": false
         },
@@ -2218,6 +2462,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "12009",
           "keeper": false
         },
@@ -2227,6 +2472,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "167",
           "keeper": false
         },
@@ -2236,6 +2482,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9225",
           "keeper": false
         },
@@ -2245,6 +2492,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "12519",
           "keeper": false
         },
@@ -2254,6 +2502,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4195",
           "keeper": false
         },
@@ -2263,6 +2512,7 @@
           "slot": 7,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11786",
           "keeper": false
         },
@@ -2272,6 +2522,7 @@
           "slot": 6,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4144",
           "keeper": false
         },
@@ -2281,6 +2532,7 @@
           "slot": 5,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5785",
           "keeper": false
         },
@@ -2290,6 +2542,7 @@
           "slot": 4,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6822",
           "keeper": false
         },
@@ -2299,6 +2552,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "DET",
           "keeper": false
         },
@@ -2308,6 +2562,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "SF",
           "keeper": false
         },
@@ -2317,6 +2572,7 @@
           "slot": 1,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "12524",
           "keeper": false
         }
@@ -2335,6 +2591,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6794",
           "keeper": false
         },
@@ -2344,6 +2601,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "7547",
           "keeper": false
         },
@@ -2353,6 +2611,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7564",
           "keeper": false
         },
@@ -2362,6 +2621,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "5859",
           "keeper": false
         },
@@ -2371,6 +2631,7 @@
           "slot": 5,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "9221",
           "keeper": false
         },
@@ -2380,6 +2641,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9493",
           "keeper": false
         },
@@ -2389,6 +2651,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7543",
           "keeper": false
         },
@@ -2398,6 +2661,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "11628",
           "keeper": false
         },
@@ -2407,6 +2671,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "3198",
           "keeper": false
         },
@@ -2416,6 +2681,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "1466",
           "keeper": false
         },
@@ -2425,6 +2691,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8150",
           "keeper": false
         },
@@ -2434,6 +2701,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4984",
           "keeper": false
         },
@@ -2443,6 +2711,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "2133",
           "keeper": false
         },
@@ -2452,6 +2721,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8112",
           "keeper": false
         },
@@ -2461,6 +2731,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "9226",
           "keeper": false
         },
@@ -2470,6 +2741,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "10859",
           "keeper": false
         },
@@ -2479,6 +2751,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4046",
           "keeper": false
         },
@@ -2488,6 +2761,7 @@
           "slot": 2,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "2449",
           "keeper": false
         },
@@ -2497,6 +2771,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8205",
           "keeper": false
         },
@@ -2506,6 +2781,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "7569",
           "keeper": false
         },
@@ -2515,6 +2791,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "5850",
           "keeper": false
         },
@@ -2524,6 +2801,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4881",
           "keeper": false
         },
@@ -2533,6 +2811,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6803",
           "keeper": false
         },
@@ -2542,6 +2821,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8144",
           "keeper": false
         },
@@ -2551,6 +2831,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2216",
           "keeper": false
         },
@@ -2560,6 +2841,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5872",
           "keeper": false
         },
@@ -2569,6 +2851,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "7526",
           "keeper": false
         },
@@ -2578,6 +2861,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4039",
           "keeper": false
         },
@@ -2587,6 +2871,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8136",
           "keeper": false
         },
@@ -2596,6 +2881,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "4983",
           "keeper": false
         },
@@ -2605,6 +2891,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8138",
           "keeper": false
         },
@@ -2614,6 +2901,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4035",
           "keeper": false
         },
@@ -2623,6 +2911,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6790",
           "keeper": false
         },
@@ -2632,6 +2921,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "9229",
           "keeper": false
         },
@@ -2641,6 +2931,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "6904",
           "keeper": false
         },
@@ -2650,6 +2941,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6819",
           "keeper": false
         },
@@ -2659,6 +2951,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8130",
           "keeper": false
         },
@@ -2668,6 +2961,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5846",
           "keeper": false
         },
@@ -2677,6 +2971,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9758",
           "keeper": false
         },
@@ -2686,6 +2981,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4018",
           "keeper": false
         },
@@ -2695,6 +2991,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "5012",
           "keeper": false
         },
@@ -2704,6 +3001,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7525",
           "keeper": false
         },
@@ -2713,6 +3011,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "10236",
           "keeper": false
         },
@@ -2722,6 +3021,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8151",
           "keeper": false
         },
@@ -2731,6 +3031,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11632",
           "keeper": false
         },
@@ -2740,6 +3041,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7553",
           "keeper": false
         },
@@ -2749,6 +3051,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "10229",
           "keeper": false
         },
@@ -2758,6 +3061,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4988",
           "keeper": false
         },
@@ -2767,6 +3071,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4663",
           "keeper": false
         },
@@ -2776,6 +3081,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4199",
           "keeper": false
         },
@@ -2785,6 +3091,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "9502",
           "keeper": false
         },
@@ -2794,6 +3101,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6770",
           "keeper": false
         },
@@ -2803,6 +3111,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "6801",
           "keeper": false
         },
@@ -2812,6 +3121,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4137",
           "keeper": false
         },
@@ -2821,6 +3131,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5892",
           "keeper": false
         },
@@ -2830,6 +3141,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "3294",
           "keeper": false
         },
@@ -2839,6 +3151,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "9997",
           "keeper": false
         },
@@ -2848,6 +3161,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4950",
           "keeper": false
         },
@@ -2857,6 +3171,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8137",
           "keeper": false
         },
@@ -2866,6 +3181,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7611",
           "keeper": false
         },
@@ -2875,6 +3191,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4217",
           "keeper": false
         },
@@ -2884,6 +3201,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "2309",
           "keeper": false
         },
@@ -2893,6 +3211,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "1479",
           "keeper": false
         },
@@ -2902,6 +3221,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4066",
           "keeper": false
         },
@@ -2911,6 +3231,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11620",
           "keeper": false
         },
@@ -2920,6 +3241,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11604",
           "keeper": false
         },
@@ -2929,6 +3251,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5927",
           "keeper": false
         },
@@ -2938,6 +3261,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11624",
           "keeper": false
         },
@@ -2947,6 +3271,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "10222",
           "keeper": false
         },
@@ -2956,6 +3281,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4037",
           "keeper": false
         },
@@ -2965,6 +3291,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7528",
           "keeper": false
         },
@@ -2974,6 +3301,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2749",
           "keeper": false
         },
@@ -2983,6 +3311,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8139",
           "keeper": false
         },
@@ -2992,6 +3321,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4981",
           "keeper": false
         },
@@ -3001,6 +3331,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5967",
           "keeper": false
         },
@@ -3010,6 +3341,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7588",
           "keeper": false
         },
@@ -3019,6 +3351,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4033",
           "keeper": false
         },
@@ -3028,6 +3361,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8110",
           "keeper": false
         },
@@ -3037,6 +3371,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11637",
           "keeper": false
         },
@@ -3046,6 +3381,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "11560",
           "keeper": false
         },
@@ -3055,6 +3391,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "SF",
           "keeper": false
         },
@@ -3064,6 +3401,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8228",
           "keeper": false
         },
@@ -3073,6 +3411,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "6130",
           "keeper": false
         },
@@ -3082,6 +3421,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6845",
           "keeper": false
         },
@@ -3091,6 +3431,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "11635",
           "keeper": false
         },
@@ -3100,6 +3441,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5022",
           "keeper": false
         },
@@ -3109,6 +3451,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "9756",
           "keeper": false
         },
@@ -3118,6 +3461,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "5848",
           "keeper": false
         },
@@ -3127,6 +3471,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "9488",
           "keeper": false
         },
@@ -3136,6 +3481,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "NYJ",
           "keeper": false
         },
@@ -3145,6 +3491,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "DAL",
           "keeper": false
         },
@@ -3154,6 +3501,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "9508",
           "keeper": false
         },
@@ -3163,6 +3511,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9224",
           "keeper": false
         },
@@ -3172,6 +3521,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "11583",
           "keeper": false
         },
@@ -3181,6 +3531,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "5937",
           "keeper": false
         },
@@ -3190,6 +3541,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4227",
           "keeper": false
         },
@@ -3199,6 +3551,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "1426",
           "keeper": false
         },
@@ -3208,6 +3561,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "1264",
           "keeper": false
         },
@@ -3217,6 +3571,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8154",
           "keeper": false
         },
@@ -3226,6 +3581,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11589",
           "keeper": false
         },
@@ -3235,6 +3591,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "5849",
           "keeper": false
         },
@@ -3244,6 +3601,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "7839",
           "keeper": false
         },
@@ -3253,6 +3611,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "11533",
           "keeper": false
         },
@@ -3262,6 +3621,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4666",
           "keeper": false
         },
@@ -3271,6 +3631,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "BAL",
           "keeper": false
         },
@@ -3280,6 +3641,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "8167",
           "keeper": false
         },
@@ -3289,6 +3651,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8183",
           "keeper": false
         },
@@ -3298,6 +3661,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "CLE",
           "keeper": false
         },
@@ -3307,6 +3671,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "11792",
           "keeper": false
         },
@@ -3316,6 +3681,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "BUF",
           "keeper": false
         },
@@ -3325,6 +3691,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "11631",
           "keeper": false
         },
@@ -3334,6 +3701,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5844",
           "keeper": false
         },
@@ -3343,6 +3711,7 @@
           "slot": 1,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5248",
           "keeper": false
         },
@@ -3352,6 +3721,7 @@
           "slot": 2,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "PIT",
           "keeper": false
         },
@@ -3361,6 +3731,7 @@
           "slot": 3,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "11786",
           "keeper": false
         },
@@ -3370,6 +3741,7 @@
           "slot": 4,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "TB",
           "keeper": false
         },
@@ -3379,6 +3751,7 @@
           "slot": 5,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4195",
           "keeper": false
         },
@@ -3388,6 +3761,7 @@
           "slot": 6,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "3164",
           "keeper": false
         },
@@ -3397,6 +3771,7 @@
           "slot": 7,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6826",
           "keeper": false
         },
@@ -3406,6 +3781,7 @@
           "slot": 8,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "11586",
           "keeper": false
         }
@@ -3424,6 +3800,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6794",
           "keeper": false
         },
@@ -3433,6 +3810,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4034",
           "keeper": false
         },
@@ -3442,6 +3820,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7564",
           "keeper": false
         },
@@ -3451,6 +3830,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "3321",
           "keeper": false
         },
@@ -3460,6 +3840,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "4039",
           "keeper": false
         },
@@ -3469,6 +3850,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "1466",
           "keeper": false
         },
@@ -3478,6 +3860,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4663",
           "keeper": false
         },
@@ -3487,6 +3870,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "2449",
           "keeper": false
         },
@@ -3496,6 +3880,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "9509",
           "keeper": false
         },
@@ -3505,6 +3890,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4866",
           "keeper": false
         },
@@ -3514,6 +3900,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4988",
           "keeper": false
         },
@@ -3523,6 +3910,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5859",
           "keeper": false
         },
@@ -3532,6 +3920,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "3198",
           "keeper": false
         },
@@ -3541,6 +3930,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4046",
           "keeper": false
         },
@@ -3550,6 +3940,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "2133",
           "keeper": false
         },
@@ -3559,6 +3950,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "8146",
           "keeper": false
         },
@@ -3568,6 +3960,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4984",
           "keeper": false
         },
@@ -3577,6 +3970,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7547",
           "keeper": false
         },
@@ -3586,6 +3980,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6786",
           "keeper": false
         },
@@ -3595,6 +3990,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "6801",
           "keeper": false
         },
@@ -3604,6 +4000,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7526",
           "keeper": false
         },
@@ -3613,6 +4010,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6904",
           "keeper": false
         },
@@ -3622,6 +4020,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "5967",
           "keeper": false
         },
@@ -3631,6 +4030,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8144",
           "keeper": false
         },
@@ -3640,6 +4040,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4881",
           "keeper": false
         },
@@ -3649,6 +4050,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7525",
           "keeper": false
         },
@@ -3658,6 +4060,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "5850",
           "keeper": false
         },
@@ -3667,6 +4070,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "7611",
           "keeper": false
         },
@@ -3676,6 +4080,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "7528",
           "keeper": false
         },
@@ -3685,6 +4090,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6813",
           "keeper": false
         },
@@ -3694,6 +4100,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7543",
           "keeper": false
         },
@@ -3703,6 +4110,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4981",
           "keeper": false
         },
@@ -3712,6 +4120,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "4018",
           "keeper": false
         },
@@ -3721,6 +4130,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5012",
           "keeper": false
         },
@@ -3730,6 +4140,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5846",
           "keeper": false
         },
@@ -3739,6 +4150,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4217",
           "keeper": false
         },
@@ -3748,6 +4160,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "5872",
           "keeper": false
         },
@@ -3757,6 +4170,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9221",
           "keeper": false
         },
@@ -3766,6 +4180,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7591",
           "keeper": false
         },
@@ -3775,6 +4190,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4199",
           "keeper": false
         },
@@ -3784,6 +4200,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5844",
           "keeper": false
         },
@@ -3793,6 +4210,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "1479",
           "keeper": false
         },
@@ -3802,6 +4220,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8155",
           "keeper": false
         },
@@ -3811,6 +4230,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "6770",
           "keeper": false
         },
@@ -3820,6 +4240,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4983",
           "keeper": false
         },
@@ -3829,6 +4250,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "1426",
           "keeper": false
         },
@@ -3838,6 +4260,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6151",
           "keeper": false
         },
@@ -3847,6 +4270,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "2309",
           "keeper": false
         },
@@ -3856,6 +4280,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "5022",
           "keeper": false
         },
@@ -3865,6 +4290,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6797",
           "keeper": false
         },
@@ -3874,6 +4300,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6790",
           "keeper": false
         },
@@ -3883,6 +4310,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "8151",
           "keeper": false
         },
@@ -3892,6 +4320,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "2505",
           "keeper": false
         },
@@ -3901,6 +4330,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8167",
           "keeper": false
         },
@@ -3910,6 +4340,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "5927",
           "keeper": false
         },
@@ -3919,6 +4350,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4037",
           "keeper": false
         },
@@ -3928,6 +4360,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "8129",
           "keeper": false
         },
@@ -3937,6 +4370,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "4066",
           "keeper": false
         },
@@ -3946,6 +4380,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8112",
           "keeper": false
         },
@@ -3955,6 +4390,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "6806",
           "keeper": false
         },
@@ -3964,6 +4400,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "7523",
           "keeper": false
         },
@@ -3973,6 +4410,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "4035",
           "keeper": false
         },
@@ -3982,6 +4420,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "6803",
           "keeper": false
         },
@@ -3991,6 +4430,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6938",
           "keeper": false
         },
@@ -4000,6 +4440,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "6783",
           "keeper": false
         },
@@ -4009,6 +4450,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "5987",
           "keeper": false
         },
@@ -4018,6 +4460,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "7553",
           "keeper": false
         },
@@ -4027,6 +4470,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2374",
           "keeper": false
         },
@@ -4036,6 +4480,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8136",
           "keeper": false
         },
@@ -4045,6 +4490,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "9756",
           "keeper": false
         },
@@ -4054,6 +4500,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8205",
           "keeper": false
         },
@@ -4063,6 +4510,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "6819",
           "keeper": false
         },
@@ -4072,6 +4520,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4137",
           "keeper": false
         },
@@ -4081,6 +4530,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "5937",
           "keeper": false
         },
@@ -4090,6 +4540,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4950",
           "keeper": false
         },
@@ -4099,6 +4550,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8138",
           "keeper": false
         },
@@ -4108,6 +4560,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4068",
           "keeper": false
         },
@@ -4117,6 +4570,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "2216",
           "keeper": false
         },
@@ -4126,6 +4580,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "SF",
           "keeper": false
         },
@@ -4135,6 +4590,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "5892",
           "keeper": false
         },
@@ -4144,6 +4600,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "7588",
           "keeper": false
         },
@@ -4153,6 +4610,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4029",
           "keeper": false
         },
@@ -4162,6 +4620,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "3199",
           "keeper": false
         },
@@ -4171,6 +4630,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "6828",
           "keeper": false
         },
@@ -4180,6 +4640,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "9488",
           "keeper": false
         },
@@ -4189,6 +4650,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "8137",
           "keeper": false
         },
@@ -4198,6 +4660,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "9997",
           "keeper": false
         },
@@ -4207,6 +4670,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5848",
           "keeper": false
         },
@@ -4216,6 +4680,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "DAL",
           "keeper": false
         },
@@ -4225,6 +4690,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7608",
           "keeper": false
         },
@@ -4234,6 +4700,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "7600",
           "keeper": false
         },
@@ -4243,6 +4710,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8154",
           "keeper": false
         },
@@ -4252,6 +4720,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "2197",
           "keeper": false
         },
@@ -4261,6 +4730,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "6945",
           "keeper": false
         },
@@ -4270,6 +4740,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "8119",
           "keeper": false
         },
@@ -4279,6 +4750,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "1264",
           "keeper": false
         },
@@ -4288,6 +4760,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "9754",
           "keeper": false
         },
@@ -4297,6 +4770,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "7839",
           "keeper": false
         },
@@ -4306,6 +4780,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "PHI",
           "keeper": false
         },
@@ -4315,6 +4790,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4033",
           "keeper": false
         },
@@ -4324,6 +4800,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "8168",
           "keeper": false
         },
@@ -4333,6 +4810,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "6943",
           "keeper": false
         },
@@ -4342,6 +4820,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "8135",
           "keeper": false
         },
@@ -4351,6 +4830,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4227",
           "keeper": false
         },
@@ -4360,6 +4840,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "5095",
           "keeper": false
         },
@@ -4369,6 +4850,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "7042",
           "keeper": false
         },
@@ -4378,6 +4860,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "NO",
           "keeper": false
         },
@@ -4387,6 +4870,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "2747",
           "keeper": false
         },
@@ -4396,6 +4880,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "MIA",
           "keeper": false
         },
@@ -4405,6 +4890,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "503",
           "keeper": false
         },
@@ -4414,6 +4900,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "1166",
           "keeper": false
         },
@@ -4423,6 +4910,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "BUF",
           "keeper": false
         },
@@ -4432,6 +4920,7 @@
           "slot": 1,
           "roster_id": 3,
           "team": "Zach Johansen",
+          "user_id": "1002716154072240128",
           "player_id": "5001",
           "keeper": false
         },
@@ -4441,6 +4930,7 @@
           "slot": 2,
           "roster_id": 6,
           "team": "Dan Hataaja",
+          "user_id": "1002764857709608960",
           "player_id": "4149",
           "keeper": false
         },
@@ -4450,6 +4940,7 @@
           "slot": 3,
           "roster_id": 4,
           "team": "Seth Halvorsen",
+          "user_id": "1002720184680955904",
           "player_id": "5906",
           "keeper": false
         },
@@ -4459,6 +4950,7 @@
           "slot": 4,
           "roster_id": 8,
           "team": "Noah Pieper",
+          "user_id": "1002721050507005952",
           "player_id": "4195",
           "keeper": false
         },
@@ -4468,6 +4960,7 @@
           "slot": 5,
           "roster_id": 1,
           "team": "Dillon Knaggs",
+          "user_id": "998002547333902336",
           "player_id": "BAL",
           "keeper": false
         },
@@ -4477,6 +4970,7 @@
           "slot": 6,
           "roster_id": 7,
           "team": "Timmy Thurston",
+          "user_id": "995562801747910656",
           "player_id": "4666",
           "keeper": false
         },
@@ -4486,6 +4980,7 @@
           "slot": 7,
           "roster_id": 5,
           "team": "CJ Woda",
+          "user_id": "1002735718667612160",
           "player_id": "3294",
           "keeper": false
         },
@@ -4495,6 +4990,7 @@
           "slot": 8,
           "roster_id": 2,
           "team": "Brian Christensen",
+          "user_id": "1002383170941161472",
           "player_id": "4017",
           "keeper": false
         }
