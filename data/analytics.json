@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T14:36:08+00:00",
+  "generated": "2026-11-20T21:35:19+00:00",
   "season": 2026,
   "through_week": 10,
   "allplay": [
@@ -347,11 +347,11 @@
     {
       "team": "Dan Hataaja",
       "wins": 3,
-      "losses": 0
+      "losses": 1
     },
     {
       "team": "Noah Pieper",
-      "wins": 2,
+      "wins": 3,
       "losses": 3
     },
     {
@@ -424,6 +424,14 @@
   ],
   "nailbiters": [
     {
+      "week": 11,
+      "winner": "Noah Pieper",
+      "loser": "Dan Hataaja",
+      "win_pts": 1.0,
+      "lose_pts": 0,
+      "margin": 1.0
+    },
+    {
       "week": 6,
       "winner": "Timmy Thurston",
       "loser": "Noah Pieper",
@@ -454,14 +462,6 @@
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
-    },
-    {
-      "week": 5,
-      "winner": "Seth Halvorsen",
-      "loser": "Timmy Thurston",
-      "win_pts": 132.34,
-      "lose_pts": 127.6,
-      "margin": 4.74
     }
   ],
   "records": {
@@ -484,12 +484,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
-      "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "week": 11,
+      "winner": "Noah Pieper",
+      "loser": "Dan Hataaja",
+      "win_pts": 1.0,
+      "lose_pts": 0,
+      "margin": 1.0
     }
   },
   "weekly_board": [

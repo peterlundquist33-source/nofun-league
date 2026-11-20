@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T14:36:08+00:00",
+  "generated": "2026-11-20T21:35:17+00:00",
   "seasons": [
     2026,
     2025,
@@ -11,8 +11,8 @@
     {
       "user_id": "1002735718667612160",
       "picks": 58,
-      "value": 1159.9,
-      "value_per_pick": 20.0,
+      "value": 1154.5,
+      "value_per_pick": 19.91,
       "hit_rate": 62,
       "best": {
         "season": 2025,
@@ -44,8 +44,8 @@
     {
       "user_id": "995562801747910656",
       "picks": 59,
-      "value": 703.8,
-      "value_per_pick": 11.93,
+      "value": 701.6,
+      "value_per_pick": 11.89,
       "hit_rate": 53,
       "best": {
         "season": 2024,
@@ -77,8 +77,8 @@
     {
       "user_id": "1002721050507005952",
       "picks": 59,
-      "value": 227.6,
-      "value_per_pick": 3.86,
+      "value": 222.2,
+      "value_per_pick": 3.77,
       "hit_rate": 53,
       "best": {
         "season": 2024,
@@ -110,8 +110,8 @@
     {
       "user_id": "998002547333902336",
       "picks": 59,
-      "value": 113.1,
-      "value_per_pick": 1.92,
+      "value": 107.7,
+      "value_per_pick": 1.83,
       "hit_rate": 54,
       "best": {
         "season": 2023,
@@ -143,8 +143,8 @@
     {
       "user_id": "1002716154072240128",
       "picks": 58,
-      "value": -110.3,
-      "value_per_pick": -1.9,
+      "value": -115.7,
+      "value_per_pick": -1.99,
       "hit_rate": 47,
       "best": {
         "season": 2025,
@@ -174,43 +174,10 @@
       }
     },
     {
-      "user_id": "1002764857709608960",
-      "picks": 59,
-      "value": -169.7,
-      "value_per_pick": -2.88,
-      "hit_rate": 47,
-      "best": {
-        "season": 2023,
-        "round": 1,
-        "pick": 2,
-        "user_id": "1002764857709608960",
-        "team": "Dan Hataaja",
-        "player_id": "4034",
-        "name": "Christian McCaffrey",
-        "pos": "RB",
-        "pts": 391.3,
-        "round_median": 241.1,
-        "value": 150.2
-      },
-      "worst": {
-        "season": 2023,
-        "round": 6,
-        "pick": 47,
-        "user_id": "1002764857709608960",
-        "team": "Dan Hataaja",
-        "player_id": "6151",
-        "name": "Miles Sanders",
-        "pos": "RB",
-        "pts": 44.1,
-        "round_median": 225.3,
-        "value": -181.2
-      }
-    },
-    {
       "user_id": "1002383170941161472",
       "picks": 59,
-      "value": -177.0,
-      "value_per_pick": -3.0,
+      "value": -167.4,
+      "value_per_pick": -2.84,
       "hit_rate": 41,
       "best": {
         "season": 2024,
@@ -240,10 +207,43 @@
       }
     },
     {
+      "user_id": "1002764857709608960",
+      "picks": 59,
+      "value": -169.1,
+      "value_per_pick": -2.87,
+      "hit_rate": 47,
+      "best": {
+        "season": 2023,
+        "round": 1,
+        "pick": 2,
+        "user_id": "1002764857709608960",
+        "team": "Dan Hataaja",
+        "player_id": "4034",
+        "name": "Christian McCaffrey",
+        "pos": "RB",
+        "pts": 391.3,
+        "round_median": 241.1,
+        "value": 150.2
+      },
+      "worst": {
+        "season": 2023,
+        "round": 6,
+        "pick": 47,
+        "user_id": "1002764857709608960",
+        "team": "Dan Hataaja",
+        "player_id": "6151",
+        "name": "Miles Sanders",
+        "pos": "RB",
+        "pts": 44.1,
+        "round_median": 225.3,
+        "value": -181.2
+      }
+    },
+    {
       "user_id": "1002720184680955904",
       "picks": 61,
-      "value": -556.3,
-      "value_per_pick": -9.12,
+      "value": -546.3,
+      "value_per_pick": -8.96,
       "hit_rate": 39,
       "best": {
         "season": 2023,

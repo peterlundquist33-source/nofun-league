@@ -4,6 +4,36 @@
     {
       "week": 11,
       "type": "free_agent",
+      "created": 1795131264232,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "5119": "Dan Hataaja"
+      },
+      "drops": {
+        "2747": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 11,
+      "type": "free_agent",
+      "created": 1795131234734,
+      "teams": [
+        "Dan Hataaja"
+      ],
+      "adds": {
+        "1166": "Dan Hataaja"
+      },
+      "drops": {
+        "9228": "Dan Hataaja"
+      },
+      "faab": null
+    },
+    {
+      "week": 11,
+      "type": "free_agent",
       "created": 1795053685761,
       "teams": [
         "Noah Pieper"

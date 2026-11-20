@@ -585,6 +585,58 @@
       "margin": 9.86
     },
     {
+      "season": 2026,
+      "week": 11,
+      "playoff": false,
+      "a": "1002383170941161472",
+      "a_team": "Brian Christensen",
+      "a_pts": 0,
+      "b": "1002716154072240128",
+      "b_team": "Zach Johansen",
+      "b_pts": 20.46,
+      "winner": "1002716154072240128",
+      "margin": 20.46
+    },
+    {
+      "season": 2026,
+      "week": 11,
+      "playoff": false,
+      "a": "1002764857709608960",
+      "a_team": "Dan Hataaja",
+      "a_pts": 0,
+      "b": "1002721050507005952",
+      "b_team": "Noah Pieper",
+      "b_pts": 1.0,
+      "winner": "1002721050507005952",
+      "margin": 1.0
+    },
+    {
+      "season": 2026,
+      "week": 11,
+      "playoff": false,
+      "a": "998002547333902336",
+      "a_team": "Dillon Knaggs",
+      "a_pts": 6.0,
+      "b": "995562801747910656",
+      "b_team": "Timmy Thurston",
+      "b_pts": 21.5,
+      "winner": "995562801747910656",
+      "margin": 15.5
+    },
+    {
+      "season": 2026,
+      "week": 11,
+      "playoff": false,
+      "a": "1002720184680955904",
+      "a_team": "Seth Halvorsen",
+      "a_pts": 15.4,
+      "b": "1002735718667612160",
+      "b_team": "CJ Woda",
+      "b_pts": 0,
+      "winner": "1002720184680955904",
+      "margin": 15.4
+    },
+    {
       "season": 2025,
       "week": 1,
       "playoff": false,

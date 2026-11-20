@@ -421,7 +421,7 @@
           "pos": "WR",
           "team": "NO",
           "age": 22,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 0
         },
@@ -875,7 +875,7 @@
           "pos": "RB",
           "team": "WAS",
           "age": 27,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 27.1
         },
@@ -939,15 +939,15 @@
       "handle": "HaatSauce",
       "avatar": "https://sleepercdn.com/avatars/thumbs/15d7cf259bc30eab8f6120f45f652fb6",
       "starters": [
-        "9228",
-        "12512",
+        "1166",
+        "11576",
         "4034",
         "9997",
         "6794",
-        "10236",
+        "5844",
         "12526",
         "9487",
-        "2747",
+        "5119",
         "MIN"
       ],
       "players": [
@@ -957,8 +957,8 @@
           "pos": "TE",
           "team": "BUF",
           "age": 27,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": "Doubtful",
+          "starter": false,
           "season_pts": 92.7
         },
         {
@@ -968,7 +968,7 @@
           "team": "NYJ",
           "age": 22,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 93.4
         },
         {
@@ -982,13 +982,23 @@
           "season_pts": 86.3
         },
         {
+          "id": "1166",
+          "name": "Kirk Cousins",
+          "pos": "QB",
+          "team": "MIN",
+          "age": 38,
+          "injury": null,
+          "starter": true,
+          "season_pts": 59.34
+        },
+        {
           "id": "12512",
           "name": "Quinshon Judkins",
           "pos": "RB",
           "team": "CLE",
           "age": 23,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 108.2
         },
         {
@@ -1012,16 +1022,6 @@
           "season_pts": 59.3
         },
         {
-          "id": "2747",
-          "name": "Jason Myers",
-          "pos": "K",
-          "team": "SEA",
-          "age": 35,
-          "injury": null,
-          "starter": true,
-          "season_pts": 30.0
-        },
-        {
           "id": "4034",
           "name": "Christian McCaffrey",
           "pos": "RB",
@@ -1032,13 +1032,23 @@
           "season_pts": 213.0
         },
         {
+          "id": "5119",
+          "name": "Jason Sanders",
+          "pos": "K",
+          "team": "NYJ",
+          "age": 31,
+          "injury": null,
+          "starter": true,
+          "season_pts": 0
+        },
+        {
           "id": "5844",
           "name": "T.J. Hockenson",
           "pos": "TE",
           "team": "MIN",
           "age": 29,
-          "injury": "Questionable",
-          "starter": false,
+          "injury": null,
+          "starter": true,
           "season_pts": 38.3
         },
         {
@@ -1070,16 +1080,6 @@
           "injury": null,
           "starter": true,
           "season_pts": 111.6
-        },
-        {
-          "id": "9228",
-          "name": "Bryce Young",
-          "pos": "QB",
-          "team": "CAR",
-          "age": 25,
-          "injury": null,
-          "starter": true,
-          "season_pts": 77.7
         },
         {
           "id": "9487",
@@ -1121,16 +1121,16 @@
       "handle": "MagicSkolBuz1",
       "avatar": "https://sleepercdn.com/avatars/thumbs/4f4090e5e9c3941414db40a871e3e909",
       "starters": [
-        "6804",
+        "6770",
         "6813",
         "9224",
         "7569",
         "4983",
-        "12518",
-        "8132",
+        "8131",
+        "11632",
         "12490",
         "11792",
-        "LAR"
+        "0"
       ],
       "players": [
         {
@@ -1140,7 +1140,7 @@
           "team": "NYG",
           "age": 23,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 137.2
         },
         {
@@ -1159,7 +1159,7 @@
           "pos": "RB",
           "team": "JAX",
           "age": 23,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 147.5
         },
@@ -1180,7 +1180,7 @@
           "team": "IND",
           "age": 24,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 86.5
         },
         {
@@ -1200,7 +1200,7 @@
           "team": "CIN",
           "age": 29,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 232.3
         },
         {
@@ -1210,7 +1210,7 @@
           "team": "GB",
           "age": 28,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 105.7
         },
         {
@@ -1240,7 +1240,7 @@
           "team": "NYG",
           "age": 26,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 156.5
         },
         {
@@ -1250,7 +1250,7 @@
           "team": "ARI",
           "age": 26,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 70.7
         },
         {
@@ -1290,7 +1290,7 @@
           "team": "LAR",
           "age": null,
           "injury": null,
-          "starter": true,
+          "starter": false,
           "season_pts": 77.0
         }
       ]
@@ -1351,7 +1351,7 @@
           "pos": "WR",
           "team": "MIA",
           "age": 23,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 10.1
         },
@@ -1381,7 +1381,7 @@
           "pos": "WR",
           "team": "PHI",
           "age": 28,
-          "injury": "Questionable",
+          "injury": null,
           "starter": false,
           "season_pts": 69.0
         },
@@ -1431,7 +1431,7 @@
           "pos": "RB",
           "team": "KC",
           "age": 26,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": true,
           "season_pts": 196.4
         },
