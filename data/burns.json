@@ -1,33 +1,33 @@
 {
-  "generated": "2026-11-24T01:29:38+00:00",
+  "generated": "2026-11-24T23:18:10+00:00",
   "season": 2026,
-  "through_week": 10,
+  "through_week": 11,
   "disclaimer": "Every line is generated from this league's Sleeper stats. Fantasy football only.",
   "items": [
     {
       "tag": "cellar",
       "title": "Basement Dweller",
-      "line": "Zach Johansen is 2-8. At some point that stops being bad luck and starts being a roster."
+      "line": "Zach Johansen sits 2-9 and is the only reason anyone else feels good about their season."
     },
     {
       "tag": "skid",
       "title": "Active Skid",
-      "line": "Seth Halvorsen: 2-game skid and counting. The lineup changes, the result doesn't."
+      "line": "Zach Johansen has lost 3 straight. The streak is now the most consistent thing about this team."
     },
     {
       "tag": "bench",
       "title": "Points Left On The Bench",
-      "line": "Timmy Thurston is only 79.7% efficient. The roster is fine; the person submitting it is the problem."
+      "line": "Timmy Thurston has stranded 326.94 points on the bench \u2014 29.72 a week of pure lineup malpractice."
     },
     {
       "tag": "lucky",
       "title": "Luckiest Team Alive",
-      "line": "Dan Hataaja is 6-4 but only 31-39 against the whole league. The schedule is doing the heavy lifting."
+      "line": "Dan Hataaja should be 4.57 wins by all-play. Instead: 6-5. Enjoy it while the calendar allows."
     },
     {
       "tag": "unlucky",
       "title": "Robbed Weekly",
-      "line": "Dillon Knaggs plays to an 31-39 all-play record and has 3-7 to show for it. Brutal schedule."
+      "line": "Zach Johansen: good enough to beat most of the league most weeks, and 2-9 anyway."
     },
     {
       "tag": "floor",
@@ -42,27 +42,27 @@
     {
       "tag": "pa",
       "title": "Punching Bag",
-      "line": "Dan Hataaja has absorbed 1429.38 points against \u2014 the most in the league, by a wide margin."
+      "line": "CJ Woda has absorbed 1596.78 points against \u2014 the most in the league, by a wide margin."
     },
     {
       "tag": "coinflip",
       "title": "Can't Win Close",
-      "line": "Dillon Knaggs is 0-3 in games inside 10 points. Clutch is apparently optional."
+      "line": "3 losses by single digits for Dillon Knaggs. The margins are cruel and the lineup isn't helping."
     },
     {
       "tag": "bust",
       "title": "Draft Day Regret",
-      "line": "Round 1, overall pick 4: De'Von Achane. Dillon Knaggs is still waiting on delivery."
+      "line": "De'Von Achane in round 1 was Dillon Knaggs's big swing. 24.6 points later, it's a cautionary tale."
     },
     {
       "tag": "gem",
       "title": "Actually A Good Pick",
-      "line": "Round 16: Jaxon Smith-Njigba, 263.16 points, CJ Woda. Broken clocks and all that."
+      "line": "Jahmyr Gibbs has 281.2 points after going in round 16 to Seth Halvorsen. Credit where it's due, and nowhere else."
     },
     {
       "tag": "ceiling",
       "title": "Best Roster, Worst Manager",
-      "line": "Dillon Knaggs has the 3rd best roster ceiling and sits 7th in the standings. The talent isn't the issue."
+      "line": "158.1 points available per week, 135.4 actually used. Dillon Knaggs is beating itself."
     },
     {
       "tag": "volatile",
@@ -72,7 +72,7 @@
     {
       "tag": "lowwin",
       "title": "Won With Nothing",
-      "line": "Week 11 gave us Dillon Knaggs 102.54 over Timmy Thurston 81.32. Football was the real loser."
+      "line": "Timmy Thurston won Week 2 with 109.28 points. Brian Christensen managed 90.0. Somebody had to."
     },
     {
       "tag": "highloss",

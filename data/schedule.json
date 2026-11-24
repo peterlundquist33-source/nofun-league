@@ -721,7 +721,7 @@
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 136.36
+            "points": 146.36
           },
           "b": {
             "roster_id": 3,
@@ -729,7 +729,7 @@
             "points": 122.56
           },
           "played": true,
-          "margin": 13.8,
+          "margin": 23.8,
           "winner": "Brian Christensen"
         },
         {
@@ -742,10 +742,10 @@
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
-            "points": 125.7
+            "points": 138.0
           },
           "played": true,
-          "margin": 4.7,
+          "margin": 17.0,
           "winner": "Noah Pieper"
         },
         {
@@ -753,15 +753,15 @@
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 102.54
+            "points": 122.04
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 81.32
+            "points": 107.4
           },
           "played": true,
-          "margin": 21.22,
+          "margin": 14.64,
           "winner": "Dillon Knaggs"
         },
         {
@@ -774,10 +774,10 @@
           "b": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 127.46
+            "points": 138.06
           },
           "played": true,
-          "margin": 84.64,
+          "margin": 74.04,
           "winner": "Seth Halvorsen"
         }
       ],

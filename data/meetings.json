@@ -590,12 +590,12 @@
       "playoff": false,
       "a": "1002383170941161472",
       "a_team": "Brian Christensen",
-      "a_pts": 136.36,
+      "a_pts": 146.36,
       "b": "1002716154072240128",
       "b_team": "Zach Johansen",
       "b_pts": 122.56,
       "winner": "1002383170941161472",
-      "margin": 13.8
+      "margin": 23.8
     },
     {
       "season": 2026,
@@ -606,9 +606,9 @@
       "a_pts": 121.0,
       "b": "1002721050507005952",
       "b_team": "Noah Pieper",
-      "b_pts": 125.7,
+      "b_pts": 138.0,
       "winner": "1002721050507005952",
-      "margin": 4.7
+      "margin": 17.0
     },
     {
       "season": 2026,
@@ -616,12 +616,12 @@
       "playoff": false,
       "a": "998002547333902336",
       "a_team": "Dillon Knaggs",
-      "a_pts": 102.54,
+      "a_pts": 122.04,
       "b": "995562801747910656",
       "b_team": "Timmy Thurston",
-      "b_pts": 81.32,
+      "b_pts": 107.4,
       "winner": "998002547333902336",
-      "margin": 21.22
+      "margin": 14.64
     },
     {
       "season": 2026,
@@ -632,9 +632,9 @@
       "a_pts": 212.1,
       "b": "1002735718667612160",
       "b_team": "CJ Woda",
-      "b_pts": 127.46,
+      "b_pts": 138.06,
       "winner": "1002720184680955904",
-      "margin": 84.64
+      "margin": 74.04
     },
     {
       "season": 2025,

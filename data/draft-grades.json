@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T01:29:36+00:00",
+  "generated": "2026-11-24T23:18:09+00:00",
   "seasons": [
     2026,
     2025,
@@ -44,8 +44,8 @@
     {
       "user_id": "995562801747910656",
       "picks": 59,
-      "value": 674.6,
-      "value_per_pick": 11.43,
+      "value": 694.0,
+      "value_per_pick": 11.76,
       "hit_rate": 51,
       "best": {
         "season": 2024,
@@ -77,8 +77,8 @@
     {
       "user_id": "1002721050507005952",
       "picks": 59,
-      "value": 198.9,
-      "value_per_pick": 3.37,
+      "value": 219.7,
+      "value_per_pick": 3.72,
       "hit_rate": 53,
       "best": {
         "season": 2024,
@@ -110,8 +110,8 @@
     {
       "user_id": "998002547333902336",
       "picks": 59,
-      "value": 71.6,
-      "value_per_pick": 1.21,
+      "value": 88.4,
+      "value_per_pick": 1.5,
       "hit_rate": 56,
       "best": {
         "season": 2023,
