@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T21:35:17+00:00",
+  "generated": "2026-11-24T01:29:36+00:00",
   "seasons": [
     2026,
     2025,
@@ -270,18 +270,18 @@
       "a_name": "Brian Christensen",
       "b_name": "Zach Johansen",
       "games": 9,
-      "a_wins": 5,
-      "b_wins": 4,
+      "a_wins": 6,
+      "b_wins": 3,
       "ties": 0,
-      "a_ppg": 135.0,
-      "b_ppg": 129.4,
-      "streak_holder": "1002716154072240128",
-      "streak": 1,
+      "a_ppg": 150.1,
+      "b_ppg": 140.7,
+      "streak_holder": "1002383170941161472",
+      "streak": 2,
       "last": {
         "season": 2026,
         "week": 11,
-        "winner": "1002716154072240128",
-        "margin": 20.46
+        "winner": "1002383170941161472",
+        "margin": 13.8
       },
       "widest": {
         "season": 2026,
@@ -504,15 +504,15 @@
       "a_wins": 5,
       "b_wins": 4,
       "ties": 0,
-      "a_ppg": 134.8,
-      "b_ppg": 116.2,
+      "a_ppg": 148.7,
+      "b_ppg": 129.6,
       "streak_holder": "1002721050507005952",
       "streak": 1,
       "last": {
         "season": 2026,
         "week": 11,
         "winner": "1002721050507005952",
-        "margin": 1.0
+        "margin": 4.7
       },
       "widest": {
         "season": 2025,
@@ -522,10 +522,10 @@
         "score": "158.2\u201398.4"
       },
       "closest": {
-        "season": 2026,
-        "week": 11,
-        "winner": "1002721050507005952",
-        "margin": 1.0
+        "season": 2025,
+        "week": 2,
+        "winner": "1002764857709608960",
+        "margin": 4.34
       }
     },
     {
@@ -603,22 +603,22 @@
       "a_wins": 4,
       "b_wins": 5,
       "ties": 0,
-      "a_ppg": 122.7,
-      "b_ppg": 122.8,
+      "a_ppg": 144.5,
+      "b_ppg": 136.9,
       "streak_holder": "1002720184680955904",
       "streak": 2,
       "last": {
         "season": 2026,
         "week": 11,
         "winner": "1002720184680955904",
-        "margin": 15.4
+        "margin": 84.64
       },
       "widest": {
-        "season": 2024,
+        "season": 2026,
         "week": 11,
-        "winner": "1002735718667612160",
-        "margin": 64.94,
-        "score": "191.1\u2013126.1"
+        "winner": "1002720184680955904",
+        "margin": 84.64,
+        "score": "212.1\u2013127.5"
       },
       "closest": {
         "season": 2024,
@@ -765,18 +765,18 @@
       "a_name": "Timmy Thurston",
       "b_name": "Dillon Knaggs",
       "games": 11,
-      "a_wins": 7,
-      "b_wins": 4,
+      "a_wins": 6,
+      "b_wins": 5,
       "ties": 0,
-      "a_ppg": 131.0,
-      "b_ppg": 117.5,
-      "streak_holder": "995562801747910656",
-      "streak": 3,
+      "a_ppg": 136.4,
+      "b_ppg": 126.2,
+      "streak_holder": "998002547333902336",
+      "streak": 1,
       "last": {
         "season": 2026,
         "week": 11,
-        "winner": "995562801747910656",
-        "margin": 15.5
+        "winner": "998002547333902336",
+        "margin": 21.22
       },
       "widest": {
         "season": 2023,
@@ -1081,8 +1081,8 @@
           "l": 4,
           "ties": 0,
           "games": 9,
-          "ppg": 122.8,
-          "opp_ppg": 122.7
+          "ppg": 136.9,
+          "opp_ppg": 144.5
         },
         {
           "opponent": "1002716154072240128",
@@ -1097,14 +1097,118 @@
       ]
     },
     {
+      "user_id": "1002383170941161472",
+      "manager": "Brian Christensen",
+      "team": "Brian Christensen",
+      "avatar": "https://sleepercdn.com/uploads/2024ddb7c2246ea592bf3b7eec10b153.jpg",
+      "last_season": 2026,
+      "all_time": {
+        "w": 33,
+        "l": 29,
+        "ties": 0
+      },
+      "best": {
+        "opponent": "1002716154072240128",
+        "opponent_name": "Zach Johansen",
+        "w": 6,
+        "l": 3,
+        "ties": 0,
+        "games": 9,
+        "ppg": 150.1,
+        "opp_ppg": 140.7
+      },
+      "worst": {
+        "opponent": "1002720184680955904",
+        "opponent_name": "Seth Halvorsen",
+        "w": 3,
+        "l": 5,
+        "ties": 0,
+        "games": 8,
+        "ppg": 139.3,
+        "opp_ppg": 147.7
+      },
+      "rows": [
+        {
+          "opponent": "1002716154072240128",
+          "opponent_name": "Zach Johansen",
+          "w": 6,
+          "l": 3,
+          "ties": 0,
+          "games": 9,
+          "ppg": 150.1,
+          "opp_ppg": 140.7
+        },
+        {
+          "opponent": "1002764857709608960",
+          "opponent_name": "Dan Hataaja",
+          "w": 6,
+          "l": 4,
+          "ties": 0,
+          "games": 10,
+          "ppg": 155.5,
+          "opp_ppg": 139.8
+        },
+        {
+          "opponent": "1002721050507005952",
+          "opponent_name": "Noah Pieper",
+          "w": 6,
+          "l": 4,
+          "ties": 0,
+          "games": 10,
+          "ppg": 147.4,
+          "opp_ppg": 146.4
+        },
+        {
+          "opponent": "995562801747910656",
+          "opponent_name": "Timmy Thurston",
+          "w": 5,
+          "l": 4,
+          "ties": 0,
+          "games": 9,
+          "ppg": 141.7,
+          "opp_ppg": 145.0
+        },
+        {
+          "opponent": "998002547333902336",
+          "opponent_name": "Dillon Knaggs",
+          "w": 4,
+          "l": 4,
+          "ties": 0,
+          "games": 8,
+          "ppg": 132.4,
+          "opp_ppg": 128.0
+        },
+        {
+          "opponent": "1002735718667612160",
+          "opponent_name": "CJ Woda",
+          "w": 3,
+          "l": 5,
+          "ties": 0,
+          "games": 8,
+          "ppg": 143.6,
+          "opp_ppg": 138.4
+        },
+        {
+          "opponent": "1002720184680955904",
+          "opponent_name": "Seth Halvorsen",
+          "w": 3,
+          "l": 5,
+          "ties": 0,
+          "games": 8,
+          "ppg": 139.3,
+          "opp_ppg": 147.7
+        }
+      ]
+    },
+    {
       "user_id": "995562801747910656",
       "manager": "Timmy Thurston",
       "team": "Timmy Thurston",
       "avatar": "https://sleepercdn.com/avatars/thumbs/4f4090e5e9c3941414db40a871e3e909",
       "last_season": 2026,
       "all_time": {
-        "w": 33,
-        "l": 29,
+        "w": 32,
+        "l": 30,
         "ties": 0
       },
       "best": {
@@ -1139,16 +1243,6 @@
           "opp_ppg": 123.3
         },
         {
-          "opponent": "998002547333902336",
-          "opponent_name": "Dillon Knaggs",
-          "w": 7,
-          "l": 4,
-          "ties": 0,
-          "games": 11,
-          "ppg": 131.0,
-          "opp_ppg": 117.5
-        },
-        {
           "opponent": "1002721050507005952",
           "opponent_name": "Noah Pieper",
           "w": 5,
@@ -1167,6 +1261,16 @@
           "games": 9,
           "ppg": 126.4,
           "opp_ppg": 122.8
+        },
+        {
+          "opponent": "998002547333902336",
+          "opponent_name": "Dillon Knaggs",
+          "w": 6,
+          "l": 5,
+          "ties": 0,
+          "games": 11,
+          "ppg": 136.4,
+          "opp_ppg": 126.2
         },
         {
           "opponent": "1002383170941161472",
@@ -1197,110 +1301,6 @@
           "games": 8,
           "ppg": 133.1,
           "opp_ppg": 141.2
-        }
-      ]
-    },
-    {
-      "user_id": "1002383170941161472",
-      "manager": "Brian Christensen",
-      "team": "Brian Christensen",
-      "avatar": "https://sleepercdn.com/uploads/2024ddb7c2246ea592bf3b7eec10b153.jpg",
-      "last_season": 2026,
-      "all_time": {
-        "w": 32,
-        "l": 30,
-        "ties": 0
-      },
-      "best": {
-        "opponent": "1002764857709608960",
-        "opponent_name": "Dan Hataaja",
-        "w": 6,
-        "l": 4,
-        "ties": 0,
-        "games": 10,
-        "ppg": 155.5,
-        "opp_ppg": 139.8
-      },
-      "worst": {
-        "opponent": "1002720184680955904",
-        "opponent_name": "Seth Halvorsen",
-        "w": 3,
-        "l": 5,
-        "ties": 0,
-        "games": 8,
-        "ppg": 139.3,
-        "opp_ppg": 147.7
-      },
-      "rows": [
-        {
-          "opponent": "1002764857709608960",
-          "opponent_name": "Dan Hataaja",
-          "w": 6,
-          "l": 4,
-          "ties": 0,
-          "games": 10,
-          "ppg": 155.5,
-          "opp_ppg": 139.8
-        },
-        {
-          "opponent": "1002721050507005952",
-          "opponent_name": "Noah Pieper",
-          "w": 6,
-          "l": 4,
-          "ties": 0,
-          "games": 10,
-          "ppg": 147.4,
-          "opp_ppg": 146.4
-        },
-        {
-          "opponent": "995562801747910656",
-          "opponent_name": "Timmy Thurston",
-          "w": 5,
-          "l": 4,
-          "ties": 0,
-          "games": 9,
-          "ppg": 141.7,
-          "opp_ppg": 145.0
-        },
-        {
-          "opponent": "1002716154072240128",
-          "opponent_name": "Zach Johansen",
-          "w": 5,
-          "l": 4,
-          "ties": 0,
-          "games": 9,
-          "ppg": 135.0,
-          "opp_ppg": 129.4
-        },
-        {
-          "opponent": "998002547333902336",
-          "opponent_name": "Dillon Knaggs",
-          "w": 4,
-          "l": 4,
-          "ties": 0,
-          "games": 8,
-          "ppg": 132.4,
-          "opp_ppg": 128.0
-        },
-        {
-          "opponent": "1002735718667612160",
-          "opponent_name": "CJ Woda",
-          "w": 3,
-          "l": 5,
-          "ties": 0,
-          "games": 8,
-          "ppg": 143.6,
-          "opp_ppg": 138.4
-        },
-        {
-          "opponent": "1002720184680955904",
-          "opponent_name": "Seth Halvorsen",
-          "w": 3,
-          "l": 5,
-          "ties": 0,
-          "games": 8,
-          "ppg": 139.3,
-          "opp_ppg": 147.7
         }
       ]
     },
@@ -1353,8 +1353,8 @@
           "l": 4,
           "ties": 0,
           "games": 9,
-          "ppg": 134.8,
-          "opp_ppg": 116.2
+          "ppg": 148.7,
+          "opp_ppg": 129.6
         },
         {
           "opponent": "1002735718667612160",
@@ -1415,8 +1415,8 @@
       "avatar": "https://sleepercdn.com/uploads/26944055d5c38a49ce5e76f745907734.jpg",
       "last_season": 2026,
       "all_time": {
-        "w": 31,
-        "l": 31,
+        "w": 30,
+        "l": 32,
         "ties": 0
       },
       "best": {
@@ -1430,14 +1430,14 @@
         "opp_ppg": 123.5
       },
       "worst": {
-        "opponent": "998002547333902336",
-        "opponent_name": "Dillon Knaggs",
+        "opponent": "1002383170941161472",
+        "opponent_name": "Brian Christensen",
         "w": 3,
-        "l": 5,
+        "l": 6,
         "ties": 0,
-        "games": 8,
-        "ppg": 137.7,
-        "opp_ppg": 148.0
+        "games": 9,
+        "ppg": 140.7,
+        "opp_ppg": 150.1
       },
       "rows": [
         {
@@ -1471,16 +1471,6 @@
           "opp_ppg": 136.4
         },
         {
-          "opponent": "1002383170941161472",
-          "opponent_name": "Brian Christensen",
-          "w": 4,
-          "l": 5,
-          "ties": 0,
-          "games": 9,
-          "ppg": 129.4,
-          "opp_ppg": 135.0
-        },
-        {
           "opponent": "1002735718667612160",
           "opponent_name": "CJ Woda",
           "w": 4,
@@ -1509,6 +1499,16 @@
           "games": 8,
           "ppg": 137.7,
           "opp_ppg": 148.0
+        },
+        {
+          "opponent": "1002383170941161472",
+          "opponent_name": "Brian Christensen",
+          "w": 3,
+          "l": 6,
+          "ties": 0,
+          "games": 9,
+          "ppg": 140.7,
+          "opp_ppg": 150.1
         }
       ]
     },
@@ -1581,8 +1581,8 @@
           "l": 5,
           "ties": 0,
           "games": 9,
-          "ppg": 116.2,
-          "opp_ppg": 134.8
+          "ppg": 129.6,
+          "opp_ppg": 148.7
         },
         {
           "opponent": "1002383170941161472",
@@ -1623,8 +1623,8 @@
       "avatar": "https://sleepercdn.com/avatars/thumbs/e7af4deab0289b4f5505646424895246",
       "last_season": 2026,
       "all_time": {
-        "w": 27,
-        "l": 35,
+        "w": 28,
+        "l": 34,
         "ties": 0
       },
       "best": {
@@ -1679,6 +1679,16 @@
           "opp_ppg": 132.4
         },
         {
+          "opponent": "995562801747910656",
+          "opponent_name": "Timmy Thurston",
+          "w": 5,
+          "l": 6,
+          "ties": 0,
+          "games": 11,
+          "ppg": 126.2,
+          "opp_ppg": 136.4
+        },
+        {
           "opponent": "1002735718667612160",
           "opponent_name": "CJ Woda",
           "w": 4,
@@ -1697,16 +1707,6 @@
           "games": 8,
           "ppg": 130.9,
           "opp_ppg": 134.8
-        },
-        {
-          "opponent": "995562801747910656",
-          "opponent_name": "Timmy Thurston",
-          "w": 4,
-          "l": 7,
-          "ties": 0,
-          "games": 11,
-          "ppg": 117.5,
-          "opp_ppg": 131.0
         },
         {
           "opponent": "1002720184680955904",
@@ -1779,8 +1779,8 @@
           "l": 5,
           "ties": 0,
           "games": 9,
-          "ppg": 122.7,
-          "opp_ppg": 122.8
+          "ppg": 144.5,
+          "opp_ppg": 136.9
         },
         {
           "opponent": "1002764857709608960",

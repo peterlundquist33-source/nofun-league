@@ -4,6 +4,34 @@
     {
       "week": 11,
       "type": "free_agent",
+      "created": 1795389235409,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {},
+      "drops": {
+        "7021": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 11,
+      "type": "free_agent",
+      "created": 1795364745990,
+      "teams": [
+        "Zach Johansen"
+      ],
+      "adds": {
+        "6650": "Zach Johansen"
+      },
+      "drops": {
+        "6083": "Zach Johansen"
+      },
+      "faab": null
+    },
+    {
+      "week": 11,
+      "type": "free_agent",
       "created": 1795131264232,
       "teams": [
         "Dan Hataaja"

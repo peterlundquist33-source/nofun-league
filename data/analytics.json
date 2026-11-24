@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T21:35:19+00:00",
+  "generated": "2026-11-24T01:29:38+00:00",
   "season": 2026,
   "through_week": 10,
   "allplay": [
@@ -390,6 +390,14 @@
       "margin": 88.34
     },
     {
+      "week": 11,
+      "winner": "Seth Halvorsen",
+      "loser": "CJ Woda",
+      "win_pts": 212.1,
+      "lose_pts": 127.46,
+      "margin": 84.64
+    },
+    {
       "week": 4,
       "winner": "Brian Christensen",
       "loser": "Zach Johansen",
@@ -412,25 +420,9 @@
       "win_pts": 186.22,
       "lose_pts": 129.0,
       "margin": 57.22
-    },
-    {
-      "week": 4,
-      "winner": "Timmy Thurston",
-      "loser": "Dillon Knaggs",
-      "win_pts": 168.42,
-      "lose_pts": 114.88,
-      "margin": 53.54
     }
   ],
   "nailbiters": [
-    {
-      "week": 11,
-      "winner": "Noah Pieper",
-      "loser": "Dan Hataaja",
-      "win_pts": 1.0,
-      "lose_pts": 0,
-      "margin": 1.0
-    },
     {
       "week": 6,
       "winner": "Timmy Thurston",
@@ -462,6 +454,14 @@
       "win_pts": 167.92,
       "lose_pts": 163.22,
       "margin": 4.7
+    },
+    {
+      "week": 11,
+      "winner": "Noah Pieper",
+      "loser": "Dan Hataaja",
+      "win_pts": 125.7,
+      "lose_pts": 121.0,
+      "margin": 4.7
     }
   ],
   "records": {
@@ -485,11 +485,11 @@
     },
     "low_win": {
       "week": 11,
-      "winner": "Noah Pieper",
-      "loser": "Dan Hataaja",
-      "win_pts": 1.0,
-      "lose_pts": 0,
-      "margin": 1.0
+      "winner": "Dillon Knaggs",
+      "loser": "Timmy Thurston",
+      "win_pts": 102.54,
+      "lose_pts": 81.32,
+      "margin": 21.22
     }
   },
   "weekly_board": [

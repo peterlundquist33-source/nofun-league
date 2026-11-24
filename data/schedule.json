@@ -721,31 +721,31 @@
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 0
+            "points": 136.36
           },
           "b": {
             "roster_id": 3,
             "team": "Zach Johansen",
-            "points": 20.46
+            "points": 122.56
           },
           "played": true,
-          "margin": 20.46,
-          "winner": "Zach Johansen"
+          "margin": 13.8,
+          "winner": "Brian Christensen"
         },
         {
           "matchup_id": 2,
           "a": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 0
+            "points": 121.0
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
-            "points": 1.0
+            "points": 125.7
           },
           "played": true,
-          "margin": 1.0,
+          "margin": 4.7,
           "winner": "Noah Pieper"
         },
         {
@@ -753,31 +753,31 @@
           "a": {
             "roster_id": 1,
             "team": "Dillon Knaggs",
-            "points": 6.0
+            "points": 102.54
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 21.5
+            "points": 81.32
           },
           "played": true,
-          "margin": 15.5,
-          "winner": "Timmy Thurston"
+          "margin": 21.22,
+          "winner": "Dillon Knaggs"
         },
         {
           "matchup_id": 4,
           "a": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 15.4
+            "points": 212.1
           },
           "b": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 127.46
           },
           "played": true,
-          "margin": 15.4,
+          "margin": 84.64,
           "winner": "Seth Halvorsen"
         }
       ],

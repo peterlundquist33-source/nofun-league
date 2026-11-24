@@ -37,7 +37,7 @@
           "pos": "TE",
           "team": "LV",
           "age": 23,
-          "injury": "Questionable",
+          "injury": "Out",
           "starter": false,
           "season_pts": 149.8
         },
@@ -87,7 +87,7 @@
           "pos": "TE",
           "team": "PHI",
           "age": 31,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 74.0
         },
@@ -209,7 +209,7 @@
           "pos": "TE",
           "team": "DET",
           "age": 25,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 95.7
         },
@@ -249,7 +249,7 @@
           "pos": "WR",
           "team": "SF",
           "age": 33,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 89.0
         },
@@ -329,7 +329,7 @@
           "pos": "RB",
           "team": "LAR",
           "age": 26,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 164.3
         },
@@ -381,7 +381,7 @@
         "1466",
         "12507",
         "13281",
-        "6083",
+        "6650",
         "BUF"
       ],
       "players": [
@@ -451,19 +451,19 @@
           "pos": "RB",
           "team": "PHI",
           "age": 29,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 58.7
         },
         {
-          "id": "6083",
-          "name": "Matt Gay",
+          "id": "6650",
+          "name": "Chase McLaughlin",
           "pos": "K",
-          "team": "LV",
-          "age": 32,
-          "injury": "Questionable",
+          "team": "TB",
+          "age": 30,
+          "injury": null,
           "starter": true,
-          "season_pts": 45.0
+          "season_pts": 36.0
         },
         {
           "id": "6790",
@@ -474,16 +474,6 @@
           "injury": null,
           "starter": true,
           "season_pts": 153.8
-        },
-        {
-          "id": "7021",
-          "name": "Rico Dowdle",
-          "pos": "RB",
-          "team": "PIT",
-          "age": 28,
-          "injury": null,
-          "starter": false,
-          "season_pts": 9.5
         },
         {
           "id": "7547",
@@ -583,7 +573,7 @@
           "pos": "K",
           "team": "JAX",
           "age": 23,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 96.0
         },
@@ -673,7 +663,7 @@
           "pos": "TE",
           "team": "NO",
           "age": 30,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 83.7
         },
@@ -692,7 +682,7 @@
           "name": "Trey McBride",
           "pos": "TE",
           "team": "ARI",
-          "age": 26,
+          "age": 27,
           "injury": null,
           "starter": true,
           "season_pts": 171.5
@@ -754,7 +744,7 @@
         "13279",
         "8210",
         "13337",
-        "8136",
+        "5872",
         "11533",
         "DEN"
       ],
@@ -795,7 +785,7 @@
           "pos": "WR",
           "team": "TEN",
           "age": 21,
-          "injury": "Questionable",
+          "injury": null,
           "starter": true,
           "season_pts": 77.3
         },
@@ -835,7 +825,7 @@
           "pos": "RB",
           "team": "BAL",
           "age": 32,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 161.28
         },
@@ -856,7 +846,7 @@
           "team": "SF",
           "age": 30,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 86.3
         },
         {
@@ -875,8 +865,8 @@
           "pos": "RB",
           "team": "WAS",
           "age": 27,
-          "injury": "Questionable",
-          "starter": true,
+          "injury": null,
+          "starter": false,
           "season_pts": 27.1
         },
         {
@@ -957,7 +947,7 @@
           "pos": "TE",
           "team": "BUF",
           "age": 27,
-          "injury": "Doubtful",
+          "injury": "Out",
           "starter": false,
           "season_pts": 92.7
         },
@@ -977,7 +967,7 @@
           "pos": "WR",
           "team": "CAR",
           "age": 25,
-          "injury": null,
+          "injury": "Questionable",
           "starter": false,
           "season_pts": 86.3
         },
@@ -1159,7 +1149,7 @@
           "pos": "RB",
           "team": "JAX",
           "age": 23,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 147.5
         },
@@ -1189,7 +1179,7 @@
           "pos": "WR",
           "team": "BUF",
           "age": 29,
-          "injury": null,
+          "injury": "Questionable",
           "starter": true,
           "season_pts": 78.9
         },
@@ -1304,13 +1294,13 @@
       "avatar": "https://sleepercdn.com/avatars/thumbs/f0edbf4278f53f9425db175073df6584",
       "starters": [
         "8183",
-        "8151",
+        "11584",
         "8138",
         "8137",
         "6801",
         "9480",
         "7594",
-        "11584",
+        "8228",
         "12185",
         "DET"
       ],
@@ -1432,7 +1422,7 @@
           "team": "KC",
           "age": 26,
           "injury": "Out",
-          "starter": true,
+          "starter": false,
           "season_pts": 196.4
         },
         {
@@ -1452,7 +1442,7 @@
           "team": "PIT",
           "age": 28,
           "injury": null,
-          "starter": false,
+          "starter": true,
           "season_pts": 149.9
         },
         {

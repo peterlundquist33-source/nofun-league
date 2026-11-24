@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T21:35:17+00:00",
+  "generated": "2026-11-24T01:29:36+00:00",
   "seasons": [
     2026,
     2025,
@@ -11,9 +11,9 @@
     {
       "user_id": "1002735718667612160",
       "picks": 58,
-      "value": 1154.5,
-      "value_per_pick": 19.91,
-      "hit_rate": 62,
+      "value": 1147.0,
+      "value_per_pick": 19.78,
+      "hit_rate": 60,
       "best": {
         "season": 2025,
         "round": 10,
@@ -44,9 +44,9 @@
     {
       "user_id": "995562801747910656",
       "picks": 59,
-      "value": 701.6,
-      "value_per_pick": 11.89,
-      "hit_rate": 53,
+      "value": 674.6,
+      "value_per_pick": 11.43,
+      "hit_rate": 51,
       "best": {
         "season": 2024,
         "round": 12,
@@ -77,8 +77,8 @@
     {
       "user_id": "1002721050507005952",
       "picks": 59,
-      "value": 222.2,
-      "value_per_pick": 3.77,
+      "value": 198.9,
+      "value_per_pick": 3.37,
       "hit_rate": 53,
       "best": {
         "season": 2024,
@@ -110,9 +110,9 @@
     {
       "user_id": "998002547333902336",
       "picks": 59,
-      "value": 107.7,
-      "value_per_pick": 1.83,
-      "hit_rate": 54,
+      "value": 71.6,
+      "value_per_pick": 1.21,
+      "hit_rate": 56,
       "best": {
         "season": 2023,
         "round": 12,
@@ -141,10 +141,43 @@
       }
     },
     {
+      "user_id": "1002383170941161472",
+      "picks": 59,
+      "value": -142.4,
+      "value_per_pick": -2.41,
+      "hit_rate": 42,
+      "best": {
+        "season": 2024,
+        "round": 3,
+        "pick": 22,
+        "user_id": "1002383170941161472",
+        "team": "Brian Christensen",
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "pos": "QB",
+        "pts": 430.4,
+        "round_median": 166.3,
+        "value": 264.1
+      },
+      "worst": {
+        "season": 2023,
+        "round": 8,
+        "pick": 57,
+        "user_id": "1002383170941161472",
+        "team": "Brian Christensen",
+        "player_id": "8129",
+        "name": "Dameon Pierce",
+        "pos": "RB",
+        "pts": 29.4,
+        "round_median": 184.9,
+        "value": -155.5
+      }
+    },
+    {
       "user_id": "1002716154072240128",
       "picks": 58,
-      "value": -115.7,
-      "value_per_pick": -1.99,
+      "value": -159.0,
+      "value_per_pick": -2.74,
       "hit_rate": 47,
       "best": {
         "season": 2025,
@@ -174,43 +207,10 @@
       }
     },
     {
-      "user_id": "1002383170941161472",
-      "picks": 59,
-      "value": -167.4,
-      "value_per_pick": -2.84,
-      "hit_rate": 41,
-      "best": {
-        "season": 2024,
-        "round": 3,
-        "pick": 22,
-        "user_id": "1002383170941161472",
-        "team": "Brian Christensen",
-        "player_id": "4881",
-        "name": "Lamar Jackson",
-        "pos": "QB",
-        "pts": 430.4,
-        "round_median": 166.3,
-        "value": 264.1
-      },
-      "worst": {
-        "season": 2023,
-        "round": 8,
-        "pick": 57,
-        "user_id": "1002383170941161472",
-        "team": "Brian Christensen",
-        "player_id": "8129",
-        "name": "Dameon Pierce",
-        "pos": "RB",
-        "pts": 29.4,
-        "round_median": 184.9,
-        "value": -155.5
-      }
-    },
-    {
       "user_id": "1002764857709608960",
       "picks": 59,
-      "value": -169.1,
-      "value_per_pick": -2.87,
+      "value": -207.1,
+      "value_per_pick": -3.51,
       "hit_rate": 47,
       "best": {
         "season": 2023,
@@ -242,8 +242,8 @@
     {
       "user_id": "1002720184680955904",
       "picks": 61,
-      "value": -546.3,
-      "value_per_pick": -8.96,
+      "value": -528.1,
+      "value_per_pick": -8.66,
       "hit_rate": 39,
       "best": {
         "season": 2023,
@@ -732,6 +732,19 @@
       "value": -123.4
     },
     {
+      "season": 2026,
+      "round": 13,
+      "pick": 103,
+      "user_id": "1002721050507005952",
+      "team": "Noah Pieper",
+      "player_id": "PHI",
+      "name": "Philadelphia Eagles",
+      "pos": "DEF",
+      "pts": 14.0,
+      "round_median": 136.5,
+      "value": -122.5
+    },
+    {
       "season": 2025,
       "round": 9,
       "pick": 67,
@@ -742,19 +755,6 @@
       "pos": "WR",
       "pts": 53.3,
       "round_median": 173.5,
-      "value": -120.2
-    },
-    {
-      "season": 2026,
-      "round": 13,
-      "pick": 103,
-      "user_id": "1002721050507005952",
-      "team": "Noah Pieper",
-      "player_id": "PHI",
-      "name": "Philadelphia Eagles",
-      "pos": "DEF",
-      "pts": 14.0,
-      "round_median": 134.2,
       "value": -120.2
     },
     {
@@ -784,17 +784,17 @@
       "value": -118.8
     },
     {
-      "season": 2024,
-      "round": 9,
-      "pick": 72,
-      "user_id": "1002721050507005952",
-      "team": "Noah Pieper",
-      "player_id": "2749",
-      "name": "Raheem Mostert",
+      "season": 2026,
+      "round": 1,
+      "pick": 4,
+      "user_id": "998002547333902336",
+      "team": "Dillon Knaggs",
+      "player_id": "9226",
+      "name": "De'Von Achane",
       "pos": "RB",
-      "pts": 55.3,
-      "round_median": 170.9,
-      "value": -115.6
+      "pts": 24.6,
+      "round_median": 140.5,
+      "value": -115.9
     }
   ]
 }
