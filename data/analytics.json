@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T23:18:10+00:00",
+  "generated": "2026-11-27T22:24:15+00:00",
   "season": 2026,
   "through_week": 11,
   "allplay": [
@@ -390,12 +390,28 @@
   ],
   "blowouts": [
     {
+      "week": 12,
+      "winner": "Seth Halvorsen",
+      "loser": "Timmy Thurston",
+      "win_pts": 117.14,
+      "lose_pts": 16.5,
+      "margin": 100.64
+    },
+    {
       "week": 10,
       "winner": "Noah Pieper",
       "loser": "Brian Christensen",
       "win_pts": 180.86,
       "lose_pts": 92.52,
       "margin": 88.34
+    },
+    {
+      "week": 12,
+      "winner": "Zach Johansen",
+      "loser": "Dillon Knaggs",
+      "win_pts": 78.4,
+      "lose_pts": 0,
+      "margin": 78.4
     },
     {
       "week": 11,
@@ -412,22 +428,6 @@
       "win_pts": 177.38,
       "lose_pts": 104.48,
       "margin": 72.9
-    },
-    {
-      "week": 1,
-      "winner": "Seth Halvorsen",
-      "loser": "Brian Christensen",
-      "win_pts": 200.66,
-      "lose_pts": 136.76,
-      "margin": 63.9
-    },
-    {
-      "week": 2,
-      "winner": "CJ Woda",
-      "loser": "Zach Johansen",
-      "win_pts": 186.22,
-      "lose_pts": 129.0,
-      "margin": 57.22
     }
   ],
   "nailbiters": [
@@ -492,12 +492,12 @@
       "margin": 4.94
     },
     "low_win": {
-      "week": 2,
-      "winner": "Timmy Thurston",
-      "loser": "Brian Christensen",
-      "win_pts": 109.28,
-      "lose_pts": 90.0,
-      "margin": 19.28
+      "week": 12,
+      "winner": "Brian Christensen",
+      "loser": "Dan Hataaja",
+      "win_pts": 70.76,
+      "lose_pts": 11.0,
+      "margin": 59.76
     }
   },
   "weekly_board": [

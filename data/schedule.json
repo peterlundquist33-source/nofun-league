@@ -785,23 +785,23 @@
     },
     {
       "week": 12,
-      "played": false,
+      "played": true,
       "games": [
         {
           "matchup_id": 1,
           "a": {
             "roster_id": 2,
             "team": "Brian Christensen",
-            "points": 0
+            "points": 70.76
           },
           "b": {
             "roster_id": 6,
             "team": "Dan Hataaja",
-            "points": 0
+            "points": 11.0
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 59.76,
+          "winner": "Brian Christensen"
         },
         {
           "matchup_id": 2,
@@ -813,43 +813,43 @@
           "b": {
             "roster_id": 3,
             "team": "Zach Johansen",
-            "points": 0
+            "points": 78.4
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 78.4,
+          "winner": "Zach Johansen"
         },
         {
           "matchup_id": 3,
           "a": {
             "roster_id": 5,
             "team": "CJ Woda",
-            "points": 0
+            "points": 88.84
           },
           "b": {
             "roster_id": 8,
             "team": "Noah Pieper",
-            "points": 0
+            "points": 74.2
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 14.64,
+          "winner": "CJ Woda"
         },
         {
           "matchup_id": 4,
           "a": {
             "roster_id": 4,
             "team": "Seth Halvorsen",
-            "points": 0
+            "points": 117.14
           },
           "b": {
             "roster_id": 7,
             "team": "Timmy Thurston",
-            "points": 0
+            "points": 16.5
           },
-          "played": false,
-          "margin": null,
-          "winner": null
+          "played": true,
+          "margin": 100.64,
+          "winner": "Seth Halvorsen"
         }
       ],
       "playoff": false
